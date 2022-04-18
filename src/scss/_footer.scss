@@ -1,2 +1,57 @@
 .footer {
+  padding-top: 8.5rem;
+  padding-bottom: 5.2rem;
+  color: white;
+  background: #1a1a1a;
+  &Link__list {
+    &--title {
+      margin-bottom: 3rem;
+      padding-bottom: 0.65rem;
+      border-bottom: 1px solid #fff;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    &--item {
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      color: white;
+      transition: all 0.5s;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__logo {
+    margin-top: 11.5rem;
+  }
+  @media #{$media-sp} {
+    padding-top: 5.3rem;
+    padding-bottom: 3.3rem;
+    &Link__list {
+      width: calc((100% - 2.5rem) / 2);
+      &:nth-child(n + 3) {
+        margin-top: 2.5rem;
+      }
+      &--title {
+        margin-bottom: 1rem;
+        padding-bottom: 0.54rem;
+        border-bottom: 1px solid #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      &--item {
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+      }
+    }
+    &__logo {
+      margin-top: 6rem;
+      margin-right: auto;
+      margin-left: auto;
+      width: 20rem;
+    }
+  }
 }

@@ -171,5 +171,3 @@
             </a>
         </div>
     </nav>
-
-    <div class="headerPad"></div>
