@@ -81,7 +81,7 @@
                                     <a href="<?php echo H_URL; ?>aboutus/100th/" class="headerPulldown__link flex">
                                         100周年に向けて
                                     </a>
-                                    <a href="<?php echo H_URL; ?>aboutus/challengeandevolution/" class="headerPulldown__link flex">
+                                    <a href="<?php echo H_URL; ?>aboutus/challenge-evolution/" class="headerPulldown__link flex">
                                         シナネンHDグループの挑戦と進化
                                     </a>
                                     <a href="<?php echo H_URL; ?>aboutus/sdgs/" class="headerPulldown__link flex">
@@ -337,3 +337,5 @@
             </div>
         </div>
     </nav>
+
+    <div class="headerPad"></div>
