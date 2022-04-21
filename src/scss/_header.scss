@@ -1,6 +1,6 @@
 // ヘッダーの高さ
-$headerPC: 10rem;
-$headerSP: 6rem;
+$headerPC: 9rem;
+$headerSP: 5rem;
 
 /*
 ########     ###    ########
@@ -27,7 +27,6 @@ $headerSP: 6rem;
 ##     ## ######## ##     ## ########  ######## ##     ##
 */
 .header {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -37,7 +36,7 @@ $headerSP: 6rem;
   box-shadow: 0 0 10px rgba(#000, 0.1);
   &__frame {
     padding: 0 0 0 2rem;
-    background: #000;
+    background: #fff;
   }
   &__base {
   }
@@ -78,12 +77,61 @@ $headerSP: 6rem;
   // ↓ SP相当幅
   @media #{$media-sp} {
     &__img {
-      max-width: 10rem;
+      max-width: 17.5rem;
     }
     &__text {
     }
   }
   // ↑ SP相当幅
+}
+
+/*
+ ##    ##    ###    ##     ##
+ ####  ##  ##   ##  ##     ##
+ ## ## ## ##     ## ##     ##
+ ##  #### #########  ##   ##
+ ##    ## ##     ##    ###
+*/
+.headerNav {
+  &__btn {
+    flex-direction: column;
+    width: 19rem;
+    height: 100%;
+    line-height: 1.3;
+    &--en {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    &--ja {
+      font-weight: 700;
+    }
+    &--mypage {
+      $btncolor: #e6002d;
+      $textcolor: #fff;
+      border: solid 1px $btncolor;
+      color: $textcolor;
+      background-color: $btncolor;
+      &:before,
+      &:hover,
+      a:hover & {
+        color: $btncolor;
+        background-color: $textcolor;
+      }
+    }
+    &--entry {
+      $btncolor: #b90024;
+      $textcolor: #fff;
+      border: solid 1px $btncolor;
+      color: $textcolor;
+      background-color: $btncolor;
+      &:before,
+      &:hover,
+      a:hover & {
+        color: $btncolor;
+        background-color: $textcolor;
+      }
+    }
+  }
 }
 
 /*
@@ -96,13 +144,29 @@ $headerSP: 6rem;
 // プルダウンメニュー
 .headerPulldown {
   &__head {
+    position: relative;
     padding: 1rem 2.5rem;
     height: $headerPC;
     font-weight: 500;
-    line-height: 1;
-    color: #fff;
+    line-height: 1.3;
+    color: $fontColor;
     transition-duration: 0.5s;
     cursor: pointer;
+    &--en {
+      font-size: 1.1rem;
+      color: $siteColor;
+    }
+    &--ja {
+      padding-bottom: 1rem;
+      font-weight: 700;
+    }
+    &--icon {
+      position: absolute;
+      bottom: 1.6rem;
+      font-size: 1rem;
+      color: $siteColor;
+      transition: 0.5s;
+    }
   }
   &__body {
     position: absolute;
@@ -111,7 +175,7 @@ $headerSP: 6rem;
     z-index: 2;
     padding: 3.5rem 0;
     width: 100%;
-    background: #f00;
+    background: #fff;
     opacity: 0;
     transition-duration: 0.5s;
     transform: rotateX(90deg);
@@ -123,6 +187,9 @@ $headerSP: 6rem;
       &__head {
         &::before {
           transform: none;
+        }
+        &--icon {
+          bottom: 0.6rem;
         }
       }
       &__body {
@@ -155,8 +222,8 @@ $headerSP: 6rem;
   $posX: 1.5rem; //バーの左右の余白
   $posY: 1.75rem; //1,3本目のバーの上下の余白
   $barRadius: 0; //バーの角丸
-  $barOffBG: #fff; //バーの背景OFF時
-  $barOnBG: #fff; //バーの背景ON時
+  $barOffBG: $siteColor; //バーの背景OFF時
+  $barOnBG: $siteColor; //バーの背景ON時
   $time: 0.5s; //アニメ時間　0.1s以上
   display: inline-block;
   position: relative;
@@ -164,7 +231,7 @@ $headerSP: 6rem;
   width: $btnSize;
   height: $btnSize;
   vertical-align: middle;
-  background: $siteColor;
+  background: #fff;
   cursor: pointer;
   &__box {
     position: absolute;
@@ -233,11 +300,11 @@ $headerSP: 6rem;
   top: $headerSP;
   left: 0;
   z-index: 1000;
+  padding: 3rem $pad;
   width: 100%;
   max-height: calc(100% - #{$headerSP});
   overflow-y: auto;
-
-  background: #00f;
+  background: $siteColor;
   transition-duration: 0.5s;
   transform-origin: 0 0;
   &::after {
@@ -255,17 +322,53 @@ $headerSP: 6rem;
     transform: rotateX(90deg);
     visibility: hidden;
   }
+  &__contact {
+  }
+  &__btn {
+    $btncolor: #fff;
+    $textcolor: $siteColor;
+    padding: 0 2.8rem;
+    border: solid 1px $btncolor;
+    height: 5.5rem;
+    color: $textcolor;
+    background-color: $btncolor;
+    &:before,
+    &:hover,
+    a:hover & {
+      color: $btncolor;
+      background-color: $textcolor;
+    }
+    &:not(:first-child) {
+      margin-top: 1rem;
+    }
+  }
   &__menu {
+    border-bottom: 1px solid #fff;
   }
   &__item {
     position: relative;
-    padding: 1.5rem;
-    border-bottom: 1px solid #f00;
-    font-weight: 500;
+    padding: 2rem 0;
+    border-top: 1px solid #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
     color: #fff;
-    background: #00f;
     &--sub {
-      background: #00ffff;
+      padding: 1rem 0;
+      border-top: none;
+      font-size: 1.4rem;
+      font-weight: 400;
+      &:last-child {
+        padding-bottom: 2rem;
+      }
+    }
+    &--img {
+      max-width: 12rem;
+    }
+    &--text {
+      margin-left: 1.5rem;
+      .em {
+        font-size: 1.6rem;
+      }
     }
   }
   &__icon {
@@ -278,14 +381,6 @@ $headerSP: 6rem;
     transform: translate(0%, -50%);
     .acc-check:checked ~ .acc-btn & {
       transform: translate(0%, -50%) rotate(180deg);
-    }
-  }
-  &__contact {
-    padding: 3rem $pad;
-  }
-  &__btn {
-    &--mail {
-      height: 6rem;
     }
   }
 }
