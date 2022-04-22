@@ -1,61 +1,74 @@
-.top-title {
-  position: relative;
-  font-size: 5.2rem;
-  font-weight: bold;
-  &::before {
-    position: absolute;
-    bottom: -1rem;
-    left: 0;
-    z-index: -1;
-    width: 6rem;
-    height: 0.4rem;
-    background: #e6002d;
-    content: "";
-  }
-  &--en {
-    position: absolute;
-    top: -15rem;
-    left: 0;
-    z-index: -1;
-    font-size: 15rem;
+/*
+     ######   #######  ##     ## ##     ##  #######  ##    ##
+    ##    ## ##     ## ###   ### ###   ### ##     ## ###   ##
+    ##       ##     ## #### #### #### #### ##     ## ####  ##
+    ##       ##     ## ## ### ## ## ### ## ##     ## ## ## ##
+    ##       ##     ## ##     ## ##     ## ##     ## ##  ####
+    ##    ## ##     ## ##     ## ##     ## ##     ## ##   ###
+     ######   #######  ##     ## ##     ##  #######  ##    ##
+*/
+.topCommon {
+  &__ttl {
+    position: relative;
+    font-size: 5.2rem;
     font-weight: bold;
-    color: #f0e6e8;
-    letter-spacing: 1.5px;
-  }
-  &--small {
-    margin-left: 3rem;
-    font-size: 2.6rem;
-    font-weight: bold;
-  }
-  @media #{$media-sp} {
-    font-size: 2.8rem;
     &::before {
       position: absolute;
       bottom: -1rem;
-      width: 3rem;
-      height: 0.2rem;
+      left: 0;
+      z-index: -1;
+      width: 6rem;
+      height: 0.4rem;
+      background: $siteColor;
+      content: "";
     }
     &--en {
       position: absolute;
-      top: -5rem;
+      top: -15rem;
       left: 0;
       z-index: -1;
-      font-size: 5.3rem;
+      font-size: 15rem;
       font-weight: bold;
       color: #f0e6e8;
       letter-spacing: 1.5px;
     }
     &--small {
-      margin-left: 0;
-      font-size: 1.5rem;
+      margin-left: 3rem;
+      font-size: 2.6rem;
+      font-weight: bold;
+    }
+  }
+  @media #{$media-sp} {
+    &__ttl {
+      font-size: 2.8rem;
+      &::before {
+        width: 3rem;
+        height: 0.2rem;
+      }
+      &--en {
+        top: -5rem;
+        font-size: 5.3rem;
+      }
+      &--small {
+        margin-left: 0;
+        font-size: 1.5rem;
+      }
     }
   }
 }
 
-.topIntro {
+/*
+    ########   ######
+    ##     ## ##    ##
+    ##     ## ##
+    ########  ##   ####
+    ##     ## ##    ##
+    ##     ## ##    ##
+    ########   ######
+*/
+.topBg {
   position: relative;
   padding-top: 6.3rem;
-
   overflow: hidden;
   &__bg-1 {
     position: absolute;
@@ -95,276 +108,268 @@
     //   transform: none;
     // }
   }
+  @media #{$media-sp} {
+    &__bg-1 {
+      width: 100%;
+    }
+    &__bg-2 {
+      left: 10%;
+    }
+  }
+}
 
-  &Aboutus {
-    position: relative;
-    padding-bottom: 11.5rem;
-    &__bg {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      width: 45%;
-      height: 65%;
-      background: #e6002d;
-    }
-    &Wrap {
-      margin-top: 7rem;
-    }
-    &__img {
-      display: none;
+/*
+    #### ##    ## ######## ########   #######
+     ##  ###   ##    ##    ##     ## ##     ##
+     ##  ####  ##    ##    ##     ## ##     ##
+     ##  ## ## ##    ##    ########  ##     ##
+     ##  ##  ####    ##    ##   ##   ##     ##
+     ##  ##   ###    ##    ##    ##  ##     ##
+    #### ##    ##    ##    ##     ##  #######
+*/
+.topIntro {
+  position: relative;
+  padding: 6.2rem 0 17.2rem;
+  &__img {
+    position: absolute;
+    top: 10.4rem;
+    right: 0;
+    z-index: -1;
+  }
+  &__text {
+  }
+  &__head {
+    font-size: 6.9rem;
+    font-weight: 600;
+    .line {
       position: relative;
-      width: 55rem;
-      transition: 0.5s all;
-      &--caption {
-        position: absolute;
-        bottom: 3rem;
-        left: 1.5rem;
-        .bg-white {
-          padding-right: 2rem;
-          padding-left: 2rem;
-          font-size: 2rem;
-          background: white;
-        }
-      }
-      &.show {
+      padding: 0 1rem;
+      color: #fff;
+      background: #1a1a1a;
+      &::after {
         display: block;
-        animation: appear 0.3s ease;
-      }
-      @keyframes appear {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
+        position: absolute;
+        top: 0.9rem;
+        left: 0.9rem;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        content: "";
       }
     }
-    &__link {
-      width: calc(100% - 60rem);
-      &--item {
-        display: block;
-        position: relative;
-        height: 10rem;
-        font-size: 2.2rem;
-        color: #1a1a1a;
+  }
+  &__desc {
+    margin: 6.5rem 0 0 27%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.2;
+    color: #fff;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    padding: 0;
+    &__img {
+      position: relative;
+      top: auto;
+      right: auto;
+      margin: 0 0 0 $pad;
+    }
+    &__text {
+      position: absolute;
+      top: 5.3rem;
+      left: calc(#{$pad} * 2);
+    }
+    &__desc {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+/*
+       ###    ########   #######  ##     ## ########
+      ## ##   ##     ## ##     ## ##     ##    ##
+     ##   ##  ##     ## ##     ## ##     ##    ##
+    ##     ## ########  ##     ## ##     ##    ##
+    ######### ##     ## ##     ## ##     ##    ##
+    ##     ## ##     ## ##     ## ##     ##    ##
+    ##     ## ########   #######   #######     ##
+*/
+.topAboutus {
+  position: relative;
+  padding: 4.7rem 0 11.5rem;
+  &__bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 45%;
+    height: 65%;
+    background: $siteColor;
+  }
+  &__wrap {
+    margin-top: 7rem;
+  }
+  &__img {
+    display: none;
+    position: relative;
+    width: 55rem;
+    transition: 0.5s all;
+    &--caption {
+      position: absolute;
+      bottom: 3rem;
+      left: 1.5rem;
+      .bg-white {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        font-size: 2rem;
+        background: white;
+      }
+    }
+    &.show {
+      display: block;
+      animation: appear 0.3s ease;
+    }
+    @keyframes appear {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+  &__link {
+    width: calc(100% - 60rem);
+    &--item {
+      display: block;
+      position: relative;
+      height: 10rem;
+      font-size: 2.2rem;
+      color: #1a1a1a;
+      transition: all 0.2s;
+      cursor: pointer;
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -2;
+        width: 100%;
+        height: 1px;
+        background: #000;
         transition: all 0.2s;
-        cursor: pointer;
-        &::after {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          z-index: -2;
-          width: 100%;
-          height: 1px;
-          background: #000;
-          transition: all 0.2s;
-          content: "";
-        }
-        &::before {
-          transition: all 0.2s;
-        }
-        .text {
-          position: absolute;
-          top: 50%;
-          left: 2rem;
-          transform: translateY(-50%);
-        }
-        .num {
-          display: block;
-          font-style: italic;
-          line-height: 1;
+        content: "";
+      }
+      &::before {
+        transition: all 0.2s;
+      }
+      .text {
+        position: absolute;
+        top: 50%;
+        left: 2rem;
+        transform: translateY(-50%);
+      }
+      .num {
+        display: block;
+        font-style: italic;
+        line-height: 1;
+      }
+      .icon {
+        position: absolute;
+        right: 0;
+        bottom: 2.5rem;
+        width: 6rem;
+        stroke: #1a1a1a;
+        transition: all 0.2s;
+      }
+      &:hover {
+        font-size: 2.6rem;
+        .title {
+          color: $siteColor;
         }
         .icon {
           position: absolute;
-          right: 0;
+          right: -2rem;
           bottom: 2.5rem;
-          width: 6rem;
-          stroke: #1a1a1a;
-          transition: all 0.2s;
+          stroke: $siteColor;
         }
-        &:hover {
-          font-size: 2.6rem;
-          .title {
-            color: #e6002d;
-          }
-          .icon {
-            position: absolute;
-            right: -2rem;
-            bottom: 2.5rem;
-            stroke: #e6002d;
-          }
-          &::after {
-            height: 2px;
-            background: #e6002d;
-          }
-          &::before {
-            position: absolute;
-            bottom: 0;
-            left: -2rem;
-            z-index: -1;
-            width: 18%;
-            height: 2px;
-            background: #000;
-            content: "";
-          }
+        &::after {
+          height: 2px;
+          background: $siteColor;
+        }
+        &::before {
+          position: absolute;
+          bottom: 0;
+          left: -2rem;
+          z-index: -1;
+          width: 18%;
+          height: 2px;
+          background: #000;
+          content: "";
         }
       }
     }
   }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
   @media #{$media-sp} {
-    position: relative;
-    padding-top: 6.3rem;
-    overflow: hidden;
-    &__bg-1 {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      z-index: -2;
+    padding-bottom: 6.5rem;
+    &__bg {
+      top: 18%;
+      width: 88%;
+      height: 41%;
+    }
+    &__wrap {
+      margin-top: 4rem;
+    }
+    &__img {
+      margin-right: auto;
+      margin-left: auto;
+      width: 95%;
+      &--caption {
+        bottom: 3.5rem;
+        left: 0.9rem;
+        .bg-white {
+          padding-right: 1rem;
+          padding-left: 1rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+    &__link {
+      margin-top: 2rem;
       width: 100%;
-      height: calc(100% + 6rem);
-      transition: 0.5s;
-      &--inner {
-        width: 100%;
-        height: 100%;
-        background: #f9f9f9;
-        transform: skew(-15deg);
-        transform-origin: right bottom;
-      }
-      // &.active {
-      //   transform: none;
-      // }
-    }
-    &__bg-2 {
-      position: absolute;
-      bottom: 0;
-      left: 10%;
-      z-index: -2;
-      width: 40%;
-      height: calc(100% + 6rem);
-      transition: 0.5s;
-      &--inner {
-        width: 100%;
-        height: 100%;
-        background: #f9f9f9;
-        transform: skew(-15deg);
-        transform-origin: right bottom;
-      }
-      // &.active {
-      //   transform: none;
-      // }
-    }
-
-    &Aboutus {
-      position: relative;
-      padding-bottom: 6.5rem;
-      &__bg {
-        position: absolute;
-        top: 18%;
-        left: 0;
-        z-index: -1;
-        width: 88%;
-        height: 41%;
-        background: #e6002d;
-      }
-      &Wrap {
-        margin-top: 4rem;
-      }
-      &__img {
-        display: none;
-        position: relative;
-        margin-right: auto;
-        margin-left: auto;
-        width: 95%;
-        transition: 0.5s all;
-        &--caption {
-          bottom: 3.5rem;
-          left: 0.9rem;
-          .bg-white {
-            padding-right: 1rem;
-            padding-left: 1rem;
-            font-size: 1.4rem;
-          }
+      &--item {
+        height: 7rem;
+        font-size: 1.6rem;
+        .text {
+          left: 1rem;
         }
-        &.show {
-          display: block;
-          animation: appear 0.3s ease;
+        .icon {
+          right: 2rem;
+          width: 4rem;
         }
-        @keyframes appear {
-          0% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-          }
-        }
-      }
-      &__link {
-        margin-top: 2rem;
-        width: 100%;
-        &--item {
-          height: 7rem;
-          font-size: 1.6rem;
-          transition: all 0.2s;
-          cursor: pointer;
-          &::after {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            z-index: -2;
-            width: 100%;
-            height: 1px;
-            background: #000;
-            transition: all 0.2s;
-            content: "";
+        &:hover {
+          font-size: 1.8rem;
+          .icon {
+            right: 0;
           }
           &::before {
-            transition: all 0.2s;
-          }
-          .text {
-            position: absolute;
-            top: 50%;
-            left: 1rem;
-            transform: translateY(-50%);
-          }
-          .num {
-            display: block;
-            font-style: italic;
-            line-height: 1;
-          }
-          .icon {
-            position: absolute;
-            right: 2rem;
-            bottom: 2.5rem;
-            width: 4rem;
-            stroke: #1a1a1a;
-            transition: all 0.2s;
-          }
-          &:hover {
-            font-size: 1.8rem;
-            .title {
-              color: #e6002d;
-            }
-            .icon {
-              position: absolute;
-              right: 0rem;
-              bottom: 2.5rem;
-              stroke: #e6002d;
-            }
-            &::after {
-              height: 2px;
-              background: #e6002d;
-            }
-            &::before {
-              position: absolute;
-              bottom: 0;
-              left: 0rem;
-              z-index: -1;
-              width: 18%;
-              height: 2px;
-              background: #000;
-              content: "";
-            }
+            left: 0;
           }
         }
       }
@@ -372,9 +377,17 @@
   }
 }
 
+/*
+    ########  ##     ##  ######  #### ##    ## ########  ######    ######
+    ##     ## ##     ## ##    ##  ##  ###   ## ##       ##    ##  ##    ##
+    ##     ## ##     ## ##        ##  ####  ## ##       ##        ##
+    ########  ##     ##  ######   ##  ## ## ## ######    ######    ######
+    ##     ## ##     ##       ##  ##  ##  #### ##             ##        ##
+    ##     ## ##     ## ##    ##  ##  ##   ### ##       ##    ##  ##    ##
+    ########   #######   ######  #### ##    ## ########  ######    ######
+*/
 .topBusiness {
   padding-top: 20.6rem;
-
   &Link {
     margin-top: 7.5rem;
     overflow: hidden;
@@ -404,7 +417,7 @@
           .line {
             background: #fff;
             &::after {
-              background: #e6002d;
+              background: $siteColor;
             }
           }
         }
@@ -456,7 +469,7 @@
     padding-top: 4.5rem;
     padding-bottom: 8rem;
     color: white;
-    background: #e6002d;
+    background: $siteColor;
     &--ttl {
       font-size: 3.5rem;
     }
@@ -469,15 +482,22 @@
       height: 7rem;
     }
   }
-
+  /*
+             ######  ########
+            ##       ##     ##
+    #######  ######  ########
+                  ## ##
+             ######  ##
+  */
+  // ↓sp相当幅
   @media #{$media-sp} {
     padding-top: 7rem;
-    background: #e6002d;
-    .top-title {
+    background: $siteColor;
+    .topCommon__ttl {
       z-index: 2;
-      color: white;
+      color: #fff;
       &::before {
-        background: white;
+        background: #fff;
       }
       &--en {
         z-index: -1;
@@ -487,10 +507,7 @@
     &Link {
       margin-top: 5.5rem;
       &__item {
-        position: relative;
-        margin-right: auto;
-        margin-bottom: 11.5rem;
-        margin-left: auto;
+        margin: 0 auto 11.5rem;
         width: 100%;
         overflow: visible;
         text-align: center;
@@ -507,31 +524,9 @@
           height: 18.5rem;
           object-fit: cover;
         }
-        &:hover {
-          z-index: 2;
-          .bg {
-            display: none;
-          }
-          .topBusinessLink__item--caption {
-            font-size: 2rem;
-            color: white;
-            .line {
-              background: transparent;
-              &::after {
-                content: none;
-              }
-            }
-          }
-          .icon {
-            display: none;
-            right: 2.5rem;
-          }
-        }
         &--caption {
-          position: absolute;
           top: 80%;
           left: 0;
-          z-index: 2;
           padding: 1.5rem 4rem 1.5rem 2.8rem;
           width: auto;
           font-size: 2rem;
@@ -557,30 +552,14 @@
               content: none;
             }
           }
-          .icon {
-            position: absolute;
-            right: 4.7rem;
-            bottom: 4rem;
-            z-index: 2;
-            width: 17rem;
-            stroke: white;
-            transition: all 0.5s;
-          }
         }
         .icon {
           display: none;
-          // position: absolute;
-          // right: 4.7rem;
-          // bottom: 4rem;
-          // z-index: 2;
-          // width: 17rem;
-          // stroke: white;
-          // transition: all 0.5s;
         }
       }
     }
     &__copy {
-      padding-top: 0rem;
+      padding-top: 0;
       padding-bottom: 6.5rem;
       &--ttl {
         font-size: 2rem;
@@ -598,6 +577,15 @@
   }
 }
 
+/*
+    #### ##    ## ######## ######## ########  ##     ## #### ######## ##      ##
+     ##  ###   ##    ##    ##       ##     ## ##     ##  ##  ##       ##  ##  ##
+     ##  ####  ##    ##    ##       ##     ## ##     ##  ##  ##       ##  ##  ##
+     ##  ## ## ##    ##    ######   ########  ##     ##  ##  ######   ##  ##  ##
+     ##  ##  ####    ##    ##       ##   ##    ##   ##   ##  ##       ##  ##  ##
+     ##  ##   ###    ##    ##       ##    ##    ## ##    ##  ##       ##  ##  ##
+    #### ##    ##    ##    ######## ##     ##    ###    #### ########  ###  ###
+*/
 .topInterview {
   position: relative;
   padding-top: 15rem;
@@ -649,26 +637,25 @@
       }
     }
   }
+  /*
+             ######  ########
+            ##       ##     ##
+    #######  ######  ########
+                  ## ##
+             ######  ##
+  */
+  // ↓sp相当幅
   @media #{$media-sp} {
-    position: relative;
     padding-top: 8.5rem;
     padding-bottom: 7rem;
-    .top-title {
+    .topCommon__ttl {
       line-height: 1.2;
       &--en {
         top: -3rem;
       }
     }
     &__bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      width: 90%;
-      height: 100%;
-      background: #f9f9f9;
     }
-
     &Wrap {
       margin-top: 3rem;
       .swiper-button-next,
@@ -695,10 +682,8 @@
       }
     }
     &Item {
-      width: calc((100% - 6rem) / 4);
-      color: $fontColor;
       &:nth-child(2n) {
-        margin-top: 0rem;
+        margin-top: 0;
       }
       &__text {
         padding: 1.3rem;
@@ -754,6 +739,15 @@
   background-color: #1a1a1a;
 }
 
+/*
+     ######  ########   #######   ######   ######  ########    ###    ##       ##    ##
+    ##    ## ##     ## ##     ## ##    ## ##    ##    ##      ## ##   ##       ##   ##
+    ##       ##     ## ##     ## ##       ##          ##     ##   ##  ##       ##  ##
+    ##       ########  ##     ##  ######   ######     ##    ##     ## ##       #####
+    ##       ##   ##   ##     ##       ##       ##    ##    ######### ##       ##  ##
+    ##    ## ##    ##  ##     ## ##    ## ##    ##    ##    ##     ## ##       ##   ##
+     ######  ##     ##  #######   ######   ######     ##    ##     ## ######## ##    ##
+*/
 .topCrosstalk {
   position: relative;
   padding-top: 15rem;
@@ -765,7 +759,7 @@
     z-index: -2;
     width: 100%;
     height: calc(100% + 18rem);
-    background: #e6002d;
+    background: $siteColor;
   }
   .top-title {
     color: white;
@@ -822,7 +816,7 @@
       }
     }
     .swiper-pagination {
-      bottom: 0rem;
+      bottom: 0;
     }
     .swiper-button-next,
     .swiper-button-prev {
@@ -863,76 +857,44 @@
     width: 28rem;
     height: 7rem;
   }
+  /*
+             ######  ########
+            ##       ##     ##
+    #######  ######  ########
+                  ## ##
+             ######  ##
+  */
+  // ↓sp相当幅
   @media #{$media-sp} {
-    position: relative;
     padding-top: 8rem;
     padding-bottom: 7.5rem;
     &__bg {
-      position: absolute;
       top: -7rem;
-      left: 0;
-      z-index: -2;
-      width: 100%;
       height: calc(100% + 18rem);
-      background: #e6002d;
     }
-
     &Slide {
       margin-top: 3.3rem;
       padding-top: 4rem;
-      padding-bottom: 0rem;
+      padding-bottom: 0;
       &__item {
-        position: relative;
-        img {
-          z-index: -1;
-          transition: all 1s;
-          &:hover {
-            transform: scale(1.08, 1.08);
-          }
-        }
         &--caption {
-          position: absolute;
           left: -0.5rem;
-          z-index: 2;
           font-size: 1.6rem;
           line-height: 1.9;
-          color: white;
-          transform: translateY(-50%);
           .bg {
-            display: inline-block;
-            position: relative;
-            padding: 0rem 1rem;
-            width: 100%;
-            height: 100%;
+            padding: 0 1rem;
             line-height: 1.5;
-            background: #1a1a1a;
             &::after {
-              position: absolute;
               bottom: -0.3rem;
               left: 0.3rem;
-              z-index: -2;
-              width: 100%;
-              height: 100%;
-              background: white;
-              content: "";
             }
           }
         }
-      }
-      .swiper-pagination {
-        bottom: 0rem;
       }
       .swiper-button-next,
       .swiper-button-prev {
         top: 50%;
         width: 2.5rem;
-        transform: translateY(-50%);
-      }
-      .swiper-button-next:after,
-      .swiper-button-prev:after {
-        font-family: none;
-        content: "";
-        /* line-height: 1; */
       }
       .swiper-button-prev {
         left: 2.5%;
@@ -952,6 +914,15 @@
   }
 }
 
+/*
+    ########  ########  ######  ########  ##     ## #### ########
+    ##     ## ##       ##    ## ##     ## ##     ##  ##     ##
+    ##     ## ##       ##       ##     ## ##     ##  ##     ##
+    ########  ######   ##       ########  ##     ##  ##     ##
+    ##   ##   ##       ##       ##   ##   ##     ##  ##     ##
+    ##    ##  ##       ##    ## ##    ##  ##     ##  ##     ##
+    ##     ## ########  ######  ##     ##  #######  ####    ##
+*/
 .topRecruit {
   position: relative;
   padding-top: 16rem;
@@ -967,7 +938,7 @@
   }
   .top-title {
     &::before {
-      background: #e6002d;
+      background: $siteColor;
     }
   }
   &Wrap {
@@ -985,7 +956,7 @@
     transition: all 0.5s;
     cursor: pointer;
     &:hover {
-      border: 1px solid #e6002d;
+      border: 1px solid $siteColor;
       transform: scale(1.15);
     }
     &--ttl {
@@ -1020,17 +991,18 @@
   }
   &__btn {
   }
+  /*
+             ######  ########
+            ##       ##     ##
+    #######  ######  ########
+                  ## ##
+             ######  ##
+  */
+  // ↓sp相当幅
   @media #{$media-sp} {
     padding-top: 10rem;
     padding-bottom: 4rem;
     &__bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -2;
-      width: 100%;
-      height: 100%;
-      background: #f9f9f9;
     }
     &Wrap {
       margin-top: 4rem;
@@ -1044,45 +1016,33 @@
       width: 100%;
       height: auto;
       font-size: 1.8rem;
-      &:hover {
-        border: 1px solid #e6002d;
-        transform: scale(1.15);
-      }
       img {
         width: 4.4rem;
       }
       &--ttl {
-        margin-top: 0rem;
+        margin-top: 0;
         margin-left: 4.4rem;
-        color: #1a1a1a;
       }
       .icon {
         position: absolute;
         top: 50%;
         right: 1.5rem;
         width: 4rem;
-        stroke: #e6002d;
+        stroke: $siteColor;
         transform: translateY(-50%);
       }
     }
     &__entry {
-      display: block;
-      position: relative;
       margin-top: 6.5rem;
       padding: 3.2rem 3.2rem 4rem;
-      width: 100%;
       height: auto;
       font-size: 1.6rem;
-      font-weight: bold;
-      color: white;
-      background: #e6002d;
+      color: #fff;
+      background: $siteColor;
       .en {
-        display: block;
         margin-bottom: 1rem;
         font-size: 1.2rem;
         font-weight: normal;
-        color: white;
-        letter-spacing: 1.6px;
       }
     }
     &__more {

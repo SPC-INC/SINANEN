@@ -1,200 +1,267 @@
 <?php get_header(); ?>
 <article class="contents">
-    <div class="topIntro">
-        <div class="topIntro__bg-1">
-            <div class="topIntro__bg-1--inner"></div>
-        </div>
-        <div class="topIntro__bg-2">
-            <div class="topIntro__bg-2--inner"></div>
-        </div>
-        <div class="topIntroAboutus">
-            <div class="topIntroAboutus__bg"></div>
-            <div class="wrap w1200 sp-wrap">
-                <h2 class="top-title notos">
-                    <div class="js-in anime left-in wave2">会社紹介</div>
-                    <div class="top-title--en js-in anime left-in wave1">
-                        ABOUT US
-                    </div>
-                </h2>
-                <div class="topIntroAboutusWrap flex bet pc-vend sp-vert">
-                    <div class="topIntroAboutus__img" id="js-about1">
-                        <img src="<?php echo T_URL ?>img/aboutus_01.png">
-                        <div class="topIntroAboutus__img--caption js-aboutus-caption1 show">
-                            <span class="bg-white">一枚目（仮）次の100年に</span><br>
-                            <span class="bg-white">一緒に挑める仲間を求めています</span>
-                        </div>
-                    </div>
-                    <div class="topIntroAboutus__img" id="js-about2">
-                        <img src="http://placehold.jp/550x430.png">
-                        <div class="topIntroAboutus__img--caption">
-                            <span class="bg-white">二枚目（仮）次の100年に</span><br>
-                            <span class="bg-white">一緒に挑める仲間を求めています</span>
-                        </div>
-                    </div>
-                    <div class="topIntroAboutus__img" id="js-about3">
-                        <img src="http://placehold.jp/550x430.png">
-                        <div class="topIntroAboutus__img--caption">
-                            <span class="bg-white">三枚目（仮）次の100年に</span><br>
-                            <span class="bg-white">一緒に挑める仲間を求めています</span>
-                        </div>
-                    </div>
 
-                    <div class="topIntroAboutus__link">
-                        <a class="topIntroAboutus__link--item" href="js-about1">
-                            <div class="text">
-                                <span class="num lato">#1</span>
-                                <span class="title">社長メッセージ</span>
-                            </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                </g>
-                            </svg>
-                        </a>
-                        <a class="topIntroAboutus__link--item" href="js-about2">
-                            <div class="text">
-                                <span class="num lato">#2</span>
-                                <span class="title">シナネンHDグループの挑戦と進化</span>
-                            </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                </g>
-                            </svg>
-                        </a>
-                        <a class="topIntroAboutus__link--item" href="js-about3">
-                            <div class="text">
-                                <span class="num lato">#3</span>
-                                <span class="title">SDGsへの貢献</span>
-                            </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                </g>
-                            </svg>
-                        </a>
+<?php
+/*
+    ##     ## ##     ##
+    ###   ### ##     ##
+    #### #### ##     ##
+    ## ### ## ##     ##
+    ##     ##  ##   ##
+    ##     ##   ## ##
+    ##     ##    ###
+*/
+?>
+    <div class="topMv">
+    </div>
+
+<?php
+/*
+    #### ##    ## ######## ########   #######
+     ##  ###   ##    ##    ##     ## ##     ##
+     ##  ####  ##    ##    ##     ## ##     ##
+     ##  ## ## ##    ##    ########  ##     ##
+     ##  ##  ####    ##    ##   ##   ##     ##
+     ##  ##   ###    ##    ##    ##  ##     ##
+    #### ##    ##    ##    ##     ##  #######
+*/
+?>
+    <div class="topIntro">
+        <div class="topIntro__img">
+            <img src="<?php echo T_URL; ?>img/top_intro.png" alt="" class="pc">
+            <img src="<?php echo T_URL; ?>img/top_intro_so.png" alt="" class="sp">
+        </div>
+        <div class="topIntro__text">
+            <div class="wrap w1200 sp-wrap">
+                <h2 class="pc topIntro__head notos">
+                    <span class="line">その挑戦が、</span><br>
+                    <span class="line">次のあたりまえを創る</span>
+                </h2>
+                <p class="topIntro__desc">
+                    （仮）シナネンHDグループは2027年に創業100周年を迎えます。時代の流れとともに変化するニーズに応えられる、総合エネルギーサービス企業グループとして私たちは常に「挑戦」し続けてきました。<br>
+                    「エネルギーと住まいと暮らしのサービスで、地域すべてのお客様の快適な生活に貢献する」という経営理念のもと、次のあたりまえを一緒に創っていく仲間を求めています。
+                </p>
+            </div>
+        </div>
+    </div>
+
+<?php
+/*
+       ###    ########   #######  ##     ## ########
+      ## ##   ##     ## ##     ## ##     ##    ##
+     ##   ##  ##     ## ##     ## ##     ##    ##
+    ##     ## ########  ##     ## ##     ##    ##
+    ######### ##     ## ##     ## ##     ##    ##
+    ##     ## ##     ## ##     ## ##     ##    ##
+    ##     ## ########   #######   #######     ##
+*/
+?>
+    <div class="topAboutus">
+        <div class="topAboutus__bg"></div>
+        <div class="wrap w1200 sp-wrap">
+            <h2 class="topCommon__ttl notos">
+                <div class="js-in anime left-in wave2">会社紹介</div>
+                <div class="topCommon__ttl--en js-in anime left-in wave1">
+                    ABOUT US
+                </div>
+            </h2>
+            <div class="topAboutus__wrap flex bet pc-vend sp-vert">
+                <div class="topAboutus__img" id="js-about1">
+                    <img src="<?php echo T_URL ?>img/top_aboutus_01.png">
+                    <div class="topAboutus__img--caption js-aboutus-caption1 show">
+                        <span class="bg-white">一枚目（仮）次の100年に</span><br>
+                        <span class="bg-white">一緒に挑める仲間を求めています</span>
                     </div>
+                </div>
+                <div class="topAboutus__img" id="js-about2">
+                    <img src="http://placehold.jp/550x430.png">
+                    <div class="topAboutus__img--caption">
+                        <span class="bg-white">二枚目（仮）次の100年に</span><br>
+                        <span class="bg-white">一緒に挑める仲間を求めています</span>
+                    </div>
+                </div>
+                <div class="topAboutus__img" id="js-about3">
+                    <img src="http://placehold.jp/550x430.png">
+                    <div class="topAboutus__img--caption">
+                        <span class="bg-white">三枚目（仮）次の100年に</span><br>
+                        <span class="bg-white">一緒に挑める仲間を求めています</span>
+                    </div>
+                </div>
+
+                <div class="topAboutus__link">
+                    <a class="topAboutus__link--item" href="js-about1">
+                        <div class="text">
+                            <span class="num lato">#1</span>
+                            <span class="title">社長メッセージ</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                            <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a class="topAboutus__link--item" href="js-about2">
+                        <div class="text">
+                            <span class="num lato">#2</span>
+                            <span class="title">シナネンHDグループの挑戦と進化</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                            <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a class="topAboutus__link--item" href="js-about3">
+                        <div class="text">
+                            <span class="num lato">#3</span>
+                            <span class="title">SDGsへの貢献</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                            <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                            </g>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
 
+<?php
+/*
+    ########  ##     ##  ######  #### ##    ## ########  ######    ######
+    ##     ## ##     ## ##    ##  ##  ###   ## ##       ##    ##  ##    ##
+    ##     ## ##     ## ##        ##  ####  ## ##       ##        ##
+    ########  ##     ##  ######   ##  ## ## ## ######    ######    ######
+    ##     ## ##     ##       ##  ##  ##  #### ##             ##        ##
+    ##     ## ##     ## ##    ##  ##  ##   ### ##       ##    ##  ##    ##
+    ########   #######   ######  #### ##    ## ########  ######    ######
+*/
+?>
+    <div class="topBusiness">
+        <div class="wrap w1200 sp-wrap">
+            <h2 class="topCommon__ttl notos">
+                <div class="js-in anime left-in wave2">事業紹介</div>
+                <div class="topCommon__ttl--en js-in anime left-in wave1">
+                    BUSINESS
+                </div>
+            </h2>
+        </div>
 
-
-        <div class="topBusiness">
-            <div class="wrap w1200 sp-wrap">
-                <h2 class="top-title notos">
-                    <div class="js-in anime left-in wave2">事業紹介</div>
-                    <div class="top-title--en js-in anime left-in wave1">
-                        BUSINESS
+        <div class="topBusinessLink flex bet sp-break">
+            <a href="" class="topBusinessLink__item">
+                <img src="<?php echo T_URL ?>img/topbusiness_link1.png" alt="">
+                <div class="bg"></div>
+                <div class="topBusinessLink__item--caption">
+                    <span class="line">BtoC事業</span><br class="pc"><span class="line">エネルギー卸・小売周辺事業</span>
+                    <div class="link flex vcenter sp">
+                        <span>READ MORE</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="caption-icon">
+                            <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                            </g>
+                        </svg>
                     </div>
-                </h2>
-            </div>
-
-            <div class="topBusinessLink flex bet sp-break">
-                <a href="" class="topBusinessLink__item">
-                    <img src="<?php echo T_URL ?>img/topbusiness_link1.png" alt="">
-                    <div class="bg"></div>
-                    <div class="topBusinessLink__item--caption">
-                        <span class="line">BtoC事業</span><br class="pc"><span class="line">エネルギー卸・小売周辺事業</span>
-                        <div class="link flex vcenter sp">
-                            <span>READ MORE</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="caption-icon">
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                    </g>
+                </svg>
+            </a>
+            <a href="" class="topBusinessLink__item">
+                <img src="<?php echo T_URL ?>img/topbusiness_link2.png" alt="">
+                <div class="bg"></div>
+                <div class="topBusinessLink__item--caption">
+                    <span class="line">BtoB事業</span><br class="pc"><span class="line">エネルギーソリューション事業</span>
+                    <div class="link flex vcenter sp">
+                        <span>READ MORE</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="caption-icon">
+                            <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                    </g>
+                </svg>
+            </a>
+            <a href="" class="topBusinessLink__item">
+                <img src="<?php echo T_URL ?>img/topbusiness_link3.png" alt="">
+                <div class="bg"></div>
+                <div class="topBusinessLink__item--caption">
+                    <span class="line">非エネルギー及び海外事業</span>
+                    <div class="link flex vcenter sp">
+                        <span>READ MORE</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="caption-icon">
+                            <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <div class="topBusiness__copy">
+            <div class="topBusiness__copy--caption">
+                <div class="wrap w1200 sp-wrap">
+                    <div class="topBusiness__copy--ttl notos js-in anime left-in">
+                        シナネンHDグループが描く未来
+                    </div>
+                    <p class="topBusiness__copy--para js-in anime left-in">
+                        概要が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <div class="topBusiness__copy--more">
+                        <a class="topBusiness__copy--btn md-btn white">
+                            READ MORE
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                 <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                     <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
                                     <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
                                 </g>
                             </svg>
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                        <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                            <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                            <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                        </g>
-                    </svg>
-                </a>
-                <a href="" class="topBusinessLink__item">
-                    <img src="<?php echo T_URL ?>img/topbusiness_link2.png" alt="">
-                    <div class="bg"></div>
-                    <div class="topBusinessLink__item--caption">
-                        <span class="line">BtoB事業</span><br class="pc"><span class="line">エネルギーソリューション事業</span>
-                        <div class="link flex vcenter sp">
-                            <span>READ MORE</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="caption-icon">
-                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                        <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                            <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                            <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                        </g>
-                    </svg>
-                </a>
-                <a href="" class="topBusinessLink__item">
-                    <img src="<?php echo T_URL ?>img/topbusiness_link3.png" alt="">
-                    <div class="bg"></div>
-                    <div class="topBusinessLink__item--caption">
-                        <span class="line">非エネルギー及び海外事業</span>
-                        <div class="link flex vcenter sp">
-                            <span>READ MORE</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="caption-icon">
-                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                        <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                            <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                            <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                        </g>
-                    </svg>
-                </a>
-            </div>
-            <div class="topBusiness__copy">
-                <div class="topBusiness__copy--caption">
-                    <div class="wrap w1200 sp-wrap">
-                        <div class="topBusiness__copy--ttl notos js-in anime left-in">
-                            シナネンHDグループが描く未来
-                        </div>
-                        <p class="topBusiness__copy--para js-in anime left-in">
-                            概要が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                        <div class="topBusiness__copy--more">
-                            <a class="topBusiness__copy--btn md-btn white">
-                                READ MORE
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                    </g>
-                                </svg>
-                            </a>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
+<?php
+/*
+    #### ##    ## ######## ######## ########  ##     ## #### ######## ##      ##
+     ##  ###   ##    ##    ##       ##     ## ##     ##  ##  ##       ##  ##  ##
+     ##  ####  ##    ##    ##       ##     ## ##     ##  ##  ##       ##  ##  ##
+     ##  ## ## ##    ##    ######   ########  ##     ##  ##  ######   ##  ##  ##
+     ##  ##  ####    ##    ##       ##   ##    ##   ##   ##  ##       ##  ##  ##
+     ##  ##   ###    ##    ##       ##    ##    ## ##    ##  ##       ##  ##  ##
+    #### ##    ##    ##    ######## ##     ##    ###    #### ########  ###  ###
+*/
+?>
     <div class="topInterview">
         <div class="topInterview__bg"></div>
         <div class="wrap w1200 sp-wrap">
 
-            <h2 class="top-title notos">
-                <div class="js-in anime left-in wave2">インタビュー<br class="sp"><span class="top-title--small">～わたしたちの"挑戦"～</span></div>
-                <div class="top-title--en js-in anime left-in wave1">
+            <h2 class="topCommon__ttl notos">
+                <div class="js-in anime left-in wave2">インタビュー<br class="sp"><span class="topCommon__ttl--small">～わたしたちの"挑戦"～</span></div>
+                <div class="topCommon__ttl--en js-in anime left-in wave1">
                     INTERVIEW
                 </div>
             </h2>
@@ -359,12 +426,23 @@
         </div>
     </div>
 
+<?php
+/*
+     ######  ########   #######   ######   ######  ########    ###    ##       ##    ##
+    ##    ## ##     ## ##     ## ##    ## ##    ##    ##      ## ##   ##       ##   ##
+    ##       ##     ## ##     ## ##       ##          ##     ##   ##  ##       ##  ##
+    ##       ########  ##     ##  ######   ######     ##    ##     ## ##       #####
+    ##       ##   ##   ##     ##       ##       ##    ##    ######### ##       ##  ##
+    ##    ## ##    ##  ##     ## ##    ## ##    ##    ##    ##     ## ##       ##   ##
+     ######  ##     ##  #######   ######   ######     ##    ##     ## ######## ##    ##
+*/
+?>
     <div class="topCrosstalk">
         <div class="topCrosstalk__bg"></div>
         <div class="wrap w1200 sp-wrap">
-            <h2 class="top-title notos">
+            <h2 class="topCommon__ttl notos">
                 <div class="js-in anime left-in wave2">クロストーク</div>
-                <div class="top-title--en js-in anime left-in wave1">
+                <div class="topCommon__ttl--en js-in anime left-in wave1">
                     Cross talk
                 </div>
             </h2>
@@ -441,13 +519,23 @@
         </div>
     </div>
 
-
+<?php
+/*
+    ########  ########  ######  ########  ##     ## #### ########
+    ##     ## ##       ##    ## ##     ## ##     ##  ##     ##
+    ##     ## ##       ##       ##     ## ##     ##  ##     ##
+    ########  ######   ##       ########  ##     ##  ##     ##
+    ##   ##   ##       ##       ##   ##   ##     ##  ##     ##
+    ##    ##  ##       ##    ## ##    ##  ##     ##  ##     ##
+    ##     ## ########  ######  ##     ##  #######  ####    ##
+*/
+?>
     <div class="topRecruit">
         <div class="topRecruit__bg"></div>
         <div class="wrap w1200 sp-wrap">
-            <h2 class="top-title notos">
+            <h2 class="topCommon__ttl notos">
                 <div class="js-in anime left-in wave2">採用情報</div>
-                <div class="top-title--en js-in anime left-in wave1">
+                <div class="topCommon__ttl--en js-in anime left-in wave1">
                     RECRUIT
                 </div>
             </h2>
