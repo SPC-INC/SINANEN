@@ -1,9 +1,18 @@
-<?php get_header(); ?>
-<article class="contents">
+<?php
+$include = '../include/'; // パーツ用パス
+$home = '../'; // サイトルートパス
+$page = array( // ページデータ
+    'flag' => 'aboutus', // ページ判別フラグ
+    'slug' => '', // TOP以降のURL 末尾の/や拡張子まで含める
+);
+require_once $include . '_header.php';
+?>
+<article class="contents contents--<?php echo IS_PAGE; ?>">
+
     <div class="pageHead notos">
         <div class="pageHead__img">
-            <img src="<?php echo T_URL; ?>img/aboutus_head.png" alt="" class="pc">
-            <img src="<?php echo T_URL; ?>img/aboutus_head_sp.png" alt="" class="sp">
+            <img src="<?php echo HOME; ?>img/aboutus_head.png" alt="" class="pc">
+            <img src="<?php echo HOME; ?>img/aboutus_head_sp.png" alt="" class="sp">
         </div>
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
@@ -21,20 +30,20 @@
                         社長メッセージ
                     </h2>
                     <div class="sp aboutUs__img">
-                        <img src="<?php echo T_URL; ?>img/aboutus_01.png" alt="">
+                        <img src="<?php echo HOME; ?>img/aboutus_01.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
                         新入社員の皆さんからこらからのシナネンHDグループについてや、<br>
                         社長に聞いてみたいことをインタビューしてもらいました。
                     </p>
                     <div class="aboutUs__more">
-                        <a href="<?php echo H_URL; ?>aboutus/" class="aboutUs__btn md-btn">
+                        <a href="<?php echo HOME; ?>aboutus/" class="aboutUs__btn md-btn">
                             READ MORE
                         </a>
                     </div>
                 </div>
                 <div class="pc aboutUs__img">
-                    <img src="<?php echo T_URL; ?>img/aboutus_01.png" alt="">
+                    <img src="<?php echo HOME; ?>img/aboutus_01.png" alt="">
                 </div>
             </div>
             <div class="aboutUs__container flex bet">
@@ -43,20 +52,20 @@
                         シナネンHDグループの挑戦と進化
                     </h2>
                     <div class="sp aboutUs__img">
-                        <img src="<?php echo T_URL; ?>img/aboutus_02.png" alt="">
+                        <img src="<?php echo HOME; ?>img/aboutus_02.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
                         新入社員の皆さんからこらからのシナネンHDグループについてや、<br>
                         社長に聞いてみたいことをインタビューしてもらいました。
                     </p>
                     <div class="aboutUs__more">
-                        <a href="<?php echo H_URL; ?>aboutus/" class="aboutUs__btn md-btn">
+                        <a href="<?php echo HOME; ?>aboutus/" class="aboutUs__btn md-btn">
                             READ MORE
                         </a>
                     </div>
                 </div>
                 <div class="pc aboutUs__img pc-1">
-                    <img src="<?php echo T_URL; ?>img/aboutus_02.png" alt="">
+                    <img src="<?php echo HOME; ?>img/aboutus_02.png" alt="">
                 </div>
             </div>
             <div class="aboutUs__container flex bet">
@@ -65,24 +74,25 @@
                         SDGsへの貢献
                     </h2>
                     <div class="sp aboutUs__img">
-                        <img src="<?php echo T_URL; ?>img/aboutus_03.png" alt="">
+                        <img src="<?php echo HOME; ?>img/aboutus_03.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
                         新入社員の皆さんからこらからのシナネンHDグループについてや、<br>
                         社長に聞いてみたいことをインタビューしてもらいました。
                     </p>
                     <div class="aboutUs__more">
-                        <a href="<?php echo H_URL; ?>aboutus/" class="aboutUs__btn md-btn">
+                        <a href="<?php echo HOME; ?>aboutus/" class="aboutUs__btn md-btn">
                             READ MORE
                         </a>
                     </div>
                 </div>
                 <div class="pc aboutUs__img">
-                    <img src="<?php echo T_URL; ?>img/aboutus_03.png" alt="">
+                    <img src="<?php echo HOME; ?>img/aboutus_03.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
 </article>
-<?php get_footer();
+<?php
+require_once $include . '_footer.php';

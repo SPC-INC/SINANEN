@@ -1,9 +1,9 @@
 // 全体設定ファイル
 // 必須設定項目
 const pathDest = './sinanen/' // destパス（テーマ名）
-const bsProxy = 'http://sinanen.lo/' // ローカル環境のURL　静的サイトなら空欄
+const bsProxy = '' // ローカル環境のURL　静的サイトなら空欄
 
-const php2html = false // 静的サイト構築用　PHPをHTMLに変換する
+const php2html = true // 静的サイト構築用　PHPをHTMLに変換する
 
 let copyPath =
   '**/{*.{css,htm,html,xml,php,pdf,mp4,webm,webp,mp3,wav,ogg,ico,doc,docx,xls,xlsm,xlsx},_copy/**,(.htaccess),manifest.json}'

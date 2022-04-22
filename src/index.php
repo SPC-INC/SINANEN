@@ -1,5 +1,13 @@
-<?php get_header(); ?>
-<article class="contents">
+<?php
+$include = './include/'; // パーツ用パス
+$home = './'; // サイトルートパス
+$page = array( // ページデータ
+    'flag' => 'top', // ページ判別フラグ
+    'slug' => '', // TOP以降のURL 末尾の/や拡張子まで含める
+);
+require_once $include . '_header.php';
+?>
+<article class="contents contents--<?php echo IS_PAGE; ?>">
 
 <?php
 /*
@@ -28,8 +36,8 @@
 ?>
     <div class="topIntro">
         <div class="topIntro__img">
-            <img src="<?php echo T_URL; ?>img/top_intro.png" alt="" class="pc">
-            <img src="<?php echo T_URL; ?>img/top_intro_so.png" alt="" class="sp">
+            <img src="<?php echo HOME; ?>img/top_intro.png" alt="" class="pc">
+            <img src="<?php echo HOME; ?>img/top_intro_so.png" alt="" class="sp">
         </div>
         <div class="topIntro__text">
             <div class="wrap w1200 sp-wrap">
@@ -67,7 +75,7 @@
             </h2>
             <div class="topAboutus__wrap flex bet pc-vend sp-vert">
                 <div class="topAboutus__img" id="js-about1">
-                    <img src="<?php echo T_URL ?>img/top_aboutus_01.png">
+                    <img src="<?php echo HOME ?>img/top_aboutus_01.png">
                     <div class="topAboutus__img--caption js-aboutus-caption1 show">
                         <span class="bg-white">一枚目（仮）次の100年に</span><br>
                         <span class="bg-white">一緒に挑める仲間を求めています</span>
@@ -153,7 +161,7 @@
 
         <div class="topBusinessLink flex bet sp-break">
             <a href="" class="topBusinessLink__item">
-                <img src="<?php echo T_URL ?>img/topbusiness_link1.png" alt="">
+                <img src="<?php echo HOME ?>img/topbusiness_link1.png" alt="">
                 <div class="bg"></div>
                 <div class="topBusinessLink__item--caption">
                     <span class="line">BtoC事業</span><br class="pc"><span class="line">エネルギー卸・小売周辺事業</span>
@@ -175,7 +183,7 @@
                 </svg>
             </a>
             <a href="" class="topBusinessLink__item">
-                <img src="<?php echo T_URL ?>img/topbusiness_link2.png" alt="">
+                <img src="<?php echo HOME ?>img/topbusiness_link2.png" alt="">
                 <div class="bg"></div>
                 <div class="topBusinessLink__item--caption">
                     <span class="line">BtoB事業</span><br class="pc"><span class="line">エネルギーソリューション事業</span>
@@ -197,7 +205,7 @@
                 </svg>
             </a>
             <a href="" class="topBusinessLink__item">
-                <img src="<?php echo T_URL ?>img/topbusiness_link3.png" alt="">
+                <img src="<?php echo HOME ?>img/topbusiness_link3.png" alt="">
                 <div class="bg"></div>
                 <div class="topBusinessLink__item--caption">
                     <span class="line">非エネルギー及び海外事業</span>
@@ -268,7 +276,7 @@
             <div class="topInterviewWrap flex bet js-in anime left-in pc">
                 <a class="topInterviewItem">
                     <div class="topInterviewItem__img">
-                        <img src="<?php echo T_URL ?>img/top_interview1.png" alt="">
+                        <img src="<?php echo HOME ?>img/top_interview1.png" alt="">
                     </div>
                     <div class="topInterviewItem__text bgbottom">
                         <div class="topInterviewItem__text--bg">
@@ -284,7 +292,7 @@
                 </a>
                 <a class="topInterviewItem">
                     <div class="topInterviewItem__img">
-                        <img src="<?php echo T_URL ?>img/top_interview2.png" alt="">
+                        <img src="<?php echo HOME ?>img/top_interview2.png" alt="">
                     </div>
                     <div class="topInterviewItem__text bgbottom">
                         <div class="topInterviewItem__text--bg">
@@ -300,7 +308,7 @@
                 </a>
                 <a class="topInterviewItem">
                     <div class="topInterviewItem__img">
-                        <img src="<?php echo T_URL ?>img/top_interview1.png" alt="">
+                        <img src="<?php echo HOME ?>img/top_interview1.png" alt="">
                     </div>
                     <div class="topInterviewItem__text bgbottom">
                         <div class="topInterviewItem__text--bg">
@@ -316,7 +324,7 @@
                 </a>
                 <a class="topInterviewItem">
                     <div class="topInterviewItem__img">
-                        <img src="<?php echo T_URL ?>img/top_interview2.png" alt="">
+                        <img src="<?php echo HOME ?>img/top_interview2.png" alt="">
                     </div>
                     <div class="topInterviewItem__text bgbottom">
                         <div class="topInterviewItem__text--bg">
@@ -336,7 +344,7 @@
                 <div class="swiper-wrapper">
                     <a class="topInterviewItem swiper-slide">
                         <div class="topInterviewItem__img">
-                            <img src="<?php echo T_URL ?>img/top_interview1.png" alt="">
+                            <img src="<?php echo HOME ?>img/top_interview1.png" alt="">
                         </div>
                         <div class="topInterviewItem__text bgbottom">
                             <div class="topInterviewItem__text--bg">
@@ -352,7 +360,7 @@
                     </a>
                     <a class="topInterviewItem swiper-slide">
                         <div class="topInterviewItem__img">
-                            <img src="<?php echo T_URL ?>img/top_interview2.png" alt="">
+                            <img src="<?php echo HOME ?>img/top_interview2.png" alt="">
                         </div>
                         <div class="topInterviewItem__text bgbottom">
                             <div class="topInterviewItem__text--bg">
@@ -368,7 +376,7 @@
                     </a>
                     <a class="topInterviewItem swiper-slide">
                         <div class="topInterviewItem__img">
-                            <img src="<?php echo T_URL ?>img/top_interview1.png" alt="">
+                            <img src="<?php echo HOME ?>img/top_interview1.png" alt="">
                         </div>
                         <div class="topInterviewItem__text bgbottom">
                             <div class="topInterviewItem__text--bg">
@@ -384,7 +392,7 @@
                     </a>
                     <a class="topInterviewItem swiper-slide">
                         <div class="topInterviewItem__img">
-                            <img src="<?php echo T_URL ?>img/top_interview2.png" alt="">
+                            <img src="<?php echo HOME ?>img/top_interview2.png" alt="">
                         </div>
                         <div class="topInterviewItem__text bgbottom">
                             <div class="topInterviewItem__text--bg">
@@ -456,8 +464,8 @@
                     <span class="topCrosstalkSlide__item--caption sp">
                         <span class="bg">Special Crosstalk</span><br><span class="bg">～女性のキャリアアップ ～</span>
                     </span>
-                    <img src="<?php echo T_URL ?>img/crosstalk1.png" alt="" class="pc">
-                    <img src="<?php echo T_URL ?>img/crosstalk1_sp.png" alt="" class="sp">
+                    <img src="<?php echo HOME ?>img/crosstalk1.png" alt="" class="pc">
+                    <img src="<?php echo HOME ?>img/crosstalk1_sp.png" alt="" class="sp">
                 </a>
                 <a class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
@@ -466,8 +474,8 @@
                     <span class="topCrosstalkSlide__item--caption sp">
                         <span class="bg">Special Crosstalk</span><br><span class="bg">～女性のキャリアアップ ～</span>
                     </span>
-                    <img src="<?php echo T_URL ?>img/crosstalk1.png" alt="" class="pc">
-                    <img src="<?php echo T_URL ?>img/crosstalk1_sp.png" alt="" class="sp">
+                    <img src="<?php echo HOME ?>img/crosstalk1.png" alt="" class="pc">
+                    <img src="<?php echo HOME ?>img/crosstalk1_sp.png" alt="" class="sp">
                 </a>
                 <a class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
@@ -476,8 +484,8 @@
                     <span class="topCrosstalkSlide__item--caption sp">
                         <span class="bg">Special Crosstalk</span><br><span class="bg">～女性のキャリアアップ ～</span>
                     </span>
-                    <img src="<?php echo T_URL ?>img/crosstalk1.png" alt="" class="pc">
-                    <img src="<?php echo T_URL ?>img/crosstalk1_sp.png" alt="" class="sp">
+                    <img src="<?php echo HOME ?>img/crosstalk1.png" alt="" class="pc">
+                    <img src="<?php echo HOME ?>img/crosstalk1_sp.png" alt="" class="sp">
                 </a>
             </div>
             <div class="swiper-button-prev">
@@ -547,7 +555,7 @@
                 foreach ($arr as $text) {
                     $num++; ?>
                     <a class="topRecruit__item sp-flex sp-vcenter" href="#">
-                        <img src="<?php echo T_URL ?>img/topRecruit<?php echo $num ?>.svg" alt="" class="topRecruit__item--img">
+                        <img src="<?php echo HOME ?>img/topRecruit<?php echo $num ?>.svg" alt="" class="topRecruit__item--img">
                         <p class="topRecruit__item--ttl">
                             <?php echo $text ?>
                         </p>
@@ -587,4 +595,5 @@
         </div>
     </div>
 </article>
-<?php get_footer();
+<?php
+require_once $include . '_footer.php';

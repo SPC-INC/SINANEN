@@ -38,19 +38,14 @@
             </ul>
         </div>
         <div class="footer__logo">
-            <img src="<?php echo T_URL ?>img/footer_logo.svg" alt="">
+            <img src="<?php echo HOME ?>img/footer_logo.svg" alt="">
         </div>
 </footer>
-<script>
-    {
-        var tUrl = '<?php echo T_URL; ?>'
-    }
-</script>
-<input id="href" type="hidden" value="<?php echo T_URL; ?>" name="href">
+
 <script src="//polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
-<script src="<?php echo T_URL; ?>js/lib.min.js?<?php echo filemtime(T_PATH . 'js/lib.min.js'); ?>"></script>
-<script src="<?php echo T_URL; ?>js/main.min.js?<?php echo filemtime(T_PATH . 'js/main.min.js'); ?>"></script>
-<?php wp_footer(); ?>
+<script src="<?php echo $home; ?>js/lib.min.js"></script>
+<script src="<?php echo $home; ?>js/main.min.js"></script>
+<link href="//fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 </body>
 
 </html>
