@@ -21,6 +21,22 @@ require_once $include . '_header.php';
 */
 ?>
     <div class="topMv">
+        <div class="topMv__img">
+            <img src="<?php echo HOME; ?>img/top_mv.png" alt="" class="pc">
+            <img src="<?php echo HOME; ?>img/top_mv_sp.png" alt="" class="sp">
+        </div>
+        <div class="topMv__text">
+            <p class="pc topMv__sub dScript">
+                challenge
+            </p>
+            <h2 class="pc topMv__head notos">
+                <span class="line">その挑戦が、</span><br>
+                <span class="line">次のあたりまえを創る</span>
+            </h2>
+            <p class="topMv__desc notos">
+                That challenge creates the next obvious.
+            </p>
+        </div>
     </div>
 
 <?php
@@ -40,8 +56,8 @@ require_once $include . '_header.php';
             <img src="<?php echo HOME; ?>img/top_intro_so.png" alt="" class="sp">
         </div>
         <div class="topIntro__text">
-            <div class="wrap w1200 sp-wrap">
-                <h2 class="pc topIntro__head notos">
+            <div class="wrap w1200">
+                <h2 class="topIntro__head notos">
                     <span class="line">その挑戦が、</span><br>
                     <span class="line">次のあたりまえを創る</span>
                 </h2>
@@ -570,7 +586,7 @@ require_once $include . '_header.php';
                 } ?>
             </div>
             <div class="topRecruit__more">
-                <a href="" class="topRecruit__btn md-btn bd-red">
+                <a href="" class="topRecruit__btn md-btn red">
                     READ MORE
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                         <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
@@ -581,16 +597,7 @@ require_once $include . '_header.php';
                 </a>
             </div>
             <div class="topRecruit__entry">
-                <a class="topRecruit__entry--btn flex vert md-btn red">
-                    <span class="en">ENTRY</span>
-                    エントリーはこちらから
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                        <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                            <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                            <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                        </g>
-                    </svg>
-                </a>
+                <?php require_once $include . '_entry.php'; ?>
             </div>
         </div>
     </div>

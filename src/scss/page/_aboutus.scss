@@ -1,4 +1,5 @@
 .aboutUs {
+  padding: 0 0 10rem;
   &__container {
     padding: 7.5rem 0 7rem;
     &:not(:first-child) {
@@ -36,8 +37,13 @@
   }
   &__more {
     margin: auto 0 0;
+    width: 28.2rem;
+    height: 7rem;
   }
   &__btn {
+  }
+  &__entry {
+    margin: 2rem 0 0;
   }
   /*
                ######  ########
@@ -48,6 +54,7 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
+    padding: 0 0 8rem;
     &__container {
       padding: 4rem 0;
     }
@@ -76,6 +83,9 @@
       height: 5.5rem;
     }
     &__btn {
+    }
+    &__entry {
+      margin: 1rem 0 0;
     }
   }
 }
