@@ -253,7 +253,7 @@ require_once $include . '_header.php';
                         概要が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                     </p>
                     <div class="topBusiness__copy--more">
-                        <a class="topBusiness__copy--btn md-btn white">
+                        <a href="<?php echo HOME; ?>business/" class="topBusiness__copy--btn md-btn white">
                             READ MORE
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                 <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">

@@ -48,12 +48,12 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
-    padding: 3.2rem 3.2rem 4rem;
     height: auto;
     font-size: 1.6rem;
     color: #fff;
     background: $siteColor;
     &__btn {
+      padding: 3.2rem 3.2rem 4rem;
       .icon {
         right: 3.2rem;
         width: 4rem;
