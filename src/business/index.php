@@ -136,7 +136,7 @@ require_once $include . '_header.php';
                     テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
                 <div class="businessFuture__more js-in anime bottom-in">
-                    <a href="<?php echo HOME; ?>business/other/" class="businessFutures__btn md-btn red">
+                    <a href="<?php echo HOME; ?>future/" class="businessFutures__btn md-btn red">
                         READ MORE
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">

@@ -97,6 +97,14 @@ if ($('.topInterviewSlide')[0]) {
   })
 }
 
+if ($('.js-businessOther-acc')[0]) {
+  $('.js-businessOther-acc').next().hide()
+  $('.js-businessOther-acc').on('click', function () {
+    $(this).toggleClass('open')
+    $(this).next().slideToggle()
+  })
+}
+
 /*
 #### ##    ## ########          #######  ########   ######
  ##  ####  ##    ##            ##     ## ##     ## ##
