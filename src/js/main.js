@@ -97,9 +97,24 @@ if ($('.topInterviewSlide')[0]) {
   })
 }
 
+/*
+   ###     ######   ######
+ ##   ##  ##       ##
+##     ## ##       ##
+######### ##       ##
+##     ##  ######   ######
+*/
 if ($('.js-businessOther-acc')[0]) {
   $('.js-businessOther-acc').next().hide()
   $('.js-businessOther-acc').on('click', function () {
+    $(this).toggleClass('open')
+    $(this).next().slideToggle()
+  })
+}
+
+if ($('.js-acc')[0]) {
+  $('.js-acc').next().hide()
+  $('.js-acc').on('click', function () {
     $(this).toggleClass('open')
     $(this).next().slideToggle()
   })

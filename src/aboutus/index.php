@@ -37,7 +37,7 @@ require_once $include . '_header.php';
                         社長に聞いてみたいことをインタビューしてもらいました。
                     </p>
                     <div class="aboutUs__more">
-                        <a href="<?php echo HOME; ?>aboutus/" class="aboutUs__btn md-btn red">
+                        <a href="<?php echo HOME; ?>aboutus/topmessage/" class="aboutUs__btn md-btn red">
                             READ MORE
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                 <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
@@ -65,7 +65,7 @@ require_once $include . '_header.php';
                         社長に聞いてみたいことをインタビューしてもらいました。
                     </p>
                     <div class="aboutUs__more">
-                        <a href="<?php echo HOME; ?>aboutus/" class="aboutUs__btn md-btn red">
+                        <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="aboutUs__btn md-btn red">
                             READ MORE
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                 <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
@@ -93,7 +93,7 @@ require_once $include . '_header.php';
                         社長に聞いてみたいことをインタビューしてもらいました。
                     </p>
                     <div class="aboutUs__more">
-                        <a href="<?php echo HOME; ?>aboutus/" class="aboutUs__btn md-btn red">
+                        <a href="<?php echo HOME; ?>aboutus/SDGs/" class="aboutUs__btn md-btn red">
                             READ MORE
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                 <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">

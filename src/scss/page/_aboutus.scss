@@ -89,3 +89,63 @@
     }
   }
 }
+
+/*
+     ######   #######  ##     ## ##     ##  #######  ##    ##
+    ##    ## ##     ## ###   ### ###   ### ##     ## ###   ##
+    ##       ##     ## #### #### #### #### ##     ## ####  ##
+    ##       ##     ## ## ### ## ## ### ## ##     ## ## ## ##
+    ##       ##     ## ##     ## ##     ## ##     ## ##  ####
+    ##    ## ##     ## ##     ## ##     ## ##     ## ##   ###
+     ######   #######  ##     ## ##     ##  #######  ##    ##
+*/
+.aboutUsCommon {
+  padding: 8.2rem 0 8.8rem;
+  background: #f9f9f9;
+  &__head {
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__link {
+    margin: 6rem 0 0;
+  }
+  &__btn {
+    padding: 0 2.5rem;
+    width: calc((100% - 2rem) / 2);
+    height: 15rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  &__entry {
+    margin: 7rem 0 0;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    padding: 3.6rem 0 5.5rem;
+    &__head {
+      font-size: 2.2rem;
+    }
+    &__link {
+      margin: 4rem 0 0;
+    }
+    &__btn {
+      margin: 1rem 0 0;
+      padding: 0 2rem;
+      width: 100%;
+      height: 8rem;
+      font-size: 1.8rem;
+      line-height: 1.3;
+    }
+    &__entry {
+      margin: 2rem 0 0;
+    }
+  }
+}
