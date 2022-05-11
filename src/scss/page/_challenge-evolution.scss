@@ -221,16 +221,16 @@
     padding: 5.3rem 0 0;
     font-size: 5rem;
     font-weight: 700;
-    color: $siteColor;
     line-height: 1;
+    color: $siteColor;
     text-align: center;
     &::before {
       display: block;
       position: absolute;
       top: -3.5rem;
       left: 50%;
-      border-bottom: solid 4px $siteColor;
       border-right: solid 4px $siteColor;
+      border-bottom: solid 4px $siteColor;
       width: 3rem;
       height: 3rem;
       transform: translateX(-2.6rem) rotate(45deg);

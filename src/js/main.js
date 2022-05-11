@@ -85,14 +85,15 @@ if ($('.topCrosstalkSlide')[0]) {
     },
   })
 }
-if ($('.topInterviewSlide')[0]) {
-  const IntervieSwiper = new Swiper('.topInterviewSlide', {
+
+if ($('.js-inteviewList-slide')[0]) {
+  const IntervieSwiper = new Swiper('.js-inteviewList-slide', {
     slidesPerView: 1.6,
     loop: true,
     spaceBetween: 20,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.js-inteviewList-next',
+      prevEl: '.js-inteviewList-prev',
     },
   })
 }

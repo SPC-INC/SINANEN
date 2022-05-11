@@ -1,4 +1,13 @@
 // 下層ページの共通要素
+/*
+    ##     ## ########    ###    ########
+    ##     ## ##         ## ##   ##     ##
+    ##     ## ##        ##   ##  ##     ##
+    ######### ######   ##     ## ##     ##
+    ##     ## ##       ######### ##     ##
+    ##     ## ##       ##     ## ##     ##
+    ##     ## ######## ##     ## ########
+*/
 .pageHead {
   position: relative;
   &::after {
@@ -88,4 +97,142 @@
       }
     }
   }
+}
+
+/*
+    #### ##    ## ######## ######## ########  ##     ## #### ######## ##      ##
+     ##  ###   ##    ##    ##       ##     ## ##     ##  ##  ##       ##  ##  ##
+     ##  ####  ##    ##    ##       ##     ## ##     ##  ##  ##       ##  ##  ##
+     ##  ## ## ##    ##    ######   ########  ##     ##  ##  ######   ##  ##  ##
+     ##  ##  ####    ##    ##       ##   ##    ##   ##   ##  ##       ##  ##  ##
+     ##  ##   ###    ##    ##       ##    ##    ## ##    ##  ##       ##  ##  ##
+    #### ##    ##    ##    ######## ##     ##    ###    #### ########  ###  ###
+*/
+.inteviewItem {
+  width: calc((100% - 6rem) / 4);
+  color: $fontColor;
+  &:nth-child(2n) {
+    margin-top: 5rem;
+  }
+  &:hover {
+    height: 100%;
+    background-color: #1a1a1a;
+  }
+  &__img {
+    overflow: hidden;
+    img {
+      transition: all 0.3s;
+    }
+  }
+  &:hover {
+    img {
+      transform: scale(1.1, 1.1);
+    }
+  }
+  &__text {
+    position: relative;
+    padding: 1.5rem;
+    background: #fff;
+    &--ttl {
+      margin-bottom: 2.5rem;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    &--positon {
+      font-size: 1.8rem;
+      .join {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    margin: 1.5rem 0 0;
+    width: 100%;
+    &__img {
+      flex: none;
+      max-width: 12.7rem;
+    }
+    &__text {
+      flex: auto;
+      padding: 1rem;
+      &--bg {
+        height: 100%;
+      }
+      &--ttl {
+        margin: 0;
+        font-size: 1.5rem;
+        line-height: 1.4;
+      }
+      &--positon {
+        font-size: 1.6rem;
+        line-height: 1.4;
+        .join {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
+.interviewSlide {
+  &__btn {
+    top: calc(50% - 3rem);
+    width: 2.5rem;
+    transform: translateY(-50%);
+    &--prev {
+      left: 0;
+    }
+    &--next {
+      right: 0;
+    }
+    &::after {
+      font-family: none;
+      font-size: 2.5rem;
+      content: "";
+    }
+    .icon {
+      width: 100%;
+    }
+  }
+}
+.bgbottom {
+  .inteviewItem__text--bg {
+    position: relative;
+    z-index: 3; /*z-indexの数値をあげて文字を背景よりも手前に表示*/
+  }
+}
+
+.inteviewItem:hover .bgbottom {
+  .inteviewItem__text--bg {
+    color: white;
+  }
+}
+
+/*== 背景が流れる（下から上） */
+.bgbottom:before {
+  /*絶対配置で位置を指定*/
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 0;
+  /*色や形状*/
+  background: #1a1a1a; /*背景色*/
+  /*アニメーション*/
+  transition: 0.3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+  content: "";
+}
+
+/*hoverした際の形状*/
+.inteviewItem:hover .bgbottom:before {
+  height: 100%;
+  background-color: #1a1a1a;
 }
