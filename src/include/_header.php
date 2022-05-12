@@ -56,7 +56,7 @@
                                     <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="headerPulldown__link flex">
                                         シナネンHDグループの挑戦と進化
                                     </a>
-                                    <a href="<?php echo HOME; ?>aboutus/sdgs/" class="headerPulldown__link flex">
+                                    <a href="<?php echo HOME; ?>aboutus/SDGs/" class="headerPulldown__link flex">
                                         SDGsへの取り組み
                                     </a>
                                 </div>
@@ -89,46 +89,61 @@
                         </div>
                     </div>
                     <div class="pc headerPulldown">
-                        <span class="headerPulldown__head flex vert vcenter hcenter">
+                        <a href="<?php echo HOME; ?>person/" class="headerPulldown__head flex vert vcenter hcenter">
                             <span class="headerPulldown__head--en">INTERVIEW</span>
                             <span class="headerPulldown__head--ja">インタビュー</span>
                             <i class="headerPulldown__head--icon icon-down"></i>
-                        </span>
+                        </a>
                         <div class="headerPulldown__body">
                             <div class="wrap w1200">
                                 <div class="headerPulldown__list flex">
-                                    <a href="<?php echo HOME; ?>" class="headerPulldown__link flex">
+                                    <a href="<?php echo HOME; ?>person/interview01/" class="headerPulldown__link flex">
+                                        テキスト1
+                                    </a>
+                                    <a href="<?php echo HOME; ?>person/interview02/" class="headerPulldown__link flex">
+                                        テキスト2
+                                    </a>
+                                    <a href="<?php echo HOME; ?>person/interview03/" class="headerPulldown__link flex">
                                         テキスト3
                                     </a>
-                                    <a href="<?php echo HOME; ?>" class="headerPulldown__link flex">
+                                    <a href="<?php echo HOME; ?>person/interview04/" class="headerPulldown__link flex">
                                         テキスト4
+                                    </a>
+                                    <a href="<?php echo HOME; ?>person/crosstalk01/" class="headerPulldown__link flex">
+                                        テキスト1
+                                    </a>
+                                    <a href="<?php echo HOME; ?>person/crosstalk02/" class="headerPulldown__link flex">
+                                        テキスト2
+                                    </a>
+                                    <a href="<?php echo HOME; ?>person/crosstalk03/" class="headerPulldown__link flex">
+                                        テキスト3
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="pc headerPulldown">
-                        <span class="headerPulldown__head flex vert vcenter hcenter">
+                        <a href="<?php echo HOME; ?>recruit/" class="headerPulldown__head flex vert vcenter hcenter">
                             <span class="headerPulldown__head--en">RECRUIT</span>
                             <span class="headerPulldown__head--ja">採用情報</span>
                             <i class="headerPulldown__head--icon icon-down"></i>
-                        </span>
+                        </a>
                         <div class="headerPulldown__body">
                             <div class="wrap w1200">
                                 <div class="headerPulldown__list flex">
-                                    <a href="<?php echo HOME; ?>" class="headerPulldown__link flex">
+                                    <a href="<?php echo HOME; ?>recruit/requirements/" class="headerPulldown__link flex">
                                         募集要項
                                     </a>
-                                    <a href="<?php echo HOME; ?>" class="headerPulldown__link flex">
+                                    <a href="<?php echo HOME; ?>recruit/personality/" class="headerPulldown__link flex">
                                         求める人物像
                                     </a>
-                                    <a href="<?php echo HOME; ?>" class="headerPulldown__link flex">
+                                    <a href="<?php echo HOME; ?>recruit/flow/" class="headerPulldown__link flex">
                                         採用フロー
                                     </a>
-                                    <a href="<?php echo HOME; ?>" class="headerPulldown__link flex">
+                                    <a href="<?php echo HOME; ?>recruit/environment/" class="headerPulldown__link flex">
                                         働く環境
                                     </a>
-                                    <a href="<?php echo HOME; ?>" class="headerPulldown__link flex">
+                                    <a href="<?php echo HOME; ?>recruit/faq/" class="headerPulldown__link flex">
                                         よくある質問
                                     </a>
                                 </div>
@@ -182,11 +197,14 @@
                 </label>
                 <div class="acc-body">
                     <div class="acc-in">
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            テキスト1
+                        <a href="<?php echo HOME; ?>aboutus/topmessage/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                            社長メッセージ
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            テキスト2
+                        <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                            シナネンHDグループの挑戦と進化
+                        </a>
+                        <a href="<?php echo HOME; ?>aboutus/SDGs/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                            SDGsへの貢献
                         </a>
                     </div>
                 </div>
@@ -222,7 +240,7 @@
                 </label>
                 <div class="acc-body">
                     <div class="acc-in">
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>person/interview01/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             <div class="gNav__item--img">
                                 <img src="<?php echo HOME; ?>img/header_interview_01.png" alt="">
                             </div>
@@ -231,7 +249,7 @@
                                 お名前（0000年入社）
                             </div>
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>person/interview02/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             <div class="gNav__item--img">
                                 <img src="<?php echo HOME; ?>img/header_interview_02.png" alt="">
                             </div>
@@ -240,7 +258,7 @@
                                 お名前（0000年入社）
                             </div>
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>person/interview03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             <div class="gNav__item--img">
                                 <img src="<?php echo HOME; ?>img/header_interview_01.png" alt="">
                             </div>
@@ -249,7 +267,7 @@
                                 お名前（0000年入社）
                             </div>
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>person/interview04/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             <div class="gNav__item--img">
                                 <img src="<?php echo HOME; ?>img/header_interview_02.png" alt="">
                             </div>
@@ -269,13 +287,13 @@
                 </label>
                 <div class="acc-body">
                     <div class="acc-in">
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>person/crosstalk01/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             Special Crosstalk #1　女性のキャリアアップ
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>person/crosstalk02/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             Special Crosstalk #2　テキストテキストテキスト
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>person/crosstalk03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             Special Crosstalk #3　テキストテキストテキスト
                         </a>
                     </div>
@@ -289,19 +307,19 @@
                 </label>
                 <div class="acc-body">
                     <div class="acc-in">
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>recruit/requirements/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             募集要項
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>recruit/personality/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             求める人物像
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>recruit/flow/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             採用フロー
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>recruit/environment/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             働く環境
                         </a>
-                        <a href="<?php echo HOME; ?>" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                        <a href="<?php echo HOME; ?>recruit/faq/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             よくある質問
                         </a>
                     </div>

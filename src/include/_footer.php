@@ -2,39 +2,38 @@
     <div class="w1200 wrap sp-wrap">
         <div class="footerLinkWrap flex bet sp-break">
             <ul class="footerLink__list flex vert noto">
-                <p class="footerLink__list--title">会社紹介</p>
-                <a href="" class="footerLink__list--item">社長メッセージ</a>
-                <a href="" class="footerLink__list--item">テキストテキスト</a>
-                <a href="" class="footerLink__list--item">テキストテキスト</a>
-                <a href="" class="footerLink__list--item">SDGsへの貢献</a>
+                <a href="<?php echo HOME; ?>aboutus/" class="footerLink__list--title op">会社紹介</a>
+                <a href="<?php echo HOME; ?>aboutus/topmessage/" class="footerLink__list--item">社長メッセージ</a>
+                <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="footerLink__list--item">シナネンHDグループの挑戦と進化</a>
+                <a href="<?php echo HOME; ?>aboutus/SDGs/" class="footerLink__list--item">SDGsへの貢献</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
-                <p class="footerLink__list--title">事業紹介</p>
-                <a href="" class="footerLink__list--item">エネルギー卸・小売り周辺事業</a>
-                <a href="" class="footerLink__list--item">エネルギーソリューション事業</a>
-                <a href="" class="footerLink__list--item">非エネルギー・海外事業</a>
-                <a href="" class="footerLink__list--item">シナネンが描く未来</a>
+                <a href="<?php echo HOME; ?>business/" class="footerLink__list--title op">事業紹介</a>
+                <a href="<?php echo HOME; ?>business/btoc/" class="footerLink__list--item">エネルギー卸・小売り周辺事業</a>
+                <a href="<?php echo HOME; ?>business/btob/" class="footerLink__list--item">エネルギーソリューション事業</a>
+                <a href="<?php echo HOME; ?>business/others/" class="footerLink__list--item">非エネルギー・海外事業</a>
+                <a href="<?php echo HOME; ?>future/" class="footerLink__list--item">シナネンが描く未来</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
-                <p class="footerLink__list--title">インタビュー</p>
-                <a href="" class="footerLink__list--item">テキストテキストテキスト</a>
-                <a href="" class="footerLink__list--item">テキストテキストテキスト</a>
-                <a href="" class="footerLink__list--item">テキストテキストテキスト</a>
-                <a href="" class="footerLink__list--item">テキストテキストテキスト</a>
+                <a href="<?php echo HOME; ?>person/" class="footerLink__list--title op">インタビュー</a>
+                <a href="<?php echo HOME; ?>person/interview01/" class="footerLink__list--item">テキストテキストテキスト</a>
+                <a href="<?php echo HOME; ?>person/interview02/" class="footerLink__list--item">テキストテキストテキスト</a>
+                <a href="<?php echo HOME; ?>person/interview03/" class="footerLink__list--item">テキストテキストテキスト</a>
+                <a href="<?php echo HOME; ?>person/interview04/" class="footerLink__list--item">テキストテキストテキスト</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <p class="footerLink__list--title">クロストーク</p>
-                <a href="" class="footerLink__list--item">トークテーマが入ります</a>
-                <a href="" class="footerLink__list--item">トークテーマが入ります</a>
-                <a href="" class="footerLink__list--item">トークテーマが入ります</a>
+                <a href="<?php echo HOME; ?>person/crosstalk01/" class="footerLink__list--item">トークテーマが入ります</a>
+                <a href="<?php echo HOME; ?>person/crosstalk02/" class="footerLink__list--item">トークテーマが入ります</a>
+                <a href="<?php echo HOME; ?>person/crosstalk03/" class="footerLink__list--item">トークテーマが入ります</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
-                <p class="footerLink__list--title">採用情報</p>
-                <a href="" class="footerLink__list--item">募集要項</a>
-                <a href="" class="footerLink__list--item">求める人物像</a>
-                <a href="" class="footerLink__list--item">採用フロー</a>
-                <a href="" class="footerLink__list--item">働く環境</a>
-                <a href="" class="footerLink__list--item">よくある質問</a>
+                <a href="<?php echo HOME; ?>recruit/" class="footerLink__list--title op">採用情報</a>
+                <a href="<?php echo HOME; ?>recruit/requirements/" class="footerLink__list--item">募集要項</a>
+                <a href="<?php echo HOME; ?>recruit/personality/" class="footerLink__list--item">求める人物像</a>
+                <a href="<?php echo HOME; ?>recruit/flow/" class="footerLink__list--item">採用フロー</a>
+                <a href="<?php echo HOME; ?>recruit/environment/" class="footerLink__list--item">働く環境</a>
+                <a href="<?php echo HOME; ?>recruit/faq/" class="footerLink__list--item">よくある質問</a>
             </ul>
         </div>
         <div class="footer__logo">
