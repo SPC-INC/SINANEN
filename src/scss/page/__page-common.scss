@@ -108,7 +108,8 @@
      ##  ##   ###    ##    ##       ##    ##    ## ##    ##  ##       ##  ##  ##
     #### ##    ##    ##    ######## ##     ##    ###    #### ########  ###  ###
 */
-.inteviewItem {
+.interviewItem {
+  margin: 0 1rem;
   width: calc((100% - 6rem) / 4);
   color: $fontColor;
   &:nth-child(2n) {
@@ -154,28 +155,22 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
-    margin: 1.5rem 0 0;
-    width: 100%;
+    margin-top: 0;
+    &:nth-child(2n) {
+      margin-top: 0;
+    }
     &__img {
-      flex: none;
-      max-width: 12.7rem;
+      max-width: none;
     }
     &__text {
-      flex: auto;
-      padding: 1rem;
-      &--bg {
-        height: 100%;
-      }
+      padding: 1.3rem;
       &--ttl {
-        margin: 0;
-        font-size: 1.5rem;
-        line-height: 1.4;
+        margin-bottom: 1.5rem;
       }
       &--positon {
-        font-size: 1.6rem;
-        line-height: 1.4;
+        font-size: 1.2rem;
         .join {
-          font-size: 1.1rem;
+          font-size: 1.2rem;
         }
       }
     }
@@ -203,14 +198,14 @@
   }
 }
 .bgbottom {
-  .inteviewItem__text--bg {
+  .interviewItem__text--bg {
     position: relative;
     z-index: 3; /*z-indexの数値をあげて文字を背景よりも手前に表示*/
   }
 }
 
-.inteviewItem:hover .bgbottom {
-  .inteviewItem__text--bg {
+.interviewItem:hover .bgbottom {
+  .interviewItem__text--bg {
     color: white;
   }
 }
@@ -232,7 +227,7 @@
 }
 
 /*hoverした際の形状*/
-.inteviewItem:hover .bgbottom:before {
+.interviewItem:hover .bgbottom:before {
   height: 100%;
   background-color: #1a1a1a;
 }

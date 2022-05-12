@@ -134,6 +134,36 @@
     &__list {
       margin: 2.5rem 0 0;
     }
+    .interviewItem {
+      margin: 1.5rem 0 0;
+      width: 100%;
+      &:nth-child(2n) {
+        margin: 1.5rem 0 0;
+      }
+      &__img {
+        flex: none;
+        max-width: 12.7rem;
+      }
+      &__text {
+        flex: auto;
+        padding: 1rem;
+        &--bg {
+          height: 100%;
+        }
+        &--ttl {
+          margin: 0;
+          font-size: 1.5rem;
+          line-height: 1.4;
+        }
+        &--positon {
+          font-size: 1.6rem;
+          line-height: 1.4;
+          .join {
+            font-size: 1.1rem;
+          }
+        }
+      }
+    }
   }
 }
 

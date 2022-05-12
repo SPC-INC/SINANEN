@@ -1,0 +1,507 @@
+/*
+    ##     ## ##     ##
+    ###   ### ##     ##
+    #### #### ##     ##
+    ## ### ## ##     ##
+    ##     ##  ##   ##
+    ##     ##   ## ##
+    ##     ##    ###
+*/
+.interviewMv {
+  position: relative;
+  &__img {
+    text-align: center;
+  }
+  &__copy {
+    position: absolute;
+    top: 50%;
+    left: calc((100vw - 120rem) / 2);
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.05em;
+    transform: translateY(-50%);
+    &--inner {
+      margin: 0.8rem 0;
+      padding: 0 0.5rem;
+      background: #1a1a1a;
+    }
+  }
+  &__profile {
+    position: absolute;
+    bottom: -14rem;
+    left: 0;
+    padding: 3.7rem 18rem 3.5rem calc((100vw - 120rem) / 2);
+    color: #fff;
+    letter-spacing: 0.05em;
+    background: $siteColor;
+    &--year {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+    &--name {
+      position: relative;
+      padding: 1.4rem 0 1.6rem;
+      border-bottom: solid 2px #fff;
+      letter-spacing: 0.1em;
+      line-height: 1;
+      &::after {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 4.7rem;
+        height: 2px;
+        background: #1a1a1a;
+        content: "";
+      }
+    }
+    &--ja {
+      font-size: 3.8rem;
+      font-weight: 700;
+    }
+    &--en {
+      margin-left: 2.7rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+    &--pos {
+      margin: 1rem 0 0;
+      font-size: 2.6rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    &--career {
+      margin: 2rem 0 0;
+    }
+    &--ttl {
+      font-size: 2rem;
+    }
+    &--dtl {
+      margin: 1rem 0 0;
+      font-size: 1.8rem;
+      line-height: 1.5;
+    }
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    &__img {
+    }
+    &__copy {
+      left: 2rem;
+      font-size: 1.8rem;
+      &--inner {
+        margin: 0.2rem 0;
+        padding: 0 0.5rem;
+      }
+    }
+    &__profile {
+      bottom: -14rem;
+      padding: 1.5rem 3rem 1.8rem 2rem;
+      letter-spacing: 0.05em;
+      background: $siteColor;
+      &--year {
+        font-size: 1rem;
+        letter-spacing: 0;
+      }
+      &--name {
+        padding: 0.4rem 0 0.9rem;
+        &::after {
+          width: 2.2rem;
+        }
+      }
+      &--ja {
+        font-size: 2rem;
+      }
+      &--en {
+        margin-left: 1rem;
+        font-size: 1rem;
+      }
+      &--pos {
+        font-size: 1.6rem;
+      }
+      &--career {
+        margin: 1.2rem 0 0;
+      }
+      &--ttl {
+        font-size: 1.4rem;
+      }
+      &--dtl {
+        margin: 0;
+        font-size: 1.2rem;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+/*
+     ######  ########  ######
+    ##    ## ##       ##    ##
+    ##       ##       ##
+     ######  ######   ##
+          ## ##       ##
+    ##    ## ##       ##    ##
+     ######  ########  ######
+*/
+.interviewSec {
+  padding: 9.5rem 0 11.4rem;
+  &__wrapper {
+    margin: 13.7rem 0 0;
+  }
+  &__img {
+    flex: none;
+    margin: 11rem 0 6.7rem;
+    text-align: right;
+    &.pc-1 {
+      margin: 0 4.6rem 0 0;
+    }
+    &.pc-2 {
+      margin: 0 0 0 4.6rem;
+    }
+  }
+  &__text {
+  }
+  &__head {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  &__desc {
+    margin: 3.3rem 0 0;
+    font-weight: 500;
+    line-height: 2.1;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    padding: 13.8rem 0 11.4rem;
+    &__wrapper {
+      margin: 2.3rem 0 0;
+      &:not(:first-child) {
+        margin: 13.5rem 0 0;
+      }
+    }
+    &__img {
+      margin: 13.3rem 0 2rem;
+      text-align: center;
+      &.pc-1,
+      &.pc-2 {
+        margin: 0 0 2rem;
+      }
+    }
+    &__text {
+    }
+    &__head {
+      margin: 0 0 6.3rem;
+      font-size: 2.1rem;
+    }
+    &__desc {
+      margin: 0;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.8;
+    }
+  }
+}
+
+/*
+     ######   ######  ##     ## ######## ########  ##     ## ##       ########
+    ##    ## ##    ## ##     ## ##       ##     ## ##     ## ##       ##
+    ##       ##       ##     ## ##       ##     ## ##     ## ##       ##
+     ######  ##       ######### ######   ##     ## ##     ## ##       ######
+          ## ##       ##     ## ##       ##     ## ##     ## ##       ##
+    ##    ## ##    ## ##     ## ##       ##     ## ##     ## ##       ##
+     ######   ######  ##     ## ######## ########   #######  ######## ########
+*/
+.interviewSchedule {
+  padding: 10.3rem 0;
+  background: $siteColor;
+  &__container {
+    margin-left: calc((100vw - 120rem) / 2);
+    padding: 7.8rem calc((100vw - 120rem) / 2) 6.5rem 0;
+    background: #fff;
+  }
+  &__wrapper {
+  }
+  &__head {
+    flex: none;
+    padding: 0 0 0 6.9rem;
+    width: calc((100% - (100vw - 120rem) / 2) * 34%);
+    &--text {
+      position: relative;
+      padding: 0 0 3rem;
+      font-size: 3.2rem;
+      font-weight: 700;
+      line-height: 1.3;
+      &::before,
+      &::after {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 2px;
+        content: "";
+      }
+      &::before {
+        width: 10.8rem;
+        background: #1a1a1a;
+      }
+      &::after {
+        width: 2.6rem;
+        background: $siteColor;
+      }
+    }
+  }
+  &__dtl {
+    flex: auto;
+    margin: 1rem 0 0;
+  }
+  &__item {
+    padding: 2.5rem 0;
+    border-bottom: solid 1px #c1c1c1;
+    &:first-child {
+      border-top: solid 1px #c1c1c1;
+    }
+  }
+  &__time {
+    border-right: solid 1px #c1c1c1;
+    width: 12.3rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  &__desc {
+    padding-left: 6rem;
+    width: calc(100% - 12.3rem);
+    &--ttl {
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    &--dtl {
+      margin: 1.8rem 0 0;
+    }
+    &--img {
+      flex: none;
+      margin-right: 2.2rem;
+    }
+    &--text {
+      line-height: 2.2;
+    }
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    padding: 2rem 0 2rem 2rem;
+    &__container {
+      margin-left: 0;
+      padding: 3.5rem 2rem 3.5rem 1rem;
+    }
+    &__wrapper {
+    }
+    &__head {
+      padding: 0;
+      width: 100%;
+      &--text {
+        position: relative;
+        padding: 0 0 1.6rem;
+        font-size: 1.8rem;
+        &::before {
+          width: 6rem;
+        }
+        &::after {
+          width: 1.4rem;
+        }
+      }
+    }
+    &__dtl {
+      margin: 2.3rem 0 0;
+    }
+    &__item {
+      padding: 1.8rem 0;
+    }
+    &__time {
+      width: 6.8rem;
+      font-size: 1.8rem;
+    }
+    &__desc {
+      padding-left: 2.5em;
+      width: calc(100% - 6.8rem);
+      &--ttl {
+        font-size: 1.8rem;
+      }
+      &--dtl {
+        margin: 0;
+      }
+      &--img {
+        margin: 1.5rem 0 0;
+      }
+      &--text {
+        margin: 1.5rem 0 0;
+        font-size: 1.4rem;
+        line-height: 1.8;
+      }
+    }
+  }
+}
+
+/*
+    ##     ## ########  ######   ######     ###     ######   ########
+    ###   ### ##       ##    ## ##    ##   ## ##   ##    ##  ##
+    #### #### ##       ##       ##        ##   ##  ##        ##
+    ## ### ## ######    ######   ######  ##     ## ##   #### ######
+    ##     ## ##             ##       ## ######### ##    ##  ##
+    ##     ## ##       ##    ## ##    ## ##     ## ##    ##  ##
+    ##     ## ########  ######   ######  ##     ##  ######   ########
+*/
+.interviewMessage {
+  &__img {
+    width: 50%;
+  }
+  &__text {
+    padding: 7.9rem calc((100vw - 120rem) / 2) 0 7rem;
+    width: 50%;
+    color: #fff;
+    background: #1a1a1a;
+  }
+  &__head {
+    position: relative;
+    padding: 0 0 2.9rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    &::before,
+    &::after {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: 2px;
+      content: "";
+    }
+    &::before {
+      width: 10.8rem;
+      background: #fff;
+    }
+    &::after {
+      width: 2.6rem;
+      background: $siteColor;
+    }
+  }
+  &__desc {
+    margin: 4.3rem 0 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.3;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    &__img {
+      width: 100%;
+    }
+    &__text {
+      padding: 2.6rem 2rem 5.7rem;
+      width: 100%;
+    }
+    &__head {
+      padding: 0 0 1rem;
+      font-size: 2.2rem;
+    }
+    &__desc {
+      margin: 2rem 0 0;
+      font-size: 1.5rem;
+      line-height: 1.7;
+    }
+  }
+}
+
+/*
+    ########  #######   #######  ######## ######## ########
+    ##       ##     ## ##     ##    ##    ##       ##     ##
+    ##       ##     ## ##     ##    ##    ##       ##     ##
+    ######   ##     ## ##     ##    ##    ######   ########
+    ##       ##     ## ##     ##    ##    ##       ##   ##
+    ##       ##     ## ##     ##    ##    ##       ##    ##
+    ##        #######   #######     ##    ######## ##     ##
+*/
+.interviewFooter {
+  padding: 8.2rem 0 8.8rem;
+  background: #f9f9f9;
+  &__head {
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__list {
+    margin: 10rem 0 0;
+    &--01 {
+      .interviewItem--01 {
+        display: none;
+      }
+    }
+    &--02 {
+      .interviewItem--02 {
+        display: none;
+      }
+    }
+    &--03 {
+      .interviewItem--03 {
+        display: none;
+      }
+    }
+    &--04 {
+      .interviewItem--04 {
+        display: none;
+      }
+    }
+  }
+  &__entry {
+    margin: 7rem 0 0;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    padding: 6rem 0 5rem;
+    &__head {
+      font-size: 2.2rem;
+    }
+    &__list {
+      margin: 2.1rem 0 0;
+    }
+    &__entry {
+      margin: 5rem 0 0;
+    }
+  }
+}

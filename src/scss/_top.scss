@@ -751,25 +751,6 @@
       margin-top: 3rem;
     }
     .inteviewItem {
-      margin-top: 0;
-      &:nth-child(2n) {
-        margin-top: 0;
-      }
-      &__img {
-        max-width: none;
-      }
-      &__text {
-        padding: 1.3rem;
-        &--ttl {
-          margin-bottom: 1.5rem;
-        }
-        &--positon {
-          font-size: 1.2rem;
-          .join {
-            font-size: 1.2rem;
-          }
-        }
-      }
     }
   }
 }

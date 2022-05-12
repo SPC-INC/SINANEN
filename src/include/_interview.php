@@ -22,23 +22,23 @@ $arrInterview = array(
     ),
 );
 ?>
-<ul class="<?php if (IS_HOME) {
+<div class="<?php if (IS_PAGE !== 'person') {
     echo 'pc';
-} ?> interviewList pc-flex bet js-in anime left-in">
+} ?> interviewList pc-flex hcenter js-in anime left-in">
 <?php
 foreach ($arrInterview as $key =>  $val) {
     ?>
-    <a href="<?php echo HOME; ?>person/interview<?php echo $key; ?>/" class="inteviewItem sp-flex">
-        <div class="inteviewItem__img">
+    <a href="<?php echo HOME; ?>person/interview<?php echo $key; ?>/" class="interviewItem interviewItem--<?php echo $key; ?> sp-flex">
+        <div class="interviewItem__img">
             <img src="<?php echo HOME ?>img/interview_list_<?php echo $key; ?>.png" alt="" class="pc">
             <img src="<?php echo HOME ?>img/interview_list_<?php echo $key; ?>_sp.png" alt="" class="sp">
         </div>
-        <div class="inteviewItem__text bgbottom">
-            <div class="inteviewItem__text--bg sp-flex vert bet">
-                <div class="inteviewItem__text--ttl notos">
+        <div class="interviewItem__text bgbottom">
+            <div class="interviewItem__text--bg sp-flex vert bet">
+                <div class="interviewItem__text--ttl notos">
                     <?php echo $val['copy']; ?>
                 </div>
-                <div class="inteviewItem__text--positon">
+                <div class="interviewItem__text--positon">
                     <?php echo $val['pos']; ?><br>
                     <span class="join"><?php echo $val['name']; ?></span>
                 </div>
@@ -47,24 +47,24 @@ foreach ($arrInterview as $key =>  $val) {
     </a>
 <?php
 } ?>
-</ul>
+</div>
 
-<?php if (IS_HOME) { ?>
+<?php if (IS_PAGE !== 'person') { ?>
 <div class="sp interviewSlide flex bet js-in anime left-in js-inteviewList-slide swiper-container">
-    <ul class="swiper-wrapper">
+    <div class="swiper-wrapper">
 <?php
 foreach ($arrInterview as $key =>  $val) {
         ?>
-    <a class="inteviewItem swiper-slide">
-        <div class="inteviewItem__img">
+    <a class="interviewItem swiper-slide">
+        <div class="interviewItem__img">
             <img src="<?php echo HOME ?>img/interview_list_<?php echo $key; ?>.png" alt="">
         </div>
-        <div class="inteviewItem__text bgbottom">
-            <div class="inteviewItem__text--bg sp-flex vert bet">
-                <div class="inteviewItem__text--ttl notos">
+        <div class="interviewItem__text bgbottom">
+            <div class="interviewItem__text--bg sp-flex vert bet">
+                <div class="interviewItem__text--ttl notos">
                     <?php echo $val['copy']; ?>
                 </div>
-                <div class="inteviewItem__text--positon">
+                <div class="interviewItem__text--positon">
                     <?php echo $val['pos']; ?><br>
                     <span class="join"><?php echo $val['name']; ?></span>
                 </div>
@@ -73,7 +73,7 @@ foreach ($arrInterview as $key =>  $val) {
     </a>
 <?php
     } ?>
-    </ul>
+    </div>
     <div class="interviewSlide__btn interviewSlide__btn--prev js-inteviewList-prev swiper-button-prev">
         <svg id="コンポーネント_14_1" data-name="コンポーネント 14 – 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53" class="icon">
             <circle id="楕円形_14" data-name="楕円形 14" cx="26.5" cy="26.5" r="26.5" fill="#1a1a1a" />
