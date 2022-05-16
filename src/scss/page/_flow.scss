@@ -1,0 +1,179 @@
+.recruitFlowSec {
+  padding: 8.4rem 0;
+  &__head {
+    position: relative;
+    padding: 0 0 2rem;
+    border-bottom: solid 2px #1a1a1a;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    &::before {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 10rem;
+      height: 2px;
+      background: $siteColor;
+      content: "";
+    }
+  }
+  &__intro {
+    margin: 2.7rem 0 0;
+    font-size: 1.8rem;
+    line-height: 1.9;
+  }
+  &__list {
+    margin: 5rem 0 0;
+  }
+  &__item {
+    margin: 1rem 0 0;
+    &:last-child {
+      .recruitFlowSec__time {
+        img {
+          opacity: 0;
+        }
+      }
+    }
+  }
+  &__subhead {
+    font-weight: 700;
+    &--num {
+      z-index: 2;
+      margin: -1rem 0 0;
+      border-radius: 50%;
+      width: 12.3rem;
+      height: 12.3rem;
+      font-size: 2.2rem;
+      line-height: 1.1;
+      color: #fff;
+      background: $siteColor;
+    }
+    &--text {
+      margin: 0 0 0 -6.2rem;
+      padding: 2.5rem 0 2.5rem 10rem;
+      width: calc(93% + 6.2rem);
+      font-size: 2.8rem;
+      background: #f9f9f9;
+    }
+  }
+  &__container {
+    margin: -4rem 0 0;
+    padding: 0 2.7rem 0 4.5rem;
+  }
+  &__text {
+  }
+  &__time {
+    flex: none;
+    width: 20.2rem;
+    img {
+      margin-right: 2.3rem;
+    }
+  }
+  &__desc {
+  }
+  &__img {
+    flex: none;
+    margin-left: 5rem;
+  }
+  &__goal {
+    position: relative;
+    margin: 4.5rem 0 0;
+    padding: 8rem 0 0;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    &::before {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: calc(50% - 11rem);
+      border-top: solid 6rem $siteColor;
+      border-right: solid 11rem transparent;
+      border-bottom: solid 6rem transparent;
+      border-left: solid 11rem transparent;
+      width: 0;
+      height: 0;
+      content: "";
+    }
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    padding: 6rem 0 9.5rem;
+    &__head {
+      padding: 0 0 1rem;
+      font-size: 2.2rem;
+      &::before {
+        width: 5rem;
+      }
+    }
+    &__intro {
+    }
+    &__list {
+      margin: 5.3rem 0 0;
+    }
+    &__item {
+      margin: 3.3rem 0 0;
+    }
+    &__subhead {
+      font-weight: 700;
+      &--num {
+        margin: -3.3rem 0 0;
+        width: 7.5rem;
+        height: 7.5rem;
+        font-size: 1.8rem;
+      }
+      &--text {
+        margin: 0 0 0 -4.1rem;
+        padding: 1.5rem 0 1.5rem 5.2rem;
+        width: calc(100% - 3.4rem);
+        font-size: 1.6rem;
+      }
+    }
+    &__container {
+      position: relative;
+      margin: 1.5rem 0 0;
+      padding: 0 0 0 6rem;
+    }
+    &__text {
+      font-size: 1.4rem;
+      line-height: 1.7;
+    }
+    &__time {
+      position: absolute;
+      top: 0;
+      left: 2rem;
+      width: 2px;
+      height: 100%;
+      background: #1a1a1a;
+      &::after {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-bottom: solid 2px #1a1a1a;
+        border-left: solid 2px #1a1a1a;
+        width: 2.5rem;
+        height: 2.5rem;
+        transform: rotate(-55deg) skew(-15deg) translate(1px, 1px);
+        transform-origin: bottom left;
+        content: "";
+      }
+    }
+    &__desc {
+    }
+    &__img {
+      margin: 3.5rem 0 0;
+    }
+    &__goal {
+    }
+  }
+}

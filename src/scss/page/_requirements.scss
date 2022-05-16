@@ -1,0 +1,79 @@
+.requirements {
+  padding: 10rem 0;
+  &__head {
+    position: relative;
+    padding: 0 0 2rem;
+    border-bottom: solid 2px #1a1a1a;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    &::before {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 10rem;
+      height: 2px;
+      background: $siteColor;
+      content: "";
+    }
+  }
+  &__data {
+    margin: 5rem 0 0;
+    border-top: solid 1px #c1c1c1;
+    border-left: solid 1px #c1c1c1;
+  }
+  &__ttl,
+  &__dtl {
+    border-right: solid 1px #c1c1c1;
+    border-bottom: solid 1px #c1c1c1;
+  }
+  &__ttl {
+    padding: 3rem 2rem;
+    width: 25rem;
+    font-size: 2rem;
+    font-weight: 700;
+    background: #f9f9f9;
+  }
+  &__dtl {
+    padding: 3rem 6.2rem;
+    width: calc(100% - 25rem);
+    line-height: 1.6;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    padding: 6rem 0 8rem;
+    background: #fff;
+    &__head {
+      padding: 0 0 1rem;
+      font-size: 2.2rem;
+      &::before {
+        width: 5rem;
+      }
+    }
+    &__data {
+      margin: 2rem 0 0;
+    }
+    &__ttl,
+    &__dtl {
+    }
+    &__ttl {
+      padding: 1rem;
+      width: 100%;
+      font-size: 1.6rem;
+    }
+    &__dtl {
+      padding: 2rem 1rem;
+      width: 100%;
+      font-size: 1.4rem;
+      line-height: 1.7;
+    }
+  }
+}

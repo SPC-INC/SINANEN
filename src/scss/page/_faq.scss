@@ -1,0 +1,117 @@
+.recruitFaqSec {
+  margin: 7.7rem 0 0;
+  &__head {
+    position: relative;
+    padding: 0 0 2rem;
+    border-bottom: solid 2px #1a1a1a;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    &::before {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 10rem;
+      height: 2px;
+      background: $siteColor;
+      content: "";
+    }
+  }
+  &__list {
+    margin: 2rem 0 0;
+  }
+  &__item {
+    margin: 2rem 0 0;
+    padding: 2.4rem 2rem;
+    background: #f9f9f9;
+  }
+  &__Q {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.3;
+    cursor: pointer;
+    &--head {
+      margin-right: 1.5rem;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    .icon {
+      position: absolute;
+      right: 2.8rem;
+      color: $siteColor;
+      transition: 0.5s;
+    }
+    &.open {
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &__A {
+    margin: 2.4rem 0 0;
+    line-height: 1.6;
+    &--head {
+      margin-right: 1.5rem;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: $siteColor;
+    }
+    &--text {
+      margin: 0.5rem 0 0;
+      img {
+        margin: 0 1rem 0 0;
+      }
+    }
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    margin: 4rem 0 0;
+    &__head {
+      padding: 0 0 1rem;
+      font-size: 2.2rem;
+      &::before {
+        width: 5rem;
+      }
+    }
+    &__list {
+      margin: 1rem 0 0;
+    }
+    &__item {
+      margin: 1rem 0 0;
+      padding: 2rem 1rem;
+    }
+    &__Q {
+      font-size: 1.6rem;
+      font-weight: 700;
+      &--head {
+        margin-right: 1rem;
+      }
+      .icon {
+        right: 1rem;
+      }
+    }
+    &__A {
+      margin: 1.5rem 0 2rem;
+      font-size: 1.4rem;
+      line-height: 1.7;
+      &--head {
+        display: none;
+      }
+      &--text {
+        margin: 0;
+        img {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+}

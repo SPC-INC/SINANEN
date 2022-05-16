@@ -1,0 +1,254 @@
+.personalitySec {
+  margin: 10rem 0 0;
+  &__head {
+    position: relative;
+    padding: 0 0 2rem;
+    border-bottom: solid 2px #1a1a1a;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    &::before {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 10rem;
+      height: 2px;
+      background: $siteColor;
+      content: "";
+    }
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    margin: 6rem 0 0;
+    &__head {
+      padding: 0 0 1rem;
+      font-size: 2.2rem;
+      &::before {
+        width: 5rem;
+      }
+    }
+  }
+}
+
+/*
+    ########  ######## ########   ######   #######  ##    ##
+    ##     ## ##       ##     ## ##    ## ##     ## ###   ##
+    ##     ## ##       ##     ## ##       ##     ## ####  ##
+    ########  ######   ########   ######  ##     ## ## ## ##
+    ##        ##       ##   ##         ## ##     ## ##  ####
+    ##        ##       ##    ##  ##    ## ##     ## ##   ###
+    ##        ######## ##     ##  ######   #######  ##    ##
+*/
+.personalityPerson {
+  &__list {
+    margin: 4.8rem 0 0;
+    border-right: solid 1px #c1c1c1;
+    border-bottom: solid 1px #c1c1c1;
+  }
+  &__item {
+    padding: 2.8rem 0;
+    border-top: solid 1px #c1c1c1;
+    border-left: solid 1px #c1c1c1;
+    width: 50%;
+  }
+  &__img {
+  }
+  &__data {
+    margin: 1.4rem 0 0;
+  }
+  &__ttl {
+    border-bottom: solid 7px $siteColor;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  &__dtl {
+    margin: 1.6rem 0 0;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    &__list {
+      margin: 2rem 0 0;
+    }
+    &__item {
+      padding: 2rem 1.4rem;
+      width: 100%;
+    }
+    &__img {
+      width: 5.7rem;
+    }
+    &__data {
+      margin: 0 0 0 2.2rem;
+    }
+    &__ttl {
+      border-bottom: solid 5px $siteColor;
+      font-size: 2.2rem;
+    }
+    &__dtl {
+      margin: 1.1rem 0 0;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+/*
+    ########   #######  ##       ####  ######  ##    ##
+    ##     ## ##     ## ##        ##  ##    ##  ##  ##
+    ##     ## ##     ## ##        ##  ##         ####
+    ########  ##     ## ##        ##  ##          ##
+    ##        ##     ## ##        ##  ##          ##
+    ##        ##     ## ##        ##  ##    ##    ##
+    ##         #######  ######## ####  ######     ##
+*/
+.personalityPolisy {
+  &__list {
+    margin: 6rem 0 0;
+  }
+  &__item {
+    border: solid 8px #fff;
+    border-radius: 50%;
+    width: 33.2rem;
+    height: 33.2rem;
+    color: #fff;
+    background: #b90024;
+  }
+  &__data {
+    height: 100%;
+    text-align: center;
+  }
+  &__ttl {
+    padding: 0 0.8rem;
+    border-bottom: solid 2px #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.4;
+  }
+  &__dtl {
+    margin: 2rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    &__list {
+      margin: 2.5rem 0 0;
+    }
+    &__item {
+      margin: 0.2rem 0 0;
+      padding: 3.7rem 0 0;
+      border: solid 5px #fff;
+      width: 25rem;
+      height: 25rem;
+    }
+    &__data {
+    }
+    &__ttl {
+      padding: 0;
+      font-size: 2.5rem;
+    }
+    &__dtl {
+      margin: 1.1rem 0 0;
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+  }
+}
+
+/*
+    ##     ## ########  ######   ######     ###     ######   ########
+    ###   ### ##       ##    ## ##    ##   ## ##   ##    ##  ##
+    #### #### ##       ##       ##        ##   ##  ##        ##
+    ## ### ## ######    ######   ######  ##     ## ##   #### ######
+    ##     ## ##             ##       ## ######### ##    ##  ##
+    ##     ## ##       ##    ## ##    ## ##     ## ##    ##  ##
+    ##     ## ########  ######   ######  ##     ##  ######   ########
+*/
+.personalityMessage {
+  margin-bottom: 15rem;
+  &__subhead {
+    margin: 5rem 0 0;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  &__container {
+    margin: 3.5rem 0 0;
+  }
+  &__img {
+    flex: none;
+    position: relative;
+    margin: 0 3rem 0 3.4rem;
+    &::before {
+      display: block;
+      position: absolute;
+      top: 3rem;
+      left: 3rem;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background: $siteColor;
+      content: "";
+    }
+  }
+  &__text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.1;
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
+  @media #{$media-sp} {
+    margin-bottom: 6rem;
+    &__subhead {
+      margin: 1.5rem 0 0;
+      font-size: 2rem;
+    }
+    &__container {
+      margin: 5.3rem 0 0;
+    }
+    &__img {
+      margin: 0 1.8rem 0 0;
+      &::before {
+        top: 1.8rem;
+        left: 1.8rem;
+      }
+    }
+    &__text {
+      margin: 3.8rem 0 0;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.8;
+    }
+  }
+}
