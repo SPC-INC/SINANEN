@@ -1,3 +1,6 @@
+.interview {
+  overflow: hidden;
+}
 /*
     ##     ## ##     ##
     ###   ### ##     ##
@@ -21,7 +24,11 @@
     color: #fff;
     letter-spacing: 0.05em;
     transform: translateY(-50%);
+    @media screen and (max-width: 1200px) {
+      left: 0;
+    }
     &--inner {
+      display: inline-block;
       margin: 0.8rem 0;
       padding: 0 0.5rem;
       background: #1a1a1a;
@@ -35,6 +42,9 @@
     color: #fff;
     letter-spacing: 0.05em;
     background: $siteColor;
+    @media screen and (max-width: 1200px) {
+      padding: 3.7rem 18rem 3.5rem 0;
+    }
     &--year {
       font-size: 1.8rem;
       font-weight: 600;
@@ -43,8 +53,8 @@
       position: relative;
       padding: 1.4rem 0 1.6rem;
       border-bottom: solid 2px #fff;
-      letter-spacing: 0.1em;
       line-height: 1;
+      letter-spacing: 0.1em;
       &::after {
         display: block;
         position: absolute;
@@ -234,13 +244,17 @@
     margin-left: calc((100vw - 120rem) / 2);
     padding: 7.8rem calc((100vw - 120rem) / 2) 6.5rem 0;
     background: #fff;
+    @media screen and (max-width: 1200px) {
+      margin-left: 0;
+      padding: 7.8rem 0 6.5rem;
+    }
   }
   &__wrapper {
   }
   &__head {
     flex: none;
-    padding: 0 0 0 6.9rem;
-    width: calc((100% - (100vw - 120rem) / 2) * 34%);
+    padding: 0 2.5rem;
+    width: 34rem;
     &--text {
       position: relative;
       padding: 0 0 3rem;
@@ -263,6 +277,14 @@
       &::after {
         width: 2.6rem;
         background: $siteColor;
+      }
+      &.fixed {
+        position: fixed;
+        top: calc(#{$headerPC} * 2);
+        left: calc((100vw - 120rem) / 2 + 2.5rem);
+        @media screen and (max-width: 1200px) {
+          left: 2.5rem;
+        }
       }
     }
   }
@@ -382,6 +404,9 @@
     width: 50%;
     color: #fff;
     background: #1a1a1a;
+    @media screen and (max-width: 1200px) {
+      padding: 7.9rem 0 0 7rem;
+    }
   }
   &__head {
     position: relative;

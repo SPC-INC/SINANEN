@@ -14,93 +14,110 @@ require_once $include . '_header.php';
             <img src="<?php echo HOME; ?>img/business_btoc_head.png" alt="" class="pc">
             <img src="<?php echo HOME; ?>img/business_btoc_head_sp.png" alt="" class="sp">
         </div>
-        <h1 class="businessChildHead__text flex vcenter">
-            BtoC事業<br class="sp">(エネルギー卸・小売周辺事業)
+        <h1 class="businessChildHead__text flex vcenter js-in anime text-line-in">
+            <div class="businessChildHead__text--inner js-in anime text-in wave3">
+                BtoC事業<br class="sp">(エネルギー卸・小売周辺事業)
+            </div>
         </h1>
     </div>
 
     <section class="businessChild">
         <div class="wrap w1200 sp-wrap">
             <p class="businessChild__intro">
-                石油・ガス・電力と、多彩なエネルギーを取り扱うシナネンHDグループでは、各部門が連携し、お客様のニーズに即したサービスとソリューションをご提案するほか、再生可能エネルギー事業、新規事業の創出などにも積極的に取り組んでいます。
+                国内を「北海道」「東北」「関東」「中部以西」の4エリアに分け、各エリアで、LPガス・灯油などのエネルギーの販売、お客様に最適なリフォームなどの住まいのご提案、ハウスクリーニングなど、暮らしのサービスのご提供から、地域密着型でお客様の快適な生活に貢献します。
             </p>
         </div>
 
         <div class="businessChild__container">
             <div class="wrap w1200 sp-wrap">
                 <div class="businessChild__wrapper pc-flex bet">
-                    <div class="pc businessChildSide">
-                        <h2 class="businessChildSide__head">
-                            エネルギーの事業
-                        </h2>
-                        <ul class="businessChildSide__list">
-                            <li class="businessChildSide__item">
-                                住まいの事業
+                    <div class="businessChildSide">
+                        <ul class="pc businessChildSide__list js-stickyNav">
+                            <li class="businessChildSide__item js-currentNav-item">
+                                <a href="#energy" class="businessChildSide__link current">
+                                    エネルギーの事業
+                                </a>
                             </li>
-                            <li class="businessChildSide__item">
-                                エネルギーの事業
+                            <li class="businessChildSide__item js-currentNav-item">
+                                <a href="#home" class="businessChildSide__link">
+                                    住まいの事業
+                                </a>
+                            </li>
+                            <li class="businessChildSide__item js-currentNav-item">
+                                <a href="#life" class="businessChildSide__link">
+                                    暮らしの事業
+                                </a>
                             </li>
                         </ul>
                     </div>
                     <div class="businessChildMain">
-                        <div class="businessChildMain__item">
-                            <h2 class="businessChildMain__head notos js-in anime left-in">
-                                エネルギーの事業
-                            </h2>
-                            <p class="businessChildMain__img js-in anime bottom-in">
-                                <img src="<?php echo HOME; ?>img/business_btoc_01.png" alt="">
-                            </p>
-                            <p class="businessChildMain__text js-in anime bottom-in">
-                                事業内容が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            </p>
-                            <div class="businessChildMain__job js-in anime bottom-in">
-                                <h3 class="businessChildMain__job--head">
-                                    仕事内容
-                                </h3>
-                                <p class="businessChildMain__job--text">
-                                    具体的な仕事内容が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        <div class="js-stickyNav-target">
+                            <div class="businessChildMain__item js-currentNav" id="energy">
+                                <h2 class="businessChildMain__head notos anime__wrapper">
+                                    <div class="js-in anime text-in">
+                                        エネルギーの事業
+                                    </div>
+                                </h2>
+                                <p class="businessChildMain__img">
+                                    <img src="<?php echo HOME; ?>img/business_btoc_01.png" alt="">
                                 </p>
+                                <p class="businessChildMain__text">
+                                    LPガス・灯油・電気など様々なエネルギーの中から、お客様に最適な商品、サービスをお届けします。<br>
+                                    エネルギーの安定供給や定期的な保安点検を通じ、お客様の快適な生活に貢献します。
+                                </p>
+                                <div class="businessChildMain__job">
+                                    <h3 class="businessChildMain__job--head">
+                                        仕事内容
+                                    </h3>
+                                    <p class="businessChildMain__job--text">
+                                        営業職の一例：個人もしくは法人のお客様に対し、LPガスや電気の供給・販売、ガス関連商品や住宅設備の提案・販売などを行います。当社独自の点検である「ひまわり点検」などの中でお客様との信頼関係を構築しながら、お客様の困りごとに対応します。訪問するのは自分が担当するお客様なので、顔なじみのお客様のお役に立ち、直接「ありがとう」の言葉を頂くことができます。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="businessChildMain__item js-currentNav" id="home">
+                                <h2 class="businessChildMain__head notos anime__wrapper">
+                                    <div class="js-in anime text-in">
+                                        住まいの事業
+                                    </div>
+                                </h2>
+                                <p class="businessChildMain__img">
+                                    <img src="<?php echo HOME; ?>img/business_btoc_02.png" alt="">
+                                </p>
+                                <p class="businessChildMain__text">
+                                    光熱費やCO2排出量削減に効果のあるゼロエネルギー住宅や省エネリフォーム、高齢化に伴うバリアフリーリフォームなど、お客様の生活を豊かにするご提案をします。また、住宅設備の販売、レンタルやリースのご相談も承ります。
+                                </p>
+                                <div class="businessChildMain__job">
+                                    <h3 class="businessChildMain__job--head">
+                                        仕事内容
+                                    </h3>
+                                    <p class="businessChildMain__job--text">
+                                        営業職の一例：お客様との会話の中で困りごとを捉え、トイレやお風呂など水回りのリフォームやハウスクリーニングなどの適切なご提案を行うことで、お客様にさらに快適な生活を送っていただけるよう取り組みます。お客様に寄り添うことを大切に、お客様目線で自分なりのご提案をしていただきます。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="businessChildMain__item js-currentNav" id="life">
+                                <h2 class="businessChildMain__head notos anime__wrapper">
+                                    <div class="js-in anime text-in">
+                                        暮らしの事業
+                                    </div>
+                                </h2>
+                                <p class="businessChildMain__img">
+                                    <img src="<?php echo HOME; ?>img/business_btoc_03.png" alt="">
+                                </p>
+                                <p class="businessChildMain__text">
+                                    少子高齢化や女性の社会進出などライフスタイルが変化するなかで、家事や暮らしに関する困りごとを解決します。家事代行やハウスクリーニングなど、お客様が快適に、安心して暮らせるサービスをご提供します。
+                                </p>
+                                <div class="businessChildMain__job">
+                                    <h3 class="businessChildMain__job--head">
+                                        仕事内容
+                                    </h3>
+                                    <p class="businessChildMain__job--text">
+                                        事務職（経営企画）の一例：DX推進の取り組みや、市場調査などのマーケティング活動及び分析など実施し、営業の社員がスムーズに業務遂行できるよう環境整備を行います。また、広報活動による企業価値向上や、社内イベントの企画・運営による社員の士気を高める活動も担います。
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="businessChildMain__item">
-                            <h2 class="businessChildMain__head notos js-in anime left-in">
-                                住まいの事業
-                            </h2>
-                            <p class="businessChildMain__img js-in anime bottom-in">
-                                <img src="<?php echo HOME; ?>img/business_btoc_02.png" alt="">
-                            </p>
-                            <p class="businessChildMain__text js-in anime bottom-in">
-                                事業内容が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            </p>
-                            <div class="businessChildMain__job js-in anime bottom-in">
-                                <h3 class="businessChildMain__job--head">
-                                    仕事内容
-                                </h3>
-                                <p class="businessChildMain__job--text">
-                                    具体的な仕事内容が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                                </p>
-                            </div>
-                        </div>
-                        <div class="businessChildMain__item">
-                            <h2 class="businessChildMain__head notos js-in anime left-in">
-                                暮らしの事業
-                            </h2>
-                            <p class="businessChildMain__img js-in anime bottom-in">
-                                <img src="<?php echo HOME; ?>img/business_btoc_03.png" alt="">
-                            </p>
-                            <p class="businessChildMain__text js-in anime bottom-in">
-                                事業内容が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                            </p>
-                            <div class="businessChildMain__job js-in anime bottom-in">
-                                <h3 class="businessChildMain__job--head">
-                                    仕事内容
-                                </h3>
-                                <p class="businessChildMain__job--text">
-                                    具体的な仕事内容が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                                </p>
-                            </div>
-                        </div>
-                        <div class="businessChildMain__link js-in anime bottom-in">
+                        <div class="businessChildMain__link">
                             <a href="<?php echo HOME; ?>business/" class="businessChildMain__btn md-btn red">
                                 事業一覧へ
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">

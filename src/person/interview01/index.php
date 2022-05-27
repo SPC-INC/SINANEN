@@ -27,8 +27,12 @@ require_once $include . '_header.php';
                 <img src="<?php echo HOME; ?>img/interview01_mv_sp.png" alt="" class="sp">
             </div>
             <h1 class="interviewMv__copy flex vert">
-                <span class="interviewMv__copy--inner js-in anime bottom-in">挑戦系のキャッチコピーが入ります。</span>
-                <span class="interviewMv__copy--inner js-in anime bottom-in">挑戦系のキャッチコピーが入ります。</span>
+                <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
+                    <div class="js-in anime text-in wave3">挑戦系のキャッチコピーが入ります。</div>
+                </div>
+                <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
+                    <div class="js-in anime text-in wave3">挑戦系のキャッチコピーが入ります。</div>
+                </div>
             </h1>
             <div class="interviewMv__profile js-in anime left-in">
                 <div class="interviewMv__profile--year notos">2000年入社</div>
@@ -66,46 +70,62 @@ require_once $include . '_header.php';
             <div class="pc interviewSec__bg interviewSec__bg--right"></div>
             <div class="wrap w1200 sp-wrap">
                 <div class="interviewSec__wrapper pc-flex bet">
-                    <div class="interviewSec__text pc-1 js-in anime bottom-in">
-                        <h2 class="interviewSec__head notos">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    <div class="interviewSec__text pc-1">
+                        <h2 class="interviewSec__head notos anime__wrapper">
+                            <div class="js-in anime text-in">
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            </div>
                         </h2>
-                        <div class="sp interviewSec__img pc-2 js-in anime bottom-in">
-                            <img src="<?php echo HOME; ?>img/interview01_sec_01.png" alt="">
+                        <div class="sp interviewSec__img pc-2">
+                            <span class="js-in anime slideImg">
+                                <img src="<?php echo HOME; ?>img/interview01_sec_01.png" alt="">
+                            </span>
                         </div>
                         <p class="interviewSec__desc">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                         </p>
                     </div>
-                    <div class="pc interviewSec__img pc-2 js-in anime bottom-in">
-                        <img src="<?php echo HOME; ?>img/interview01_sec_01.png" alt="">
+                    <div class="pc interviewSec__img pc-2">
+                        <span class="js-in anime slideImg">
+                            <img src="<?php echo HOME; ?>img/interview01_sec_01.png" alt="">
+                        </span>
                     </div>
                 </div>
                 <div class="interviewSec__wrapper pc-flex bet">
-                    <div class="interviewSec__text pc-2 js-in anime bottom-in">
-                        <h2 class="interviewSec__head notos">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    <div class="interviewSec__text pc-2">
+                        <h2 class="interviewSec__head notos anime__wrapper">
+                            <div class="js-in anime text-in">
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            </div>
                         </h2>
-                        <div class="sp interviewSec__img pc-1 js-in anime bottom-in">
-                            <img src="<?php echo HOME; ?>img/interview01_sec_02.png" alt="">
+                        <div class="sp interviewSec__img pc-1">
+                            <span class="js-in anime slideImg">
+                                <img src="<?php echo HOME; ?>img/interview01_sec_02.png" alt="">
+                            </span>
                         </div>
                         <p class="interviewSec__desc">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                         </p>
                     </div>
-                    <div class="pc interviewSec__img pc-1 js-in anime bottom-in">
-                        <img src="<?php echo HOME; ?>img/interview01_sec_02.png" alt="">
+                    <div class="pc interviewSec__img pc-1">
+                        <span class="js-in anime slideImg">
+                            <img src="<?php echo HOME; ?>img/interview01_sec_02.png" alt="">
+                        </span>
                     </div>
                 </div>
             </div>
             <div class="interviewSec__img js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/interview01_sec_03.png" alt="">
+                <span class="js-in anime slideImg">
+                    <img src="<?php echo HOME; ?>img/interview01_sec_03.png" alt="">
+                </span>
             </div>
             <div class="wrap w1200 sp-wrap">
-                <div class="interviewSec__text js-in anime bottom-in">
-                        <h2 class="interviewSec__head notos">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </h2>
+                <div class="interviewSec__text">
+                        <h2 class="interviewSec__head notos anime__wrapper">
+                            <div class="js-in anime text-in">
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            </div>
+                        </h2>
                         <p class="interviewSec__desc">
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                     </p>
@@ -125,11 +145,15 @@ require_once $include . '_header.php';
 */
 ?>
         <section class="interviewSchedule">
-            <div class="interviewSchedule__container">
+            <div class="interviewSchedule__container js-stickyNav-target">
                 <div class="interviewSchedule__wrapper pc-flex">
                     <div class="interviewSchedule__head">
-                        <h2 class="interviewSchedule__head--text notos">
-                            1日のスケジュール
+                        <h2 class="interviewSchedule__head--text notos js-stickyNav">
+                            <div class="anime__wrapper">
+                                <div class="js-in anime text-in">
+                                    1日のスケジュール
+                                </div>
+                            </div>
                         </h2>
                     </div>
                     <div class="interviewSchedule__dtl">
@@ -248,13 +272,19 @@ require_once $include . '_header.php';
     ##     ## ########  ######   ######  ##     ##  ######   ########
 */
 ?>
-        <section class="interviewMessage pc-flex js-in anime bottom-in">
+        <section class="interviewMessage pc-flex">
             <div class="interviewMessage__img">
-                <img src="<?php echo HOME; ?>img/interview01_message.png" alt="">
+                <span class="js-in anime slideImg">
+                    <img src="<?php echo HOME; ?>img/interview01_message.png" alt="">
+                </span>
             </div>
             <div class="interviewMessage__text">
                 <h2 class="interviewMessage__head">
-                    未来の仲間へ
+                    <div class="anime__wrapper">
+                        <div class="js-in anime text-in">
+                            未来の仲間へ
+                        </div>
+                    </div>
                 </h2>
                 <p class="interviewMessage__desc">
                     学生に向けたメッセージが入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
@@ -276,13 +306,13 @@ require_once $include . '_header.php';
 ?>
         <section class="interviewFooter">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="interviewFooter__head notos js-in anime bottom-in">
+                <h2 class="interviewFooter__head notos">
                     その他の先輩社員のインタビュー
                 </h2>
                 <div class="interviewFooter__list interviewFooter__list--01">
                     <?php require_once $include . '_interview.php';?>
                 </div>
-                <div class="interviewFooter__entry js-in anime bottom-in">
+                <div class="interviewFooter__entry">
                     <?php require_once $include . '_entry.php'; ?>
                 </div>
             </div>

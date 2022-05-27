@@ -1,5 +1,6 @@
 .crosstalk {
   position: relative;
+  overflow-x: hidden;
   &__bg {
     position: absolute;
     z-index: -1;
@@ -65,28 +66,76 @@
     #### ##    ##    ##    ##     ##  #######
 */
 .crosstalkIntro {
-  padding: 6.1rem 0 0;
-  background: linear-gradient(to bottom, $siteColor 50%, $siteColor 50.1%, transparent 50.1%, transparent);
+  margin: -15rem 0 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 25%,
+    transparent 25.1%,
+    $siteColor 25.1%,
+    $siteColor 75%,
+    transparent 75.1%,
+    transparent
+  );
   &__head {
-    &--inner {
-      position: relative;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    height: 7rem;
+    background: #1a1a1a;
+    &::after {
+      display: block;
+      position: absolute;
+      top: 0.9rem;
+      left: 0;
+      z-index: -1;
+      width: calc(100% + 0.9rem);
+      height: 100%;
+      background: #fff;
+      content: "";
+    }
+    &.active {
+      &::after {
+        animation: crosstalkText-bg 1s linear 0s 1 forwards;
+        @keyframes crosstalkText-bg {
+          0% {
+            top: 0;
+            left: 0;
+            background: transparent;
+          }
+          90% {
+            top: 0;
+            left: 0;
+            background: transparent;
+          }
+          100% {
+            top: 0.9rem;
+            left: 0;
+            z-index: -1;
+            background: #fff;
+          }
+        }
+      }
+    }
+    &--wrapper {
+      display: inline-block;
+      z-index: 1;
       padding: 0 16rem 0 calc((100vw - 120rem) / 2);
-      height: 7rem;
+      width: 100%;
+      height: 100%;
+      background: #1a1a1a;
+      @media screen and (max-width: 1200px) {
+        padding: 0 16rem 0 0;
+      }
+    }
+    .anime__wrapper {
+      height: 100%;
+    }
+    &--inner {
+      height: 100%;
       font-size: 3.2rem;
       font-weight: 700;
-      letter-spacing: 0.05em;
       color: #fff;
-      background: #1a1a1a;
-      &::before {
-        display: block;
-        position: absolute;
-        top: 0.9rem;
-        left: 0;
-        z-index: -1;
-        width: calc(100% + 0.9rem);
-        height: 100%;
-        content: "";
-      }
+      letter-spacing: 0.05em;
     }
   }
   &__list {
@@ -107,8 +156,8 @@
       position: relative;
       padding: 0.5rem 0;
       border-bottom: solid 1px #c1c1c1;
-      letter-spacing: 0.1em;
       line-height: 1;
+      letter-spacing: 0.1em;
     }
     &--ja {
       font-size: 2.2rem;
@@ -134,19 +183,22 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
+    margin: 0;
     padding: 0 0 4rem;
     background: $siteColor;
     &__head {
       margin: -2.7rem auto 0;
       width: 86.7%;
-      &--inner {
+      height: auto;
+      &::after {
+        content: none;
+      }
+      &--wrapper {
         display: block;
         padding: 0.5rem 0.5rem 1rem;
-        height: auto;
+      }
+      &--inner {
         font-size: 1.8rem;
-        &::before {
-          content: none;
-        }
       }
     }
     &__list {

@@ -12,6 +12,15 @@
   }
   &__img {
     width: calc(50.6% - 4.4rem);
+    animation: 1s ease-in infinite alternate swing;
+    @keyframes swing {
+      0% {
+        transform: translateY(-0.5rem);
+      }
+      100% {
+        transform: translateY(0.5rem);
+      }
+    }
   }
   &__text {
     width: 50.6%;
@@ -192,11 +201,13 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 2rem 4rem;
-    font-size: 5rem;
-    font-weight: 700;
-    color: #fff;
     background: $siteColor;
+    &--inner {
+      padding: 2rem 4rem;
+      font-size: 5rem;
+      font-weight: 700;
+      color: #fff;
+    }
   }
   // ↓sp相当幅
   @media #{$media-sp} {
@@ -206,9 +217,11 @@
     }
     &__text {
       bottom: -3rem;
-      padding: 1.5rem 2rem;
       width: 94.7vw;
-      font-size: 2rem;
+      &--inner {
+        padding: 1.5rem 2rem;
+        font-size: 2rem;
+      }
     }
   }
 }
@@ -242,21 +255,29 @@
 }
 .businessChildSide {
   width: 27rem;
-  &__head {
-    padding-left: 1rem;
-    border-left: solid 3px $siteColor;
-    font-size: 2rem;
-    font-weight: 700;
-    color: $siteColor;
-  }
   &__list {
-    padding-left: 1.3rem;
+    &.fixed {
+      position: fixed;
+      top: calc(#{$headerPC} * 2);
+      left: calc((100vw - 120rem) / 2);
+      @media screen and (max-width: 1200px) {
+        left: 0;
+      }
+    }
   }
   &__item {
     margin: 2.2rem 0 0;
+  }
+  &__link {
+    padding-left: 1rem;
     font-size: 2rem;
     font-weight: 500;
     color: #c1c1c1;
+    &.current {
+      border-left: solid 3px $siteColor;
+      font-weight: 700;
+      color: $siteColor;
+    }
   }
 }
 .businessChildMain {
@@ -306,6 +327,9 @@
       font-size: 2rem;
       font-weight: 700;
       line-height: 1.25;
+      &.js-acc {
+        cursor: pointer;
+      }
       .icon {
         position: absolute;
         top: 1rem;

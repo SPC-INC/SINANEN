@@ -16,25 +16,26 @@ require_once $include . '_header.php';
         </div>
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
-                <span class="pageHead__text--en">About Us</span>
-                <span class="pageHead__text--ja">会社紹介</span>
+                <span class="pageHead__text--en js-in anime text-in">About Us</span>
+                <span class="pageHead__text--ja js-in anime text-in">会社紹介</span>
             </h1>
         </div>
     </div>
 
     <section class="aboutUs">
         <div class="wrap w1200 sp-wrap">
-            <div class="aboutUs__container flex bet js-in anime bottom-in">
+            <div class="aboutUs__container flex bet">
                 <div class="aboutUs__text flex vert">
-                    <h2 class="aboutUs__head notos js-in anime left-in">
-                        社長メッセージ
+                    <h2 class="aboutUs__head notos anime__wrapper">
+                        <div class="js-in anime text-in">
+                            社長メッセージ
+                        </div>
                     </h2>
                     <div class="sp aboutUs__img">
                         <img src="<?php echo HOME; ?>img/aboutus_01.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
-                        新入社員の皆さんからこらからのシナネンHDグループについてや、<br>
-                        社長に聞いてみたいことをインタビューしてもらいました。
+                        若手社員が、社長の描くシナネンHDグループの未来や、<br>今、社長に聞いてみたいことをインタビューしました。
                     </p>
                     <div class="aboutUs__more">
                         <a href="<?php echo HOME; ?>aboutus/topmessage/" class="aboutUs__btn md-btn red">
@@ -52,17 +53,18 @@ require_once $include . '_header.php';
                     <img src="<?php echo HOME; ?>img/aboutus_01.png" alt="">
                 </div>
             </div>
-            <div class="aboutUs__container flex bet js-in anime bottom-in">
+            <div class="aboutUs__container flex bet">
                 <div class="aboutUs__text flex vert pc-2">
-                    <h2 class="aboutUs__head notos js-in anime left-in">
-                        シナネンHDグループの挑戦と進化
+                    <h2 class="aboutUs__head notos anime__wrapper">
+                        <div class="js-in anime text-in">
+                            シナネンHDグループの挑戦と進化
+                        </div>
                     </h2>
                     <div class="sp aboutUs__img">
                         <img src="<?php echo HOME; ?>img/aboutus_02.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
-                        新入社員の皆さんからこらからのシナネンHDグループについてや、<br>
-                        社長に聞いてみたいことをインタビューしてもらいました。
+                        1927年の創業以来、時代に寄り添い様々なサービスを展開してきたシナネンHDグループの、<br>挑戦と進化の歴史をご紹介します。
                     </p>
                     <div class="aboutUs__more">
                         <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="aboutUs__btn md-btn red">
@@ -80,17 +82,18 @@ require_once $include . '_header.php';
                     <img src="<?php echo HOME; ?>img/aboutus_02.png" alt="">
                 </div>
             </div>
-            <div class="aboutUs__container flex bet js-in anime bottom-in">
+            <div class="aboutUs__container flex bet">
                 <div class="aboutUs__text flex vert">
-                    <h2 class="aboutUs__head notos js-in anime left-in">
-                        SDGsへの貢献
+                    <h2 class="aboutUs__head notos anime__wrapper">
+                        <div class="js-in anime text-in">
+                            SDGsへの貢献
+                        </div>
                     </h2>
                     <div class="sp aboutUs__img">
                         <img src="<?php echo HOME; ?>img/aboutus_03.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
-                        新入社員の皆さんからこらからのシナネンHDグループについてや、<br>
-                        社長に聞いてみたいことをインタビューしてもらいました。
+                        シナネンHDグループが、SDGs達成に向け一丸となって取り組む活動をご紹介します。
                     </p>
                     <div class="aboutUs__more">
                         <a href="<?php echo HOME; ?>aboutus/SDGs/" class="aboutUs__btn md-btn red">

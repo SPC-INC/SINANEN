@@ -40,12 +40,18 @@ require_once $include . '_header.php';
 */
 ?>
         <section class="crosstalkIntro">
-            <h1 class="crosstalkIntro__head notos js-in anime left-in">
-                <span class="crosstalkIntro__head--inner">＃01　それぞれのこれまでの歩みとそこで得たこと</span>
+            <h1 class="crosstalkIntro__head notos js-in anime text-line-in">
+                <div class="crosstalkIntro__head--wrapper">
+                    <div class="anime__wrapper">
+                        <div class="crosstalkIntro__head--inner flex vcenter js-in anime text-in wave3">
+                            ＃01　それぞれのこれまでの歩みとそこで得たこと
+                        </div>
+                    </div>
+                </div>
             </h1>
             <div class="wrap w1200 sp-wrap">
                 <ul class="crosstalkIntro__list pc-flex bet">
-                    <li class="crosstalkIntro__item sp-flex js-in anime bottom-in">
+                    <li class="crosstalkIntro__item sp-flex js-in anime bottom-in wave1">
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk01_member_01.png" alt="">
                         </div>
@@ -61,7 +67,7 @@ require_once $include . '_header.php';
                             </div>
                         </div>
                     </li>
-                    <li class="crosstalkIntro__item sp-flex js-in anime bottom-in">
+                    <li class="crosstalkIntro__item sp-flex js-in anime bottom-in wave2">
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk01_member_02.png" alt="">
                         </div>
@@ -77,7 +83,7 @@ require_once $include . '_header.php';
                             </div>
                         </div>
                     </li>
-                    <li class="crosstalkIntro__item sp-flex js-in anime bottom-in">
+                    <li class="crosstalkIntro__item sp-flex js-in anime bottom-in wave3">
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk01_member_03.png" alt="">
                         </div>
@@ -93,7 +99,7 @@ require_once $include . '_header.php';
                             </div>
                         </div>
                     </li>
-                    <li class="crosstalkIntro__item sp-flex js-in anime bottom-in">
+                    <li class="crosstalkIntro__item sp-flex js-in anime bottom-in wave4">
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk01_member_04.png" alt="">
                         </div>
@@ -126,13 +132,15 @@ require_once $include . '_header.php';
 ?>
         <section class="crosstalkSec">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="crosstalkSec__head notos js-in anime bottom-in">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-                    テキストテキストテキスト
+                <h2 class="crosstalkSec__head notos anime__wrapper">
+                    <div class="js-in anime text-in">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキスト
+                    </div>
                 </h2>
                 <div class="crosstalkSec__wrapper pc-flex">
                     <div class="crosstalkSec__talk">
-                        <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
+                        <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
                                 名前 名前
@@ -141,7 +149,7 @@ require_once $include . '_header.php';
                                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
                             </p>
                         </div>
-                        <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
+                        <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
                                 名前 名前
@@ -152,12 +160,14 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="crosstalkSec__img flex vert">
-                        <img src="<?php echo HOME; ?>img/crosstalk01_sec_01.png" alt="">
+                        <span class="js-in anime slideImg">
+                            <img src="<?php echo HOME; ?>img/crosstalk01_sec_01.png" alt="">
+                        </span>
                     </div>
                 </div>
                 <div class="crosstalkSec__wrapper pc-flex">
                     <div class="crosstalkSec__talk">
-                        <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
+                        <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
                                 名前 名前
@@ -166,7 +176,7 @@ require_once $include . '_header.php';
                                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
                             </p>
                         </div>
-                        <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
+                        <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
                                 名前 名前
@@ -177,16 +187,20 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="crosstalkSec__img flex vert">
-                        <img src="<?php echo HOME; ?>img/crosstalk01_sec_02.png" alt="">
+                        <span class="js-in anime slideImg">
+                            <img src="<?php echo HOME; ?>img/crosstalk01_sec_02.png" alt="">
+                        </span>
                     </div>
                 </div>
-                <h2 class="crosstalkSec__head notos js-in anime bottom-in">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-                    テキストテキストテキスト
+                <h2 class="crosstalkSec__head notos anime__wrapper">
+                    <div class="js-in anime text-in">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキスト
+                    </div>
                 </h2>
                 <div class="crosstalkSec__wrapper pc-flex">
                     <div class="crosstalkSec__talk">
-                        <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
+                        <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
                                 名前 名前
@@ -199,10 +213,12 @@ require_once $include . '_header.php';
                 </div>
                 <div class="crosstalkSec__wrapper pc-flex">
                     <div class="crosstalkSec__img pc-1 flex vert">
-                        <img src="<?php echo HOME; ?>img/crosstalk01_sec_03.png" alt="">
+                        <span class="js-in anime slideImg">
+                            <img src="<?php echo HOME; ?>img/crosstalk01_sec_03.png" alt="">
+                        </span>
                     </div>
                     <div class="crosstalkSec__talk pc-2">
-                        <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
+                        <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
                                 名前 名前
@@ -211,7 +227,7 @@ require_once $include . '_header.php';
                                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
                             </p>
                         </div>
-                        <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
+                        <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
                                 名前 名前
@@ -224,7 +240,7 @@ require_once $include . '_header.php';
                 </div>
                 <div class="crosstalkSec__wrapper pc-flex">
                     <div class="crosstalkSec__talk">
-                        <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
+                        <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
                                 名前 名前
@@ -239,54 +255,60 @@ require_once $include . '_header.php';
         </section>
         <div class="crosstalkSec__separate">
             <div class="wrap w1200 sp-wrap">
-                <img src="<?php echo HOME; ?>img/crosstalk01_sec.png" alt=""><br>
+                <span class="js-in anime slideImg">
+                    <img src="<?php echo HOME; ?>img/crosstalk01_sec.png" alt=""><br>
+                </span>
             </div>
         </div>
         <section class="crosstalkSec crosstalkSec--gray">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="crosstalkSec__head notos js-in anime bottom-in">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-                    テキストテキストテキスト
+                <h2 class="crosstalkSec__head notos anime__wrapper">
+                    <div class="js-in anime text-in">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキスト
+                    </div>
                 </h2>
-                <div class="crosstalkSec__talk">
-                    <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
-                        <div class="crosstalkSec__talk--img">
-                            <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
-                            名前 名前
+                <div class="crosstalkSec__wrapper">
+                    <div class="crosstalkSec__talk">
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
+                                名前 名前
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
+                            </p>
                         </div>
-                        <p class="crosstalkSec__talk--text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                    </div>
-                    <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
-                        <div class="crosstalkSec__talk--img">
-                            <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
-                            名前 名前
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
+                                名前 名前
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
+                            </p>
                         </div>
-                        <p class="crosstalkSec__talk--text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                    </div>
-                    <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
-                        <div class="crosstalkSec__talk--img">
-                            <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
-                            名前 名前
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
+                                名前 名前
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
+                            </p>
                         </div>
-                        <p class="crosstalkSec__talk--text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                    </div>
-                    <div class="crosstalkSec__talk--item flex js-in anime bottom-in">
-                        <div class="crosstalkSec__talk--img">
-                            <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
-                            名前 名前
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
+                                名前 名前
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
+                            </p>
                         </div>
-                        <p class="crosstalkSec__talk--text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキストテキストテキスト
-                        </p>
                     </div>
                 </div>
-                <p class="crosstalkSec__note js-in anime bottom-in">
+                <p class="crosstalkSec__note">
                     ※掲載内容は2022年5月時点のものです。
                 </p>
             </div>
@@ -305,12 +327,14 @@ require_once $include . '_header.php';
 ?>
         <section class="crosstalkData">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="crosstalkData__head notos">
-                    インタビューメンバーの経歴
+                <h2 class="crosstalkData__head notos anime__wrapper">
+                    <div class="js-in anime text-in">
+                        インタビューメンバーの経歴
+                    </div>
                 </h2>
                 <ul class="crosstalkData__list">
                     <?php for ($i = 0; $i < 4; $i++) { ?>
-                    <li class="crosstalkData__item js-in anime bottom-in">
+                    <li class="crosstalkData__item">
                         <dl class="crosstalkData__profile">
                             <dt class="crosstalkData__profile--name notos">
                                 鈴木 太郎
@@ -322,7 +346,7 @@ require_once $include . '_header.php';
                     </li>
                     <?php } ?>
                 </ul>
-                <div class="crosstalkData__more js-in anime bottom-in">
+                <div class="crosstalkData__more">
                     <a href="<?php echo HOME; ?>person/" class="crosstalkData__btn md-btn red">
                         インタビュー一覧へ
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">

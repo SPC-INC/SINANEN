@@ -36,9 +36,8 @@
     font-size: 5rem;
     font-weight: 700;
     line-height: 2;
-    &--inner {
+    &--wrapper {
       position: relative;
-      padding: 0 4.5rem;
       background: #fff;
       &::after {
         display: block;
@@ -48,9 +47,33 @@
         z-index: -1;
         width: 100%;
         height: 100%;
-        background: #1a1a1a;
         content: "";
       }
+      &.active {
+        &::after {
+          animation: personText-bg 1s linear 0s 1 forwards;
+          @keyframes personText-bg {
+            0% {
+              top: 0;
+              left: 0;
+              background: transparent;
+            }
+            90% {
+              top: 0;
+              left: 0;
+              background: transparent;
+            }
+            100% {
+              top: 0.6rem;
+              left: 0.8rem;
+              background: #1a1a1a;
+            }
+          }
+        }
+      }
+    }
+    &--inner {
+      padding: 0 4.5rem;
       .em {
         color: $siteColor;
       }

@@ -63,17 +63,17 @@
 
   IE以外のブラウザでは以下のline-clampで対応できるので通常必要ない
 */
-// @supports (-webkit-line-clamp: 2) {
-//   .js-t8 {
-//     display: -webkit-box;
-//     overflow: hidden;
-//     -webkit-line-clamp: 2;
-//     -webkit-box-orient: vertical;
-//     &.line3 {
-//       -webkit-line-clamp: 3;
-//     }
-//   }
-// }
+@supports (-webkit-line-clamp: 2) {
+  .js-t8 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    &.line3 {
+      -webkit-line-clamp: 3;
+    }
+  }
+}
 
 /*
 IEをJSで保管する場合は以下を記述する　（isBrowser.jsをインポートすること）

@@ -16,16 +16,20 @@ require_once $include . '_header.php';
         </div>
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
-                <span class="pageHead__text--en">Recruit</span>
-                <span class="pageHead__text--ja">採用情報</span>
+                <span class="pageHead__text--en js-in anime text-in">Recruit</span>
+                <span class="pageHead__text--ja js-in anime text-in">採用情報</span>
             </h1>
         </div>
     </div>
 
     <section class="recruit">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="recruit__head js-in anime left-in">
-                採用情報一覧
+            <h2 class="recruit__head">
+                <div class="anime__wrapper">
+                    <div class="js-in anime text-in">
+                        採用情報一覧
+                    </div>
+                </div>
             </h2>
             <div class="recruit__nav">
                 <?php require_once $include . '_recruit.php'; ?>

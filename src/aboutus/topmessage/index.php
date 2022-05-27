@@ -16,8 +16,8 @@ require_once $include . '_header.php';
         </div>
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
-                <span class="pageHead__text--en">Message</span>
-                <span class="pageHead__text--ja">社長メッセージ</span>
+                <span class="pageHead__text--en js-in anime text-in">Message</span>
+                <span class="pageHead__text--ja js-in anime text-in">社長メッセージ</span>
             </h1>
         </div>
     </div>
@@ -37,10 +37,10 @@ require_once $include . '_header.php';
 ?>
         <section class="topMessageIntro">
             <div class="wrap w1200 sp-wrap">
-                <p class="topMessageIntro__text js-in anime bottom-in">
-                    若手社員の皆さんからこれからのシナネンHDグループについてや、社長に聞いてみたいことをインタビューしてもらいました。
+                <p class="topMessageIntro__text">
+                    若手社員が、社長の描くシナネンHDグループの未来や、今、社長に聞いてみたいことをインタビューしました。
                 </p>
-                <div class="topMessageIntro__img js-in anime bottom-in">
+                <div class="topMessageIntro__img">
                     <img src="<?php echo HOME; ?>img/topMessage_intro.png" alt="" class="pc">
                     <img src="<?php echo HOME; ?>img/topMessage_intro_sp.png" alt="" class="sp">
                 </div>
@@ -61,7 +61,7 @@ require_once $include . '_header.php';
         <section class="topMessageMember">
             <div class="wrap w1200 sp-wrap">
                 <div class="topMessageMember__container pc-flex bet">
-                    <div class="topMessageMember__ceo flex vcenter js-in anime bottom-in">
+                    <div class="topMessageMember__ceo flex vcenter">
                         <div class="topMessageMember__ceo--img">
                             <img src="<?php echo HOME; ?>img/topMessage_ceo.png" alt="">
                         </div>
@@ -76,7 +76,7 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <ul class="topMessageMember__member flex bet">
-                        <li class="topMessageMember__member--item js-in anime bottom-in">
+                        <li class="topMessageMember__member--item">
                             <div class="topMessageMember__member--img">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
                             </div>
@@ -85,7 +85,7 @@ require_once $include . '_header.php';
                                 〇〇 〇〇
                             </div>
                         </li>
-                        <li class="topMessageMember__member--item js-in anime bottom-in">
+                        <li class="topMessageMember__member--item">
                             <div class="topMessageMember__member--img">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                             </div>
@@ -94,7 +94,7 @@ require_once $include . '_header.php';
                                 〇〇 〇〇
                             </div>
                         </li>
-                        <li class="topMessageMember__member--item js-in anime bottom-in">
+                        <li class="topMessageMember__member--item">
                             <div class="topMessageMember__member--img">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_03.png" alt="">
                             </div>
@@ -122,15 +122,17 @@ require_once $include . '_header.php';
         <section class="topMessageInterview">
             <div class="pc topMessageInterview__bg topMessageInterview__bg--1"></div>
             <div class="wrap w1200 sp-wrap">
-                <h2 class="topMessageInterview__head notos js-in anime bottom-in">
+                <h2 class="topMessageInterview__head notos">
                     キャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入ります
                 </h2>
                 <div class="topMessageInterview__wrapper pc-flex">
-                    <div class="topMessageInterview__img js-in anime bottom-in">
-                        <img src="<?php echo HOME; ?>img/topMessage_interview_01.png" alt="">
+                    <div class="topMessageInterview__img">
+                        <span class="js-in anime slideImg">
+                            <img src="<?php echo HOME; ?>img/topMessage_interview_01.png" alt="">
+                        </span>
                     </div>
                     <div class="topMessageInterview__text">
-                        <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                        <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                                 名前 名前
@@ -139,7 +141,7 @@ require_once $include . '_header.php';
                                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                             </p>
                         </div>
-                        <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                        <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
                                 <img src="<?php echo HOME; ?>img/topMessage_ceo_interview.png" alt="">
                                 名前 名前
@@ -148,7 +150,7 @@ require_once $include . '_header.php';
                                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                             </p>
                         </div>
-                        <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                        <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                                 名前 名前
@@ -159,7 +161,7 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                 </div>
-                <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
                         <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                         名前 名前
@@ -168,7 +170,7 @@ require_once $include . '_header.php';
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                     </p>
                 </div>
-                <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
                         <img src="<?php echo HOME; ?>img/topMessage_ceo_interview.png" alt="">
                         名前 名前
@@ -177,7 +179,7 @@ require_once $include . '_header.php';
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                     </p>
                 </div>
-                <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
                         <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                         名前 名前
@@ -190,13 +192,15 @@ require_once $include . '_header.php';
         </section>
 
         <div class="topMessageInterview__separate">
-            <img src="<?php echo HOME; ?>img/topMessage_interview.png" alt="">
+            <span class="js-in anime slideImg">
+                <img src="<?php echo HOME; ?>img/topMessage_interview.png" alt="">
+            </span>
         </div>
 
         <section class="topMessageInterview">
             <div class="pc topMessageInterview__bg topMessageInterview__bg--2"></div>
             <div class="wrap w1200 sp-wrap">
-                <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
                         <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                         名前 名前
@@ -205,7 +209,7 @@ require_once $include . '_header.php';
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                     </p>
                 </div>
-                <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
                         <img src="<?php echo HOME; ?>img/topMessage_ceo_interview.png" alt="">
                         名前 名前
@@ -214,7 +218,7 @@ require_once $include . '_header.php';
                         テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                     </p>
                 </div>
-                <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
                         <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                         名前 名前
@@ -225,10 +229,12 @@ require_once $include . '_header.php';
                 </div>
                 <div class="topMessageInterview__wrapper pc-flex">
                     <div class="topMessageInterview__img pc-2">
-                        <img src="<?php echo HOME; ?>img/topMessage_interview_02.png" alt="">
+                        <span class="js-in anime slideImg">
+                            <img src="<?php echo HOME; ?>img/topMessage_interview_02.png" alt="">
+                        </span>
                     </div>
                     <div class="topMessageInterview__text pc-1">
-                        <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                        <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                                 名前 名前
@@ -237,7 +243,7 @@ require_once $include . '_header.php';
                                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                             </p>
                         </div>
-                        <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                        <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
                                 <img src="<?php echo HOME; ?>img/topMessage_ceo_interview.png" alt="">
                                 名前 名前
@@ -246,7 +252,7 @@ require_once $include . '_header.php';
                                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
                             </p>
                         </div>
-                        <div class="topMessageInterview__talk flex vcenter js-in anime bottom-in">
+                        <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                                 名前 名前
@@ -273,11 +279,11 @@ require_once $include . '_header.php';
 ?>
         <section class="aboutUsCommon">
                 <div class="wrap w1200 sp-wrap">
-                <h2 class="aboutUsCommon__head notos js-in anime bottom-in">
+                <h2 class="aboutUsCommon__head notos">
                     会社紹介
                 </h2>
                 <div class="aboutUsCommon__link pc-flex bet">
-                    <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="aboutUsCommon__btn md-btn red left-text js-in anime bottom-in">
+                    <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="aboutUsCommon__btn md-btn red left-text">
                         シナネンHDグループの<br class="sp">挑戦と進化
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
@@ -286,7 +292,7 @@ require_once $include . '_header.php';
                             </g>
                         </svg>
                     </a>
-                    <a href="<?php echo HOME; ?>aboutus/SDGs" class="aboutUsCommon__btn md-btn red left-text js-in anime bottom-in">
+                    <a href="<?php echo HOME; ?>aboutus/SDGs" class="aboutUsCommon__btn md-btn red left-text">
                         SDGsへの貢献
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
@@ -296,7 +302,7 @@ require_once $include . '_header.php';
                         </svg>
                     </a>
                 </div>
-                <div class="aboutUsCommon__entry js-in anime bottom-in">
+                <div class="aboutUsCommon__entry">
                     <?php require_once $include . '_entry.php'; ?>
                 </div>
             </div>

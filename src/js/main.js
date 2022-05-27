@@ -7,26 +7,11 @@ Swiper.use([Autoplay, Controller, EffectFade, Navigation, Pagination]) // Swiper
 // その他、Swiperで使う機能があったら上に追加で宣言する
 // A11y, Autoplay, Controller, EffectCoverflow, EffectCube, EffectFade, EffectFlip, HashNavigation, History, Keyboard, Lazy, Mousewheel, Navigation, Pagination, Parallax, Scrollbar, Thumbs, Virtual, Zoom,
 
-$(function () {
-  $('.topIntroAboutus__link--item').click(function () {
-    return false
-  })
-  $('#js-about1').addClass('show')
-  $('.topIntroAboutus__link--item').hover(
-    function () {
-      let href = $(this).attr('href')
-      console.log(href)
-      $('#' + href).addClass('show')
-      if (href !== 'js-about1') {
-        $('#js-about1').removeClass('show')
-      }
-    },
-    function () {
-      let href = $(this).attr('href')
-      $('#' + href).removeClass('show')
-      $('#js-about1').addClass('show')
-    }
-  )
+$('.js-topAbout').on('mouseover', function () {
+  const index = $(this).index()
+  console.log('index: ' + index)
+  $('.js-topAbout-img').children().removeClass('show')
+  $('.js-topAbout-img').children().eq(index).addClass('show')
 })
 
 /*
@@ -36,6 +21,19 @@ $(function () {
         ## ##        ##  ##     ## ##
    ######  ######## #### ########  ########
 */
+if ($('.js-topMvSlide')[0]) {
+  const topMvSlide = new Swiper('.js-topMvSlide', {
+    autoplay: {
+      delay: 5000,
+    },
+    loop: true,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true,
+    },
+  })
+}
+
 if ($('.topCrosstalkSlide')[0]) {
   const topCrosstalkSlide = new Swiper('.topCrosstalkSlide', {
     slidesPerView: 1.2,
@@ -98,6 +96,35 @@ if ($('.js-inteviewList-slide')[0]) {
   })
 }
 
+$('.js-recruitEnvironment-tab').on('click', function () {
+  $(this).addClass('selected')
+  $(this).siblings().removeClass('selected')
+  $('.js-recruitEnvironment-tabItem').removeClass('show')
+  $('#' + $(this).attr('data-tab')).addClass('show')
+})
+
+/*
+######## ########  ##     ## ##    ## ##    ##  #######
+   ##    ##     ## ##     ## ####  ## ##  ##   ##     ##
+   ##    ########  ##     ## ## ## ## #####     #######
+   ##    ##   ##   ##     ## ##  #### ##  ##   ##     ##
+   ##    ##     ##  #######  ##    ## ##    ##  #######
+*/
+if (document.getElementsByClassName('js-t8')[0]) {
+  // 要素を検出したら実行
+  trunk8()
+  $(window).on('load resize ', function () {
+    trunk8()
+  })
+}
+function trunk8() {
+  // 指定要素に行数制限をかける
+  $('.js-t8.line2').trunk8({
+    lines: 2,
+    fill: '...',
+  })
+}
+
 /*
    ###     ######   ######
  ##   ##  ##       ##
@@ -105,14 +132,6 @@ if ($('.js-inteviewList-slide')[0]) {
 ######### ##       ##
 ##     ##  ######   ######
 */
-if ($('.js-businessOther-acc')[0]) {
-  $('.js-businessOther-acc').next().hide()
-  $('.js-businessOther-acc').on('click', function () {
-    $(this).toggleClass('open')
-    $(this).next().slideToggle()
-  })
-}
-
 if ($('.js-acc')[0]) {
   $('.js-acc').next().hide()
   $('.js-acc').on('click', function () {
@@ -163,3 +182,43 @@ $(function () {
     }
   }
 })
+
+if (document.getElementsByClassName('js-topMvText')[0]) {
+  const topIntro = $('.js-topMvText-intro').offset().top - 352
+  let distance = 0
+  if (window.matchMedia('(min-width:769px)').matches) {
+    $('.js-topMvText-intro').addClass('none')
+    $(document).on('scroll', function () {
+      distance = $(this).scrollTop()
+      if (topIntro >= distance) {
+        $('.js-topMvText').removeClass('none')
+        $('.js-topMvText-intro').addClass('none')
+      } else {
+        $('.js-topMvText').addClass('none')
+        $('.js-topMvText-intro').removeClass('none')
+      }
+    })
+  }
+}
+
+if (document.getElementsByClassName('js-stickyNav')[0]) {
+  const headerHeight = 90
+  const stickeyNavTop = $('.js-stickyNav-target').offset().top - headerHeight * 2
+  const stickeyNavBottom = $('.js-stickyNav-target').height() + stickeyNavTop
+  console.log('stickeyNavTop: ' + stickeyNavTop)
+  console.log('stickeyNavBottom: ' + stickeyNavBottom)
+  let distance = 0
+  if (window.matchMedia('(min-width:769px)').matches) {
+    $(document).on('scroll', function () {
+      distance = $(this).scrollTop()
+      console.log('distance: ' + distance)
+      if (distance <= stickeyNavTop) {
+        $('.js-stickyNav').removeClass('fixed')
+      } else if (distance >= stickeyNavBottom) {
+        $('.js-stickyNav').removeClass('fixed')
+      } else {
+        $('.js-stickyNav').addClass('fixed')
+      }
+    })
+  }
+}

@@ -46,19 +46,38 @@
                         </a>
                         <div class="headerPulldown__body">
                             <div class="wrap w1200">
-                                <div class="headerPulldown__list flex">
-                                    <a href="<?php echo HOME; ?>aboutus/topmessage/" class="headerPulldown__link flex">
-                                        社長メッセージ
-                                    </a>
-                                    <a href="<?php echo HOME; ?>aboutus/100th/" class="headerPulldown__link flex">
-                                        100周年に向けて
-                                    </a>
-                                    <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="headerPulldown__link flex">
-                                        シナネンHDグループの挑戦と進化
-                                    </a>
-                                    <a href="<?php echo HOME; ?>aboutus/SDGs/" class="headerPulldown__link flex">
-                                        SDGsへの取り組み
-                                    </a>
+                                <div class="headerPulldown__wrapper flex bet">
+                                    <div class="headerPulldown__ttl">
+                                        <h2 class="headerPulldown__ttl--inner flex vert">
+                                            <span class="headerPulldown__ttl--en">ABOUT US</span>
+                                            <span class="headerPulldown__ttl--ja notos">会社紹介</span>
+                                        </h2>
+                                        <div class="headerPulldown__ttl--link">
+                                            <a href="<?php echo HOME; ?>aboutus/" class="headerPulldown__ttl--btn md-btn red left-text">
+                                                会社紹介TOP
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                                                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="headerPulldown__dtl flex notos">
+                                        <a href="<?php echo HOME; ?>aboutus/topmessage/" class="headerPulldown__dtl--link flex vert vcenter op">
+                                            <img src="<?php echo HOME; ?>img/header_aboutus_01.png" alt="">
+                                            社長メッセージ
+                                        </a>
+                                        <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="headerPulldown__dtl--link flex vert vcenter op">
+                                            <img src="<?php echo HOME; ?>img/header_aboutus_02.png" alt="">
+                                            シナネンHDグループの<br>挑戦と進化
+                                        </a>
+                                        <a href="<?php echo HOME; ?>aboutus/SDGs/" class="headerPulldown__dtl--link flex vert vcenter op">
+                                            <img src="<?php echo HOME; ?>img/header_aboutus_03.png" alt="">
+                                            SDGsへの取り組み
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -71,19 +90,42 @@
                         </a>
                         <div class="headerPulldown__body">
                             <div class="wrap w1200">
-                                <div class="headerPulldown__list flex">
-                                    <a href="<?php echo HOME; ?>business/btoc/" class="headerPulldown__link flex">
-                                        エネルギー卸・小売り周辺事業
-                                    </a>
-                                    <a href="<?php echo HOME; ?>business/btob/" class="headerPulldown__link flex">
-                                        エネルギーソリューション事業
-                                    </a>
-                                    <a href="<?php echo HOME; ?>business/others/" class="headerPulldown__link flex">
-                                        非エネルギー・海外事業
-                                    </a>
-                                    <a href="<?php echo HOME; ?>future/" class="headerPulldown__link flex">
-                                        シナネンが描く未来
-                                    </a>
+                                <div class="headerPulldown__wrapper flex bet">
+                                    <div class="headerPulldown__ttl">
+                                        <h2 class="headerPulldown__ttl--inner flex vert">
+                                            <span class="headerPulldown__ttl--en">BUSINESS</span>
+                                            <span class="headerPulldown__ttl--ja notos">事業紹介</span>
+                                        </h2>
+                                        <div class="headerPulldown__ttl--link">
+                                            <a href="<?php echo HOME; ?>business/" class="headerPulldown__ttl--btn md-btn red left-text">
+                                                事業紹介TOP
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                                                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="headerPulldown__dtl flex notos">
+                                        <a href="<?php echo HOME; ?>business/btoc/" class="headerPulldown__dtl--link flex vert vcenter op">
+                                            <img src="<?php echo HOME; ?>img/header_business_01.png" alt="">
+                                            BtoC事業
+                                        </a>
+                                        <a href="<?php echo HOME; ?>business/btob/" class="headerPulldown__dtl--link flex vert vcenter op">
+                                            <img src="<?php echo HOME; ?>img/header_business_02.png" alt="">
+                                            BtoB事業
+                                        </a>
+                                        <a href="<?php echo HOME; ?>business/other/" class="headerPulldown__dtl--link flex vert vcenter op">
+                                            <img src="<?php echo HOME; ?>img/header_business_03.png" alt="">
+                                            非エネルギー事業
+                                        </a>
+                                        <a href="<?php echo HOME; ?>future/" class="headerPulldown__dtl--link flex vert vcenter op">
+                                            <img src="<?php echo HOME; ?>img/header_business_04.png" alt="">
+                                            シナネンHDグループが<br>描く未来
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -96,28 +138,54 @@
                         </a>
                         <div class="headerPulldown__body">
                             <div class="wrap w1200">
-                                <div class="headerPulldown__list flex">
-                                    <a href="<?php echo HOME; ?>person/interview01/" class="headerPulldown__link flex">
-                                        テキスト1
-                                    </a>
-                                    <a href="<?php echo HOME; ?>person/interview02/" class="headerPulldown__link flex">
-                                        テキスト2
-                                    </a>
-                                    <a href="<?php echo HOME; ?>person/interview03/" class="headerPulldown__link flex">
-                                        テキスト3
-                                    </a>
-                                    <a href="<?php echo HOME; ?>person/interview04/" class="headerPulldown__link flex">
-                                        テキスト4
-                                    </a>
-                                    <a href="<?php echo HOME; ?>person/crosstalk01/" class="headerPulldown__link flex">
-                                        テキスト1
-                                    </a>
-                                    <a href="<?php echo HOME; ?>person/crosstalk02/" class="headerPulldown__link flex">
-                                        テキスト2
-                                    </a>
-                                    <a href="<?php echo HOME; ?>person/crosstalk03/" class="headerPulldown__link flex">
-                                        テキスト3
-                                    </a>
+                                <div class="headerPulldown__wrapper flex bet">
+                                    <div class="headerPulldown__ttl">
+                                        <h2 class="headerPulldown__ttl--inner flex vert">
+                                            <span class="headerPulldown__ttl--en">INTERVIEW</span>
+                                            <span class="headerPulldown__ttl--ja notos">インタビュー</span>
+                                        </h2>
+                                        <div class="headerPulldown__ttl--link">
+                                            <a href="<?php echo HOME; ?>person/" class="headerPulldown__ttl--btn md-btn red left-text">
+                                                インタビューTOP
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                                                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="headerPulldown__dtl flex notos">
+                                        <div class="headerPulldown__interview">
+                                            <a href="<?php echo HOME; ?>person/interview01/" class="headerPulldown__link flex vcenter">
+                                                S.Takahashi
+                                            </a>
+                                            <a href="<?php echo HOME; ?>person/interview02/" class="headerPulldown__link flex vcenter">
+                                                K.Kazuma
+                                            </a>
+                                            <a href="<?php echo HOME; ?>person/interview03/" class="headerPulldown__link flex vcenter">
+                                                K.Yanagihara
+                                            </a>
+                                            <a href="<?php echo HOME; ?>person/interview04/" class="headerPulldown__link flex vcenter">
+                                                S.Kanno
+                                            </a>
+                                        </div>
+                                        <div class="headerPulldown__crosstalk">
+                                            <div class="headerPulldown__crosstalk--head">
+                                                クロストーク
+                                            </div>
+                                            <a href="<?php echo HOME; ?>person/crosstalk01/" class="headerPulldown__link flex vcenter">
+                                                01&nbsp;&nbsp;女性のキャリアアップ
+                                            </a>
+                                            <a href="<?php echo HOME; ?>person/crosstalk02/" class="headerPulldown__link flex vcenter">
+                                                02&nbsp;&nbsp;それぞれのこれまでの歩みとそこで得たこと
+                                            </a>
+                                            <a href="<?php echo HOME; ?>person/crosstalk03/" class="headerPulldown__link flex vcenter">
+                                                03&nbsp;&nbsp;それぞれのこれまでの歩みとそこで得たこと
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -130,22 +198,41 @@
                         </a>
                         <div class="headerPulldown__body">
                             <div class="wrap w1200">
-                                <div class="headerPulldown__list flex">
-                                    <a href="<?php echo HOME; ?>recruit/requirements/" class="headerPulldown__link flex">
-                                        募集要項
-                                    </a>
-                                    <a href="<?php echo HOME; ?>recruit/personality/" class="headerPulldown__link flex">
-                                        求める人物像
-                                    </a>
-                                    <a href="<?php echo HOME; ?>recruit/flow/" class="headerPulldown__link flex">
-                                        採用フロー
-                                    </a>
-                                    <a href="<?php echo HOME; ?>recruit/environment/" class="headerPulldown__link flex">
-                                        働く環境
-                                    </a>
-                                    <a href="<?php echo HOME; ?>recruit/faq/" class="headerPulldown__link flex">
-                                        よくある質問
-                                    </a>
+                                <div class="headerPulldown__wrapper flex bet">
+                                    <div class="headerPulldown__ttl">
+                                        <h2 class="headerPulldown__ttl--inner flex vert">
+                                            <span class="headerPulldown__ttl--en">RECRUIT</span>
+                                            <span class="headerPulldown__ttl--ja notos">採用情報</span>
+                                        </h2>
+                                        <div class="headerPulldown__ttl--link">
+                                            <a href="<?php echo HOME; ?>recruit/" class="headerPulldown__ttl--btn md-btn red left-text">
+                                                採用情報TOP
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                                                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="headerPulldown__recruit flex break notos">
+                                        <a href="<?php echo HOME; ?>recruit/requirements/" class="headerPulldown__link flex vcenter">
+                                            募集要項
+                                        </a>
+                                        <a href="<?php echo HOME; ?>recruit/personality/" class="headerPulldown__link flex vcenter">
+                                            求める人物像
+                                        </a>
+                                        <a href="<?php echo HOME; ?>recruit/flow/" class="headerPulldown__link flex vcenter">
+                                            採用フロー
+                                        </a>
+                                        <a href="<?php echo HOME; ?>recruit/environment/" class="headerPulldown__link flex vcenter">
+                                            働く環境
+                                        </a>
+                                        <a href="<?php echo HOME; ?>recruit/faq/" class="headerPulldown__link flex vcenter">
+                                            よくある質問
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -218,16 +305,16 @@
                 <div class="acc-body">
                     <div class="acc-in">
                         <a href="<?php echo HOME; ?>business/btoc/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            エネルギー卸・小売り周辺事業
+                            BtoC事業
                         </a>
                         <a href="<?php echo HOME; ?>business/btob/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            エネルギーソリューション事業
+                            BtoB事業
                         </a>
                         <a href="<?php echo HOME; ?>business/others/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            非エネルギー・海外事業
+                            非エネルギー事業
                         </a>
                         <a href="<?php echo HOME; ?>future/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            シナネンが描く未来
+                            シナネンHDグループが描く未来
                         </a>
                     </div>
                 </div>
@@ -246,7 +333,7 @@
                             </div>
                             <div class="gNav__item--text">
                                 <span class="em">部署（所属）</span><br>
-                                お名前（0000年入社）
+                                高橋　秀治
                             </div>
                         </a>
                         <a href="<?php echo HOME; ?>person/interview02/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
@@ -255,7 +342,7 @@
                             </div>
                             <div class="gNav__item--text">
                                 <span class="em">部署（所属）</span><br>
-                                お名前（0000年入社）
+                                笠松　一真
                             </div>
                         </a>
                         <a href="<?php echo HOME; ?>person/interview03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
@@ -264,7 +351,7 @@
                             </div>
                             <div class="gNav__item--text">
                                 <span class="em">部署（所属）</span><br>
-                                お名前（0000年入社）
+                                柳原　貴一
                             </div>
                         </a>
                         <a href="<?php echo HOME; ?>person/interview04/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
@@ -273,7 +360,7 @@
                             </div>
                             <div class="gNav__item--text">
                                 <span class="em">部署（所属）</span><br>
-                                お名前（0000年入社）
+                                菅野　志帆
                             </div>
                         </a>
                     </div>

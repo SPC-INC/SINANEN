@@ -16,8 +16,8 @@ require_once $include . '_header.php';
         </div>
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
-                <span class="pageHead__text--en">Personality</span>
-                <span class="pageHead__text--ja">求める人物像</span>
+                <span class="pageHead__text--en js-in anime text-in">Personality</span>
+                <span class="pageHead__text--ja js-in anime text-in">求める人物像</span>
             </h1>
         </div>
     </div>
@@ -35,8 +35,12 @@ require_once $include . '_header.php';
 ?>
     <section class="personalitySec personalityPerson">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="personalitySec__head notos js-in anime left-in">
-                求める人物像
+            <h2 class="personalitySec__head notos">
+                <div class="anime__wrapper">
+                    <div class="js-in anime text-in">
+                        求める人物像
+                    </div>
+                </div>
             </h2>
             <ul class="personalityPerson__list flex break">
                 <li class="personalityPerson__item flex pc-vert vcenter pc-hcenter">
@@ -112,8 +116,12 @@ require_once $include . '_header.php';
 ?>
     <section class="personalitySec personalityPolisy">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="personalitySec__head notos js-in anime left-in">
-                社是
+            <h2 class="personalitySec__head notos">
+                <div class="anime__wrapper">
+                    <div class="js-in anime text-in">
+                        社是
+                    </div>
+                </div>
             </h2>
             <ul class="personalityPolisy__list flex sp-vert sp-vcenter pc-bet">
                 <li class="personalityPolisy__item js-in anime bottom-in wave0">
@@ -173,21 +181,41 @@ require_once $include . '_header.php';
 ?>
     <section class="personalitySec personalityMessage">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="personalitySec__head notos js-in anime left-in">
-                採用担当からのメッセージ
+            <h2 class="personalitySec__head notos">
+                <div class="anime__wrapper">
+                    <div class="js-in anime text-in">
+                        採用担当からのメッセージ
+                    </div>
+                </div>
             </h2>
             <h3 class="personalityMessage__subhead notos">
-                キャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入ります
+                変革を担う仲間として、ともに未来を作る
             </h3>
-            <div class="personalityMessage__container pc-flex">
-                <div class="personalityMessage__img pc-2">
+            <div class="personalityMessage__container">
+                <div class="personalityMessage__img">
                     <img src="<?php echo HOME; ?>img/personality_message.png" alt="">
                 </div>
-                <div class="personalityMessage__text pc-1">
-                    採用担当からのメッセージが入ります。<br>
-                    採用担当からのメッセージが入ります採用担当からのメッセージが入ります採用担当からのメッセージが入ります。採用担当からのメッセージが入ります採用担当からのメッセージが入ります。<br>
-                    採用担当からのメッセージが入ります採用担当からのメッセージが入ります採用担当からのメッセージが入ります採用担当からのメッセージが入ります採用担当からのメッセージが入ります。<br>
-                    採用担当からのメッセージが入ります採用担当からのメッセージが入りますメッセージが入ります。
+                <div class="personalityMessage__text">
+                    <p class="">
+                        シナネンHDは創業以来、時代の変化に対応し、お客様に寄り添いながらエネルギーを安定的に供給してきました。人口減少やガスや電力の自由化などによって「逆境」とも言われるエネルギー業界の中で、「信義」「進取」「楽業」の社是を根底に私たちは挑戦を続け、2027年に創業100周年を迎えます。
+                    </p>
+                    <p class="">
+                        100周年を目の前に、私たちは人財要件である「相互啓発力」「自発性」「チャレンジ精神」「論理的思考」を身につけ、変革を担い活躍したい、人々の暮らしを支えたい、社会に貢献したいという想いがある方を求めています。
+                    </p>
+                    <p class="">
+                        エネルギー卸小売周辺事業、エネルギーソリューション事業、非エネルギー事業など、幅広くお客様の生活に貢献出来る事業がシナネンHDグループにはあります。それぞれの仕事に誇りを持ち、人とのつながりを大切に、自らの職を楽しみながら働くのがシナネンHDグループの社員です。<br>
+                        私たちは、「Challenging New Worlds with Big-Sky Thinking」というスローガンを掲げ、大胆な発想で新しい世界へと挑戦していきます。
+                    </p>
+                    <p class="">
+                        就職活動は、皆さんにとって自分自身を見つめ直す素敵な機会です。<br>
+                        大変と感じる方もいるかと思いますが、自分がやりがいを感じたこと、得意なこと、苦手なことをぜひ見つけてください。シナネンHDグループは、D&I（ダイバーシティ＆インクルージョン）の概念を大切に、一人ひとりの個性を掛け合わせることでイノベーションを生み出していける環境を整えています。
+                    </p>
+                    <p class="">
+                        皆さんの個性を最大限に発揮し、変革を担う一員として、私たちと一緒にシナネンHDグループの未来を造りませんか？
+                    </p>
+                    <p class="">
+                        皆さんと一緒に働けることを楽しみにしています！
+                    </p>
                 </div>
             </div>
         </div>

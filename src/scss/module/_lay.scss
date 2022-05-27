@@ -44,6 +44,9 @@
     z-index: 3;
     background: rgba(#000, 0.5);
   }
+  &.dark::before {
+    opacity: 1;
+  }
   // borderオプション用フレームを付ける
   &::after {
     z-index: 4;
@@ -167,6 +170,9 @@ a.active {
     &.bright::before {
       opacity: 1;
     }
+    &.dark::before {
+      opacity: 0;
+    }
     &.border::after {
       box-shadow: 0 0 0 10px rgba(#fff, 0.5) inset;
       opacity: 1;
@@ -190,6 +196,9 @@ a.active {
       }
       &.bright::before {
         opacity: 1;
+      }
+      &.dark::before {
+        opacity: 0;
       }
       &.border::after {
         box-shadow: 0 0 0 10px rgba(#fff, 0.5) inset;

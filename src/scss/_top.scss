@@ -22,11 +22,15 @@
       background: $siteColor;
       content: "";
     }
+    &--ja {
+      overflow: hidden;
+    }
     &--en {
       position: absolute;
       top: -15rem;
       left: 0;
       z-index: -1;
+      overflow: hidden;
       font-size: 15rem;
       font-weight: bold;
       color: #f0e6e8;
@@ -140,56 +144,88 @@
     left: calc(50vw - 60rem);
     z-index: 2;
     padding: 0 0 5.8rem;
-    &::before,
-    &::after {
-      display: block;
+    &--bar {
       position: absolute;
       bottom: 0;
       left: 0;
-      height: 2px;
-      content: "";
-    }
-    &::before {
       width: 60rem;
+      height: 2px;
+      overflow: hidden;
       background: #fff;
-    }
-    &::after {
-      width: 10.8rem;
-      background: #000;
+      &::after {
+        display: block;
+        width: 10.8rem;
+        height: 100%;
+        background: #000;
+        animation: topBarAnime 5s linear infinite;
+        content: "";
+        @keyframes topBarAnime {
+          from {
+            transform: translateX(-100%);
+          }
+          to {
+            transform: translateX(60rem);
+          }
+        }
+      }
     }
   }
   &__sub {
-    margin-left: -7.2rem;
-    font-size: 5rem;
-    line-height: 1.6;
-    color: #fff;
-    letter-spacing: 0.03em;
-    transform: rotate(-17deg);
+    &--inner {
+      margin-left: -7.2rem;
+      font-size: 5rem;
+      line-height: 1.6;
+      color: #fff;
+      letter-spacing: 0.03em;
+      transform: rotate(-17deg);
+    }
   }
   &__head {
-    margin: 7rem 0 0;
+    position: fixed;
+    top: 35.2rem;
+    left: 0;
+    z-index: 2;
+    width: 100%;
     font-size: 6.9rem;
     font-weight: 600;
-    .line {
+    &.none {
+      display: none;
+    }
+    &--line {
+      display: inline-block;
       position: relative;
+      margin: 2rem 0;
       padding: 0 1rem;
+      line-height: 1.2;
       color: #fff;
       background: #1a1a1a;
       &::after {
         display: block;
         position: absolute;
-        top: 0.9rem;
-        left: 0.9rem;
+        top: 0;
+        left: 0;
         z-index: -1;
         width: 100%;
         height: 100%;
-        background: #fff;
+        background: #1a1a1a;
+        transition-delay: 1s;
+        transition-duration: 0.5s;
         content: "";
       }
+      &.active {
+        &::after {
+          top: 0.9rem;
+          left: 0.9rem;
+          background: #fff;
+        }
+      }
+    }
+    &--text {
+      display: inline-block;
     }
   }
   &__desc {
-    margin: 4.5rem 0 0;
+    margin: calc(4.5rem + 21.6rem + 7rem) 0 0;
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 2.2;
@@ -223,6 +259,13 @@
       &::after {
         width: 1.8rem;
       }
+      &--bar {
+        width: 10.8rem;
+        height: 2px;
+        &::after {
+          width: 1.8rem;
+        }
+      }
     }
     &__desc {
       margin: 0;
@@ -254,7 +297,10 @@
   &__head {
     font-size: 6.9rem;
     font-weight: 600;
-    .line {
+    &.none {
+      opacity: 0;
+    }
+    &--line {
       position: relative;
       padding: 0 1rem;
       color: #fff;
@@ -304,7 +350,7 @@
     }
     &__head {
       font-size: 2.8rem;
-      .line {
+      &--line {
         padding: 0 1rem;
         &::after {
           top: 0.4rem;
@@ -345,10 +391,18 @@
     margin-top: 7rem;
   }
   &__img {
-    display: none;
     position: relative;
     width: 55rem;
-    transition: 0.5s all;
+    &--item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: 0.5s;
+      &.show {
+        opacity: 1;
+      }
+    }
     &--caption {
       position: absolute;
       bottom: 3rem;
@@ -359,10 +413,6 @@
         font-size: 2rem;
         background: white;
       }
-    }
-    &.show {
-      display: block;
-      animation: appear 0.3s ease;
     }
     @keyframes appear {
       0% {
@@ -518,56 +568,19 @@
     margin-top: 7.5rem;
     overflow: hidden;
     &__item {
-      position: relative;
       width: calc(((100% - 1.6rem) / 3));
-      overflow: hidden; //これを記述することではみ出た部分を非表示にします。
-      transition: all 0.3s;
-      .bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-        background: rgba(74, 73, 71, 0.8);
-      }
-      &:hover {
-        z-index: 2;
-        transform: scale(1.1, 1.1);
-        .bg {
-          display: none;
-        }
-        .topBusinessLink__item--caption {
-          font-size: 3.2rem;
-          color: #1a1a1a;
-          .line {
-            background: #fff;
-            &::after {
-              background: $siteColor;
-            }
-          }
-        }
-        .icon {
-          right: 2.5rem;
-        }
-      }
+      filter: grayscale(100%);
       &--caption {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        z-index: 2;
-        width: 100%;
         font-size: 3rem;
-        font-weight: bold;
-        color: white;
+        font-weight: 700;
+        color: #fff;
         text-align: center;
-        transition: all 0.3s;
-        transform: translate(-50%, -50%);
         .line {
           position: relative;
           padding-right: 1rem;
           padding-left: 1rem;
           background: #1a1a1a;
+          transition: 0.5s;
           &::after {
             position: absolute;
             bottom: -0.6rem;
@@ -575,23 +588,41 @@
             z-index: -1;
             width: calc(100% + 0.6rem);
             height: 100%;
-            background: white;
+            background: #fff;
+            transition: 0.5s;
             content: "";
           }
         }
       }
-      .icon {
+      &--icon {
         position: absolute;
         right: 4.7rem;
         bottom: 4rem;
         z-index: 2;
         width: 17rem;
-        stroke: white;
-        transition: all 0.3s;
+        stroke: #fff;
+        transition: 0.5s;
+      }
+      &:hover {
+        filter: grayscale(0);
+        .topBusinessLink__item {
+          &--caption {
+            color: #1a1a1a;
+            .line {
+              background: #fff;
+              &::after {
+                background: $siteColor;
+              }
+            }
+          }
+          &--icon {
+            transform: translateX(1rem);
+          }
+        }
       }
     }
   }
-  &__copy {
+  &__future {
     padding-top: 4.5rem;
     padding-bottom: 8rem;
     color: white;
@@ -633,38 +664,41 @@
     &Link {
       margin-top: 5.5rem;
       &__item {
-        margin: 0 auto 11.5rem;
+        margin: 0 0 2rem;
         width: 100%;
-        overflow: visible;
-        text-align: center;
-        &:last-child {
-          margin-bottom: 10rem;
+        .md-lay.dark:before {
+          opacity: 0;
         }
-        .bg {
-          left: 50%;
-          width: 90%;
-          transform: translateX(-50%);
+        &--lay {
+          padding: 0 $pad 8.8rem;
+          height: 27.3rem;
         }
-        img {
-          width: 90%;
-          height: 18.5rem;
-          object-fit: cover;
+        &--img {
+          position: relative;
+          height: 100%;
+          overflow: hidden;
+          &::before {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            width: 100%;
+            height: 100%;
+            background: rgba(#000, 0.5);
+            content: "";
+          }
         }
         &--caption {
-          top: 80%;
+          position: absolute;
+          bottom: 0;
           left: 0;
           padding: 1.5rem 4rem 1.5rem 2.8rem;
-          width: auto;
           font-size: 2rem;
           line-height: 1.4;
           text-align: left;
           background: #1a1a1a;
           transform: translate(0, 0);
-          .link {
-            margin-top: 2rem;
-            font-size: 1.6rem;
-            font-weight: normal;
-          }
           .caption-icon {
             margin-left: 3rem;
             width: 5rem;
@@ -679,12 +713,15 @@
             }
           }
         }
-        .icon {
-          display: none;
+        &--more {
+          margin-top: 2rem;
+          font-size: 1.6rem;
+          font-weight: 400;
         }
       }
     }
-    &__copy {
+    &__future {
+      margin: 1.5rem 0 0;
       padding-top: 0;
       padding-bottom: 6.5rem;
       &--ttl {
@@ -792,6 +829,10 @@
     padding-bottom: 5rem;
     &__item {
       position: relative;
+      z-index: 1;
+      &.swiper-slide-active {
+        z-index: 2;
+      }
       img {
         z-index: -1;
         transition: all 1s;
@@ -829,6 +870,9 @@
             content: "";
           }
         }
+      }
+      &:hover {
+        z-index: 3;
       }
     }
     .swiper-pagination {

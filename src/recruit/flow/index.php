@@ -16,8 +16,8 @@ require_once $include . '_header.php';
         </div>
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
-                <span class="pageHead__text--en">Frow</span>
-                <span class="pageHead__text--ja">選考フロー</span>
+                <span class="pageHead__text--en js-in anime text-in">Frow</span>
+                <span class="pageHead__text--ja js-in anime text-in">選考フロー</span>
             </h1>
         </div>
     </div>
@@ -35,8 +35,12 @@ require_once $include . '_header.php';
 ?>
     <section class="recruitFlowSec">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="recruitFlowSec__head notos js-in anime left-in">
-                選考フロー
+            <h2 class="recruitFlowSec__head notos">
+                <div class="anime__wrapper">
+                    <div class="js-in anime text-in">
+                        選考フロー
+                    </div>
+                </div>
             </h2>
             <p class="pc recruitFlowSec__intro">
                 当社では、面接を”相互理解の場”として位置付けています。そのため、お互いのことをより深く知るために全ての面接を個人面接にしております。
@@ -46,32 +50,32 @@ require_once $include . '_header.php';
             $arrWorkLifeBalance = array(
                 '1' => array(
                     'ttl' => 'WEB会社説明会の視聴',
-                    'time' => '時期・期間',
-                    'dtl' => '面接官・人数、質問項目や合格基準、ポイント等が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+                    'time' => '1~2週間',
+                    'dtl' => '詳しい事業内容の説明はもちろん、当社で活躍している先輩社員座談会もご覧いただけます！',
                     'img' => 'recruitFlow_01.png',
                 ),
                 '2' => array(
                     'ttl' => 'WEBエントリーシートの提出',
-                    'time' => '時期・期間',
-                    'dtl' => '面接官・人数、質問項目や合格基準、ポイント等が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+                    'time' => '1~2週間',
+                    'dtl' => 'WEB説明会ご視聴後、当社の専用マイページにご案内します。<br>エントリーシートでは、自身の強みやそのエピソードをぜひアピールしてください！',
                     'img' => 'recruitFlow_02.png',
                 ),
                 '3' => array(
                     'ttl' => '一次面接（個人 / WEB）',
-                    'time' => '時期・期間',
-                    'dtl' => '面接官・人数、質問項目や合格基準、ポイント等が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+                    'time' => '2週間',
+                    'dtl' => '採用担当が行います。<br>一次面接合格の場合には志望動機のご提出をいただきます。',
                     'img' => 'recruitFlow_03.png',
                 ),
                 '4' => array(
                     'ttl' => '二次面接（個人 / WEB or 対面）',
-                    'time' => '時期・期間',
-                    'dtl' => '面接官・人数、質問項目や合格基準、ポイント等が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+                    'time' => '',
+                    'dtl' => '部長クラスが行います。<br>合格の場合にはSPI試験を受けていただきます。',
                     'img' => 'recruitFlow_04.png',
                 ),
                 '5' => array(
                     'ttl' => '最終面接（個人 / 対面）、SPI試験',
-                    'time' => '時期・期間',
-                    'dtl' => '面接官・人数、質問項目や合格基準、ポイント等が入りますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+                    'time' => '',
+                    'dtl' => '役員クラスが行います。<br>自分らしさを存分に発揮してください！',
                     'img' => 'recruitFlow_05.png',
                 ),
             );
@@ -120,7 +124,7 @@ require_once $include . '_header.php';
 ?>
     <section class="recruitFooter">
         <div class="wrap w1200 sp-wrap">
-            <div class="recruitFooter__nav recruitFooter__nav--recruitFlow">
+            <div class="recruitFooter__nav recruitFooter__nav--flow">
                 <?php require_once $include . '_recruit.php'; ?>
             </div>
             <div class="pc recruitFooter__entry">

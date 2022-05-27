@@ -16,29 +16,34 @@ require_once $include . '_header.php';
         </div>
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
-                <span class="pageHead__text--en">Requirements</span>
-                <span class="pageHead__text--ja">新卒募集要項</span>
+                <span class="pageHead__text--en js-in anime text-in">Requirements</span>
+                <span class="pageHead__text--ja js-in anime text-in">新卒募集要項</span>
             </h1>
         </div>
     </div>
 
     <section class="requirements">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="requirements__head js-in anime left-in">
-                募集要項
+            <h2 class="requirements__head">
+                <div class="anime__wrapper">
+                    <div class="js-in anime text-in">
+                        募集要項
+                    </div>
+                </div>
             </h2>
             <dl class="requirements__data flex break">
                 <dt class="requirements__ttl flex vcenter">
                     募集職種
                 </dt>
                 <dd class="requirements__dtl">
-                    総合職　※営業・管理問わず、将来の経営人材として幅広い職務を担います。
+                    総合職<br>
+                    ※営業・管理問わず、将来の経営人材として幅広い職務を担います
                 </dd>
                 <dt class="requirements__ttl flex vcenter">
                     配属先
                 </dt>
                 <dd class="requirements__dtl">
-                    配属先についてのテキストが入ります。配属先についてのテキストが入ります。<br>
+                    シナネンホールディングス(株)及びシナネンHDグループ各社<br>
                     ※本人の希望及び適性に応じて配属を決定いたします<br>
                     ※入社後、全国にあるグループ各社への出向・転籍を伴うことがあります
                 </dd>
@@ -46,13 +51,13 @@ require_once $include . '_header.php';
                     応募条件
                 </dt>
                 <dd class="requirements__dtl">
-                    応募条件が入ります応募条件が入ります応募条件が入ります応募条件が入ります応募条件が入ります応募条件が入ります
+                    大卒以上
                 </dd>
                 <dt class="requirements__ttl flex vcenter">
                     勤務時間
                 </dt>
                 <dd class="requirements__dtl">
-                    9:00～18:00（仮）
+                    9:00~17:30（7.5時間）
                 </dd>
                 <dt class="requirements__ttl flex vcenter">
                     勤務地
@@ -73,7 +78,7 @@ require_once $include . '_header.php';
                 </dt>
                 <dd class="requirements__dtl">
                     ●住宅手当　●通勤手当・交通費全額支給<br>
-                    ●家族手当　●燃料手当 年1回有り　…ほか　（仮）
+                    ●家族手当　…ほか
                 </dd>
                 <dt class="requirements__ttl flex vcenter">
                     募集職種
@@ -89,7 +94,7 @@ require_once $include . '_header.php';
                     <br>
                     ※ミライフに配属となった場合は、ガス供給という業務上定休日を設けておりません。<br>
                     営業職はシフトによる交代勤務となります。(土日勤務は月2回程度、事務職は土日祝休み)<br>
-                    ※建物維持管理事業は年間休日105日となります。<br>
+                    ※建物維持管理事業は年間休日115日となります。<br>
                     シナネンHDグループで統一している121日との休日差異は基本給に加えて出勤分の給与を支給します。
                 </dd>
             </dl>

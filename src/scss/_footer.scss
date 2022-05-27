@@ -36,7 +36,7 @@
     display: block;
     margin-bottom: 2rem;
     font-size: 1.6rem;
-    color: white;
+    color: #fff;
     letter-spacing: 1.6px;
   }
   /*
@@ -70,7 +70,7 @@
 .footer {
   padding-top: 8.5rem;
   padding-bottom: 5.2rem;
-  color: white;
+  color: #fff;
   background: #1a1a1a;
   &Link__list {
     &--title {
@@ -78,13 +78,13 @@
       padding-bottom: 0.65rem;
       border-bottom: 1px solid #fff;
       font-size: 1.8rem;
-      color: white;
       font-weight: bold;
+      color: #fff;
     }
     &--item {
       margin-bottom: 1rem;
       font-size: 1.6rem;
-      color: white;
+      color: #fff;
       transition: all 0.5s;
       &:last-child {
         margin-bottom: 0;

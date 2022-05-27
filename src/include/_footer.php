@@ -9,17 +9,17 @@
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>business/" class="footerLink__list--title op">事業紹介</a>
-                <a href="<?php echo HOME; ?>business/btoc/" class="footerLink__list--item">エネルギー卸・小売り周辺事業</a>
-                <a href="<?php echo HOME; ?>business/btob/" class="footerLink__list--item">エネルギーソリューション事業</a>
-                <a href="<?php echo HOME; ?>business/others/" class="footerLink__list--item">非エネルギー・海外事業</a>
-                <a href="<?php echo HOME; ?>future/" class="footerLink__list--item">シナネンが描く未来</a>
+                <a href="<?php echo HOME; ?>business/btoc/" class="footerLink__list--item">BtoC事業</a>
+                <a href="<?php echo HOME; ?>business/btob/" class="footerLink__list--item">BtoB事業</a>
+                <a href="<?php echo HOME; ?>business/others/" class="footerLink__list--item">非エネルギー事業</a>
+                <a href="<?php echo HOME; ?>future/" class="footerLink__list--item">シナネンHDグループが描く未来</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>person/" class="footerLink__list--title op">インタビュー</a>
-                <a href="<?php echo HOME; ?>person/interview01/" class="footerLink__list--item">テキストテキストテキスト</a>
-                <a href="<?php echo HOME; ?>person/interview02/" class="footerLink__list--item">テキストテキストテキスト</a>
-                <a href="<?php echo HOME; ?>person/interview03/" class="footerLink__list--item">テキストテキストテキスト</a>
-                <a href="<?php echo HOME; ?>person/interview04/" class="footerLink__list--item">テキストテキストテキスト</a>
+                <a href="<?php echo HOME; ?>person/interview01/" class="footerLink__list--item">S.Takahashi</a>
+                <a href="<?php echo HOME; ?>person/interview02/" class="footerLink__list--item">K.Kazuma</a>
+                <a href="<?php echo HOME; ?>person/interview03/" class="footerLink__list--item">K.Yanagihara</a>
+                <a href="<?php echo HOME; ?>person/interview04/" class="footerLink__list--item">S.Kanno</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <p class="footerLink__list--title">クロストーク</p>
