@@ -230,7 +230,7 @@ require_once $include . '_header.php';
 
         <section class="sdgsSec">
             <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_01.png" alt="">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_05.png" alt="">
             </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
@@ -240,7 +240,7 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_01.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_05.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -263,7 +263,7 @@ require_once $include . '_header.php';
 
         <section class="sdgsSec">
             <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_02.png" alt="">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_06.png" alt="">
             </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
@@ -273,7 +273,7 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_02.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_06.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -289,7 +289,7 @@ require_once $include . '_header.php';
 
         <section class="sdgsSec">
             <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_01.png" alt="">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_07.png" alt="">
             </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
@@ -299,7 +299,7 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_01.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_07.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -315,7 +315,7 @@ require_once $include . '_header.php';
 
         <section class="sdgsSec">
             <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_02.png" alt="">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_08.png" alt="">
             </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
@@ -325,7 +325,7 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_02.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_08.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">

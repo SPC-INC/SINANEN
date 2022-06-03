@@ -9,7 +9,6 @@ Swiper.use([Autoplay, Controller, EffectFade, Navigation, Pagination]) // Swiper
 
 $('.js-topAbout').on('mouseover', function () {
   const index = $(this).index()
-  console.log('index: ' + index)
   $('.js-topAbout-img').children().removeClass('show')
   $('.js-topAbout-img').children().eq(index).addClass('show')
 })
@@ -205,19 +204,46 @@ if (document.getElementsByClassName('js-stickyNav')[0]) {
   const headerHeight = 90
   const stickeyNavTop = $('.js-stickyNav-target').offset().top - headerHeight * 2
   const stickeyNavBottom = $('.js-stickyNav-target').height() + stickeyNavTop
-  console.log('stickeyNavTop: ' + stickeyNavTop)
-  console.log('stickeyNavBottom: ' + stickeyNavBottom)
   let distance = 0
   if (window.matchMedia('(min-width:769px)').matches) {
     $(document).on('scroll', function () {
       distance = $(this).scrollTop()
-      console.log('distance: ' + distance)
       if (distance <= stickeyNavTop) {
         $('.js-stickyNav').removeClass('fixed')
       } else if (distance >= stickeyNavBottom) {
         $('.js-stickyNav').removeClass('fixed')
       } else {
         $('.js-stickyNav').addClass('fixed')
+      }
+    })
+  }
+}
+
+if ($('.js-currentNav')[0]) {
+  const headerHeight = 90
+  let distance = 0
+  let height = 0
+  let target = $('.js-currentNav-item').eq(0)
+  if (window.matchMedia('(min-width:769px)').matches) {
+    $(document).on('scroll', function () {
+      distance = $(this).scrollTop()
+
+      const currentNavItems = document.getElementsByClassName('js-currentNav')
+      for (let idx = 0; idx < currentNavItems.length; idx++) {
+        const currentNavItem = currentNavItems[idx]
+        if (currentNavItem.offset().top >= distance) {
+          const index = currentNavItem.index()
+          console.log('index: ' + index)
+          height = currentNavItem.offset().top + currentNavItem.height()
+          if (height <= distance) {
+            target = $('.js-currentNav-item').eq(index)
+          }
+          target.siblings().children().removeClass('current')
+          target.children().addClass('current')
+        } else {
+          target.siblings().children().removeClass('current')
+          target.children().addClass('current')
+        }
       }
     })
   }

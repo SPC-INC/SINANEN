@@ -36,9 +36,6 @@ require_once $include . '_header.php';
 ?>
         <section class="challengeEvolutionIntro">
             <div class="wrap w1200 sp-wrap">
-                <div class="challengeEvolutionIntro__img">
-                    <img src="<?php echo HOME; ?>img/challengeEvolution_intro.png" alt="">
-                </div>
                 <p class="challengeEvolutionIntro__text">
                     1927年の創業以来、エネルギーや社会の変化とともに進化してきたシナネンHDグループ。私たちの挑戦と進化の歴史をご紹介します。そしてこれからも、環境問題や人権問題、多様化する生活様式など、様々な課題を抱える社会の中で、快適で豊かな暮らしのために挑戦し続けます。
                 </p>
@@ -90,7 +87,7 @@ require_once $include . '_header.php';
                         </h3>
                         <div class="sp challengeEvolutionGroup__img">
                             <span class="js-in anime slideImg">
-                                <img src="<?php echo HOME; ?>img/challengeEvolution_group_01.png" alt="">
+                                <img src="<?php echo HOME; ?>img/challengeEvolution_group_02.png" alt="">
                             </span>
                         </div>
                         <p class="challengeEvolutionGroup__desc">
@@ -112,7 +109,7 @@ require_once $include . '_header.php';
                         </h3>
                         <div class="sp challengeEvolutionGroup__img">
                             <span class="js-in anime slideImg">
-                                <img src="<?php echo HOME; ?>img/challengeEvolution_group_01.png" alt="">
+                                <img src="<?php echo HOME; ?>img/challengeEvolution_group_03.png" alt="">
                             </span>
                         </div>
                         <p class="challengeEvolutionGroup__desc">
@@ -132,7 +129,7 @@ require_once $include . '_header.php';
                         </h3>
                         <div class="sp challengeEvolutionGroup__img">
                             <span class="js-in anime slideImg">
-                                <img src="<?php echo HOME; ?>img/challengeEvolution_group_01.png" alt="">
+                                <img src="<?php echo HOME; ?>img/challengeEvolution_group_04.png" alt="">
                             </span>
                         </div>
                         <p class="challengeEvolutionGroup__desc">
@@ -167,115 +164,195 @@ require_once $include . '_header.php';
                 </h2>
                 <div class="challengeEvolutionHistory__container flex bet">
                     <div class="challengeEvolutionHistory__timeline flex vert vcenter">
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 4rem;">
                             <span class="small">19</span>20
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 10rem;">
                             <span class="small">19</span>30
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 12rem;">
                             <span class="small">19</span>40
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 10rem;">
                             <span class="small">19</span>50
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 12rem;">
                             <span class="small">19</span>60
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 10rem;">
                             <span class="small">19</span>70
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 12rem;">
                             <span class="small">19</span>80
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 10rem;">
                             <span class="small">19</span>90
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 12rem;">
                             <span class="small">20</span>00
                         </div>
-                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter">
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 10rem;">
                             <span class="small">20</span>10
+                        </div>
+                        <div class="challengeEvolutionHistory__timeline--year flex vcenter hcenter" style="margin-top: 40.9rem;">
+                            <span class="small">20</span>20
                         </div>
                     </div>
                     <div class="challengeEvolutionHistory__node challengeEvolutionHistory__company flex vert vend">
                         <div class="challengeEvolutionHistory__node--head flex vcenter hcenter">
                             シナネンの歩み
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 6.3rem;">
-                            1927年4月　創業
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 9.5rem;">
+                            <span class="year">1927年</span><br>
+                            朝鮮平壌無煙炭の販売を目的に(資)電興無煙炭商会を創立
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 3.2rem;">
-                            1934年4月　<br>
-                            豆炭の製造販売・豆炭燃焼器具販売を開始
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2.4rem;">
+                            <span class="year">1929年</span><br>
+                            東京無煙炭(株)へ改組し、練炭の製造販売へ進出
                         </div>
-                        <div class="challengeEvolutionHistory__node--img" style="margin-top: 7.6rem;">
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2.4rem;">
+                            <span class="year">1934年</span><br>
+                            品川豆炭(株)を設立し、豆炭の製造販売へ進出
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2.4rem;">
+                            <span class="year">1936年</span><br>
+                            品川豆炭(株)から品川燃料(株)に商号変更
+                        </div>
+                        <div class="challengeEvolutionHistory__node--img" style="margin-top: 2.2rem;">
                             <img src="<?php echo HOME; ?>img/challengeEvolution_history_company_01.png" alt="">
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 6rem;">
-                            1952年9月　<br>
-                            石油製品、同器具の販売を開始
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">1952年</span><br>
+                            石油製品と同器具の販売開始
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 3.5rem;">
-                            1955年4月　<br>
-                            LPガス・同器具の取り扱い開始
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">1955年</span><br>
+                            LPガスと同器具の取り扱い開始
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 3.5rem;">
-                            1959年9月　<br>
-                            品川あんか発売
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">1962年</span><br>
+                            社是「信義」「進取」「楽業」を制定
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">1963年</span><br>
+                            東京証券取引所市場第二部に株式上場
                         </div>
                         <div class="challengeEvolutionHistory__node--img" style="margin-top: 3.3rem;">
                             <img src="<?php echo HOME; ?>img/challengeEvolution_history_company_02.png" alt="">
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 6.3rem;">
-                            1984年<br>
-                            新規事業として抗菌事業をスタート
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 10.8rem;">
+                            <span class="year">1983年</span><br>
+                            東京証券取引所市場第一部に指定変更
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 10.5rem;">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 7.2rem;">
+                            <span class="year">1991年</span><br>
+                            (株)シナネンゼオミックを設立
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 11rem;">
-                            テキストテキストテキストテキストテキストテキストテキスト
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2.2rem;">
+                            <span class="year">1998年</span><br>
+                            品川豆炭(株)からシナネン(株)<br>
+                            （現シナネンホールディングス(株)）に商号変更
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 10.3rem;">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2.1rem;">
+                            <span class="year">2004年</span><br>
+                            品川開発(株)（現シナネンエコワーク(株)）が<br>
+                            木くずリサイクル施設「千葉リサイクルセンター」の操業開始
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 8.1rem;">
+                            <span class="year">2012年</span><br>
+                            建物総合メンテナンス事業を展開する(株)インデスの全株式を取得
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">2014年</span><br>
+                            シナネン(株)が電力販売を開始
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">2015年</span><br>
+                            持株会社体制移行によりシナネンホールディングス(株)が誕生
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">2017年</span><br>
+                            建物維持管理事業の中核となるタカラビルメン(株)の全株式を取得
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">2019年</span><br>
+                            シェアサイクル事業を展開するシナネンモビリティPLUS(株)を設立
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">2020年</span><br>
+                            シェアオフィス「seesaw」を立ち上げ、本格稼働を開始
                         </div>
                     </div>
                     <div class="challengeEvolutionHistory__node challengeEvolutionHistory__industry flex vert vstart">
                         <div class="challengeEvolutionHistory__node--head flex vcenter hcenter">
                             エネルギー産業のうごき
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 3.7rem;">
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 3.3rem;">
                             薪炭から石炭へエネルギーの主力が移り変わり<br>
                             1920年に石炭の割合が過去最高に
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 11.1rem;">
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 13.5rem;">
                             ガス事業の普及拡大<br>
                             多くのガス事業者が誕生した
                         </div>
-                        <div class="challengeEvolutionHistory__node--img" style="margin-top: 3.1rem;">
+                        <div class="challengeEvolutionHistory__node--img" style="margin-top: 1.9rem;">
                             <img src="<?php echo HOME; ?>img/challengeEvolution_history_industry_01.png" alt="">
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 3.5rem;">
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 7.9rem;">
                             第二次世界大戦以後、国を復興させる重要な産業として<br>
-                            傾斜生産方式が導入される。<br>
-                            1950年に政府による統制が撤廃され、<br>
+                            傾斜生産方式が導入される。1950年に政府による統制が撤廃され、<br>
                             石炭企業は自由競争市場へ復帰する。
                         </div>
-                        <div class="challengeEvolutionHistory__node--img" style="margin-top: 8.2rem;">
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            原子力の平和的利用が進められ、<br>
+                            1951年にアメリカで原子力発電が開始された。<br>
+                            日本でも1950年代中頃に法律や体制の整備と共に導入された。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            LPガスが日本国内の過程用燃料として急速に普及する。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 6.2rem;">
+                            メタンを主成分とする天然ガスが無公害で理想的なエネルギーとして<br>
+                            注目を集めた。日本でも1969年に導入される。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">1973年</span><br>
+                            第四次中東戦争をきっかけに第一次オイルショックが起こる
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            フランスで太陽光発電所が稼働開始
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">1979年</span><br>
+                            イラン革命をきっかけに第二次オイルショックが起こる
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            二度のオイルショックにより、石油エネルギーに頼る危うさが<br>
+                            浮き彫りとなり、エネルギー減の多様化が求められた。<br>
+                            中でも原子力発電所の建設・普及が世界的に進むこととなった。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--img" style="margin-top: 2rem;">
                             <img src="<?php echo HOME; ?>img/challengeEvolution_history_industry_02.png" alt="">
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 5rem;">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 1.8rem;">
+                            1997年に行われた地球温暖化防止京都会議で、<br>
+                            二酸化炭素排出量の削減目標などが取り決められた。
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 5.5rem;">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        <div class="challengeEvolutionHistory__node--img" style="margin-top: 11.1rem;">
+                            <img src="<?php echo HOME; ?>img/challengeEvolution_history_industry_03.png" alt="">
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 9.2rem;">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 2rem;">
+                            <span class="year">2011年</span><br>
+                            東日本大震災・福島第一原子力発電所事故により、<br>
+                            エネルギーの安全性が見直され、<br>
+                            再生可能エネルギーの導入が加速した。
                         </div>
-                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 7.2rem;">
-                            テキストテキストテキストテキストテキストテキストテキスト
+                        <div class="challengeEvolutionHistory__node--img" style="margin-top: 4.4rem;">
+                            <img src="<?php echo HOME; ?>img/challengeEvolution_history_industry_04.png" alt="">
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text" style="margin-top: 1.8rem;">
+                            2050年カーボンニュートラル宣言により、<br>
+                            再生可能エネルギーへの注目が更に高まった。
                         </div>
                     </div>
                 </div>

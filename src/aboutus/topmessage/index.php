@@ -94,15 +94,6 @@ require_once $include . '_header.php';
                                 〇〇 〇〇
                             </div>
                         </li>
-                        <li class="topMessageMember__member--item">
-                            <div class="topMessageMember__member--img">
-                                <img src="<?php echo HOME; ?>img/topMessage_member_03.png" alt="">
-                            </div>
-                            <div class="topMessageMember__member--text">
-                                ○○年入社<br>
-                                〇〇 〇〇
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -262,6 +253,11 @@ require_once $include . '_header.php';
                             </p>
                         </div>
                     </div>
+                </div>
+                <div class="topMessageInterview__separate">
+                    <span class="js-in anime slideImg">
+                        <img src="<?php echo HOME; ?>img/topMessage_interview_03.png" alt="">
+                    </span>
                 </div>
             </div>
         </section>

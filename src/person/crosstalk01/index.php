@@ -333,18 +333,39 @@ require_once $include . '_header.php';
                     </div>
                 </h2>
                 <ul class="crosstalkData__list">
-                    <?php for ($i = 0; $i < 4; $i++) { ?>
+                    <?php
+                    $arrMember = array(
+                        '01' => array(
+                            'name' => '鈴木 太郎',
+                            'desc' => 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
+                        ),
+                        '02' => array(
+                            'name' => '鈴木 太郎',
+                            'desc' => 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
+                        ),
+                        '03' => array(
+                            'name' => '鈴木 太郎',
+                            'desc' => 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
+                        ),
+                        '04' => array(
+                            'name' => '鈴木 太郎',
+                            'desc' => 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
+                        ),
+                    );
+                    foreach ($arrMember as $key =>  $val) {
+                        ?>
                     <li class="crosstalkData__item">
                         <dl class="crosstalkData__profile">
                             <dt class="crosstalkData__profile--name notos">
-                                鈴木 太郎
+                                <?php echo $val['name']; ?>
                             </dt>
                             <dd class="crosstalkData__profile--desc">
-                                テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                <?php echo $val['desc']; ?>
                             </dd>
                         </dl>
                     </li>
-                    <?php } ?>
+                    <?php
+                    } ?>
                 </ul>
                 <div class="crosstalkData__more">
                     <a href="<?php echo HOME; ?>person/" class="crosstalkData__btn md-btn red">

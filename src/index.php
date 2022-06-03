@@ -24,16 +24,16 @@ require_once $include . '_header.php';
         <div class="topMv__img js-topMvSlide swiper-container">
             <div class="topMv__img swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="<?php echo HOME; ?>img/top_mv.png" alt="" class="pc">
-                    <img src="<?php echo HOME; ?>img/top_mv_sp.png" alt="" class="sp">
+                    <img src="<?php echo HOME; ?>img/top_mv_01.png" alt="" class="pc">
+                    <img src="<?php echo HOME; ?>img/top_mv_01_sp.png" alt="" class="sp">
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo HOME; ?>img/top_mv.png" alt="" class="pc">
-                    <img src="<?php echo HOME; ?>img/top_mv_sp.png" alt="" class="sp">
+                    <img src="<?php echo HOME; ?>img/top_mv_02.png" alt="" class="pc">
+                    <img src="<?php echo HOME; ?>img/top_mv_02_sp.png" alt="" class="sp">
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo HOME; ?>img/top_mv.png" alt="" class="pc">
-                    <img src="<?php echo HOME; ?>img/top_mv_sp.png" alt="" class="sp">
+                    <img src="<?php echo HOME; ?>img/top_mv_03.png" alt="" class="pc">
+                    <img src="<?php echo HOME; ?>img/top_mv_03_sp.png" alt="" class="sp">
                 </div>
             </div>
         </div>
@@ -390,8 +390,8 @@ require_once $include . '_header.php';
                     <span class="topCrosstalkSlide__item--caption sp">
                         <span class="bg">Special Crosstalk</span><br><span class="bg">～女性のキャリアアップ ～</span>
                     </span>
-                    <img src="<?php echo HOME ?>img/crosstalk1.png" alt="" class="pc">
-                    <img src="<?php echo HOME ?>img/crosstalk1_sp.png" alt="" class="sp">
+                    <img src="<?php echo HOME ?>img/crosstalk2.png" alt="" class="pc">
+                    <img src="<?php echo HOME ?>img/crosstalk2_sp.png" alt="" class="sp">
                 </a>
                 <a href="<?php echo HOME; ?>person/crosstalk03/" class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
@@ -400,8 +400,8 @@ require_once $include . '_header.php';
                     <span class="topCrosstalkSlide__item--caption sp">
                         <span class="bg">Special Crosstalk</span><br><span class="bg">～女性のキャリアアップ ～</span>
                     </span>
-                    <img src="<?php echo HOME ?>img/crosstalk1.png" alt="" class="pc">
-                    <img src="<?php echo HOME ?>img/crosstalk1_sp.png" alt="" class="sp">
+                    <img src="<?php echo HOME ?>img/crosstalk3.png" alt="" class="pc">
+                    <img src="<?php echo HOME ?>img/crosstalk3_sp.png" alt="" class="sp">
                 </a>
             </div>
             <div class="swiper-button-prev">

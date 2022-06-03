@@ -77,8 +77,9 @@
     }
     &--pos {
       margin: 1rem 0 0;
-      font-size: 2.6rem;
+      font-size: 2.4rem;
       font-weight: 700;
+      line-height: 1.5;
       letter-spacing: 0.05em;
     }
     &--career {
@@ -88,7 +89,7 @@
       font-size: 2rem;
     }
     &--dtl {
-      margin: 1rem 0 0;
+      margin: 0.5rem 0 0;
       font-size: 1.8rem;
       line-height: 1.5;
     }
@@ -114,7 +115,7 @@
     }
     &__profile {
       bottom: -14rem;
-      padding: 1.5rem 3rem 1.8rem 2rem;
+      padding: 1rem 3rem 1rem 2rem;
       letter-spacing: 0.05em;
       background: $siteColor;
       &--year {
@@ -135,10 +136,10 @@
         font-size: 1rem;
       }
       &--pos {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
       }
       &--career {
-        margin: 1.2rem 0 0;
+        margin: 0;
       }
       &--ttl {
         font-size: 1.4rem;
