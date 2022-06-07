@@ -28,32 +28,21 @@ require_once $include . '_header.php';
             </div>
             <h1 class="interviewMv__copy flex vert">
                 <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
-                    <div class="js-in anime text-in wave3">人と社会を支えるインフラを</div>
+                    <div class="js-in anime text-in wave3">「自転車で社会を変える」</div>
                 </div>
                 <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
-                    <div class="js-in anime text-in wave3">チームで守り続けるという使命感</div>
+                    <div class="js-in anime text-in wave3">事業ステージは、街づくりの観点へ</div>
                 </div>
             </h1>
             <div class="interviewMv__profile js-in anime left-in">
-                <div class="interviewMv__profile--year notos">2014年入社</div>
+                <div class="interviewMv__profile--year notos">2016年入社</div>
                 <div class="interviewMv__profile--name notos flex vend">
-                    <div class="interviewMv__profile--ja">高橋 秀治</div>
-                    <div class="interviewMv__profile--en">Shuji Takahashi</div>
+                    <div class="interviewMv__profile--ja">笠松 一真</div>
+                    <div class="interviewMv__profile--en">Kazuma Kasamatsu</div>
                 </div>
                 <div class="interviewMv__profile--pos notos">
-                    ミライフ株式会社<br>
-                    営業統括部 電力推進チーム<br>
-                    セクションリーダー
-                </div>
-                <div class="interviewMv__profile--career">
-                    <div class="interviewMv__profile--year">
-                    <div class="interviewMv__profile--ttl">経歴</div>
-                    <div class="interviewMv__profile--dtl">
-                        2010年　入社<br>
-                        2010年　〇〇〇部<br>
-                        2013年　〇〇〇部<br>
-                        2019年　〇〇部 部長
-                    </div>
+                    シナネンモビリティPLUS株式会社<br>
+                    営業部
                 </div>
             </div>
         </section>
@@ -77,7 +66,7 @@ require_once $include . '_header.php';
                     <div class="interviewSec__text pc-1">
                         <h2 class="interviewSec__head notos anime__wrapper">
                             <div class="js-in anime text-in">
-                                一人ひとりを見ていてくれるから<br>自分らしく居られる場所
+                                多様なキャリアチェンジを通して<br>成長を続ける
                             </div>
                         </h2>
                         <div class="sp interviewSec__img pc-2">
@@ -86,7 +75,16 @@ require_once $include . '_header.php';
                             </span>
                         </div>
                         <p class="interviewSec__desc">
-                            現在は、ミライフ株式会社にて電力推進チームのセクションリーダーとして働いています。数名のメンバーのマネジメントを行いながら、主に製造工場やテナント、老人ホームや道の駅などの法人企業様を担当しています。そもそもシナネン・ホールディングスに入社を決めたのは、人の暮らしと密接に関わる仕事に就きたいと思ったからです。中でも、人を支える縁の下の力持ちのような立ち回りが私の特技であると感じており、陰ながら生活や社会を支えるインフラ業界に携わりたいと考えていました。他社も検討していましたが、最終的な決め手となったのは、各採用ステップの中で、担当者の方から面接に関するフィードバック（FB）をもらえたこと。一次面接後に合格の電話連絡があった際、私の面接時を振り返り、良かった点と改善点を丁寧に教えてくれたんです。他社も同じようなタイミングで採用スケジュールが進む中、30分ほどかけて丁寧にFBをくれたのはここだけでした。そんな姿勢に、「この会社は一人ひとりをちゃんと見てくれている」と感じられました。
+                            2016年に入社して以来、6つの社内ジョブチェンジを経験しました。当社は社内ジョブチェンジが前提にあるため人によってさまざまですが、1年ごとに部署異動があることも珍しくありません。
+                        </p>
+                        <p class="interviewSec__desc">
+                            1年目は、シナネンの営業統括部・営業推進チームに所属してバックオフィスを担当しました。社会人としての基本的なマナーを習得すると同時に会社全体の流れを掴むことができたため、深い仕事理解に繋がりました。チームは5名おり、皆で協力して営業が獲得した案件のフォローを行なっていました。
+                        </p>
+                        <p class="interviewSec__desc">
+                            2年目は営業として従事しました。バックオフィス時は社内で事務作業をすることが多く、自分のやっていることが社会やお客様にどう繋がっているのか見えにくいこともありましたが、実際に営業に出ていろいろな方にお会いすることで想像以上に感謝されていることに驚きました。同時に、社会のインフラを担っているという責任感が一層強まり、お客様のためにという考え方が深く根付きましたね。
+                        </p>
+                        <p class="interviewSec__desc">
+                            就職活動時はもともと、漠然と「かっこいい」と思い、とにかく規模感の大きな仕事がしたいと商社への就職を希望していました。最終的な決め手は当社の人の良さでしたが、入社前にイメージしていた社会貢献度の高さといった働きがいは想像の数倍ありました。
                         </p>
                     </div>
                     <div class="pc interviewSec__img pc-2">
@@ -99,7 +97,7 @@ require_once $include . '_header.php';
                     <div class="interviewSec__text pc-2">
                         <h2 class="interviewSec__head notos anime__wrapper">
                             <div class="js-in anime text-in">
-                                石油、ガス、電気<br>人と社会を支えるインフラに携われるやりがい
+                                事業立ち上げを経験し<br>確固たる自分のスタイルを追求
                             </div>
                         </h2>
                         <div class="sp interviewSec__img pc-1">
@@ -108,7 +106,10 @@ require_once $include . '_header.php';
                             </span>
                         </div>
                         <p class="interviewSec__desc">
-                            入社後は、石油事業のバックオフィスを経験し、その後、ガス事業へ異動。現在のミライフ株式会社がグループとして初めて電気事業に参入するタイミングで現在の部署に配属になりました。今振り返ると、1年目が1番大変だったと思います。というのも、社会人としての基本的なマナーを覚えることに加えて、エネルギー業界は専門用語も多いため、基本的な知識を習得するのに苦労しました。また、石油やガス、電気などのエネルギーならではの特徴として価格変動が激しく、バックオフィスでは1度決定したにも関わらず、後から仕入れ先を変更するのは日常茶飯事であり、業界の背景を知らなかった私は、おもしろいほど対応に踊らされていました（笑）。しかし、がむしゃらに取り組み続けた日々を振り返ると、忙しい中でも仕事をやり切る達成感や誰かの役に立てているという充足感を得られた1年間だったと思います。
+                            現在は、シナネンモビリティPLUSの営業部に所属しています。この事業は2019年に発足したばかりの新事業でシェアサイクルサービスを展開しています。事業を通して、自治体や民間企業の移動に対する課題解決を促し、脱炭素社会へ向けた取り組みにアプローチできます。
+                        </p>
+                        <p class="interviewSec__desc">
+                            初めて経験した事業立ち上げの際、私はチームの最年少メンバーとして参入しました。当時、営業体制は2人1組で行うのが基本で、私はチーム長とペアを組んでいました。そこでは上司の営業のノウハウを間近で知ることができたためとても恵まれていたと思います。人にはそれぞれの営業スタイルがあるものです。私の場合、営業担当になってからの1年間は多くの人のやり方を見ながら良いところを吸収し、現在の自分のスタイルに行き着きました。しかし、仕事のスタイルというものは固定的にせず、時と場合によって柔軟に変化させることも大切です。また、現在は多くの後輩社員もいるため今後も自分自身の仕事への姿勢を見つめるとともに、かつてのチーム長のように背中を後輩達に見せていくことも意識していきたいと思っています。
                         </p>
                     </div>
                     <div class="pc interviewSec__img pc-1">
@@ -127,12 +128,14 @@ require_once $include . '_header.php';
                 <div class="interviewSec__text">
                     <h2 class="interviewSec__head notos anime__wrapper">
                         <div class="js-in anime text-in">
-                            誰一人取り残さず、<br>「チーム」としての一体感を大切にしたい
+                            未開の地をチームで切り拓く
                         </div>
                     </h2>
                     <p class="interviewSec__desc">
-                        入社して4年ほどでホールディングスの主力事業である石油・ガス・電気を経験したわけですが、私の場合、毎度異なる商材を扱う部署への異動となり、少しユニークなキャリアを経験してきました。配属の度に新しいことを学ぶのは大変でしたが、そのおかげで今はそれぞれの事業を網羅することができ、リーダーの職に就くこともできました。<br>
-                        リーダーとして心掛けていることは、相手のことを理解しようとする姿勢です。その上で、部下が日々取り組んでいる仕事への的確なFBをしています。それにはまず、仕事の話だけでなく、普段から他愛ない雑談や部下のプライベートな相談にも耳を傾けることも大切だと感じています。そうやって心の障壁をクリアにしておくことでいつでも相談しやすい関係性が築けるからです。関係性の基盤があれば、指導やアドバイスが他人事でなく、より一人ひとりの心に届きやすくなることにもつながります。何か困っていることや悩みがある時、相談しづらい環境は居心地がいいとは言えません。職場の快適さは仕事のしやすさだけでなく、生産性にも関係してきます。みんなが気持ちよく働き、自分の意見を声にして仕事を一緒に進めていける一体感は私にとって重要なこと。決して一人で悩むことのないようすべてのメンバーへの心配りを忘れたくありません。この考え方は、私自身がこれまでに多くの先輩方から受け継いできたマインドなのかもしれません。それほど当社は人を大切にする文化が根付いていると感じています。
+                        ステーション（ポート）は、駅やコンビニエンスストア、テナント、賃貸物件などの空きスペースに多く設置されています。ステーションがある場所ならどこでもレンタル・返却をしても良いので買い物やサイクリングなどの日常使いや、駅から取引先のビシネス利用などさまざまな移動シーンで活躍しています。現在はとくに、コンビニへの拡大に注力しており、沿線上に設置することで人の移動方法の選択肢を広げ、便利な街にしていこうという街づくりの観点からのアプローチも増えました。
+                    </p>
+                    <p class="interviewSec__desc">
+                        まだまだ拡大の余地はありますが、立ち上げ当時はサービス内容やプランはもちろんなく、ゼロからのスタートでした。一緒に働く仲間も皆が初めてのことなので手探り状態で進め、契約書も一から自分達で作り上げました。そう考えると感慨深いもので事業への愛着も計り知れません。当社は皆にさまざまなキャリアチャンスを与えてくれることは間違いなく、仕事を通して多くの経験を積み、自身の成長を感じられています。
                     </p>
                 </div>
             </div>
@@ -142,11 +145,17 @@ require_once $include . '_header.php';
                 <div class="interviewSec__text">
                     <h2 class="interviewSec__head notos anime__wrapper">
                         <div class="js-in anime text-in">
-                            次代を支える<br>新たなビジネスチャンスを掴む挑戦
+                            ユーザーアビリティを構築し、<br>お客様第一のサービスを目指す
                         </div>
                     </h2>
                     <p class="interviewSec__desc">
-                        さまざまな事業や職種を経験してきた今、エネルギーというかけがえのない商材を扱うこの仕事を誇りに思っています。同時に、エネルギー業界のさらなる可能性を探る動きは会社全体でも活発になっており、今後の展開に私自身も期待しているんです。私は仕事を通していろいろな企業様のお話を聞く機会があるため、いつでも新しい情報をキャッチしたり、先見の明をもって物事を捉えたりするようにしています。人や暮らしに根付くエネルギーは、あらゆるモノ・コトと結びついているため、際限ない好奇心や興味、関心を持ち続けられることもこの仕事の魅力です。次のビジネスチャンスがどこに潜んでいるのか？そうやって世の中を見てみると、新たな発想や発見を得られるものです。今後も進取の精神で仕事に臨み、シナネンホールディングスが一体となり、次代を支え続けるイノベーションを起こしていきたいです。
+                        私たちは今後、引き続きステーションの拡大を進めるとともに、利用者のユーザビリティの追求を目指すことが大切と感じています。
+                    </p>
+                    <p class="interviewSec__desc">
+                        たとえば、世界的に有名なAMAZONはカスタマーサービスに手厚いサポートを用意していますよね。高い満足度は商品自体の価値のほかにも、利用者の使いやすさといった快適な使用感を突き詰めていると感じます。ですから、シェアサイクルサービスをさらに多くの人に利用してもらうためには、お客様第一の姿勢をより強固なものにしていく必要があるのです。私一人の力では到底できませんが、当社は人の良さは然り、チームで仕事をしていける土壌があります。私自身はお客様のためなら上司にも躊躇せずに意思や意見を伝えるようにしています。人によっては、それが難しいこともあるかもしれませんが、闊達な意見交換が会社をより良くしていくものです。
+                    </p>
+                    <p class="interviewSec__desc">
+                        たかが自転車、されど自転車です。近年は地球環境の保全、脱炭素社会のほかにも防災観点やMaaSなど、持続的に広く貢献できる可能性も再注目されています。今後も事業発展の一翼を担っているという自負を持ち、主体的に仕事に取り組んでいきたいです。
                     </p>
                 </div>
             </div>
@@ -184,14 +193,6 @@ require_once $include . '_header.php';
                                 <p class="interviewSchedule__desc--ttl">
                                     出社
                                 </p>
-                                <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview02_schedule_01.png" alt="">
-                                    </div>
-                                    <p class="interviewSchedule__desc--text">
-                                        業界紙などからマーケット情報や業界トレンドをチェック
-                                    </p>
-                                </div>
                             </div>
                         </div>
                         <div class="interviewSchedule__item flex">
@@ -202,12 +203,22 @@ require_once $include . '_header.php';
                                 <p class="interviewSchedule__desc--ttl">
                                     チームミーティング
                                 </p>
+                            </div>
+                        </div>
+                        <div class="interviewSchedule__item flex">
+                            <div class="interviewSchedule__time">
+                                11:00
+                            </div>
+                            <div class="interviewSchedule__desc">
+                                <p class="interviewSchedule__desc--ttl">
+                                    資料整理
+                                </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
                                     <div class="interviewSchedule__desc--img">
                                         <img src="<?php echo HOME; ?>img/interview02_schedule_02.png" alt="">
                                     </div>
                                     <p class="interviewSchedule__desc--text">
-                                        お客様への提案内容・電力仕入情報の共有など
+                                        商談のための資料作成を行います。
                                     </p>
                                 </div>
                             </div>
@@ -224,17 +235,22 @@ require_once $include . '_header.php';
                         </div>
                         <div class="interviewSchedule__item flex">
                             <div class="interviewSchedule__time">
-                                13:00
+                                14:00
                             </div>
                             <div class="interviewSchedule__desc">
                                 <p class="interviewSchedule__desc--ttl">
-                                    お客様訪問（工場・病院・介護施設など）
+                                    商談①
                                 </p>
-                                <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <p class="interviewSchedule__desc--text">
-                                        新規提案・既存供給先への提案商談
-                                    </p>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="interviewSchedule__item flex">
+                            <div class="interviewSchedule__time">
+                                16:00
+                            </div>
+                            <div class="interviewSchedule__desc">
+                                <p class="interviewSchedule__desc--ttl">
+                                    商談②
+                                </p>
                             </div>
                         </div>
                         <div class="interviewSchedule__item flex">
@@ -243,25 +259,25 @@ require_once $include . '_header.php';
                             </div>
                             <div class="interviewSchedule__desc">
                                 <p class="interviewSchedule__desc--ttl">
-                                    帰社
+                                    帰宅(在宅)
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
                                     <div class="interviewSchedule__desc--img">
                                         <img src="<?php echo HOME; ?>img/interview02_schedule_03.png" alt="">
                                     </div>
                                     <p class="interviewSchedule__desc--text">
-                                        翌日の営業準備
+                                        1日の事務処理・明日の準備等
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="interviewSchedule__item flex">
                             <div class="interviewSchedule__time">
-                                18:00
+                                18:30
                             </div>
                             <div class="interviewSchedule__desc">
                                 <p class="interviewSchedule__desc--ttl">
-                                    退社
+                                    退勤
                                 </p>
                             </div>
                         </div>
@@ -296,7 +312,7 @@ require_once $include . '_header.php';
                     </div>
                 </h2>
                 <p class="interviewMessage__desc">
-                    やるからには全力で、楽しんで仕事をしたいと思いませんか？当社には、そんなふうに仕事をしている仲間がたくさんいます。私も今、仕事がとても楽しいです。私自身が楽しいと、なんだかそんな気持ちが周りにも好循環をもたらすような気もしているんです。いつも職場は明るいパワーがみなぎるようで活気に満ちています。そこであなたもイキイキと自分らしく働いているイメージをしてみてください！きっと、あなたは当社で居場所を見つけることができると思います！
+                    当社は今、変革のときを迎えています。社内では風土改革に本気で取り組む姿勢を至る所で感じ、風通しの良さを実感しています。その働きやすさは活発な意見交換や斬新なアイデアを生み出すことに繋がると考えており、当社はまだまだ伸びしろの大きい会社です。また、私がそうであるように、さまざまな部署を経験することで自分自身の価値を高めることもできます。少しでも当社への興味が芽生えたなら、その直感を信じてもいいはずです。
                 </p>
             </div>
         </section>

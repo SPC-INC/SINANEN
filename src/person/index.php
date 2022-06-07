@@ -96,7 +96,7 @@ require_once $include . '_header.php';
                             </div>
                             <div class="personCrosstalk__ttl--main flex vcenter anime__wrapper">
                                 <div class="js-in anime text-in">
-                                    それぞれのこれまでの歩みとそこで得たこと
+                                    トレーナー×トレーニークロストーク
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ require_once $include . '_header.php';
                             </div>
                             <div class="personCrosstalk__ttl--main flex vcenter anime__wrapper">
                                 <div class="js-in anime text-in">
-                                    それぞれのこれまでの歩みとそこで得たこと
+                                    13年目5年目3年目_クロストーク
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@ require_once $include . '_header.php';
                             </div>
                             <div class="personCrosstalk__ttl--main flex vcenter anime__wrapper">
                                 <div class="js-in anime text-in">
-                                    それぞれのこれまでの歩みとそこで得たこと
+                                    女性の活躍クロストーク
                                 </div>
                             </div>
                         </div>

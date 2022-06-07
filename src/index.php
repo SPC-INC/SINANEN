@@ -375,30 +375,30 @@ require_once $include . '_header.php';
             <div class="swiper-wrapper">
                 <a href="<?php echo HOME; ?>person/crosstalk01/" class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
-                        <span class="bg">Special Crosstalk <span class="small">～女性のキャリアアップ ～</span></span>
+                        <span class="bg">Special Crosstalk <span class="small">トレーナー×トレーニークロストーク</span></span>
                     </span>
                     <span class="topCrosstalkSlide__item--caption sp">
-                        <span class="bg">Special Crosstalk</span><br><span class="bg">～女性のキャリアアップ ～</span>
+                        <span class="bg">Special Crosstalk</span><br><span class="bg">トレーナー×トレーニークロストーク</span>
                     </span>
                     <img src="<?php echo HOME ?>img/crosstalk1.png" alt="" class="pc">
                     <img src="<?php echo HOME ?>img/crosstalk1_sp.png" alt="" class="sp">
                 </a>
                 <a href="<?php echo HOME; ?>person/crosstalk02/" class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
-                        <span class="bg">Special Crosstalk <span class="small">～女性のキャリアアップ ～</span></span>
+                        <span class="bg">Special Crosstalk <span class="small">13年目5年目3年目_クロストーク</span></span>
                     </span>
                     <span class="topCrosstalkSlide__item--caption sp">
-                        <span class="bg">Special Crosstalk</span><br><span class="bg">～女性のキャリアアップ ～</span>
+                        <span class="bg">Special Crosstalk</span><br><span class="bg">13年目5年目3年目_クロストーク</span>
                     </span>
                     <img src="<?php echo HOME ?>img/crosstalk2.png" alt="" class="pc">
                     <img src="<?php echo HOME ?>img/crosstalk2_sp.png" alt="" class="sp">
                 </a>
                 <a href="<?php echo HOME; ?>person/crosstalk03/" class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
-                        <span class="bg">Special Crosstalk <span class="small">～ 女性のキャリアアップ ～</span></span>
+                        <span class="bg">Special Crosstalk <span class="small">～ 女性の活躍クロストーク</span></span>
                     </span>
                     <span class="topCrosstalkSlide__item--caption sp">
-                        <span class="bg">Special Crosstalk</span><br><span class="bg">～女性のキャリアアップ ～</span>
+                        <span class="bg">Special Crosstalk</span><br><span class="bg">女性の活躍クロストーク</span>
                     </span>
                     <img src="<?php echo HOME ?>img/crosstalk3.png" alt="" class="pc">
                     <img src="<?php echo HOME ?>img/crosstalk3_sp.png" alt="" class="sp">

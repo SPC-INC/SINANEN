@@ -45,16 +45,6 @@ require_once $include . '_header.php';
                     営業統括部 電力推進チーム<br>
                     セクションリーダー
                 </div>
-                <div class="interviewMv__profile--career">
-                    <div class="interviewMv__profile--year">
-                    <div class="interviewMv__profile--ttl">経歴</div>
-                    <div class="interviewMv__profile--dtl">
-                        2010年　入社<br>
-                        2010年　〇〇〇部<br>
-                        2013年　〇〇〇部<br>
-                        2019年　〇〇部 部長
-                    </div>
-                </div>
             </div>
         </section>
 

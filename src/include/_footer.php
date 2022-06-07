@@ -23,9 +23,9 @@
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <p class="footerLink__list--title">クロストーク</p>
-                <a href="<?php echo HOME; ?>person/crosstalk01/" class="footerLink__list--item">トークテーマが入ります</a>
-                <a href="<?php echo HOME; ?>person/crosstalk02/" class="footerLink__list--item">トークテーマが入ります</a>
-                <a href="<?php echo HOME; ?>person/crosstalk03/" class="footerLink__list--item">トークテーマが入ります</a>
+                <a href="<?php echo HOME; ?>person/crosstalk01/" class="footerLink__list--item">トレーナー×トレーニークロストーク</a>
+                <a href="<?php echo HOME; ?>person/crosstalk02/" class="footerLink__list--item">13年目5年目3年目_クロストーク</a>
+                <a href="<?php echo HOME; ?>person/crosstalk03/" class="footerLink__list--item">女性の活躍クロストーク</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>recruit/" class="footerLink__list--title op">採用情報</a>

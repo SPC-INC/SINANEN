@@ -176,13 +176,13 @@
                                                 クロストーク
                                             </div>
                                             <a href="<?php echo HOME; ?>person/crosstalk01/" class="headerPulldown__link flex vcenter">
-                                                01&nbsp;&nbsp;女性のキャリアアップ
+                                                01&nbsp;&nbsp;トレーナー×トレーニークロストーク
                                             </a>
                                             <a href="<?php echo HOME; ?>person/crosstalk02/" class="headerPulldown__link flex vcenter">
-                                                02&nbsp;&nbsp;それぞれのこれまでの歩みとそこで得たこと
+                                                02&nbsp;&nbsp;13年目5年目3年目_クロストーク
                                             </a>
                                             <a href="<?php echo HOME; ?>person/crosstalk03/" class="headerPulldown__link flex vcenter">
-                                                03&nbsp;&nbsp;それぞれのこれまでの歩みとそこで得たこと
+                                                03&nbsp;&nbsp;女性の活躍クロストーク
                                             </a>
                                         </div>
                                     </div>
@@ -375,13 +375,13 @@
                 <div class="acc-body">
                     <div class="acc-in">
                         <a href="<?php echo HOME; ?>person/crosstalk01/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            Special Crosstalk #1　女性のキャリアアップ
+                            Special Crosstalk トレーナー×トレーニークロストーク
                         </a>
                         <a href="<?php echo HOME; ?>person/crosstalk02/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            Special Crosstalk #2　テキストテキストテキスト
+                            Special Crosstalk 13年目5年目3年目_クロストーク
                         </a>
                         <a href="<?php echo HOME; ?>person/crosstalk03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            Special Crosstalk #3　テキストテキストテキスト
+                            Special Crosstalk 女性の活躍クロストーク
                         </a>
                     </div>
                 </div>
