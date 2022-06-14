@@ -139,7 +139,7 @@ require_once $include . '_header.php';
                     <img src="<?php echo HOME; ?>img/business_future_sp.png" alt="" class="sp">
                 </div>
                 <p class="businessFuture__text">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    Challenging New Worlds with Big Sky-thinking～大胆な発想で新しい世界への挑戦～をコンセプトに、私たちが目指す未来の姿を、「人々の生活」「働き方」「会社の在り方」の３つの視点からご紹介します。
                 </p>
                 <div class="businessFuture__more">
                     <a href="<?php echo HOME; ?>future/" class="businessFutures__btn md-btn red">

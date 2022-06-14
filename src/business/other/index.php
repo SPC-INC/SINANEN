@@ -33,32 +33,32 @@ require_once $include . '_header.php';
                 <div class="businessChild__wrapper pc-flex bet">
                     <div class="businessChildSide">
                         <ul class="pc businessChildSide__list js-stickyNav">
-                            <li class="businessChildSide__item">
-                                <a href="#bicycle" class="businessChildSide__link">
+                            <li class="businessChildSide__item js-currentNav-item">
+                                <a href="#bicycle" class="businessChildSide__link current">
                                     自転車事業
                                 </a>
                             </li>
-                            <li class="businessChildSide__item">
+                            <li class="businessChildSide__item js-currentNav-item">
                                 <a href="#sharecycle" class="businessChildSide__link">
                                     シェアサイクル事業
                                 </a>
                             </li>
-                            <li class="businessChildSide__item">
+                            <li class="businessChildSide__item js-currentNav-item">
                                 <a href="#ecology" class="businessChildSide__link">
                                     環境・リサイクル事業
                                 </a>
                             </li>
-                            <li class="businessChildSide__item">
+                            <li class="businessChildSide__item js-currentNav-item">
                                 <a href="#antibacterial" class="businessChildSide__link">
                                     抗菌事業
                                 </a>
                             </li>
-                            <li class="businessChildSide__item">
+                            <li class="businessChildSide__item js-currentNav-item">
                                 <a href="#system" class="businessChildSide__link">
                                     システム事業
                                 </a>
                             </li>
-                            <li class="businessChildSide__item">
+                            <li class="businessChildSide__item js-currentNav-item">
                                 <a href="#building" class="businessChildSide__link">
                                     建物維持管理事業
                                 </a>
@@ -67,7 +67,7 @@ require_once $include . '_header.php';
                     </div>
                     <div class="businessChildMain">
                         <div class="js-stickyNav-target">
-                            <div class="businessChildMain__item" id="bicycle">
+                            <div class="businessChildMain__item js-currentNav" id="bicycle">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
                                         自転車事業
@@ -90,7 +90,7 @@ require_once $include . '_header.php';
                                     </p>
                                 </div>
                             </div>
-                            <div class="businessChildMain__item" id="sharecycle">
+                            <div class="businessChildMain__item js-currentNav" id="sharecycle">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
                                         シェアサイクル事業
@@ -112,7 +112,7 @@ require_once $include . '_header.php';
                                     </p>
                                 </div>
                             </div>
-                            <div class="businessChildMain__item" id="ecology">
+                            <div class="businessChildMain__item js-currentNav" id="ecology">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
                                         環境・リサイクル事業
@@ -135,7 +135,7 @@ require_once $include . '_header.php';
                                     </p>
                                 </div>
                             </div>
-                            <div class="businessChildMain__item" id="antibacterial">
+                            <div class="businessChildMain__item js-currentNav" id="antibacterial">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
                                         抗菌事業
@@ -158,7 +158,7 @@ require_once $include . '_header.php';
                                     </p>
                                 </div>
                             </div>
-                            <div class="businessChildMain__item" id="system">
+                            <div class="businessChildMain__item js-currentNav" id="system">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
                                         システム事業
@@ -180,7 +180,7 @@ require_once $include . '_header.php';
                                     </p>
                                 </div>
                             </div>
-                            <div class="businessChildMain__item" id="building">
+                            <div class="businessChildMain__item js-currentNav" id="building">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
                                         建物維持管理事業

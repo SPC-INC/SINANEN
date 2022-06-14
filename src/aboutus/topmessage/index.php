@@ -17,7 +17,7 @@ require_once $include . '_header.php';
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
                 <span class="pageHead__text--en js-in anime text-in">Message</span>
-                <span class="pageHead__text--ja js-in anime text-in">社長メッセージ</span>
+                <span class="pageHead__text--ja js-in anime text-in">社長インタビュー</span>
             </h1>
         </div>
     </div>
@@ -75,23 +75,23 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <ul class="topMessageMember__member flex bet">
-                        <li class="topMessageMember__member--item">
+                        <li class="topMessageMember__member--item flex vert vcenter">
                             <div class="topMessageMember__member--img">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
                             </div>
                             <div class="topMessageMember__member--text">
                                 2021年入社<br>
-                                稲葉 琉佳<br>
+                                R.Inaba<br>
                                 シナネンホールディングス株式会社
                             </div>
                         </li>
-                        <li class="topMessageMember__member--item">
+                        <li class="topMessageMember__member--item flex vert vcenter">
                             <div class="topMessageMember__member--img">
                                 <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
                             </div>
                             <div class="topMessageMember__member--text">
                                 2021年入社<br>
-                                田野 葉子<br>
+                                Y.Tano<br>
                                 シナネン株式会社
                             </div>
                         </li>
@@ -115,7 +115,9 @@ require_once $include . '_header.php';
             <div class="pc topMessageInterview__bg topMessageInterview__bg--1"></div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="topMessageInterview__head notos">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
+                    「個」の成長が重要。<br>
+                    会社だけでなく、自分自身の人生の舵を手放さず、<br>
+                    未来を切り拓いていく人が活躍できるシナネンHDグループへ
                 </h2>
                 <div class="topMessageInterview__wrapper pc-flex">
                     <div class="topMessageInterview__img">
@@ -126,8 +128,8 @@ require_once $include . '_header.php';
                     <div class="topMessageInterview__text">
                         <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
-                                <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
-                                田野
+                                <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
+                                Y.Tano
                             </div>
                             <p class="topMessageInterview__talk--text">
                                 社長はこれまでどのようなキャリアを歩んでこられましたか？
@@ -144,8 +146,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
-                                <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
-                                稲葉
+                                <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
+                                R.Inaba
                             </div>
                             <p class="topMessageInterview__talk--text">
                                 すごいですね。では、ほとんどのキャリアを海外で過ごされたのですね。社長が私たちのような若手時代に苦労したことはありますか？
@@ -169,8 +171,8 @@ require_once $include . '_header.php';
                 </div>
                 <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
-                        <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
-                        稲葉
+                        <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
+                        R.Inaba
                     </div>
                     <p class="topMessageInterview__talk--text">
                         それはとても複雑そうな研修ですね。
@@ -204,8 +206,8 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
-                        <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
-                        田野
+                        <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
+                        Y.Tano
                     </div>
                     <p class="topMessageInterview__talk--text">
                         社長にも投げ出したくなるほど大変なことがあったんですね。逆に、嬉しかったことは何ですか？
@@ -230,8 +232,8 @@ require_once $include . '_header.php';
                 </div>
                 <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
-                        <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
-                        稲葉
+                        <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
+                        R.Inaba
                     </div>
                     <p class="topMessageInterview__talk--text">
                         そうすると一人ひとりが会議に主体的に参加する姿勢や雰囲気にも繋がりますし、一歩踏み込んだ質問からさらにアイデアが膨らむこともあるので、建設的で有意義な会議だと感じます。
@@ -246,8 +248,8 @@ require_once $include . '_header.php';
                     <div class="topMessageInterview__text pc-1">
                         <div class="topMessageInterview__talk flex vcenter">
                             <div class="topMessageInterview__talk--img flex vert vcenter">
-                                <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
-                                田野
+                                <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
+                                Y.Tano
                             </div>
                             <p class="topMessageInterview__talk--text">
                                 そういった社長の過去の経験からも、今シナネンHDグループに「風土改革」が必要だと感じているのですね？
@@ -274,8 +276,8 @@ require_once $include . '_header.php';
                 </div>
                 <div class="topMessageInterview__talk flex vcenter">
                     <div class="topMessageInterview__talk--img flex vert vcenter">
-                        <img src="<?php echo HOME; ?>img/topMessage_member_02.png" alt="">
-                        稲葉
+                        <img src="<?php echo HOME; ?>img/topMessage_member_01.png" alt="">
+                        R.Inaba
                     </div>
                     <p class="topMessageInterview__talk--text">
                         最後に、どんな人に入社してもらいたいですか？

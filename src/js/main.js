@@ -96,9 +96,40 @@ if ($('.js-inteviewList-slide')[0]) {
 }
 
 $('.js-recruitEnvironment-tab').on('click', function () {
+  const bottomTab = $('.js-recruitEnvironment-tab-bottom').eq($(this).index())
   $(this).addClass('selected')
+  bottomTab.addClass('selected')
   $(this).siblings().removeClass('selected')
+  bottomTab.siblings().removeClass('selected')
   $('.js-recruitEnvironment-tabItem').removeClass('show')
+  $('#' + $(this).attr('data-tab')).addClass('show')
+})
+$('.js-recruitEnvironment-tab-bottom').on('click', function () {
+  const topTab = $('.js-recruitEnvironment-tab').eq($(this).index())
+  $(this).addClass('selected')
+  topTab.addClass('selected')
+  $(this).siblings().removeClass('selected')
+  topTab.siblings().removeClass('selected')
+  $('.js-recruitEnvironment-tabItem').removeClass('show')
+  $('#' + $(this).attr('data-tab')).addClass('show')
+})
+
+$('.js-challengeEvolution-tab').on('click', function () {
+  const bottomTab = $('.js-challengeEvolution-tab-bottom').eq($(this).index())
+  $(this).addClass('selected')
+  bottomTab.addClass('selected')
+  $(this).siblings().removeClass('selected')
+  bottomTab.siblings().removeClass('selected')
+  $('.js-challengeEvolution-tabItem').removeClass('show')
+  $('#' + $(this).attr('data-tab')).addClass('show')
+})
+$('.js-challengeEvolution-tab-bottom').on('click', function () {
+  const topTab = $('.js-challengeEvolution-tab').eq($(this).index())
+  $(this).addClass('selected')
+  topTab.addClass('selected')
+  $(this).siblings().removeClass('selected')
+  topTab.siblings().removeClass('selected')
+  $('.js-challengeEvolution-tabItem').removeClass('show')
   $('#' + $(this).attr('data-tab')).addClass('show')
 })
 
@@ -183,7 +214,8 @@ $(function () {
 })
 
 if (document.getElementsByClassName('js-topMvText')[0]) {
-  const topIntro = $('.js-topMvText-intro').offset().top - 352
+  const topPos = 412
+  const topIntro = $('.js-topMvText-intro').offset().top - topPos
   let distance = 0
   if (window.matchMedia('(min-width:769px)').matches) {
     $('.js-topMvText-intro').addClass('none')
@@ -200,7 +232,7 @@ if (document.getElementsByClassName('js-topMvText')[0]) {
   }
 }
 
-if (document.getElementsByClassName('js-stickyNav')[0]) {
+if ($('.js-stickyNav')[0]) {
   const headerHeight = 90
   const stickeyNavTop = $('.js-stickyNav-target').offset().top - headerHeight * 2
   const stickeyNavBottom = $('.js-stickyNav-target').height() + stickeyNavTop
@@ -222,29 +254,21 @@ if (document.getElementsByClassName('js-stickyNav')[0]) {
 if ($('.js-currentNav')[0]) {
   const headerHeight = 90
   let distance = 0
-  let height = 0
+  let topPos = 0
   let target = $('.js-currentNav-item').eq(0)
+
+  const navItem = $('.js-currentNav')
   if (window.matchMedia('(min-width:769px)').matches) {
     $(document).on('scroll', function () {
       distance = $(this).scrollTop()
-
-      const currentNavItems = document.getElementsByClassName('js-currentNav')
-      for (let idx = 0; idx < currentNavItems.length; idx++) {
-        const currentNavItem = currentNavItems[idx]
-        if (currentNavItem.offset().top >= distance) {
-          const index = currentNavItem.index()
-          console.log('index: ' + index)
-          height = currentNavItem.offset().top + currentNavItem.height()
-          if (height <= distance) {
-            target = $('.js-currentNav-item').eq(index)
-          }
-          target.siblings().children().removeClass('current')
-          target.children().addClass('current')
-        } else {
+      navItem.each(function (index) {
+        topPos = $(this).offset().top - headerHeight * 2
+        if (topPos <= distance) {
+          target = $('.js-currentNav-item').eq(index)
           target.siblings().children().removeClass('current')
           target.children().addClass('current')
         }
-      }
+      })
     })
   }
 }

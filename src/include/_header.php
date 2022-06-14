@@ -67,7 +67,7 @@
                                     <div class="headerPulldown__dtl flex notos">
                                         <a href="<?php echo HOME; ?>aboutus/topmessage/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_aboutus_01.png" alt="">
-                                            社長メッセージ
+                                            社長インタビュー
                                         </a>
                                         <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_aboutus_02.png" alt="">
@@ -176,13 +176,13 @@
                                                 クロストーク
                                             </div>
                                             <a href="<?php echo HOME; ?>person/crosstalk01/" class="headerPulldown__link flex vcenter">
-                                                01&nbsp;&nbsp;トレーナー×トレーニークロストーク
+                                                01&nbsp;&nbsp;トレーナー×トレーニー
                                             </a>
                                             <a href="<?php echo HOME; ?>person/crosstalk02/" class="headerPulldown__link flex vcenter">
-                                                02&nbsp;&nbsp;13年目5年目3年目_クロストーク
+                                                02&nbsp;&nbsp;13年目×5年目×3年目対談
                                             </a>
                                             <a href="<?php echo HOME; ?>person/crosstalk03/" class="headerPulldown__link flex vcenter">
-                                                03&nbsp;&nbsp;女性の活躍クロストーク
+                                                03&nbsp;&nbsp;女性の活躍について
                                             </a>
                                         </div>
                                     </div>
@@ -285,7 +285,7 @@
                 <div class="acc-body">
                     <div class="acc-in">
                         <a href="<?php echo HOME; ?>aboutus/topmessage/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            社長メッセージ
+                            社長インタビュー
                         </a>
                         <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             シナネンHDグループの挑戦と進化
@@ -333,7 +333,7 @@
                             </div>
                             <div class="gNav__item--text">
                                 <span class="em">部署（所属）</span><br>
-                                高橋　秀治
+                                S.Takahashi
                             </div>
                         </a>
                         <a href="<?php echo HOME; ?>person/interview02/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
@@ -342,7 +342,7 @@
                             </div>
                             <div class="gNav__item--text">
                                 <span class="em">部署（所属）</span><br>
-                                笠松　一真
+                                K.Kasamatsu
                             </div>
                         </a>
                         <a href="<?php echo HOME; ?>person/interview03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
@@ -351,7 +351,7 @@
                             </div>
                             <div class="gNav__item--text">
                                 <span class="em">部署（所属）</span><br>
-                                柳原　貴一
+                                K.Yanagihara
                             </div>
                         </a>
                         <a href="<?php echo HOME; ?>person/interview04/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
@@ -360,7 +360,7 @@
                             </div>
                             <div class="gNav__item--text">
                                 <span class="em">部署（所属）</span><br>
-                                菅野　志帆
+                                S.Kanno
                             </div>
                         </a>
                     </div>
@@ -375,13 +375,13 @@
                 <div class="acc-body">
                     <div class="acc-in">
                         <a href="<?php echo HOME; ?>person/crosstalk01/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            Special Crosstalk トレーナー×トレーニークロストーク
+                            Special Crosstalk トレーナー×トレーニー
                         </a>
                         <a href="<?php echo HOME; ?>person/crosstalk02/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            Special Crosstalk 13年目5年目3年目_クロストーク
+                            Special Crosstalk 13年目×5年目×3年目対談
                         </a>
                         <a href="<?php echo HOME; ?>person/crosstalk03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            Special Crosstalk 女性の活躍クロストーク
+                            Special Crosstalk 女性の活躍について
                         </a>
                     </div>
                 </div>

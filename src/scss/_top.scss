@@ -53,9 +53,9 @@
       &--ja {
       }
       &--en {
-        top: -12rem;
+        top: -10rem;
         left: 0;
-        font-size: 12rem;
+        font-size: 10rem;
       }
       &--small {
         margin-left: 3rem;
@@ -686,6 +686,20 @@
       margin: 7.2rem auto 0;
       width: 28rem;
       height: 7rem;
+    }
+  }
+  @media screen and (max-width: 1350px) {
+    padding-top: 20.6rem;
+    &Link {
+      margin-top: 7.5rem;
+      overflow: hidden;
+      &__item {
+        width: calc(((100% - 1.6rem) / 3));
+        filter: grayscale(100%);
+        &--caption {
+          font-size: 2.5rem;
+        }
+      }
     }
   }
   /*

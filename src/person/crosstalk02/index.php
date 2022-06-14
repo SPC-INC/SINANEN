@@ -44,7 +44,7 @@ require_once $include . '_header.php';
                 <div class="crosstalkIntro__head--wrapper">
                     <div class="anime__wrapper">
                         <div class="crosstalkIntro__head--inner flex vcenter js-in anime text-in wave3">
-                            13年目5年目3年目_クロストーク
+                            13年目×5年目×3年目対談
                         </div>
                     </div>
                 </div>
@@ -56,15 +56,14 @@ require_once $include . '_header.php';
                             <img src="<?php echo HOME; ?>img/crosstalk02_member_01.png" alt="">
                         </div>
                         <div class="crosstalkIntro__profile notos">
-                            <div class="crosstalkIntro__profile--year">2010年入社</div>
+                            <div class="crosstalkIntro__profile--year">2018年入社</div>
                             <div class="crosstalkIntro__profile--name flex vend">
-                                <div class="crosstalkIntro__profile--ja">池谷 和樹</div>
-                                <div class="crosstalkIntro__profile--en">K I</div>
+                                <div class="crosstalkIntro__profile--ja">S.Takada</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
-                                シナネンホールディングス株式会社<br>
-                                成長戦略部<br>
-                                グループ連携推進チーム
+                                ミライフ株式会社<br>
+                                南関東支店<br>
+                                卸営業チーム 藤沢オフィス
                             </div>
                         </div>
                     </li>
@@ -75,8 +74,7 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__profile notos">
                             <div class="crosstalkIntro__profile--year">2020年入社</div>
                             <div class="crosstalkIntro__profile--name flex vend">
-                                <div class="crosstalkIntro__profile--ja">山夲 菜々子</div>
-                                <div class="crosstalkIntro__profile--en">N Y</div>
+                                <div class="crosstalkIntro__profile--ja">N.Yamamoto</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
                                 シナネン株式会社<br>
@@ -90,15 +88,14 @@ require_once $include . '_header.php';
                             <img src="<?php echo HOME; ?>img/crosstalk02_member_03.png" alt="">
                         </div>
                         <div class="crosstalkIntro__profile notos">
-                            <div class="crosstalkIntro__profile--year">2018年入社</div>
+                            <div class="crosstalkIntro__profile--year">2010年入社</div>
                             <div class="crosstalkIntro__profile--name flex vend">
-                                <div class="crosstalkIntro__profile--ja">高田 駿太</div>
-                                <div class="crosstalkIntro__profile--en">S T</div>
+                                <div class="crosstalkIntro__profile--ja">K.Ikeya</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
-                                ミライフ株式会社<br>
-                                南関東支店<br>
-                                卸営業チーム 藤沢オフィス
+                                シナネンホールディングス株式会社<br>
+                                成長戦略部<br>
+                                グループ連携推進チーム
                             </div>
                         </div>
                     </li>
@@ -130,7 +127,7 @@ require_once $include . '_header.php';
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk02_talk_02.png" alt=""><br>
-                                山夲
+                                N.Yamamoto
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 学生時代は専門商社に絞って就職活動をしていました。エネルギーのほかにも、食品や繊維なども視野に入れていましたが、社会を支えるインフラに関われるやりがいに惹かれてエネルギー業界を目指しました。当社を選んだのは、圧倒的な人の良さです。多くの就活生がいる中でも、一人ひとりに向き合い、振る舞いや発言の一つひとつから真心が伝わってくるようでした。
@@ -138,8 +135,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
-                                高田
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
+                                S.Takada
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 僕はどちらかというと自分の営業力でさまざまなことを提案できるような卸営業に興味を持っていて主に商社を受けていました。そんな中シナネンを知り、選考ステップを踏んでいきました。そのとき印象的だったのは、他社の面接ではガチガチに緊張していたのですが、シナネンはリラックスして受けられたんです。というのも、担当者がどの方も雰囲気が良く、話の振り方や相槌なども心地よくて安心感を感じました。
@@ -156,8 +153,8 @@ require_once $include . '_header.php';
                     <div class="crosstalkSec__talk">
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
-                                池谷
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
+                                K.Ikeya
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 私も2人と似ていますね！緊張していると自分らしさを見失って伝えたいことの半分も伝えられなかったりするものだけど、シナネンは一人ひとりを受け入れてくれる懐の深さのようなものを感じましたね。私は最終面接で役員の方からの優しい心遣いがありましたよ。その方が私の気持ちを代弁してくれるかのように「あなたがやってきたことはこういうことですね？」と要約してくれたことに対して私が「ありがとうございます！」と元気よく返答した瞬間、会場全体が大きな笑いに包まれたことは忘れません（笑）。
@@ -166,7 +163,7 @@ require_once $include . '_header.php';
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk02_talk_02.png" alt=""><br>
-                                山夲
+                                N.Yamamoto
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 （笑）。素敵なエピソードですね。会社に根付く人の温かさは毎日働いている中でも感じています。常に相手の立場に立って行動できる風土は脈々と受け継がれていくものなのですね。
@@ -188,8 +185,8 @@ require_once $include . '_header.php';
                     <div class="crosstalkSec__talk">
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
-                                高田
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
+                                S.Takada
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 池谷さんは2010年の入社ですが、これまでどのようなキャリアを歩んできましたか？
@@ -206,8 +203,8 @@ require_once $include . '_header.php';
                     <div class="crosstalkSec__talk pc-2">
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
-                                池谷
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
+                                K.Ikeya
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 私はこれまでシナネン、ミライフ、シナネンHDと3つのグループ企業を経験しました。主に営業を担当してきましたが、2021年よりシナネンHDのグループ連携室で働いています。
@@ -216,7 +213,7 @@ require_once $include . '_header.php';
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk02_talk_02.png" alt=""><br>
-                                山夲
+                                N.Yamamoto
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 グループ連携室は比較的新しい事業部ですよね。そこではどんなことを目的としているんですか？
@@ -228,8 +225,8 @@ require_once $include . '_header.php';
                     <div class="crosstalkSec__talk">
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
-                                池谷
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
+                                K.Ikeya
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 シナネンが多角的な事業展開をスタートさせたのが2000年代のことで、2015年に初めて電気事業に参画したんだよね。そうすることでシナネンは石油、ガス、電気といったエネルギー事業を統括した形になっただけでなく、シェアサイクルや建物維持管理、抗菌事業など多岐にわたる企業活動を行なっています。そんな中、各事業や各社の連携を強くして、事業間に横串を刺す動きを活性化させようと立ち上がったのがグループ連携室。また、グループ内だけでなく、外部企業との連携を図ることで新たな事業創出をすることも求められています。
@@ -237,8 +234,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
-                                高田
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
+                                S.Takada
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 これまでの池谷さんの多彩な経験が活きてきそうな事業ですね！
@@ -246,8 +243,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
-                                池谷
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
+                                K.Ikeya
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 さまざまな部署を経験してきたからこそ、全体の動きが見えやすいのは確かです。でも2人もいろいろと経験を積んできたのではないですか？
@@ -255,8 +252,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
-                                高田
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
+                                S.Takada
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 そうですね。僕は2年目にモビリティPLUSへ出向になったときのことはとくに印象的でした。立ち上げのタイミングだったので新規顧客の開拓も地道にコツコツと取り組んで、初めは先が見えずに不安に感じることもありましたが、徐々に道筋が見えてくると同時に仕事へのやりがいも増していきました。山夲さんはどうですか？
@@ -265,7 +262,7 @@ require_once $include . '_header.php';
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk02_talk_02.png" alt=""><br>
-                                山夲
+                                N.Yamamoto
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 私はまだ1つの部署しか経験していませんが、入社後すぐに自社Webサイトのリニューアルを任されたことが印象に残っています。Web関連の知識もなかったため、わからないことは自分で調べたり、周囲の人に聞いたりと手探りで進めていきました。
@@ -273,8 +270,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
-                                高田
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
+                                S.Takada
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 当社はジョブチェンジが前提にあるため、本当にいろいろな経験を積めることが魅力ですね！
@@ -283,7 +280,7 @@ require_once $include . '_header.php';
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk02_talk_02.png" alt=""><br>
-                                山夲
+                                N.Yamamoto
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 そうですね！いつどこに異動になってもそれを楽しめるようになりたいと思います。
@@ -312,8 +309,8 @@ require_once $include . '_header.php';
                     <div class="crosstalkSec__talk">
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
-                                池谷
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
+                                K.Ikeya
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 みんなはこれからどんなことに挑戦したいですか？
@@ -321,8 +318,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
-                                高田
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
+                                S.Takada
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 僕は現在の営業としてのスキルアップを図りたいです。さらにいうと、今後どんな事業に携わることになっても即戦力で活躍できるような爆発力のある営業になりたいですね。そのためには日々の業務を着実に行うことに加えて、専門性の高い資格を取得するなどの自己研鑽も必要と考えています。社内のサポート制度も利用して、どんどん成長していきたいです！
@@ -331,7 +328,7 @@ require_once $include . '_header.php';
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk02_talk_02.png" alt=""><br>
-                                山夲
+                                N.Yamamoto
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 私は経営管理部のトピックスにも頻繁に挙がるCSR活動の推進に挑戦したいです！CSR活動を社内にさらに浸透させていくことと「あかりの森でんきプロジェクト」のような新規のCSR活動を立ち上げたいと思っています。
@@ -339,8 +336,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
-                                池谷
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
+                                K.Ikeya
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 素晴らしいですね。私たちのグループは、人や社会、地球全体に密接に関連している商材を多く取り扱っているため、企業活動を通して社会に貢献していくという姿勢は大切です。私は東日本大震災の際にそのことを再認識しました。実際にプロパンガスを全国からかき集めて被災地に持っていったとき、温かい飲み物が飲める、お風呂に入れると皆さんに感謝されて、普段は当たり前と感じていたことや私自身の仕事も意義深いことだと気づかせてもらいました。
@@ -348,8 +345,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
-                                高田
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
+                                S.Takada
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 グループの連携化が進めば、私たちがさらに世の中に提供できる価値も増えていきますね！
@@ -357,8 +354,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
-                                池谷
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
+                                K.Ikeya
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 そうですね！今回ここに集まって話ができたことも私にとって貴重な時間になりました。私が今取り組んでいることは新しい事業であり、誰も正解を知りません。でも、これからこんなふうにいろいろな社員が顔を合わせて共創していくことで新しい何かが生まれると思うとワクワクするんです。
@@ -367,7 +364,7 @@ require_once $include . '_header.php';
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
                                 <img src="<?php echo HOME; ?>img/crosstalk02_talk_02.png" alt=""><br>
-                                山夲
+                                N.Yamamoto
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 池谷さんのように勤続歴の長い方なのに、変わらずにずっと仕事を楽しめている姿を見ると刺激になります。
@@ -375,8 +372,8 @@ require_once $include . '_header.php';
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_03.png" alt=""><br>
-                                高田
+                                <img src="<?php echo HOME; ?>img/crosstalk02_talk_01.png" alt=""><br>
+                                S.Takada
                             </div>
                             <p class="crosstalkSec__talk--text">
                                 これからも皆さんシナネンHDのチームとして、よろしくお願いします！
@@ -412,16 +409,16 @@ require_once $include . '_header.php';
                     <?php
                     $arrMember = array(
                         '01' => array(
-                            'name' => '鈴木 太郎',
-                            'desc' => 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
+                            'name' => 'K.Ikeya',
+                            'desc' => '2010年に入社し、シナネン株式会社東北支社に営業職で配属される。その後、シナネン株式会社北東北支店森岡営業所、ミライフ東日本株式会社営業統括部での営業を経て、現在はシナネンHD株式会社成長戦略部 グループ連携推進チームでチーム長を務める。',
                         ),
                         '02' => array(
-                            'name' => '鈴木 太郎',
-                            'desc' => 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
+                            'name' => 'S.Takada',
+                            'desc' => '2018年に入社し、シナネンサイクル株式会社に配属される。2年目にシナネンモビリティPLUSに出向となり、シェアサイクルのステーション開拓業務に従事。3年目からはミライフ株式会社営業チームに移動し、LPガスや石油の営業を行っている。',
                         ),
                         '03' => array(
-                            'name' => '鈴木 太郎',
-                            'desc' => 'テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。',
+                            'name' => 'N.Yamamoto',
+                            'desc' => '2020年に入社して以来現在にいたるまで経営管理部経営管理・広報チームに所属。会社ホームページのリニューアルや更新作業、プレスリリースの配信、全社会議の運営、新聞に掲載する広告の作成、サテライトオフィスの管理など幅広い業務を担当。',
                         ),
                     );
                     foreach ($arrMember as $key =>  $val) {

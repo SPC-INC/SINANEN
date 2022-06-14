@@ -3,7 +3,7 @@
         <div class="footerLinkWrap flex bet sp-break">
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>aboutus/" class="footerLink__list--title op">会社紹介</a>
-                <a href="<?php echo HOME; ?>aboutus/topmessage/" class="footerLink__list--item">社長メッセージ</a>
+                <a href="<?php echo HOME; ?>aboutus/topmessage/" class="footerLink__list--item">社長インタビュー</a>
                 <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="footerLink__list--item">シナネンHDグループの挑戦と進化</a>
                 <a href="<?php echo HOME; ?>aboutus/SDGs/" class="footerLink__list--item">SDGsへの貢献</a>
             </ul>
@@ -23,9 +23,9 @@
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <p class="footerLink__list--title">クロストーク</p>
-                <a href="<?php echo HOME; ?>person/crosstalk01/" class="footerLink__list--item">トレーナー×トレーニークロストーク</a>
-                <a href="<?php echo HOME; ?>person/crosstalk02/" class="footerLink__list--item">13年目5年目3年目_クロストーク</a>
-                <a href="<?php echo HOME; ?>person/crosstalk03/" class="footerLink__list--item">女性の活躍クロストーク</a>
+                <a href="<?php echo HOME; ?>person/crosstalk01/" class="footerLink__list--item">トレーナー×トレーニー</a>
+                <a href="<?php echo HOME; ?>person/crosstalk02/" class="footerLink__list--item">13年目×5年目×3年目対談</a>
+                <a href="<?php echo HOME; ?>person/crosstalk03/" class="footerLink__list--item">女性の活躍について</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>recruit/" class="footerLink__list--title op">採用情報</a>

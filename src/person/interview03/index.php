@@ -37,8 +37,7 @@ require_once $include . '_header.php';
             <div class="interviewMv__profile js-in anime left-in">
                 <div class="interviewMv__profile--year notos">2019年入社</div>
                 <div class="interviewMv__profile--name notos flex vend">
-                    <div class="interviewMv__profile--ja">柳原 貴一</div>
-                    <div class="interviewMv__profile--en">Kiichi Yanagihara</div>
+                    <div class="interviewMv__profile--ja">K.Yanagihara</div>
                 </div>
                 <div class="interviewMv__profile--pos notos">
                     株式会社インデス<br>
@@ -191,9 +190,6 @@ require_once $include . '_header.php';
                                     現場到着
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview03_schedule_02.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         原状回復工事又は退去立会
                                     </p>
@@ -209,9 +205,6 @@ require_once $include . '_header.php';
                                     メンテナンス業務
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview03_schedule_02.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         入居中修繕・現地調査
                                     </p>
@@ -237,9 +230,6 @@ require_once $include . '_header.php';
                                     確認①
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview03_schedule_03.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         建物共用部の清掃後の品質チェックや仕上がりの確認をします。
                                     </p>
@@ -255,9 +245,6 @@ require_once $include . '_header.php';
                                     確認②
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview03_schedule_04.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         賃貸のお部屋の原状回復後の品質チェック/仕上がり確認
                                     </p>
@@ -283,9 +270,6 @@ require_once $include . '_header.php';
                                     事務作業
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview03_schedule_05.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         協力業者のスケジュール管理・把握・依頼などを行います。
                                     </p>

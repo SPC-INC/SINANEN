@@ -20,7 +20,7 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
-    padding: 2rem 0 0;
+    padding: 2rem 0 5rem;
     background: $siteColor;
     &__main {
       width: 100%;
@@ -29,8 +29,14 @@
         background: transparent;
       }
     }
-    &__tab {
+    &__intro {
       margin: 6rem 0 0;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 1.8;
+    }
+    &__tab {
+      margin: 4rem 0 0;
       &--item {
         position: relative;
         width: 50%;
@@ -68,6 +74,25 @@
           border-left: solid 0.5rem transparent;
         }
       }
+      &--bottom {
+        margin: 0;
+        .recruitEnvironment__tab--item {
+          &::before {
+            left: 0;
+            border-top: solid 2.2rem transparent;
+            border-right: solid 0.5rem transparent;
+            border-bottom: solid 2.2rem #fff;
+            border-left: solid 0.5rem #fff;
+          }
+          &::after {
+            right: 0;
+            border-top: solid 2.2rem transparent;
+            border-right: solid 0.5rem #fff;
+            border-bottom: solid 2.2rem #fff;
+            border-left: solid 0.5rem transparent;
+          }
+        }
+      }
     }
     &__tabItem {
       &:not(.show) {
@@ -87,6 +112,14 @@
     ##    ## ##     ##    ###
 */
 .recruitEnvironmentNav {
+  &.fixed {
+    position: fixed;
+    top: calc(#{$headerPC} * 2);
+    left: calc((100% - 120rem) / 2);
+    @media screen and (max-width: 1200px) {
+      left: 0;
+    }
+  }
   &__item {
     &:not(:first-child) {
       margin: 2.2rem 0 0;
@@ -256,6 +289,13 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
+    &__img {
+      margin: 2.3rem 0 0;
+      overflow: auto;
+      img {
+        max-width: 200%;
+      }
+    }
     &__text {
       font-size: 1.4rem;
       line-height: 1.8;

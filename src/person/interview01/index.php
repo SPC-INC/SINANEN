@@ -37,8 +37,7 @@ require_once $include . '_header.php';
             <div class="interviewMv__profile js-in anime left-in">
                 <div class="interviewMv__profile--year notos">2014年入社</div>
                 <div class="interviewMv__profile--name notos flex vend">
-                    <div class="interviewMv__profile--ja">高橋 秀治</div>
-                    <div class="interviewMv__profile--en">Shuji Takahashi</div>
+                    <div class="interviewMv__profile--ja">S.Takahashi</div>
                 </div>
                 <div class="interviewMv__profile--pos notos">
                     ミライフ株式会社<br>
@@ -175,9 +174,6 @@ require_once $include . '_header.php';
                                     出社
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview01_schedule_01.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         業界紙などからマーケット情報や業界トレンドをチェック
                                     </p>
@@ -193,9 +189,6 @@ require_once $include . '_header.php';
                                     チームミーティング
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview01_schedule_02.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         お客様への提案内容・電力仕入情報の共有など
                                     </p>
@@ -236,9 +229,6 @@ require_once $include . '_header.php';
                                     帰社
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview01_schedule_03.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         翌日の営業準備
                                     </p>

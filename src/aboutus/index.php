@@ -28,7 +28,7 @@ require_once $include . '_header.php';
                 <div class="aboutUs__text flex vert">
                     <h2 class="aboutUs__head notos anime__wrapper">
                         <div class="js-in anime text-in">
-                            社長メッセージ
+                            社長インタビュー
                         </div>
                     </h2>
                     <div class="sp aboutUs__img">

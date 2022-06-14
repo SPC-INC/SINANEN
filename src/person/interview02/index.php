@@ -37,8 +37,7 @@ require_once $include . '_header.php';
             <div class="interviewMv__profile js-in anime left-in">
                 <div class="interviewMv__profile--year notos">2016年入社</div>
                 <div class="interviewMv__profile--name notos flex vend">
-                    <div class="interviewMv__profile--ja">笠松 一真</div>
-                    <div class="interviewMv__profile--en">Kazuma Kasamatsu</div>
+                    <div class="interviewMv__profile--ja">K.Kasamatsu</div>
                 </div>
                 <div class="interviewMv__profile--pos notos">
                     シナネンモビリティPLUS株式会社<br>
@@ -214,9 +213,6 @@ require_once $include . '_header.php';
                                     資料整理
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview02_schedule_02.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         商談のための資料作成を行います。
                                     </p>
@@ -262,9 +258,6 @@ require_once $include . '_header.php';
                                     帰宅(在宅)
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview02_schedule_03.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         1日の事務処理・明日の準備等
                                     </p>

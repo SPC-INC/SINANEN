@@ -22,6 +22,12 @@ require_once $include . '_header.php';
         </div>
     </div>
 
+    <div class="sp-wrap">
+        <p class="sp recruitEnvironment__intro">
+            シナネンHDグループでは、「個」の成長が「会社」の成長に繋がると考え、社員一人一人がいきいきと働ける環境を整えています。ここでは、当社グループの働く環境の全体像をご紹介します。
+        </p>
+    </div>
+
     <ul class="sp recruitEnvironment__tab flex">
         <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab selected" data-tab="training">
             研修
@@ -45,31 +51,33 @@ require_once $include . '_header.php';
     ##    ## ##     ##    ###
 */
 ?>
-                <ul class="pc recruitEnvironment__nav recruitEnvironmentNav">
-                    <li class="recruitEnvironmentNav__item">
-                        <a href="#training" class="recruitEnvironmentNav__link">
-                            教育・研修制度
-                        </a>
-                    </li>
-                    <li class="recruitEnvironmentNav__item">
-                        <a href="#selfdevelopment" class="recruitEnvironmentNav__link">
-                            自己啓発支援制度
-                        </a>
-                    </li>
-                    <li class="recruitEnvironmentNav__item">
-                        <a href="#worklifebalance" class="recruitEnvironmentNav__link">
-                            ワークライフバランス
-                        </a>
-                    </li>
-                    <li class="recruitEnvironmentNav__item">
-                        <a href="#support" class="recruitEnvironmentNav__link">
-                            生活支援制度
-                        </a>
-                    </li>
-                </ul>
+                <div class="pc recruitEnvironment__nav">
+                    <ul class="recruitEnvironmentNav js-stickyNav">
+                        <li class="recruitEnvironmentNav__item js-currentNav-item">
+                            <a href="#education" class="recruitEnvironmentNav__link current">
+                                教育・研修制度
+                            </a>
+                        </li>
+                        <li class="recruitEnvironmentNav__item js-currentNav-item">
+                            <a href="#worklifebalance" class="recruitEnvironmentNav__link">
+                                ワークライフバランス
+                            </a>
+                        </li>
+                        <li class="recruitEnvironmentNav__item js-currentNav-item">
+                            <a href="#selfdevelopment" class="recruitEnvironmentNav__link">
+                                生活支援制度
+                            </a>
+                        </li>
+                        <li class="recruitEnvironmentNav__item js-currentNav-item">
+                            <a href="#support" class="recruitEnvironmentNav__link">
+                                自己成長支援
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-                <div class="recruitEnvironment__main">
-                    <p class="recruitEnvironment__intro">
+                <div class="recruitEnvironment__main js-stickyNav-target">
+                    <p class="pc recruitEnvironment__intro">
                         シナネンHDグループでは、「個」の成長が「会社」の成長に繋がると考え、社員一人一人がいきいきと働ける環境を整えています。ここでは、当社グループの働く環境の全体像をご紹介します。
                     </p>
 <?php
@@ -84,7 +92,7 @@ require_once $include . '_header.php';
 */
 ?>
                     <div class="recruitEnvironment__tabItem js-recruitEnvironment-tabItem show" id="training">
-                        <section class="recruitEnvironmentSec recruitEnvironmentTraining" id="training">
+                        <section class="recruitEnvironmentSec recruitEnvironmentTraining js-currentNav" id="education">
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
                                     <div class="js-in anime text-in">
@@ -224,6 +232,7 @@ require_once $include . '_header.php';
                                 </p>
                             </div>
                         </section>
+                    </div>
 
 <?php
 /*
@@ -237,7 +246,7 @@ require_once $include . '_header.php';
 */
 ?>
                     <div class="recruitEnvironment__tabItem js-recruitEnvironment-tabItem" id="welfare">
-                        <section class="recruitEnvironmentSec recruitEnvironmentWelfare" id="worklifebalance">
+                        <section class="recruitEnvironmentSec recruitEnvironmentWelfare js-currentNav" id="worklifebalance">
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
                                     <div class="js-in anime text-in">
@@ -321,7 +330,7 @@ require_once $include . '_header.php';
      ######  ######## ######## ##       ######## ########  ########    ###    ######## ########  #######  ##        ##     ## ######## ##    ##    ##
 */
 ?>
-                        <section class="recruitEnvironmentSec recruitEnvironmentWelfare" id="selfdevelopment">
+                        <section class="recruitEnvironmentSec recruitEnvironmentWelfare js-currentNav" id="selfdevelopment">
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
                                     <div class="js-in anime text-in">
@@ -411,7 +420,7 @@ require_once $include . '_header.php';
      ######   #######  ##        ##         #######  ##     ##    ##
 */
 ?>
-                        <section class="recruitEnvironmentSec recruitEnvironmentWelfare" id="support">
+                        <section class="recruitEnvironmentSec recruitEnvironmentWelfare js-currentNav" id="support">
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
                                     <div class="js-in anime text-in">
@@ -466,6 +475,7 @@ require_once $include . '_header.php';
                         </section>
                     </div>
 
+
 <?php
 /*
     ########  #######   #######  ######## ######## ########
@@ -477,10 +487,10 @@ require_once $include . '_header.php';
     ##        #######   #######     ##    ######## ##     ##
 */
 ?>
-                    <section class="recruitFooter">
-                            <div class="recruitFooter__entry">
-                                <?php require_once $include . '_entry.php'; ?>
-                            </div>
+                    <section class="pc recruitFooter">
+                        <div class="recruitFooter__entry">
+                            <?php require $include . '_entry.php'; ?>
+                        </div>
                     </section>
 
                 </div>
@@ -488,6 +498,21 @@ require_once $include . '_header.php';
             </div>
         </div>
     </div>
+    <ul class="sp recruitEnvironment__tab recruitEnvironment__tab--bottom flex">
+        <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab-bottom selected" data-tab="training">
+            研修
+        </li>
+        <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab-bottom" data-tab="welfare">
+            福利厚生
+        </li>
+    </ul>
+    <section class="sp recruitFooter">
+        <div class="sp-wrap">
+            <div class="recruitFooter__entry">
+                <?php require $include . '_entry.php'; ?>
+            </div>
+        </div>
+    </section>
 
 </article>
 <?php

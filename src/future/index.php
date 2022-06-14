@@ -37,7 +37,7 @@ require_once $include . '_header.php';
             <h2 class="futureSec__head notos">
                 <div class="anime__wrapper">
                     <div class="js-in anime text-in">
-                        再生可能エネルギーだけで回る世界
+                        脱炭素社会実現への貢献
                     </div>
                 </div>
                 <div class="futureSec__head--bar pc-flex vcenter">
@@ -117,6 +117,19 @@ require_once $include . '_header.php';
                     </span>
                 </div>
             </div>
+        </section>
+
+        <section class="futureSec">
+            <h2 class="futureSec__head notos">
+                <div class="anime__wrapper">
+                    <div class="js-in anime text-in">
+                        挑戦を続け、お客様の快適な生活に貢献し続ける
+                    </div>
+                </div>
+                <div class="futureSec__head--bar pc-flex vcenter">
+                    <span class="inner">Company</span>
+                </div>
+            </h2>
             <div class="futureSec__container pc-flex bet">
                 <div class="futureSec__text flex vert">
                     <h3 class="futureSec__subhead">
@@ -128,7 +141,7 @@ require_once $include . '_header.php';
                         </span>
                     </div>
                     <p class="futureSec__desc">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        これまでも時代の変化に合わせて様々な事業を展開してきました。それは、エネルギー領域に留まらず、近年では、シェアサイクル事業や、シェアオフィス事業など、新たな可能性に挑戦しています。これからも時代の変化を敏感にとらえ、ゼロからの立ち上げのみならず、グループ各社のリソースを掛け合わせることで新たなビジネス創出の可能性も検討し、積極的に新規事業開発を推進していきます。
                     </p>
                 </div>
                 <div class="pc futureSec__img">
@@ -137,19 +150,6 @@ require_once $include . '_header.php';
                     </span>
                 </div>
             </div>
-        </section>
-
-        <section class="futureSec">
-            <h2 class="futureSec__head notos">
-                <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
-                        理想とする未来のシナネンHDグループの在り方が入ります
-                    </div>
-                </div>
-                <div class="futureSec__head--bar pc-flex vcenter">
-                    <span class="inner">Company</span>
-                </div>
-            </h2>
             <div class="futureSec__container pc-flex bet">
                 <div class="futureSec__text flex vert">
                     <h3 class="futureSec__subhead">
@@ -161,7 +161,7 @@ require_once $include . '_header.php';
                         </span>
                     </div>
                     <p class="futureSec__desc">
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        第三次中期経営計画、そして2027年の創業100周年に向けてさらなる躍進と飛躍をするために、2020年度より第二次中期経営計画をスタートし、その定性目標の一つとして「社員の考え方・慣習・行動様式の変革」を掲げ、風土改革と働き方改革を推進しています。風土改革と働き方改革では、当社グループの強みである誠実さをベースに、信頼（関係の構築）・本質（的な議論）に重きを置いた改革の土壌づくりを行い、個人の意識を変える「解凍」フェーズ、個人と職場の行動が変わるよう、自発性・情熱・ワクワクを生み出す施策を実行する「変革」フェーズ、小さな改善から大きなイノベーションまで、様々なアイデアが組織を越えて日常的に創発できる施策を実行し、組織風土を変える「定着」フェーズという3つのフェーズを達成するために、挑戦・連携の意識を常に持ち改革を推進します。
                     </p>
                 </div>
                 <div class="pc futureSec__img">
@@ -171,6 +171,7 @@ require_once $include . '_header.php';
                 </div>
             </div>
         </section>
+
         <div class="futureSec__entry">
             <?php require_once $include . '_entry.php'; ?>
         </div>

@@ -66,8 +66,9 @@ require_once $include . '_header.php';
                                     エネルギーの安定供給や定期的な保安点検を通じ、お客様の快適な生活に貢献します。
                                 </p>
                                 <div class="businessChildMain__job">
-                                    <h3 class="businessChildMain__job--head">
+                                    <h3 class="businessChildMain__job--head js-acc">
                                         仕事内容
+                                        <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
                                         営業職の一例：個人もしくは法人のお客様に対し、LPガスや電気の供給・販売、ガス関連商品や住宅設備の提案・販売などを行います。当社独自の点検である「ひまわり点検」などの中でお客様との信頼関係を構築しながら、お客様の困りごとに対応します。訪問するのは自分が担当するお客様なので、顔なじみのお客様のお役に立ち、直接「ありがとう」の言葉を頂くことができます。
@@ -87,8 +88,9 @@ require_once $include . '_header.php';
                                     光熱費やCO2排出量削減に効果のあるゼロエネルギー住宅や省エネリフォーム、高齢化に伴うバリアフリーリフォームなど、お客様の生活を豊かにするご提案をします。また、住宅設備の販売、レンタルやリースのご相談も承ります。
                                 </p>
                                 <div class="businessChildMain__job">
-                                    <h3 class="businessChildMain__job--head">
+                                    <h3 class="businessChildMain__job--head js-acc">
                                         仕事内容
+                                        <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
                                         営業職の一例：お客様との会話の中で困りごとを捉え、トイレやお風呂など水回りのリフォームやハウスクリーニングなどの適切なご提案を行うことで、お客様にさらに快適な生活を送っていただけるよう取り組みます。お客様に寄り添うことを大切に、お客様目線で自分なりのご提案をしていただきます。
@@ -108,8 +110,9 @@ require_once $include . '_header.php';
                                     少子高齢化や女性の社会進出などライフスタイルが変化するなかで、家事や暮らしに関する困りごとを解決します。家事代行やハウスクリーニングなど、お客様が快適に、安心して暮らせるサービスをご提供します。
                                 </p>
                                 <div class="businessChildMain__job">
-                                    <h3 class="businessChildMain__job--head">
+                                    <h3 class="businessChildMain__job--head js-acc">
                                         仕事内容
+                                        <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
                                         事務職（経営企画）の一例：DX推進の取り組みや、市場調査などのマーケティング活動及び分析など実施し、営業の社員がスムーズに業務遂行できるよう環境整備を行います。また、広報活動による企業価値向上や、社内イベントの企画・運営による社員の士気を高める活動も担います。

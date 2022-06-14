@@ -96,7 +96,7 @@ require_once $include . '_header.php';
                             </div>
                             <div class="personCrosstalk__ttl--main flex vcenter anime__wrapper">
                                 <div class="js-in anime text-in">
-                                    トレーナー×トレーニークロストーク
+                                    トレーナー×トレーニー
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ require_once $include . '_header.php';
                             </div>
                             <div class="personCrosstalk__ttl--main flex vcenter anime__wrapper">
                                 <div class="js-in anime text-in">
-                                    13年目5年目3年目_クロストーク
+                                    13年目×5年目×3年目対談
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@ require_once $include . '_header.php';
                             </div>
                             <div class="personCrosstalk__ttl--main flex vcenter anime__wrapper">
                                 <div class="js-in anime text-in">
-                                    女性の活躍クロストーク
+                                    女性の活躍について
                                 </div>
                             </div>
                         </div>
@@ -187,7 +187,7 @@ require_once $include . '_header.php';
             <h2 class="personMessage__head notos">
                 <div class="anime__wrapper">
                     <div class="js-in anime text-in">
-                        社長メッセージ
+                        社長インタビュー
                     </div>
                 </div>
             </h2>
@@ -199,7 +199,8 @@ require_once $include . '_header.php';
                 </div>
                 <div class="personMessage__text flex vert">
                     <h3 class="personMessage__ttl notos">
-                        キャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入ります
+                        「個」の成長が重要。<br>
+                        会社だけでなく、自分自身の人生の舵を手放さず、未来を切り拓いていく人が活躍できるシナネンHDグループへ
                     </h3>
                     <p class="personMessage__desc">
                         新入社員の皆さんからこれからのシナネンHDグループについてや、社長に聞いてみたいことをインタビューしてもらいました。

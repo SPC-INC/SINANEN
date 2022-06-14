@@ -42,6 +42,15 @@ require_once $include . '_header.php';
             </div>
         </section>
 
+        <ul class="sp challengeEvolutionTab flex">
+            <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab selected" data-tab="future">
+                これからのシナネンHDグループ
+            </li>
+            <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab" data-tab="history">
+                これまでのシナネンHDグループ
+            </li>
+        </ul>
+
 <?php
 /*
      ######   ########   #######  ##     ## ########
@@ -53,9 +62,9 @@ require_once $include . '_header.php';
      ######   ##     ##  #######   #######  ##
 */
 ?>
-        <section class="challengeEvolutionSec challengeEvolutionGroup">
+        <section class="challengeEvolutionSec challengeEvolutionGroup challengeEvolutionTab__tabItem js-challengeEvolution-tabItem show" id="future">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="challengeEvolutionSec__head notos js-in anime left-in">
+                <h2 class="pc challengeEvolutionSec__head notos js-in anime left-in">
                     これからのシナネンHDグループ
                 </h2>
                 <div class="challengeEvolutionGroup__wrapper pc-flex bet">
@@ -157,9 +166,9 @@ require_once $include . '_header.php';
     ##     ## ####  ######     ##     #######  ##     ##    ##
 */
 ?>
-        <section class="challengeEvolutionSec challengeEvolutionHistory">
+        <section class="challengeEvolutionSec challengeEvolutionHistory challengeEvolutionTab__tabItem js-challengeEvolution-tabItem" id="history">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="challengeEvolutionSec__head notos js-in anime left-in">
+                <h2 class="pc challengeEvolutionSec__head notos js-in anime left-in">
                     これまでのシナネンHDグループ
                 </h2>
                 <div class="challengeEvolutionHistory__container flex bet">
@@ -198,7 +207,7 @@ require_once $include . '_header.php';
                             <span class="small">20</span>20
                         </div>
                     </div>
-                    <div class="challengeEvolutionHistory__node challengeEvolutionHistory__company flex vert vend">
+                    <div class="pc challengeEvolutionHistory__node challengeEvolutionHistory__company flex vert vend">
                         <div class="challengeEvolutionHistory__node--head flex vcenter hcenter">
                             シナネンの歩み
                         </div>
@@ -283,7 +292,7 @@ require_once $include . '_header.php';
                             シェアオフィス「seesaw」を立ち上げ、本格稼働を開始
                         </div>
                     </div>
-                    <div class="challengeEvolutionHistory__node challengeEvolutionHistory__industry flex vert vstart">
+                    <div class="pc challengeEvolutionHistory__node challengeEvolutionHistory__industry flex vert vstart">
                         <div class="challengeEvolutionHistory__node--head flex vcenter hcenter">
                             エネルギー産業のうごき
                         </div>
@@ -355,12 +364,146 @@ require_once $include . '_header.php';
                             再生可能エネルギーへの注目が更に高まった。
                         </div>
                     </div>
+<?php
+/*
+   ######  ########
+  ##       ##     ##
+   ######  ########
+        ## ##
+   ######  ##
+*/
+?>
+                    <div class="sp challengeEvolutionHistory__node">
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            薪炭から石炭へエネルギーの主力が移り変わり、1920年に石炭の割合が過去最高に
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1927年</span>
+                            朝鮮平壌無煙炭の販売を目的に(資)電興無煙炭商会を創立
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1929年</span>
+                            東京無煙炭(株)へ改組し、練炭の製造販売へ進出
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            ガス事業の普及拡大。多くのガス事業者が誕生した
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1934年</span>
+                            品川豆炭(株)を設立し、豆炭の製造販売へ進出
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1936年</span>
+                            品川豆炭(株)から品川燃料(株)に商号変更
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            第二次世界大戦以後、国を復興させる重要な産業として、傾斜生産方式が導入される。1950年に政府による統制が撤廃され、石炭企業は自由競争市場へ復帰する。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1952年</span>
+                            石油製品と同器具の販売開始
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1955年</span>
+                            LPガスと同器具の取り扱い開始
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            原子力の平和的利用が進められ、1951年にアメリカで原子力発電が開始された。日本でも1950年代中頃に法律や体制の整備と共に導入された。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            LPガスが日本国内の過程用燃料として急速に普及する。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1962年</span>
+                            社是「信義」「進取」「楽業」を制定
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1963年</span>
+                            東京証券取引所市場第二部に株式上場
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            メタンを主成分とする天然ガスが無公害で理想的なエネルギーとして注目を集めた。日本でも1969年に導入される。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            <span class="year">1973年</span>
+                            第四次中東戦争をきっかけに第一次オイルショックが起こる
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            フランスで太陽光発電所が稼働開始
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            <span class="year">1979年</span>
+                            イラン革命をきっかけに第二次オイルショックが起こる
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1983年</span>
+                            東京証券取引所市場第一部に指定変更
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            二度のオイルショックにより、石油エネルギーに頼る危うさが浮き彫りとなり、エネルギー減の多様化が求められた。中でも原子力発電所の建設・普及が世界的に進むこととなった。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1991年</span>
+                            (株)シナネンゼオミックを設立
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            1997年に行われた地球温暖化防止京都会議で、二酸化炭素排出量の削減目標などが取り決められた。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">1998年</span>
+                            品川豆炭(株)からシナネン(株)（現シナネンホールディングス(株)）に商号変更
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">2004年</span>
+                            品川開発(株)（現シナネンエコワーク(株)）が木くずリサイクル施設「千葉リサイクルセンター」の操業開始
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            <span class="year">2011年</span>
+                            東日本大震災・福島第一原子力発電所事故により、エネルギーの安全性が見直され、再生可能エネルギーの導入が加速した。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">2012年</span>
+                            建物総合メンテナンス事業を展開する(株)インデスの全株式を取得
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">2014年</span>
+                            シナネン(株)が電力販売を開始
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">2015年</span>
+                            持株会社体制移行によりシナネンホールディングス(株)が誕生
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">2017年</span>
+                            建物維持管理事業の中核となるタカラビルメン(株)の全株式を取得
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">2019年</span>
+                            シェアサイクル事業を展開するシナネンモビリティPLUS(株)を設立
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--industry">
+                            2050年カーボンニュートラル宣言により、再生可能エネルギーへの注目が更に高まった。
+                        </div>
+                        <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
+                            <span class="year">2020年</span>
+                            シェアオフィス「seesaw」を立ち上げ、本格稼働を開始
+                        </div>
+                    </div>
                 </div>
                 <div class="challengeEvolutionHistory__next">
                     次の100年へ
                 </div>
             </div>
         </section>
+
+        <ul class="sp challengeEvolutionTab challengeEvolutionTab--bottom flex">
+            <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab-bottom selected" data-tab="future">
+                これからのシナネンHDグループ
+            </li>
+            <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab-bottom" data-tab="history">
+                これまでのシナネンHDグループ
+            </li>
+        </ul>
 
 <?php
 /*
@@ -374,13 +517,13 @@ require_once $include . '_header.php';
 */
 ?>
         <section class="aboutUsCommon">
-                <div class="wrap w1200 sp-wrap">
+            <div class="wrap w1200 sp-wrap">
                 <h2 class="aboutUsCommon__head notos">
                     会社紹介
                 </h2>
                 <div class="aboutUsCommon__link pc-flex bet">
                     <a href="<?php echo HOME; ?>aboutus/topmessage/" class="aboutUsCommon__btn md-btn red left-text">
-                        社長メッセージ
+                        社長インタビュー
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                 <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
@@ -403,7 +546,7 @@ require_once $include . '_header.php';
                 </div>
             </div>
         </section>
-
+    </div>
 </article>
 <?php
 require_once $include . '_footer.php';

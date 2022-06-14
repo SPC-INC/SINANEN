@@ -37,8 +37,7 @@ require_once $include . '_header.php';
             <div class="interviewMv__profile js-in anime left-in">
                 <div class="interviewMv__profile--year notos">2017年入社</div>
                 <div class="interviewMv__profile--name notos flex vend">
-                    <div class="interviewMv__profile--ja">菅野 志帆</div>
-                    <div class="interviewMv__profile--en">Shiho Kanno</div>
+                    <div class="interviewMv__profile--ja">S.Kanno</div>
                 </div>
                 <div class="interviewMv__profile--pos notos">
                     シナネン株式会社<br>
@@ -199,9 +198,6 @@ require_once $include . '_header.php';
                                     数値確認
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview04_schedule_02.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         あかりの森でんきHPへのアクセス数などを計測しています。
                                     </p>
@@ -217,9 +213,6 @@ require_once $include . '_header.php';
                                     SNS投稿案作成
                                 </p>
                                 <div class="interviewSchedule__desc--dtl pc-flex">
-                                    <div class="interviewSchedule__desc--img">
-                                        <img src="<?php echo HOME; ?>img/interview04_schedule_02.png" alt="">
-                                    </div>
                                     <p class="interviewSchedule__desc--text">
                                         プロモーション活動の考案も非常に重要な仕事です。
                                     </p>

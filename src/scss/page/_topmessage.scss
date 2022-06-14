@@ -158,9 +158,10 @@
       margin: 2rem 0 0;
       &--item {
         margin: 0;
-        width: 8rem;
+        width: calc(50% - 1rem);
       }
       &--img {
+        width: 8rem;
       }
       &--text {
         margin: 1.1rem 0 0;

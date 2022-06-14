@@ -56,10 +56,10 @@ require_once $include . '_header.php';
                     </div>
                     <div class="sdgsAbout__text">
                         <p class="">
-                            渡邊工務店のSDGsの達成に向けた積極的な活動は、外務省ホームページの「JAPAN SDGs Action Platform」にも事例のひとつとして取り上げられ、「SDGsジャパンロゴマーク」の使用が認められました。
+                            シナネンHDグループのSDGsの達成に向けた積極的な活動は、外務省ホームページの「JAPAN SDGs Action Platform」にも事例のひとつとして取り上げられ、「SDGsジャパンロゴマーク」の使用が認められました。
                         </p>
                         <p class="">
-                            <a href="#" target="_blank" class="">外務省　JAPAN SDGs Action Platform</a>
+                            <a href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html" target="_blank" class="">外務省　JAPAN SDGs Action Platform</a>
                         </p>
                     </div>
                 </div>
@@ -89,7 +89,9 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_01.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_07.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_11.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_13.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -136,7 +138,9 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_02.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_07.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_12.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_15.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -174,7 +178,9 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_03.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_11.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_13.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_17.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -196,11 +202,41 @@ require_once $include . '_header.php';
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
                         <div class="js-in anime text-in">
+                            安心・安全な施設維持、運営を提供する建物維持管理事業の拡大
+                        </div>
+                    </div>
+                    <div class="sdgsSec__img">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_08.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_11.png" alt="">
+                    </div>
+                </h2>
+                <dl class="sdgsSec__data">
+                    <dt class="sdgsSec__ttl js-acc">
+                        建物の安心・安全な維持管理を提供
+                    </dt>
+                    <dd class="sdgsSec__dtl">
+                        当社グループのタカラビルメン株式会社では、ビル・施設管理、病院運営サポート、斎場関連事業等のファシリティマネジメントまで建物維持管理のスペシャリストとして安心・安全な施設維持・運営に貢献しています。<br>
+                        また、当社グループの株式会社インデスでは、アパート・マンションの原状回復工事や共有部の定期清掃、ハウスクリーニングなど清掃業務から施設管理を担っています。
+                    </dd>
+                </dl>
+            </div>
+        </section>
+
+        <section class="sdgsSec">
+            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_05.png" alt="">
+            </div>
+            <div class="wrap w1200 sp-wrap">
+                <h2 class="sdgsSec__head notos pc-flex bet vcenter">
+                    <div class="anime__wrapper">
+                        <div class="js-in anime text-in">
                             風土改革、働き方改革、人財育成を三位一体で推進
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_04.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_05.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_08.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_09.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -229,8 +265,8 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_05.png" alt="">
+            <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_06.png" alt="">
             </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
@@ -240,7 +276,9 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_05.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_04.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_07.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_13.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -262,8 +300,8 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_06.png" alt="">
+            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_07.png" alt="">
             </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
@@ -273,7 +311,9 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_06.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_02.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_03.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_10.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -288,8 +328,8 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_07.png" alt="">
+            <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_08.png" alt="">
             </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
@@ -299,7 +339,8 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_07.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_01.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_10.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -314,8 +355,8 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_08.png" alt="">
+            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
+                <img src="<?php echo HOME; ?>img/sdgs_bg_09.png" alt="">
             </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
@@ -325,7 +366,7 @@ require_once $include . '_header.php';
                         </div>
                     </div>
                     <div class="sdgsSec__img">
-                        <img src="<?php echo HOME; ?>img/sdgs_08.png" alt="">
+                        <img src="<?php echo HOME; ?>img/sdgs_icon_04.png" alt="">
                     </div>
                 </h2>
                 <dl class="sdgsSec__data">
@@ -357,7 +398,7 @@ require_once $include . '_header.php';
                 </h2>
                 <div class="aboutUsCommon__link pc-flex bet">
                     <a href="<?php echo HOME; ?>aboutus/topmessage/" class="aboutUsCommon__btn md-btn red left-text">
-                        社長メッセージ
+                        社長インタビュー
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                 <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />

@@ -120,24 +120,12 @@ require_once $include . '_header.php';
                 <div class="topAboutus__img js-topAbout-img">
                     <div class="topAboutus__img--item show">
                         <img src="<?php echo HOME ?>img/top_aboutus_01.png">
-                        <div class="topAboutus__img--caption">
-                            <span class="bg-white">一枚目（仮）次の100年に</span><br>
-                            <span class="bg-white">一緒に挑める仲間を求めています</span>
-                        </div>
                     </div>
                     <div class="topAboutus__img--item">
                         <img src="<?php echo HOME ?>img/top_aboutus_02.png">
-                        <div class="topAboutus__img--caption">
-                            <span class="bg-white">二枚目（仮）次の100年に</span><br>
-                            <span class="bg-white">一緒に挑める仲間を求めています</span>
-                        </div>
                     </div>
                     <div class="topAboutus__img--item">
                         <img src="<?php echo HOME ?>img/top_aboutus_03.png">
-                        <div class="topAboutus__img--caption">
-                            <span class="bg-white">三枚目（仮）次の100年に</span><br>
-                            <span class="bg-white">一緒に挑める仲間を求めています</span>
-                        </div>
                     </div>
                     <img src="<?php echo HOME ?>img/top_aboutus_bg.png">
                 </div>
@@ -145,7 +133,7 @@ require_once $include . '_header.php';
                     <a class="topAboutus__link--item js-topAbout" href="<?php echo HOME; ?>aboutus/topmessage/">
                         <div class="text">
                             <span class="num lato">#1</span>
-                            <span class="title">社長メッセージ</span>
+                            <span class="title">社長インタビュー</span>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
@@ -375,33 +363,33 @@ require_once $include . '_header.php';
             <div class="swiper-wrapper">
                 <a href="<?php echo HOME; ?>person/crosstalk01/" class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
-                        <span class="bg">Special Crosstalk <span class="small">トレーナー×トレーニークロストーク</span></span>
+                        <span class="bg">Special Crosstalk <span class="small">トレーナー×トレーニー</span></span>
                     </span>
                     <span class="topCrosstalkSlide__item--caption sp">
-                        <span class="bg">Special Crosstalk</span><br><span class="bg">トレーナー×トレーニークロストーク</span>
+                        <span class="bg">Special Crosstalk</span><br><span class="bg">トレーナー×トレーニー</span>
                     </span>
                     <img src="<?php echo HOME ?>img/crosstalk1.png" alt="" class="pc">
                     <img src="<?php echo HOME ?>img/crosstalk1_sp.png" alt="" class="sp">
                 </a>
                 <a href="<?php echo HOME; ?>person/crosstalk02/" class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
-                        <span class="bg">Special Crosstalk <span class="small">13年目5年目3年目_クロストーク</span></span>
+                        <span class="bg">Special Crosstalk <span class="small">13年目×5年目×3年目対談</span></span>
                     </span>
                     <span class="topCrosstalkSlide__item--caption sp">
-                        <span class="bg">Special Crosstalk</span><br><span class="bg">13年目5年目3年目_クロストーク</span>
-                    </span>
-                    <img src="<?php echo HOME ?>img/crosstalk2.png" alt="" class="pc">
-                    <img src="<?php echo HOME ?>img/crosstalk2_sp.png" alt="" class="sp">
-                </a>
-                <a href="<?php echo HOME; ?>person/crosstalk03/" class="swiper-slide topCrosstalkSlide__item">
-                    <span class="topCrosstalkSlide__item--caption pc">
-                        <span class="bg">Special Crosstalk <span class="small">～ 女性の活躍クロストーク</span></span>
-                    </span>
-                    <span class="topCrosstalkSlide__item--caption sp">
-                        <span class="bg">Special Crosstalk</span><br><span class="bg">女性の活躍クロストーク</span>
+                        <span class="bg">Special Crosstalk</span><br><span class="bg">13年目×5年目×3年目対談</span>
                     </span>
                     <img src="<?php echo HOME ?>img/crosstalk3.png" alt="" class="pc">
                     <img src="<?php echo HOME ?>img/crosstalk3_sp.png" alt="" class="sp">
+                </a>
+                <a href="<?php echo HOME; ?>person/crosstalk03/" class="swiper-slide topCrosstalkSlide__item">
+                    <span class="topCrosstalkSlide__item--caption pc">
+                        <span class="bg">Special Crosstalk <span class="small">女性の活躍について</span></span>
+                    </span>
+                    <span class="topCrosstalkSlide__item--caption sp">
+                        <span class="bg">Special Crosstalk</span><br><span class="bg">女性の活躍について</span>
+                    </span>
+                    <img src="<?php echo HOME ?>img/crosstalk2.png" alt="" class="pc">
+                    <img src="<?php echo HOME ?>img/crosstalk2_sp.png" alt="" class="sp">
                 </a>
             </div>
             <div class="swiper-button-prev">
