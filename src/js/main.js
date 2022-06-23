@@ -116,22 +116,35 @@ $('.js-recruitEnvironment-tab-bottom').on('click', function () {
 
 $('.js-challengeEvolution-tab').on('click', function () {
   const bottomTab = $('.js-challengeEvolution-tab-bottom').eq($(this).index())
-  $(this).addClass('selected')
-  bottomTab.addClass('selected')
-  $(this).siblings().removeClass('selected')
-  bottomTab.siblings().removeClass('selected')
+  $(this).addClass('current')
+  bottomTab.addClass('current')
+  $(this).siblings().removeClass('current')
+  bottomTab.siblings().removeClass('current')
   $('.js-challengeEvolution-tabItem').removeClass('show')
   $('#' + $(this).attr('data-tab')).addClass('show')
 })
 $('.js-challengeEvolution-tab-bottom').on('click', function () {
   const topTab = $('.js-challengeEvolution-tab').eq($(this).index())
-  $(this).addClass('selected')
-  topTab.addClass('selected')
-  $(this).siblings().removeClass('selected')
-  topTab.siblings().removeClass('selected')
+  $(this).addClass('current')
+  topTab.addClass('current')
+  $(this).siblings().removeClass('current')
+  topTab.siblings().removeClass('current')
   $('.js-challengeEvolution-tabItem').removeClass('show')
   $('#' + $(this).attr('data-tab')).addClass('show')
 })
+
+if ($('.js-personMvSlide')[0] && window.matchMedia('(max-width:768px)').matches) {
+  const personMvSlide = new Swiper('.js-personMvSlide', {
+    autoplay: {
+      delay: 5000,
+    },
+    loop: true,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true,
+    },
+  })
+}
 
 /*
 ######## ########  ##     ## ##    ## ##    ##  #######
@@ -168,6 +181,17 @@ if ($('.js-acc')[0]) {
     $(this).toggleClass('open')
     $(this).next().slideToggle()
   })
+}
+
+// SPのみ
+if ($('.js-acc-sp')[0]) {
+  if (window.matchMedia('(max-width:768px)').matches) {
+    $('.js-acc-sp').next().hide()
+    $('.js-acc-sp').on('click', function () {
+      $(this).toggleClass('open')
+      $(this).next().slideToggle()
+    })
+  }
 }
 
 /*

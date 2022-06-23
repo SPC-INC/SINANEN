@@ -73,7 +73,7 @@ require_once $include . '_header.php';
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
@@ -95,7 +95,7 @@ require_once $include . '_header.php';
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
@@ -117,7 +117,7 @@ require_once $include . '_header.php';
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
@@ -139,7 +139,7 @@ require_once $include . '_header.php';
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
@@ -147,6 +147,18 @@ require_once $include . '_header.php';
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="businessChildMain__group">
+                            <h2 class="businessChildMain__group--head">
+                                展開しているグループ会社
+                            </h2>
+                            <ul class="businessChildMain__group--list flex hcenter">
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://sinanen.com/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_btoc_group_01.png" alt="シナネン">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <div class="businessChildMain__link">
                             <a href="<?php echo HOME; ?>business/" class="businessChildMain__btn md-btn red">

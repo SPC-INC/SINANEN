@@ -408,6 +408,7 @@ $headerSP: 5rem;
   &__btn {
     $btncolor: #fff;
     $textcolor: $siteColor;
+    position: relative;
     padding: 0 2.8rem;
     border: solid 1px $btncolor;
     height: 5.5rem;
@@ -422,9 +423,20 @@ $headerSP: 5rem;
     &:not(:first-child) {
       margin-top: 1rem;
     }
+    .icon {
+      position: absolute;
+      right: 2rem;
+      width: 5rem;
+      stroke: $siteColor;
+    }
   }
   &__menu {
     border-bottom: 1px solid #fff;
+  }
+  &__box {
+    .acc-in {
+      padding: 0 0 2rem;
+    }
   }
   &__item {
     position: relative;

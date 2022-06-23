@@ -47,7 +47,7 @@ require_once $include . '_header.php';
                         <img src="<?php echo HOME; ?>img/sdgs_about_01.png" alt="">
                     </div>
                     <p class="sdgsAbout__text">
-                        SDGs（持続可能な開発目標）とは、2015年に国際サミットで採択された国際目標です。17のゴールと169のターゲットから構成されており、地球上の「誰一人取り残さない」ことを誓っています。シナネンHDグループはエネルギーを扱う企業グループとして、地球課題の解決、SDGsの達成に貢献します。
+                        SDGs（持続可能な開発目標）とは、2015年に国際サミットで採択された国際目標です。17のゴールと169のターゲットから構成されており、地球上の「誰一人取り残さない」ことを誓っています。<br class="pc">シナネンホールディングスグループはエネルギーを扱う企業グループとして、地球課題の解決、SDGsの達成に貢献します。
                     </p>
                 </div>
                 <div class="sdgsAbout__wrapper pc-flex vcenter bet">
@@ -56,7 +56,7 @@ require_once $include . '_header.php';
                     </div>
                     <div class="sdgsAbout__text">
                         <p class="">
-                            シナネンHDグループのSDGsの達成に向けた積極的な活動は、外務省ホームページの「JAPAN SDGs Action Platform」にも事例のひとつとして取り上げられ、「SDGsジャパンロゴマーク」の使用が認められました。
+                            シナネンホールディングスグループのSDGsへの取り組みが外務省に評価され、SDGsジャパンロゴマークの使用を許可されています。
                         </p>
                         <p class="">
                             <a href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html" target="_blank" class="">外務省　JAPAN SDGs Action Platform</a>
@@ -78,9 +78,6 @@ require_once $include . '_header.php';
 */
 ?>
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_01.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -127,9 +124,6 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_02.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -167,9 +161,6 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_03.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -195,9 +186,6 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_04.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -212,7 +200,7 @@ require_once $include . '_header.php';
                 </h2>
                 <dl class="sdgsSec__data">
                     <dt class="sdgsSec__ttl js-acc">
-                        建物の安心・安全な維持管理を提供
+                        安心して暮らせる街づくりに貢献
                     </dt>
                     <dd class="sdgsSec__dtl">
                         当社グループのタカラビルメン株式会社では、ビル・施設管理、病院運営サポート、斎場関連事業等のファシリティマネジメントまで建物維持管理のスペシャリストとして安心・安全な施設維持・運営に貢献しています。<br>
@@ -223,9 +211,6 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_05.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -265,9 +250,6 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_06.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -292,7 +274,7 @@ require_once $include . '_header.php';
                         豊かな森を守る大切さを学べる絵本の制作
                     </dt>
                     <dd class="sdgsSec__dtl">
-                        社グループのシナネン株式会社は、2020年から取り組んでいる「シナネン あかりの森プロジェクト」の一環として、持続可能な社会の実現および地球環境の保護、省エネルギーの大切さを分かりやすく学んでいただくことを目的に、絵本「シナモロールとあかりの森のポポネン」を制作しています。この絵本を通じて、地球環境保護について、小さなお子様にも親しみやすく、ご家族で一緒に楽しみながら学んでいただくことができます。<br>
+                        当社グループのシナネン株式会社は、2020年から取り組んでいる「シナネン あかりの森プロジェクト」の一環として、持続可能な社会の実現および地球環境の保護、省エネルギーの大切さを分かりやすく学んでいただくことを目的に、絵本「シナモロールとあかりの森のポポネン」を制作しています。この絵本を通じて、地球環境保護について、小さなお子様にも親しみやすく、ご家族で一緒に楽しみながら学んでいただくことができます。<br>
                         また、制作した絵本は、交流のある地域の幼稚園や保育園を中心に配布し、環境教育に役立てていただいています。
                     </dd>
                 </dl>
@@ -300,9 +282,6 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_07.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -328,9 +307,6 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--right js-in anime right-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_08.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -355,9 +331,6 @@ require_once $include . '_header.php';
         </section>
 
         <section class="sdgsSec">
-            <div class="sdgsSec__bg sdgsSec__bg--left js-in anime left-in">
-                <img src="<?php echo HOME; ?>img/sdgs_bg_09.png" alt="">
-            </div>
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                     <div class="anime__wrapper">
@@ -398,7 +371,7 @@ require_once $include . '_header.php';
                 </h2>
                 <div class="aboutUsCommon__link pc-flex bet">
                     <a href="<?php echo HOME; ?>aboutus/topmessage/" class="aboutUsCommon__btn md-btn red left-text">
-                        社長インタビュー
+                        社長メッセージ
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                 <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
@@ -407,7 +380,7 @@ require_once $include . '_header.php';
                         </svg>
                     </a>
                     <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="aboutUsCommon__btn md-btn red left-text">
-                        シナネンHDグループの<br class="sp">挑戦と進化
+                        わたしたちの<br class="sp">挑戦と進化
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                 <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />

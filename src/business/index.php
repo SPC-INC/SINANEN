@@ -25,7 +25,7 @@ require_once $include . '_header.php';
     <section class="business">
         <div class="wrap w1200 sp-wrap">
             <p class="business__intro">
-                シナネンHDグループでは、BtoC事業・BtoB事業・非エネルギー事業と、大きく分けて３つの事業を展開しています。それぞれの角度から、「エネルギーと住まいと暮らしのサービスで、地域すべてのお客様の快適な生活に貢献する」ことを目指しています。既存の形にとらわれず、これからも、エネルギービジネスの枠を超えて発展し続けます。
+                シナネンホールディングスグループでは、BtoC事業・BtoB事業・非エネルギー事業と、大きく分けて３つの事業を展開しています。<br class="pc">それぞれの角度から、「エネルギーと住まいと暮らしのサービスで、地域すべてのお客様の快適な生活に貢献する」ことを目指しています。<br class="pc">既存の形にとらわれず、これからも、エネルギービジネスの枠を超えて発展し続けます。
             </p>
         </div>
         <div class="business__container">
@@ -124,33 +124,6 @@ require_once $include . '_header.php';
                     <div class="pc business__img pc-1">
                         <img src="<?php echo HOME; ?>img/business_03.png" alt="">
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="businessFuture">
-            <div class="wrap w1200 sp-wrap">
-                <h2 class="businessFuture__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
-                        シナネンが描く未来
-                    </div>
-                </h2>
-                <div class="businessFuture__img">
-                    <img src="<?php echo HOME; ?>img/business_future.png" alt="" class="pc">
-                    <img src="<?php echo HOME; ?>img/business_future_sp.png" alt="" class="sp">
-                </div>
-                <p class="businessFuture__text">
-                    Challenging New Worlds with Big Sky-thinking～大胆な発想で新しい世界への挑戦～をコンセプトに、私たちが目指す未来の姿を、「人々の生活」「働き方」「会社の在り方」の３つの視点からご紹介します。
-                </p>
-                <div class="businessFuture__more">
-                    <a href="<?php echo HOME; ?>future/" class="businessFutures__btn md-btn red">
-                        READ MORE
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                            <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                                <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                            </g>
-                        </svg>
-                    </a>
                 </div>
             </div>
         </div>

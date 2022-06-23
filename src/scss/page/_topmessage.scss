@@ -1,5 +1,6 @@
 .topMessage {
   position: relative;
+  padding: 14rem 0 12rem;
   overflow: hidden;
   &__bg {
     display: block;
@@ -14,231 +15,45 @@
     transform-origin: top right;
     content: "";
   }
-  /*
-               ######  ########
-              ##       ##     ##
-      #######  ######  ########
-                    ## ##
-               ######  ##
-  */
-  // ↓sp相当幅
-  @media #{$media-sp} {
-  }
-}
-
-/*
-    #### ##    ## ######## ########   #######
-     ##  ###   ##    ##    ##     ## ##     ##
-     ##  ####  ##    ##    ##     ## ##     ##
-     ##  ## ## ##    ##    ########  ##     ##
-     ##  ##  ####    ##    ##   ##   ##     ##
-     ##  ##   ###    ##    ##    ##  ##     ##
-    #### ##    ##    ##    ##     ##  #######
-*/
-.topMessageIntro {
-  padding: 16rem 0 5rem;
-  &__text {
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.3;
-  }
-  &__img {
-    margin: 5rem 0 0;
-  }
-  /*
-               ######  ########
-              ##       ##     ##
-      #######  ######  ########
-                    ## ##
-               ######  ##
-  */
-  // ↓sp相当幅
-  @media #{$media-sp} {
-    padding: 4.2rem 0 2.8rem;
-    &__text {
-      font-size: 1.6rem;
-      line-height: 1.75;
-    }
-    &__img {
-      margin: 2rem 0 0;
-    }
-  }
-}
-
-/*
-    ##     ## ######## ##     ## ########  ######## ########
-    ###   ### ##       ###   ### ##     ## ##       ##     ##
-    #### #### ##       #### #### ##     ## ##       ##     ##
-    ## ### ## ######   ## ### ## ########  ######   ########
-    ##     ## ##       ##     ## ##     ## ##       ##   ##
-    ##     ## ##       ##     ## ##     ## ##       ##    ##
-    ##     ## ######## ##     ## ########  ######## ##     ##
-*/
-.topMessageMember {
-  &__container {
-  }
-  &__ceo {
+  &__head {
     &--img {
+      flex: none;
     }
     &--text {
-      margin-left: 4rem;
+      padding-right: 6rem;
     }
-    &--pos {
-      position: relative;
-      padding: 0 0 1.7rem;
+    &--ttl {
+      font-size: 3.8rem;
+      font-weight: 700;
+      line-height: 1.7;
+    }
+    &--sign {
+      margin: 6.4rem 0 0;
       font-size: 2.2rem;
-      font-weight: 500;
-      line-height: 1.45;
-      &::after {
-        display: block;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 3.6rem;
-        height: 0.2rem;
-        background: $siteColor;
-        content: "";
-      }
     }
-    &--name {
-      margin: 2.4rem 0 0;
-      font-size: 4rem;
+  }
+  &__body {
+    margin: 5rem 0 0;
+    &--ttl {
+      font-size: 3rem;
       font-weight: 700;
       line-height: 1.3;
     }
-  }
-  &__member {
-    &--item {
-      margin-left: 5rem;
-    }
-    &--img {
-      text-align: center;
-    }
     &--text {
-      margin: 2.3rem 0 0;
-      font-size: 1.8rem;
-      font-weight: 700;
-      line-height: 1.4;
-      text-align: center;
-    }
-  }
-  /*
-               ######  ########
-              ##       ##     ##
-      #######  ######  ########
-                    ## ##
-               ######  ##
-  */
-  // ↓sp相当幅
-  @media #{$media-sp} {
-    &__container {
-    }
-    &__ceo {
-      &--img {
-        width: 10rem;
-      }
-      &--text {
-        margin-left: 1.1rem;
-      }
-      &--pos {
-        padding: 0 0 0.7rem;
-        font-size: 1.4rem;
-        line-height: 1.2;
-        &::after {
-          width: 2rem;
-          height: 0.1rem;
-        }
-      }
-      &--name {
-        margin: 0.7rem 0 0;
-        font-size: 2.3rem;
-      }
-    }
-    &__member {
-      margin: 2rem 0 0;
-      &--item {
-        margin: 0;
-        width: calc(50% - 1rem);
-      }
-      &--img {
-        width: 8rem;
-      }
-      &--text {
-        margin: 1.1rem 0 0;
-        font-size: 1.4rem;
-        font-weight: 500;
-      }
-    }
-  }
-}
-
-/*
-    #### ##    ## ######## ######## ########  ##     ## #### ######## ##      ##
-     ##  ###   ##    ##    ##       ##     ## ##     ##  ##  ##       ##  ##  ##
-     ##  ####  ##    ##    ##       ##     ## ##     ##  ##  ##       ##  ##  ##
-     ##  ## ## ##    ##    ######   ########  ##     ##  ##  ######   ##  ##  ##
-     ##  ##  ####    ##    ##       ##   ##    ##   ##   ##  ##       ##  ##  ##
-     ##  ##   ###    ##    ##       ##    ##    ## ##    ##  ##       ##  ##  ##
-    #### ##    ##    ##    ######## ##     ##    ###    #### ########  ###  ###
-*/
-.topMessageInterview {
-  position: relative;
-  padding: 6rem 0 11.7rem;
-  &__bg {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    width: 32rem;
-    background: $siteColor;
-    content: "";
-    &--1 {
-      right: 0;
-      bottom: -7rem;
-      height: 105rem;
-      transform: skew(-17deg);
-      transform-origin: bottom left;
-    }
-    &--2 {
-      top: -18rem;
-      left: 0;
-      height: 122rem;
-      transform: skew(-17deg);
-      transform-origin: top right;
-    }
-  }
-  &__head {
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 1.3;
-  }
-  &__wrapper {
-    margin: 9rem 0 0;
-  }
-  &__img {
-    flex: none;
-    margin-right: 5.8rem;
-    &.pc-2 {
-      margin-right: 0;
-      margin-left: 5.8rem;
-    }
-  }
-  &__text {
-  }
-  &__talk {
-    margin: 0 0 2.7rem;
-    font-weight: 500;
-    &--img {
-      flex: none;
-      width: 10.8rem;
-      font-size: 1.4rem;
-    }
-    &--text {
-      margin-left: 3.4rem;
+      margin: 7.3rem 0 12rem;
+      font-weight: 500;
       line-height: 2.1;
     }
-  }
-  &__separate {
-    text-align: center;
+    &--img {
+      margin: 0 0 5rem;
+    }
+    &--signature {
+      margin: 2rem 0 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    &--sign {
+    }
   }
   /*
                ######  ########
@@ -249,36 +64,48 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
-    padding: 3.2rem 0 5rem;
+    padding: 4rem 0 8rem;
     &__head {
-      font-size: 2rem;
-      font-weight: 500;
-    }
-    &__wrapper {
-      margin: 7rem 0 0;
-    }
-    &__img {
-      margin-right: 0;
-      &.pc-2 {
-        margin-left: 0;
-      }
-    }
-    &__text {
-      margin: 3rem 0 0;
-    }
-    &__talk {
-      margin: 0 0 7.3rem;
       &--img {
-        width: 5.5rem;
-        font-size: 1.2rem;
       }
       &--text {
-        margin-left: 1.4rem;
-        font-size: 1.4rem;
-        line-height: 1.85;
+        margin: 2rem 0 0;
+        padding-right: 0;
+      }
+      &--ttl {
+        font-size: 2.4rem;
+        line-height: 1.4;
+      }
+      &--sign {
+        margin: 2rem 0 0;
+        font-size: 1.6rem;
       }
     }
-    &__separate {
+    &__body {
+      margin: 4rem 0 0;
+      &--ttl {
+        font-size: 2.1rem;
+      }
+      &--text {
+        margin: 2.6rem 0 16rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.8;
+      }
+      &--img {
+        margin: 0 0 3rem;
+      }
+      &--signature {
+        margin: 0 0 0 auto;
+        font-size: 1.6rem;
+        text-align: right;
+      }
+      &--co {
+        width: 100%;
+      }
+      &--pos {
+        margin-right: 1rem;
+      }
     }
   }
 }

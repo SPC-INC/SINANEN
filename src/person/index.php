@@ -21,11 +21,31 @@ require_once $include . '_header.php';
 */
 ?>
     <div class="personMv">
-        <div class="personMv__img">
-            <img src="<?php echo HOME; ?>img/person_mv.png" alt="" class="pc">
-            <img src="<?php echo HOME; ?>img/person_mv_sp.png" alt="" class="sp">
+        <div class="pc personMv__img">
+            <img src="<?php echo HOME; ?>img/person_mv.png" alt="">
         </div>
-        <h1 class="personMv__text notos flex pc-vcenter pc-hcenter sp-vend sp-hend">
+        <div class="sp personMv__img">
+            <div class="personMv__slider swiper-container js-personMvSlide">
+                <ul class="personMv__slider--wrapper swiper-wrapper">
+                    <li class="personMv__slider--slide swiper-slide">
+                        <img src="<?php echo HOME; ?>img/person_mv_sp_01.png" alt="">
+                    </li>
+                    <li class="personMv__slider--slide swiper-slide">
+                        <img src="<?php echo HOME; ?>img/person_mv_sp_02.png" alt="">
+                    </li>
+                    <li class="personMv__slider--slide swiper-slide">
+                        <img src="<?php echo HOME; ?>img/person_mv_sp_03.png" alt="">
+                    </li>
+                    <li class="personMv__slider--slide swiper-slide">
+                        <img src="<?php echo HOME; ?>img/person_mv_sp_04.png" alt="">
+                    </li>
+                    <li class="personMv__slider--slide swiper-slide">
+                        <img src="<?php echo HOME; ?>img/person_mv_sp_05.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="personMv__text notos flex pc-vend pc-hcenter sp-vend sp-hend">
             <div class="personMv__text--wrapper js-in anime text-line-in">
                 <div class="anime__wrapper">
                     <div class="personMv__text--inner js-in anime text-in wave3">
@@ -200,10 +220,10 @@ require_once $include . '_header.php';
                 <div class="personMessage__text flex vert">
                     <h3 class="personMessage__ttl notos">
                         「個」の成長が重要。<br>
-                        会社だけでなく、自分自身の人生の舵を手放さず、未来を切り拓いていく人が活躍できるシナネンHDグループへ
+                        会社だけでなく、自分自身の人生の舵を手放さず、未来を切り拓いていく人が活躍できるシナネンホールディングスグループへ
                     </h3>
                     <p class="personMessage__desc">
-                        新入社員の皆さんからこれからのシナネンHDグループについてや、社長に聞いてみたいことをインタビューしてもらいました。
+                        新入社員の皆さんからこれからのシナネンホールディングスグループについてや、社長に聞いてみたいことをインタビューしてもらいました。
                     </p>
                     <div class="personMessage__more">
                         <a href="<?php echo HOME; ?>aboutus/topmessage/" class="personMessage__btn md-btn red left-text">

@@ -308,6 +308,9 @@
       width: 10rem;
       background: $siteColor;
     }
+    &--note {
+      font-size: 2.8rem;
+    }
   }
   &__img {
     margin: 3.5rem 0 0;
@@ -360,8 +363,34 @@
       }
     }
   }
+  &__group {
+    margin: 10rem 0 0;
+    &--head {
+      font-size: 2.2rem;
+      font-weight: 700;
+      text-align: center;
+    }
+    &--list {
+      margin: 3.6rem 0 0;
+    }
+    &--item {
+      padding: 1.2rem 0;
+      border: solid 1px #c1c1c1;
+      width: calc((100% - 1rem * 3) / 4);
+      height: 8rem;
+      &:not(:nth-child(4n + 1)) {
+        margin-left: 1rem;
+      }
+      &:nth-child(n + 5) {
+        margin-top: 1rem;
+      }
+    }
+    &--link {
+      height: 100%;
+    }
+  }
   &__link {
-    margin: 3rem 0 0;
+    margin: 10rem 0 0;
     height: 9rem;
     font-size: 2.4rem;
     font-weight: 700;
@@ -414,6 +443,32 @@
         padding: 1rem 0 2rem;
         font-size: 1.5rem;
         line-height: 1.7;
+      }
+    }
+    &__group {
+      margin: 6.2rem 0 0;
+      &--head {
+        font-size: 1.8rem;
+      }
+      &--list {
+        margin: 1.6rem 0 0;
+      }
+      &--item {
+        padding: 0 2rem;
+        width: calc((100% - 1.5rem) / 2);
+        height: 5.7rem;
+        &:not(:nth-child(4n + 1)) {
+          margin-left: 0;
+        }
+        &:not(:nth-child(2n + 1)) {
+          margin-left: 1.5rem;
+        }
+        &:nth-child(n + 3),
+        &:nth-child(n + 5) {
+          margin-top: 1.5rem;
+        }
+      }
+      &--link {
       }
     }
     &__link {

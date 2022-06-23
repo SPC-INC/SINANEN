@@ -41,7 +41,7 @@
                     <div class="pc headerPulldown">
                         <a href="<?php echo HOME; ?>aboutus/" class="headerPulldown__head flex vert vcenter hcenter">
                             <span class="headerPulldown__head--en">ABOUT US</span>
-                            <span class="headerPulldown__head--ja">会社紹介</span>
+                            <span class="headerPulldown__head--ja">会社を知る</span>
                             <i class="headerPulldown__head--icon icon-down"></i>
                         </a>
                         <div class="headerPulldown__body">
@@ -50,11 +50,11 @@
                                     <div class="headerPulldown__ttl">
                                         <h2 class="headerPulldown__ttl--inner flex vert">
                                             <span class="headerPulldown__ttl--en">ABOUT US</span>
-                                            <span class="headerPulldown__ttl--ja notos">会社紹介</span>
+                                            <span class="headerPulldown__ttl--ja notos">会社を知る</span>
                                         </h2>
                                         <div class="headerPulldown__ttl--link">
                                             <a href="<?php echo HOME; ?>aboutus/" class="headerPulldown__ttl--btn md-btn red left-text">
-                                                会社紹介TOP
+                                                会社を知るTOP
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                                     <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                                         <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
@@ -67,7 +67,7 @@
                                     <div class="headerPulldown__dtl flex notos">
                                         <a href="<?php echo HOME; ?>aboutus/topmessage/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_aboutus_01.png" alt="">
-                                            社長インタビュー
+                                            社長メッセージ
                                         </a>
                                         <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_aboutus_02.png" alt="">
@@ -85,7 +85,7 @@
                     <div class="pc headerPulldown">
                         <a href="<?php echo HOME; ?>business/" class="headerPulldown__head flex vert vcenter hcenter">
                             <span class="headerPulldown__head--en">BUSINESS</span>
-                            <span class="headerPulldown__head--ja">事業紹介</span>
+                            <span class="headerPulldown__head--ja">仕事を知る</span>
                             <i class="headerPulldown__head--icon icon-down"></i>
                         </a>
                         <div class="headerPulldown__body">
@@ -94,11 +94,11 @@
                                     <div class="headerPulldown__ttl">
                                         <h2 class="headerPulldown__ttl--inner flex vert">
                                             <span class="headerPulldown__ttl--en">BUSINESS</span>
-                                            <span class="headerPulldown__ttl--ja notos">事業紹介</span>
+                                            <span class="headerPulldown__ttl--ja notos">仕事を知る</span>
                                         </h2>
                                         <div class="headerPulldown__ttl--link">
                                             <a href="<?php echo HOME; ?>business/" class="headerPulldown__ttl--btn md-btn red left-text">
-                                                事業紹介TOP
+                                                仕事を知るTOP
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                                     <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                                         <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
@@ -121,10 +121,12 @@
                                             <img src="<?php echo HOME; ?>img/header_business_03.png" alt="">
                                             非エネルギー事業
                                         </a>
+                                        <?php if (0) { ?>
                                         <a href="<?php echo HOME; ?>future/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_business_04.png" alt="">
                                             シナネンHDグループが<br>描く未来
                                         </a>
+                                        <?php } ?>
                                     </div>
                                 </div>
                             </div>
@@ -133,7 +135,7 @@
                     <div class="pc headerPulldown">
                         <a href="<?php echo HOME; ?>person/" class="headerPulldown__head flex vert vcenter hcenter">
                             <span class="headerPulldown__head--en">INTERVIEW</span>
-                            <span class="headerPulldown__head--ja">インタビュー</span>
+                            <span class="headerPulldown__head--ja">人を知る</span>
                             <i class="headerPulldown__head--icon icon-down"></i>
                         </a>
                         <div class="headerPulldown__body">
@@ -142,11 +144,11 @@
                                     <div class="headerPulldown__ttl">
                                         <h2 class="headerPulldown__ttl--inner flex vert">
                                             <span class="headerPulldown__ttl--en">INTERVIEW</span>
-                                            <span class="headerPulldown__ttl--ja notos">インタビュー</span>
+                                            <span class="headerPulldown__ttl--ja notos">人を知る</span>
                                         </h2>
                                         <div class="headerPulldown__ttl--link">
                                             <a href="<?php echo HOME; ?>person/" class="headerPulldown__ttl--btn md-btn red left-text">
-                                                インタビューTOP
+                                                人を知るTOP
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                                     <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                                         <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
@@ -183,6 +185,9 @@
                                             </a>
                                             <a href="<?php echo HOME; ?>person/crosstalk03/" class="headerPulldown__link flex vcenter">
                                                 03&nbsp;&nbsp;女性の活躍について
+                                            </a>
+                                            <a href="<?php echo HOME; ?>person/crosstalk04/" class="headerPulldown__link flex vcenter">
+                                                04&nbsp;&nbsp;社長と若手社員インタビュー
                                             </a>
                                         </div>
                                     </div>
@@ -270,22 +275,34 @@
         <div class="gNav__contact">
             <a href="<?php echo HOME; ?>contact/" class="gNav__btn gNav__btn--entry md-btn left-text">
                 エントリー
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                    </g>
+                </svg>
             </a>
             <a href="<?php echo HOME; ?>contact/" class="gNav__btn gNav__btn--mypage md-btn left-text">
                 マイページ
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                    <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                        <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                        <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                    </g>
+                </svg>
             </a>
         </div>
         <div class="gNav__menu md-acc">
             <div class="gNav__box">
                 <input id="gNav1" class="acc-check" type="checkbox" value="" />
                 <label for="gNav1" class="acc-btn gNav__item flex vcenter">
-                    会社紹介
+                    会社を知る
                     <i class="gNav__icon gNav__icon icon-down"></i>
                 </label>
                 <div class="acc-body">
                     <div class="acc-in">
                         <a href="<?php echo HOME; ?>aboutus/topmessage/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            社長インタビュー
+                            社長メッセージ
                         </a>
                         <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             シナネンHDグループの挑戦と進化
@@ -293,28 +310,43 @@
                         <a href="<?php echo HOME; ?>aboutus/SDGs/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             SDGsへの貢献
                         </a>
+                        <a href="<?php echo HOME; ?>aboutus/" class="acc-hide gNav__btn gNav__btn--entry md-btn left-text">
+                            会社紹介へ
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                </g>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="gNav__box">
                 <input id="gNav2" class="acc-check" type="checkbox" value="" />
                 <label for="gNav2" class="acc-btn gNav__item flex vcenter">
-                    事業紹介
+                    仕事を知る
                     <i class="gNav__icon gNav__icon icon-down"></i>
                 </label>
                 <div class="acc-body">
                     <div class="acc-in">
                         <a href="<?php echo HOME; ?>business/btoc/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            BtoC事業
+                            エネルギー卸・小売り周辺事業
                         </a>
                         <a href="<?php echo HOME; ?>business/btob/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            BtoB事業
+                            エネルギーソリューション事業
                         </a>
                         <a href="<?php echo HOME; ?>business/others/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            非エネルギー事業
+                            非エネルギー・海外事業
                         </a>
-                        <a href="<?php echo HOME; ?>future/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            シナネンHDグループが描く未来
+                        <a href="<?php echo HOME; ?>business/" class="acc-hide gNav__btn gNav__btn--entry md-btn left-text">
+                            事業一覧へ
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                </g>
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -332,7 +364,7 @@
                                 <img src="<?php echo HOME; ?>img/header_interview_01.png" alt="">
                             </div>
                             <div class="gNav__item--text">
-                                <span class="em">部署（所属）</span><br>
+                                <span class="em">BtoC事業 営業</span><br>
                                 S.Takahashi
                             </div>
                         </a>
@@ -341,39 +373,28 @@
                                 <img src="<?php echo HOME; ?>img/header_interview_02.png" alt="">
                             </div>
                             <div class="gNav__item--text">
-                                <span class="em">部署（所属）</span><br>
+                                <span class="em">非エネルギー事業 営業</span><br>
                                 K.Kasamatsu
                             </div>
                         </a>
                         <a href="<?php echo HOME; ?>person/interview03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             <div class="gNav__item--img">
-                                <img src="<?php echo HOME; ?>img/header_interview_01.png" alt="">
+                                <img src="<?php echo HOME; ?>img/header_interview_03.png" alt="">
                             </div>
                             <div class="gNav__item--text">
-                                <span class="em">部署（所属）</span><br>
+                                <span class="em">非エネルギー事業 施工管理</span><br>
                                 K.Yanagihara
                             </div>
                         </a>
                         <a href="<?php echo HOME; ?>person/interview04/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             <div class="gNav__item--img">
-                                <img src="<?php echo HOME; ?>img/header_interview_02.png" alt="">
+                                <img src="<?php echo HOME; ?>img/header_interview_04.png" alt="">
                             </div>
                             <div class="gNav__item--text">
-                                <span class="em">部署（所属）</span><br>
+                                <span class="em">BtoB事業 管理</span><br>
                                 S.Kanno
                             </div>
                         </a>
-                    </div>
-                </div>
-            </div>
-            <div class="gNav__box">
-                <input id="gNav4" class="acc-check" type="checkbox" value="" />
-                <label for="gNav4" class="acc-btn gNav__item flex vcenter">
-                    クロストーク
-                    <i class="gNav__icon gNav__icon icon-down"></i>
-                </label>
-                <div class="acc-body">
-                    <div class="acc-in">
                         <a href="<?php echo HOME; ?>person/crosstalk01/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             Special Crosstalk トレーナー×トレーニー
                         </a>
@@ -382,6 +403,18 @@
                         </a>
                         <a href="<?php echo HOME; ?>person/crosstalk03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             Special Crosstalk 女性の活躍について
+                        </a>
+                        <a href="<?php echo HOME; ?>person/crosstalk04/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
+                            Special Crosstalk 社長と若手社員インタビュー
+                        </a>
+                        <a href="<?php echo HOME; ?>person/" class="acc-hide gNav__btn gNav__btn--entry md-btn left-text">
+                            インタビューTOP
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                </g>
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -408,6 +441,15 @@
                         </a>
                         <a href="<?php echo HOME; ?>recruit/faq/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             よくある質問
+                        </a>
+                        <a href="<?php echo HOME; ?>recruit/" class="acc-hide gNav__btn gNav__btn--entry md-btn left-text">
+                            採用情報TOP
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
+                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
+                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
+                                </g>
+                            </svg>
                         </a>
                     </div>
                 </div>

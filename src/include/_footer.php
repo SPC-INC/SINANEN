@@ -3,8 +3,8 @@
         <div class="footerLinkWrap flex bet sp-break">
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>aboutus/" class="footerLink__list--title op">会社紹介</a>
-                <a href="<?php echo HOME; ?>aboutus/topmessage/" class="footerLink__list--item">社長インタビュー</a>
-                <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="footerLink__list--item">シナネンHDグループの挑戦と進化</a>
+                <a href="<?php echo HOME; ?>aboutus/topmessage/" class="footerLink__list--item">社長メッセージ</a>
+                <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="footerLink__list--item">わたしたちの挑戦と進化</a>
                 <a href="<?php echo HOME; ?>aboutus/SDGs/" class="footerLink__list--item">SDGsへの貢献</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
@@ -12,7 +12,6 @@
                 <a href="<?php echo HOME; ?>business/btoc/" class="footerLink__list--item">BtoC事業</a>
                 <a href="<?php echo HOME; ?>business/btob/" class="footerLink__list--item">BtoB事業</a>
                 <a href="<?php echo HOME; ?>business/others/" class="footerLink__list--item">非エネルギー事業</a>
-                <a href="<?php echo HOME; ?>future/" class="footerLink__list--item">シナネンHDグループが描く未来</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>person/" class="footerLink__list--title op">インタビュー</a>
@@ -26,6 +25,7 @@
                 <a href="<?php echo HOME; ?>person/crosstalk01/" class="footerLink__list--item">トレーナー×トレーニー</a>
                 <a href="<?php echo HOME; ?>person/crosstalk02/" class="footerLink__list--item">13年目×5年目×3年目対談</a>
                 <a href="<?php echo HOME; ?>person/crosstalk03/" class="footerLink__list--item">女性の活躍について</a>
+                <a href="<?php echo HOME; ?>person/crosstalk04/" class="footerLink__list--item">社長と若手社員インタビュー</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>recruit/" class="footerLink__list--title op">採用情報</a>

@@ -63,6 +63,7 @@
   padding: 5.6rem 0 10rem;
   &__head {
     position: relative;
+    margin: 8rem 0 0;
     padding: 0 0 2rem;
     border-bottom: solid 2px #1a1a1a;
     font-size: 3.5rem;
@@ -87,6 +88,7 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
+    margin: 0;
     padding: 2rem 0;
     background: $siteColor;
   }
@@ -102,23 +104,52 @@
        ##    ##     ## ########
 */
 .challengeEvolutionTab {
+  &__item {
+    position: relative;
+    width: calc((100% - 3.5rem * 2) / 3);
+    height: 9.7rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.75;
+    color: #c1c1c1;
+    &::before {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border: solid 1px #e6e6e6;
+      width: 100%;
+      height: 100%;
+      background: #f9f9f9;
+      transform: skew(15deg);
+      content: "";
+    }
+    &.current {
+      color: #fff;
+      &::before {
+        background: $siteColor;
+      }
+    }
+  }
+  /*
+               ######  ########
+              ##       ##     ##
+      #######  ######  ########
+                    ## ##
+               ######  ##
+  */
+  // ↓sp相当幅
   @media #{$media-sp} {
     margin: 4rem 0 0;
     &__item {
-      position: relative;
       padding: 0 1.4rem;
       width: 50%;
       height: 4.4rem;
       font-size: 1.4rem;
-      font-weight: 700;
       line-height: 1.3;
-      color: #c1c1c1;
       text-align: center;
       background: #f9f9f9;
-      &.selected {
-        color: #fff;
-        background: $siteColor;
-      }
       &::before,
       &::after {
         display: block;
@@ -126,10 +157,12 @@
         top: 0;
         width: 0;
         height: 0;
+        transform: none;
         content: "";
       }
       &::before {
         left: 0;
+        z-index: 1;
         border-top: solid 2.2rem #fff;
         border-right: solid 0.5rem transparent;
         border-bottom: solid 2.2rem transparent;
@@ -141,6 +174,9 @@
         border-right: solid 0.5rem #fff;
         border-bottom: solid 2.2rem transparent;
         border-left: solid 0.5rem transparent;
+      }
+      &.current {
+        background: $siteColor;
       }
     }
     &--bottom {
@@ -167,6 +203,12 @@
         display: none;
       }
     }
+  }
+}
+
+.challengeEvolutionFuture {
+  @media #{$media-sp} {
+    margin: 0 0 8rem;
   }
 }
 

@@ -87,8 +87,8 @@ require_once $include . '_header.php';
                     <span class="topIntro__head--line">未来の日常を創るために。</span>
                 </h2>
                 <p class="topIntro__desc js-in anime bottom-in">
-                    私たちは、時代の変化に寄り添いながら、総合エネルギーサービス企業グループとして、様々なサービスを提供し続けることで、快適で豊かな社会づくりに「挑戦」してきました。<br>
-                    「エネルギーと住まいと暮らしのサービスで、地域すべてのお客様の快適な生活に貢献する」という企業理念のもと、私たちと一緒に「挑戦」し、次のあたりまえを創っていく仲間を求めています。
+                    私たちは、時代の変化に寄り添いながら、総合エネルギーサービス企業グループとして、<br class="pc">様々なサービスを提供し続けることで、快適で豊かな社会づくりに「挑戦」してきました。<br>
+                    「エネルギーと住まいと暮らしのサービスで、地域すべてのお客様の快適な生活に貢献する」<br class="pc">という企業理念のもと、私たちと一緒に「挑戦」し、次のあたりまえを創っていく仲間を<br class="pc">求めています。
                 </p>
             </div>
         </div>
@@ -145,7 +145,7 @@ require_once $include . '_header.php';
                     <a class="topAboutus__link--item js-topAbout" href="<?php echo HOME; ?>aboutus/challenge-evolution/">
                         <div class="text">
                             <span class="num lato">#2</span>
-                            <span class="title">シナネンHDグループの挑戦と進化</span>
+                            <span class="title">わたしたちの挑戦と進化</span>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
@@ -262,7 +262,7 @@ require_once $include . '_header.php';
                     </div>
                     <div class="lay-content pc-flex vcenter hcenter"><div class="in">
                         <div class="topBusinessLink__item--caption">
-                            <span class="line">非エネルギー及び海外事業</span>
+                            <span class="line">非エネルギー事業</span>
                             <div class="sp topBusinessLink__item--more flex vcenter">
                                 <span>READ MORE</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="caption-icon">
@@ -282,29 +282,6 @@ require_once $include . '_header.php';
                     </div></div>
                 </div>
             </a>
-        </div>
-        <div class="topBusiness__future">
-            <div class="topBusiness__future--caption">
-                <div class="wrap w1200 sp-wrap">
-                    <div class="topBusiness__future--ttl notos js-in anime left-in">
-                        シナネンHDグループが描く未来
-                    </div>
-                    <p class="topBusiness__future--para js-in anime left-in">
-                        脱炭素社会の実現──今、世界が大きな転換期を迎えるエネルギー業界。私たちは総合エネルギーサービス企業グループとして、持続可能なエネルギーのあり方を追求し、人々の快適な生活への貢献を目指しています。必要なのは、従来の発想にとらわれない“大胆な挑戦”。私たちが描く未来、そして今の挑戦をご紹介します。
-                    </p>
-                    <div class="topBusiness__future--more">
-                        <a href="<?php echo HOME; ?>future/" class="topBusiness__future--btn md-btn white">
-                            READ MORE
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
-                                <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
-                                    <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                    <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
-                                </g>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 

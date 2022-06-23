@@ -57,14 +57,14 @@ require_once $include . '_header.php';
                 <div class="aboutUs__text flex vert pc-2">
                     <h2 class="aboutUs__head notos anime__wrapper">
                         <div class="js-in anime text-in">
-                            シナネンHDグループの挑戦と進化
+                            わたしたちの挑戦と進化
                         </div>
                     </h2>
                     <div class="sp aboutUs__img">
                         <img src="<?php echo HOME; ?>img/aboutus_02.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
-                        1927年の創業以来、時代に寄り添い様々なサービスを展開してきたシナネンHDグループの、<br>挑戦と進化の歴史をご紹介します。
+                        1927年の創業以来、時代に寄り添い様々なサービスを展開してきたシナネンホールディングスグループの、挑戦と進化の歴史をご紹介します。
                     </p>
                     <div class="aboutUs__more">
                         <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="aboutUs__btn md-btn red">
@@ -93,7 +93,7 @@ require_once $include . '_header.php';
                         <img src="<?php echo HOME; ?>img/aboutus_03.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
-                        シナネンHDグループが、SDGs達成に向け一丸となって取り組む活動をご紹介します。
+                        シナネンホールディングスグループが、SDGs達成に向け一丸となって取り組む活動をご紹介します。
                     </p>
                     <div class="aboutUs__more">
                         <a href="<?php echo HOME; ?>aboutus/SDGs/" class="aboutUs__btn md-btn red">

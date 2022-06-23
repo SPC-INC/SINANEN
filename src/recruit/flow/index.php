@@ -43,15 +43,15 @@ require_once $include . '_header.php';
                 </div>
             </h2>
             <p class="pc recruitFlowSec__intro">
-                当社では、面接を”相互理解の場”として位置付けています。そのため、お互いのことをより深く知るために全ての面接を個人面接にしております。
+                当社では、面接を”相互理解の場”として位置付けています。そのため、お互いのことをより深く知るために全ての面接を個人面接にしています。
             </p>
             <ol class="recruitFlowSec__list">
             <?php
             $arrWorkLifeBalance = array(
                 '1' => array(
-                    'ttl' => 'WEB会社説明会の視聴',
+                    'ttl' => '会社説明会の参加',
                     'time' => '1~2週間',
-                    'dtl' => '詳しい事業内容の説明はもちろん、当社で活躍している先輩社員座談会もご覧いただけます！',
+                    'dtl' => '選考にあたり、説明会への参加は必須となります。<br>WEB会社説明会もご用意しており、当社で活躍している先輩社員座談会もご覧いただけます！',
                     'img' => 'recruitFlow_01.png',
                 ),
                 '2' => array(
@@ -62,7 +62,7 @@ require_once $include . '_header.php';
                 ),
                 '3' => array(
                     'ttl' => '一次面接（個人 / WEB）',
-                    'time' => '2週間',
+                    'time' => '約2週間',
                     'dtl' => '採用担当が行います。<br>一次面接合格の場合には志望動機のご提出をいただきます。',
                     'img' => 'recruitFlow_03.png',
                 ),

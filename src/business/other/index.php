@@ -70,19 +70,19 @@ require_once $include . '_header.php';
                             <div class="businessChildMain__item js-currentNav" id="bicycle">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
-                                        自転車事業
+                                        自転車事業（シナネンサイクル株式会社）
                                     </div>
                                 </h2>
                                 <p class="businessChildMain__img">
                                     <img src="<?php echo HOME; ?>img/business_other_01.png" alt="">
                                 </p>
                                 <p class="businessChildMain__text">
-                                    国内トップクラスの自転車輸入商社として、高品質かつ安価な自転車や、「DAHON」など海外有名ブランド自転車を輸入、販売しています。また、小売販売店「ダイシャリン」を全国に展開しています。<br>
+                                    国内トップクラスの自転車輸入商社として、高品質な自転車や、「DAHON」など海外有名ブランド自転車を輸入、販売しています。また、小売販売店「ダイシャリン」を東北・関東中心に37店舗（2022年5月末）展開しています。<br>
                                     企画から輸入、販売、メンテナンスまで、幅広く手掛けています。
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容を見る
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
@@ -93,7 +93,7 @@ require_once $include . '_header.php';
                             <div class="businessChildMain__item js-currentNav" id="sharecycle">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
-                                        シェアサイクル事業
+                                        シェアサイクル事業<span class="businessChildMain__head--note">（シナネンモビリティPLUS株式会社）</span>
                                     </div>
                                 </h2>
                                 <p class="businessChildMain__img">
@@ -104,86 +104,89 @@ require_once $include . '_header.php';
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容を見る
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
-                                        営業職の一例：シェアーを置くステーション多く場所を開拓するために、候補地の選定や現地調査を行い、地主の方や自治体への営業活動や開設を行います。開設後のアフターフォローやステーション広告提案なども営業の業務です。顧客の課題に合わせて提案する力やニーズを引き出すコミュニケーション能力、データを活用した戦略的な営業活動を実施していきます。
+                                        営業職の一例：お客様にとって利便性が高いステーション開拓のために、日々自治体や民間企業などへ営業活動に取り組みます。<br>
+                                        候補地選定や現地調査、ステーション設置後のアフターフォローなども営業の仕事です。<br>
+                                        顧客のニーズや課題を引き出し提案する力や、データを活用した戦略的な営業活動を実施する力が養われます。
                                     </p>
                                 </div>
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="ecology">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
-                                        環境・リサイクル事業
+                                        環境・リサイクル事業（シナネンエコワーク株式会社）
                                     </div>
                                 </h2>
                                 <p class="businessChildMain__img">
                                     <img src="<?php echo HOME; ?>img/business_other_03.png" alt="">
                                 </p>
                                 <p class="businessChildMain__text">
-                                    廃木材（木くず）のリサイクルにより得られる木質チップを中心とした廃棄物リサイクル燃料および原料の安定供給、その他各種産業廃棄物の処理・リサイクルのご提案により、循環型社会の実現に貢献しています。<br>
-                                    当社で生産している木質バイオマス燃料を、主に製紙会社やバイオマス発電事業者へ販売する。
+                                    廃木材（木くず）を破砕処理し、燃料用や原材料用の木質チップに再資源化する事業を展開しています。<br>
+                                    リサイクルのご提案を通じて、循環型社会の実現に貢献しています。
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容を見る
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
-                                        営業職の一例：関東圏の工事現場、物流倉庫等の排出事業者に木くずを中心とした廃棄物の排出状況をヒアリングし、当社工場や業務提携先工場での適切な処理、リサイクル方法を提案します。また、化学メーカーやバイオマス発電事業者等に対して、当社で生産している木質バイオマス燃料を、主に製紙会社やバイオマス発電事業者へ販売します。地球環境の保護へ直接的に貢献出来ることが魅力です。
+                                        営業職の一例：関東圏の解体事業者、メーカー・物流会社等の排出事業者に対し木くずを中心とした<br>
+                                        産業廃棄物の排出状況をヒアリングし、当社工場や業務提携先工場での適切な処理・リサイクル方法を提案します。<br>
+                                        また、当社で生産している木質チップをバイオマス燃料として主に製紙会社やバイオマス発電事業者へ、あるいはボード原料として建材メーカーへ販売しています。地球環境保護に貢献する事業へ携われる事が魅力です。
                                     </p>
                                 </div>
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="antibacterial">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
-                                        抗菌事業
+                                        抗菌事業（株式会社シナネンゼオミック）
                                     </div>
                                 </h2>
                                 <p class="businessChildMain__img">
                                     <img src="<?php echo HOME; ?>img/business_other_04.png" alt="">
                                 </p>
                                 <p class="businessChildMain__text">
-                                    世界で初めて無機抗菌剤の製品化に成功し、以来、無機抗菌剤のパイオニアとして、優れた抗菌効果と高い安全性を有する抗菌剤を樹脂、繊維、塗料等の幅広い用途へ提供しています。海外認可にも対応しており、東南アジア、欧米等の海外市場でも採用が拡大しています。
+                                    世界で初めて銀系無機抗菌剤の製品化に成功し、以来、銀系無機抗菌剤のパイオニアとして、優れた抗菌効果と高い安全性を有する抗菌剤を樹脂、繊維、塗料等の幅広い用途へ提供しています。海外認可にも対応しており、東南アジア、欧米等の海外市場でも採用が拡大しています。
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容を見る
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
-                                        研究開発職の一例：製品（抗菌剤、吸着剤等）の改良開発<br>
-                                        や、無機系化合物を中心とした新規材料開発などを行います。入社後3~4年は、先輩の研究や分析業務のサポートをしながら、仕事の一連の流れや技術、設備の使い方を習得します。抗菌の「機能」、ゼオライトという「材料」の2点で他社とは一線を画す強みを活かし、無機系化合物を中心とした新規材料開発に特に注力していきます。
+                                        研究開発職の一例：製品（抗菌剤、吸着剤等）の改良開発や、無機系化合物を中心とした新規材料開発などを行います。入社後3~4年は、先輩の研究や分析業務のサポートをしながら、仕事の一連の流れや技術、設備の使い方を習得します。抗菌の「機能」、ゼオライトという「材料」の2点で他社とは一線を画す強みを活かし、無機系化合物を中心とした新規材料開発に特に注力していきます。
                                     </p>
                                 </div>
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="system">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
-                                        システム事業
+                                        システム事業（株式会社ミノス）
                                     </div>
                                 </h2>
                                 <p class="businessChildMain__img">
                                     <img src="<?php echo HOME; ?>img/business_other_05.png" alt="">
                                 </p>
                                 <p class="businessChildMain__text">
-                                    1976年の創業以来、LPガス事業の基幹業務システムを提供してきました。2013年にはクラウドサービス「PowerNetG4」をスタートし、2016年からは電力自由化に対応する新たな機能として「電力CIS」を提供しています。
+                                    1976年以来、LPガス事業の基幹業務システムを提供してきました。2013年にはクラウドサービス「PowerNetG4」をスタートし、2016年からは電力自由化に対応する新たな機能として「電力CIS」を提供しています。
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容を見る
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
-                                        開発職の一例：エネルギーインフラ事業者向けのクラウド型基幹システムにおける企画・要件定義・設計・製造・テスト・保守運用を行い上流から下流工程まで幅広い開発フェーズに携わっていただきます。自社サービスの最上流で、アイデアを存分に発揮最新のクラウドサービスで自らのアイデアを活かせるのは、最上流から手がけられる自社サービスならではの魅力です。
+                                        開発職の一例：エネルギーインフラ事業者向けのクラウド型基幹システムにおける企画・要件定義・設計・製造・テスト・保守運用を行い上流から下流工程まで幅広い開発フェーズに携わっていただきます。最新のクラウドサービスで自らのアイデアを活かせるのは、最上流から手がけられる自社サービスならではの魅力です。
                                     </p>
                                 </div>
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="building">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="js-in anime text-in">
-                                        建物維持管理事業
+                                        建物維持管理事業<span class="businessChildMain__head--note">（タカラビルメン株式会社、株式会社インデス、シナネンファシリティーズ株式会社）</span>
                                     </div>
                                 </h2>
                                 <p class="businessChildMain__img">
@@ -194,7 +197,7 @@ require_once $include . '_header.php';
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容を見る
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
@@ -202,6 +205,53 @@ require_once $include . '_header.php';
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="businessChildMain__group">
+                            <h2 class="businessChildMain__group--head">
+                                展開しているグループ会社
+                            </h2>
+                            <ul class="businessChildMain__group--list flex break">
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.sinanen-cycle.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_other_group_01.png" alt="シナネンサイクル">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.sinanen-mplus.com/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_other_group_02.png" alt="モビリティPLUS">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://sinanenecowork.com/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_other_group_03.png" alt="シナネンエコワーク">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.zeomic.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_other_group_04.png" alt="ゼオミック">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.minos.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_other_group_05.png" alt="ミノス">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.takara-gr.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_other_group_06.png" alt="タカラ">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.indess.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_other_group_07.png" alt="インデス">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.sinanen-f.com/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_other_group_08.png" alt="ファシリティーズ">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <div class="businessChildMain__link">
                             <a href="<?php echo HOME; ?>business/" class="businessChildMain__btn md-btn red">

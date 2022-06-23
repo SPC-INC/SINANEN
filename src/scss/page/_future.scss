@@ -158,35 +158,44 @@
   */
   // ↓sp相当幅
   @media #{$media-sp} {
-    padding: 7.6rem 0;
+    margin: 2.6rem 0 0;
+    padding: 0;
     &:not(:first-child) {
       border-top: none;
     }
     &__head {
-      padding: 0 0 1.4rem;
+      padding: 2.6rem 0 0;
+      border-top: solid 1px $siteColor;
       font-size: 2.1rem;
       line-height: 1.9;
+      .icon {
+        position: absolute;
+        top: calc(50% - 1.6rem);
+        right: 0;
+        font-size: 1.6rem;
+        color: $siteColor;
+        transition: 0.5s;
+      }
       &::after {
-        width: 4rem;
-        height: 0.2rem;
+        content: none;
       }
       &--bar {
-        top: -5rem;
-        left: 0;
-        width: 100%;
+        position: relative;
+        top: auto;
+        left: auto;
         font-size: 1.6rem;
         transform: none;
         .inner {
-          padding-right: 2.8rem;
-          background: #fff;
+          padding-right: 0;
+          background: transparent;
         }
         &::after {
-          position: absolute;
-          top: 50%;
-          left: 0;
-          z-index: -1;
-          margin: 0;
-          width: 100%;
+          content: none;
+        }
+      }
+      &.open {
+        .icon {
+          transform: rotate(180deg);
         }
       }
     }

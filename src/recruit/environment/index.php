@@ -24,7 +24,7 @@ require_once $include . '_header.php';
 
     <div class="sp-wrap">
         <p class="sp recruitEnvironment__intro">
-            シナネンHDグループでは、「個」の成長が「会社」の成長に繋がると考え、社員一人一人がいきいきと働ける環境を整えています。ここでは、当社グループの働く環境の全体像をご紹介します。
+            シナネンホールディングスグループでは、「個」の成長が「会社」の成長に繋がると考え、社員一人一人がいきいきと働ける環境を整えています。ここでは、当社グループの働く環境の全体像をご紹介します。
         </p>
     </div>
 
@@ -78,7 +78,7 @@ require_once $include . '_header.php';
 
                 <div class="recruitEnvironment__main js-stickyNav-target">
                     <p class="pc recruitEnvironment__intro">
-                        シナネンHDグループでは、「個」の成長が「会社」の成長に繋がると考え、社員一人一人がいきいきと働ける環境を整えています。ここでは、当社グループの働く環境の全体像をご紹介します。
+                        シナネンホールディングスグループでは、「個」の成長が「会社」の成長に繋がると考え、社員一人一人がいきいきと働ける環境を整えています。ここでは、当社グループの働く環境の全体像をご紹介します。
                     </p>
 <?php
 /*
@@ -108,8 +108,8 @@ require_once $include . '_header.php';
                                     階層別研修
                                 </h3>
                                 <p class="recruitEnvironmentTraining__text">
-                                    対象となっている社員が同じタイミングで一斉に受ける研修です。内定者研修、OJT研修、新入社員、入社２年目、３年目、（キャリア研修）、その後、マネジメント職に昇進してからとその節目節目で必要となってくるスキルを身につけるための研修を実施しています。<br>
-                                    特にシナネンHDグループでは、入社3年間を「義務教育期間」と位置づけ、自律し、活躍できる人財になっていただけるような研修を実施しています。
+                                    対象となっている社員が同じタイミングで一斉に受ける研修です。内定者研修、OJT研修、新入社員、入社２年目、３年目、キャリア研修、その後、マネジメント職に昇進してからとその節目節目で必要となってくるスキルを身につけるための研修を実施しています。<br>
+                                    特にシナネンホールディングスグループでは、入社3年間を「義務教育期間」と位置づけ、自律し、活躍できる人財になっていただけるような研修を実施しています。
                                 </p>
                                 <ul class="recruitEnvironmentTraining__flow flex bet js-in anime bottom-in">
                                     <li class="recruitEnvironmentTraining__item">
@@ -153,7 +153,7 @@ require_once $include . '_header.php';
                                             <dd class="recruitEnvironmentTraining__stepdtl">
                                                 <ul class="recruitEnvironmentTraining__stepdtl--list">
                                                     <li class="recruitEnvironmentTraining__stepdtl--item">
-                                                        中堅リーダー研修
+                                                        キャリア研修
                                                     </li>
                                                 </ul>
                                             </dd>
@@ -172,13 +172,10 @@ require_once $include . '_header.php';
                                             <dd class="recruitEnvironmentTraining__stepdtl">
                                                 <ul class="recruitEnvironmentTraining__stepdtl--list">
                                                     <li class="recruitEnvironmentTraining__stepdtl--item">
-                                                        店長/チーム長研修
+                                                        部長/チーム長研修
                                                     </li>
                                                     <li class="recruitEnvironmentTraining__stepdtl--item">
                                                         評価者研修
-                                                    </li>
-                                                    <li class="recruitEnvironmentTraining__stepdtl--item">
-                                                        ミドルマネジメント研修
                                                     </li>
                                                     <li class="recruitEnvironmentTraining__stepdtl--item">
                                                         新任マネジメント研修
@@ -207,7 +204,7 @@ require_once $include . '_header.php';
                                 </h3>
                                 <p class="recruitEnvironmentTraining__text">
                                     次世代経営者人財の育成強化を目的とした研修です。<br>
-                                    シナネンHDグループでは、早期から経営者の視点に触れさせ、既存の考え方にとらわれない、変化を生み出していく力を養成しています。選抜型・公募型の研修を数種類設け、ご自身の目指すキャリアの実現に向けた能力開発に向けて取り組んでいただきます。
+                                    シナネンホールディングスグループでは、早期から経営者の視点に触れさせ、既存の考え方にとらわれない、変化を生み出していく力を養成しています。選抜型・公募型の研修を数種類設け、ご自身の目指すキャリアの実現に向けた能力開発に向けて取り組んでいただきます。
                                 </p>
                             </div>
 
@@ -261,12 +258,12 @@ require_once $include . '_header.php';
                                     '01' => array(
                                         'img' => 'recruitEnvironment_worklife_01.png',
                                         'ttl' => 'フレックス制',
-                                        'dtl' => 'コアタイム 11:00～15:00 ●●',
+                                        'dtl' => 'コアタイム 11:00～15:00',
                                     ),
                                     '02' => array(
                                         'img' => 'recruitEnvironment_worklife_02.png',
                                         'ttl' => 'リモートワーク',
-                                        'dtl' => '月上限10日',
+                                        'dtl' => '月上限10日<br>※コロナの状況によっては原則在宅',
                                     ),
                                     '03' => array(
                                         'img' => 'recruitEnvironment_worklife_03.png',
@@ -281,17 +278,17 @@ require_once $include . '_header.php';
                                     '05' => array(
                                         'img' => 'recruitEnvironment_worklife_05.png',
                                         'ttl' => '産休前・産休後面談',
-                                        'dtl' => 'テキストが入ります。',
+                                        'dtl' => '所属部署上長と実施',
                                     ),
                                     '06' => array(
                                         'img' => 'recruitEnvironment_worklife_06.png',
                                         'ttl' => '育児短時間勤務',
-                                        'dtl' => 'テキストが入ります。',
+                                        'dtl' => '所属部署上長と相談の上実施可能',
                                     ),
                                     '07' => array(
                                         'img' => 'recruitEnvironment_worklife_07.png',
                                         'ttl' => '介護短時間勤務',
-                                        'dtl' => 'テキストが入ります。',
+                                        'dtl' => '所属部署上長と相談の上実施可能',
                                     ),
                                 );
                                 $cnt = 1;
@@ -334,7 +331,7 @@ require_once $include . '_header.php';
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
                                     <div class="js-in anime text-in">
-                                        生活支援制度
+                                        ライフサポート制度
                                     </div>
                                 </div>
                             </h2>
@@ -345,12 +342,12 @@ require_once $include . '_header.php';
                                     '01' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_01.png',
                                         'ttl' => '借り上げ社宅制度',
-                                        'dtl' => '例:20代独身の場合 85%会社負担',
+                                        'dtl' => '例：20代独身の場合 85%会社負担',
                                     ),
                                     '02' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_02.png',
                                         'ttl' => '財形貯蓄制度',
-                                        'dtl' => '月金利5%を会社が付与',
+                                        'dtl' => '例：在宅財形の場合月金利5%を会社が付与',
                                     ),
                                     '03' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_03.png',
@@ -360,32 +357,27 @@ require_once $include . '_header.php';
                                     '04' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_04.png',
                                         'ttl' => 'シナネン健保からの<br>健康支援',
-                                        'dtl' => 'テキストが入ります。',
+                                        'dtl' => '例：医薬品の購入3,000円まで負担',
                                     ),
                                     '05' => array(
-                                        'img' => 'recruitEnvironment_selfDevelopment_05.png',
-                                        'ttl' => '介護短時間勤務',
-                                        'dtl' => 'テキストが入ります。',
-                                    ),
-                                    '06' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_06.png',
                                         'ttl' => '年1回婦人科検診',
-                                        'dtl' => 'テキストが入ります。',
+                                        'dtl' => '年に1度会社負担で検診可能',
                                     ),
-                                    '07' => array(
+                                    '06' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_07.png',
                                         'ttl' => '年1回健康診断',
-                                        'dtl' => 'テキストが入ります。',
+                                        'dtl' => '年に1度基本勤務先にて実施',
                                     ),
-                                    '08' => array(
+                                    '07' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_08.png',
                                         'ttl' => 'インフルエンザ<br>予防接種',
-                                        'dtl' => 'テキストが入ります。',
+                                        'dtl' => '1回2,000円で接種可能',
                                     ),
-                                    '09' => array(
+                                    '08' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_09.png',
                                         'ttl' => '出産一時金支給',
-                                        'dtl' => 'テキストが入ります。',
+                                        'dtl' => '健康保険組合より支給',
                                     ),
                                 );
                                 foreach ($arrSelfDevelopment as $key =>  $val) {

@@ -28,7 +28,7 @@ require_once $include . '_header.php';
             </div>
             <h1 class="interviewMv__copy flex vert">
                 <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
-                    <div class="js-in anime text-in wave3">インデスの未来を</div>
+                    <div class="js-in anime text-in wave3">建物維持管理事業の未来を</div>
                 </div>
                 <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
                     <div class="js-in anime text-in wave3">創り、守り、そして広める</div>
@@ -317,7 +317,7 @@ require_once $include . '_header.php';
                     </div>
                 </h2>
                 <p class="interviewMessage__desc">
-                    当社はやる気のある人に最高の環境が整っていると思います。皆それぞれの個性があり、認め合っているので本当に皆が輝ける場所です。若手にもどんどん新しい仕事を任せてもらえるし成長できます。今はとくにやりたいことがなくても大丈夫。仕事をするには「動機づけ」が大切で、自分が「成長したい」「挑戦したい」という想いさえあればいいんです。ぜひこのホールディングスグループを一緒に大きくしていきたいと思っています。
+                    当社はやる気のある人に最高の環境が整っていると思います。皆それぞれの個性があり、認め合っているので本当に皆が輝ける場所です。若手にもどんどん新しい仕事を任せてもらえるし成長できます。今はとくにやりたいことがなくても大丈夫。仕事をするには「動機づけ」が大切で、自分が「成長したい」「挑戦したい」という想いさえあればいいんです。ぜひこのシナネンホールディングスグループを一緒に大きくしていきたいと思っています。
                 </p>
             </div>
         </section>

@@ -67,7 +67,7 @@ require_once $include . '_header.php';
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
@@ -89,11 +89,12 @@ require_once $include . '_header.php';
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
-                                        営業職の一例：お客様との会話の中で困りごとを捉え、トイレやお風呂など水回りのリフォームやハウスクリーニングなどの適切なご提案を行うことで、お客様にさらに快適な生活を送っていただけるよう取り組みます。お客様に寄り添うことを大切に、お客様目線で自分なりのご提案をしていただきます。
+                                        営業職の一例：お客様との会話の中で困りごとを捉え、トイレやお風呂のような水回りのリフォームなどの適切なご提案を行うことで、お客様にさらに快適な生活を送っていただけるよう取り組みます。<br>
+                                        お客様に寄り添うことを大切に、お客様目線で自分なりのご提案をしていただきます。
                                     </p>
                                 </div>
                             </div>
@@ -107,18 +108,46 @@ require_once $include . '_header.php';
                                     <img src="<?php echo HOME; ?>img/business_btoc_03.png" alt="">
                                 </p>
                                 <p class="businessChildMain__text">
-                                    少子高齢化や女性の社会進出などライフスタイルが変化するなかで、家事や暮らしに関する困りごとを解決します。家事代行やハウスクリーニングなど、お客様が快適に、安心して暮らせるサービスをご提供します。
+                                    少子高齢化や女性の社会進出などライフスタイルが変化するなかで、家事や暮らしに関する困りごとを解決します。<br>
+                                    ハウスクリーニングなど、お客様が快適に、安心して暮らせるサービスをご提供します。
                                 </p>
                                 <div class="businessChildMain__job">
                                     <h3 class="businessChildMain__job--head js-acc">
-                                        仕事内容
+                                        例えばこんな仕事
                                         <i class="icon icon-down"></i>
                                     </h3>
                                     <p class="businessChildMain__job--text">
-                                        事務職（経営企画）の一例：DX推進の取り組みや、市場調査などのマーケティング活動及び分析など実施し、営業の社員がスムーズに業務遂行できるよう環境整備を行います。また、広報活動による企業価値向上や、社内イベントの企画・運営による社員の士気を高める活動も担います。
+                                        事務職（経営企画）の一例：DX推進の取り組みや、市場調査などのマーケティング活動及び分析など実施し営業の社員がスムーズに業務遂行できるよう環境整備を行います。また、広報活動による企業価値向上やイベントの企画・運営を通じて、お客様に寄り添える会社であり続けられるように取り組みます。
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="businessChildMain__group">
+                            <h2 class="businessChildMain__group--head">
+                                展開しているグループ会社
+                            </h2>
+                            <ul class="businessChildMain__group--list flex break">
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.melife-west.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_btob_group_01.png" alt="ミライフ西日本">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.melife.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_btob_group_02.png" alt="ミライフ">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://melife-east.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_btob_group_03.png" alt="ミライフ東日本">
+                                    </a>
+                                </li>
+                                <li class="businessChildMain__group--item">
+                                    <a href="https://www.ht-gas.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_btob_group_04.png" alt="日高都市ガス">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <div class="businessChildMain__link">
                             <a href="<?php echo HOME; ?>business/" class="businessChildMain__btn md-btn red">
