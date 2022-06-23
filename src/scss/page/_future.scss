@@ -164,13 +164,13 @@
       border-top: none;
     }
     &__head {
-      padding: 2.6rem 0 0;
+      padding: 2.6rem 2.5rem 0 0;
       border-top: solid 1px $siteColor;
-      font-size: 2.1rem;
+      font-size: 1.8rem;
       line-height: 1.9;
       .icon {
         position: absolute;
-        top: calc(50% - 1.6rem);
+        top: 50%;
         right: 0;
         font-size: 1.6rem;
         color: $siteColor;

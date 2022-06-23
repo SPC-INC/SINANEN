@@ -125,6 +125,12 @@
     ##    ## ##       ##    ##
      ######  ########  ######
 */
+.sdgsContainer {
+  background: url("../img/sdgs_bg.png") no-repeat top left;
+  @media #{$media-sp} {
+    background: url("../img/sdgs_bg_sp.png") no-repeat top left;
+  }
+}
 .sdgsSec {
   position: relative;
   padding: 6rem 0 10rem;
