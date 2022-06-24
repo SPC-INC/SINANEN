@@ -71,7 +71,7 @@
                                         </a>
                                         <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_aboutus_02.png" alt="">
-                                            シナネンHDグループの<br>挑戦と進化
+                                            私たちの挑戦と進化
                                         </a>
                                         <a href="<?php echo HOME; ?>aboutus/SDGs/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_aboutus_03.png" alt="">
@@ -187,7 +187,7 @@
                                                 03&nbsp;&nbsp;女性の活躍について
                                             </a>
                                             <a href="<?php echo HOME; ?>person/crosstalk04/" class="headerPulldown__link flex vcenter">
-                                                04&nbsp;&nbsp;社長と若手社員インタビュー
+                                                04&nbsp;&nbsp;社長と若手社員
                                             </a>
                                         </div>
                                     </div>
@@ -305,7 +305,7 @@
                             社長メッセージ
                         </a>
                         <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            シナネンHDグループの挑戦と進化
+                            私たちの挑戦と進化
                         </a>
                         <a href="<?php echo HOME; ?>aboutus/SDGs/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             SDGsへの貢献
@@ -331,13 +331,13 @@
                 <div class="acc-body">
                     <div class="acc-in">
                         <a href="<?php echo HOME; ?>business/btoc/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            エネルギー卸・小売り周辺事業
+                            BtoC事業
                         </a>
                         <a href="<?php echo HOME; ?>business/btob/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            エネルギーソリューション事業
+                            BtoB事業
                         </a>
                         <a href="<?php echo HOME; ?>business/others/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            非エネルギー・海外事業
+                            非エネルギー事業
                         </a>
                         <a href="<?php echo HOME; ?>business/" class="acc-hide gNav__btn gNav__btn--entry md-btn left-text">
                             事業一覧へ
@@ -405,7 +405,7 @@
                             Special Crosstalk 女性の活躍について
                         </a>
                         <a href="<?php echo HOME; ?>person/crosstalk04/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            Special Crosstalk 社長と若手社員インタビュー
+                            Special Crosstalk 社長と若手社員
                         </a>
                         <a href="<?php echo HOME; ?>person/" class="acc-hide gNav__btn gNav__btn--entry md-btn left-text">
                             インタビューTOP

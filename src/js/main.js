@@ -256,43 +256,44 @@ if (document.getElementsByClassName('js-topMvText')[0]) {
   }
 }
 
-if ($('.js-stickyNav')[0]) {
-  const headerHeight = 90
-  const stickeyNavTop = $('.js-stickyNav-target').offset().top - headerHeight * 2
-  const stickeyNavBottom = $('.js-stickyNav-target').height() + stickeyNavTop
-  let distance = 0
-  if (window.matchMedia('(min-width:769px)').matches) {
-    $(document).on('scroll', function () {
-      distance = $(this).scrollTop()
-      if (distance <= stickeyNavTop) {
-        $('.js-stickyNav').removeClass('fixed')
-      } else if (distance >= stickeyNavBottom) {
-        $('.js-stickyNav').removeClass('fixed')
-      } else {
-        $('.js-stickyNav').addClass('fixed')
-      }
-    })
-  }
-}
-
-if ($('.js-currentNav')[0]) {
-  const headerHeight = 90
-  let distance = 0
-  let topPos = 0
-  let target = $('.js-currentNav-item').eq(0)
-
-  const navItem = $('.js-currentNav')
-  if (window.matchMedia('(min-width:769px)').matches) {
-    $(document).on('scroll', function () {
-      distance = $(this).scrollTop()
-      navItem.each(function (index) {
-        topPos = $(this).offset().top - headerHeight * 2
-        if (topPos <= distance) {
-          target = $('.js-currentNav-item').eq(index)
-          target.siblings().children().removeClass('current')
-          target.children().addClass('current')
+$(window).on('load', function () {
+  if ($('.js-stickyNav')[0]) {
+    const headerHeight = 90
+    const stickeyNavTop = $('.js-stickyNav-target').offset().top - headerHeight * 2
+    const stickeyNavBottom = $('.js-stickyNav-target').height() + stickeyNavTop
+    let distance = 0
+    if (window.matchMedia('(min-width:769px)').matches) {
+      $(document).on('scroll', function () {
+        distance = $(this).scrollTop()
+        if (distance <= stickeyNavTop) {
+          $('.js-stickyNav').removeClass('fixed')
+        } else if (distance >= stickeyNavBottom) {
+          $('.js-stickyNav').removeClass('fixed')
+        } else {
+          $('.js-stickyNav').addClass('fixed')
         }
       })
-    })
+    }
   }
-}
+  if ($('.js-currentNav')[0]) {
+    const headerHeight = 90
+    let distance = 0
+    let topPos = 0
+    let target = $('.js-currentNav-item').eq(0)
+
+    const navItem = $('.js-currentNav')
+    if (window.matchMedia('(min-width:769px)').matches) {
+      $(document).on('scroll', function () {
+        distance = $(this).scrollTop()
+        navItem.each(function (index) {
+          topPos = $(this).offset().top - headerHeight * 2
+          if (topPos <= distance) {
+            target = $('.js-currentNav-item').eq(index)
+            target.siblings().children().removeClass('current')
+            target.children().addClass('current')
+          }
+        })
+      })
+    }
+  }
+})

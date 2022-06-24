@@ -187,46 +187,30 @@ require_once $include . '_header.php';
                         </div>
                     </a>
                 </li>
-            </ul>
-        </div>
-    </section>
-
-<?php
-/*
-    ##     ## ########  ######   ######     ###     ######   ########
-    ###   ### ##       ##    ## ##    ##   ## ##   ##    ##  ##
-    #### #### ##       ##       ##        ##   ##  ##        ##
-    ## ### ## ######    ######   ######  ##     ## ##   #### ######
-    ##     ## ##             ##       ## ######### ##    ##  ##
-    ##     ## ##       ##    ## ##    ## ##     ## ##    ##  ##
-    ##     ## ########  ######   ######  ##     ##  ######   ########
-*/
-?>
-    <section class="personMessage">
-        <div class="wrap w1200 sp-wrap">
-            <h2 class="personMessage__head notos">
-                <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
-                        社長インタビュー
-                    </div>
-                </div>
-            </h2>
-            <div class="personMessage__container pc-flex bet">
-                <div class="personMessage__img">
-                    <span class="js-in anime slideImg">
-                        <img src="<?php echo HOME; ?>img/personMessage.png" alt="">
-                    </span>
-                </div>
-                <div class="personMessage__text flex vert">
-                    <h3 class="personMessage__ttl notos">
-                        「個」の成長が重要。<br>
-                        会社だけでなく、自分自身の人生の舵を手放さず、未来を切り拓いていく人が活躍できるシナネンホールディングスグループへ
+                <li class="personCrosstalk__item js-in anime bottom-in">
+                    <h3 class="personCrosstalk__item--head notos">
+                        社長メッセージ
                     </h3>
-                    <p class="personMessage__desc">
-                        新入社員の皆さんからこれからのシナネンホールディングスグループについてや、社長に聞いてみたいことをインタビューしてもらいました。
+                    <p class="personCrosstalk__item--desc">
+                        新入社員の皆さんからこらからのシナネンHDグループについてや、社長に聞いてみたいことをインタビューしてもらいました。
                     </p>
-                    <div class="personMessage__more">
-                        <a href="<?php echo HOME; ?>aboutus/topmessage/" class="personMessage__btn md-btn red left-text">
+                    <a href="<?php echo HOME; ?>person/crosstalk04/" class="personCrosstalk__link op">
+                        <div class="personCrosstalk__img">
+                            <img src="<?php echo HOME; ?>img/person_crosstalk_04.png" alt="" class="pc">
+                            <img src="<?php echo HOME; ?>img/person_crosstalk_04_sp.png" alt="" class="sp">
+                        </div>
+                        <div class="personCrosstalk__ttl notos flex sp-vert sp-vstart">
+                            <div class="personCrosstalk__ttl--sub flex vcenter pc-hcenter sp-aro">
+                                <span class="personCrosstalk__ttl--en">CROSS<br class="pc">TALK</span>
+                                <span class="personCrosstalk__ttl--num">04</span>
+                            </div>
+                            <div class="personCrosstalk__ttl--main flex vcenter anime__wrapper">
+                                <div class="js-in anime text-in">
+                                    社長×若手社員
+                                </div>
+                            </div>
+                        </div>
+                        <div class="personCrosstalk__more flex vcenter bet">
                             READ MORE
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                                 <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
@@ -234,10 +218,10 @@ require_once $include . '_header.php';
                                     <line id="線_12" data-name="線 12" x2="9.573" y2="5.543" transform="translate(60.736)" fill="none" stroke-linecap="round" stroke-width="1" />
                                 </g>
                             </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
 

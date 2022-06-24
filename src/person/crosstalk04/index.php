@@ -44,7 +44,7 @@ require_once $include . '_header.php';
                 <div class="crosstalkIntro__head--wrapper">
                     <div class="anime__wrapper">
                         <div class="crosstalkIntro__head--inner flex vcenter js-in anime text-in wave3">
-                            社長と若手社員インタビュー
+                            社長と若手社員
                         </div>
                     </div>
                 </div>

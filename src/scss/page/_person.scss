@@ -227,6 +227,28 @@
     &:not(:first-child) {
       margin: 10rem 0 0;
     }
+    &--head {
+      position: relative;
+      padding: 0 0 1.4rem;
+      font-size: 3.5rem;
+      font-weight: 700;
+      &::after {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 4rem;
+        height: 2px;
+        background: $siteColor;
+        content: "";
+      }
+    }
+    &--desc {
+      margin: 3.6rem 0 3.8rem;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 1.8;
+    }
   }
   &__link {
     display: block;
@@ -308,6 +330,13 @@
     &__item {
       &:not(:first-child) {
         margin: 6.4rem 0 0;
+      }
+      &--head {
+        font-size: 2.1rem;
+      }
+      &--desc {
+        margin: 1.5rem 0 4.8rem;
+        font-size: 1.4rem;
       }
     }
     &__link {

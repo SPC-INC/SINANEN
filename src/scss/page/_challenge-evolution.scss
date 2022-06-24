@@ -183,6 +183,7 @@
         border-left: solid 0.5rem transparent;
       }
       &.current {
+        color: #fff;
         background: $siteColor;
       }
     }

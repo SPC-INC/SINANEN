@@ -169,7 +169,7 @@ require_once $include . '_header.php';
             </section>
 
             <section class="futureSec">
-                <h2 class="futureSec__head notos">
+                <h2 class="futureSec__head notos js-acc-sp">
                     <div class="futureSec__head--bar pc-flex vcenter">
                         <span class="inner">Company</span>
                     </div>
@@ -242,7 +242,7 @@ require_once $include . '_header.php';
                 これまでの100年
             </li>
             <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab" data-tab="group">
-                次の100年に向けての取り組み
+                次の100年に向けての<br>取り組み
             </li>
         </ul>
 
@@ -706,7 +706,7 @@ require_once $include . '_header.php';
                 これまでの100年
             </li>
             <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab-bottom" data-tab="group">
-                次の100年に向けての取り組み
+                次の100年に向けての<br>取り組み
             </li>
         </ul>
 
