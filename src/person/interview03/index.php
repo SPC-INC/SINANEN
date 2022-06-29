@@ -26,12 +26,20 @@ require_once $include . '_header.php';
                 <img src="<?php echo HOME; ?>img/interview03_mv.png" alt="" class="pc">
                 <img src="<?php echo HOME; ?>img/interview03_mv_sp.png" alt="" class="sp">
             </div>
-            <h1 class="interviewMv__copy flex vert">
+            <h1 class="pc interviewMv__copy flex vert">
                 <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
                     <div class="js-in anime text-in wave3">建物維持管理事業の未来を</div>
                 </div>
                 <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
                     <div class="js-in anime text-in wave3">創り、守り、そして広める</div>
+                </div>
+            </h1>
+            <h1 class="sp interviewMv__copy flex vert">
+                <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
+                    <div class="js-in anime left-in wave3">建物維持管理事業の未来を</div>
+                </div>
+                <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
+                    <div class="js-in anime left-in wave3">創り、守り、そして広める</div>
                 </div>
             </h1>
             <div class="interviewMv__profile js-in anime left-in">
@@ -64,7 +72,10 @@ require_once $include . '_header.php';
                 <div class="interviewSec__wrapper pc-flex bet">
                     <div class="interviewSec__text pc-1">
                         <h2 class="interviewSec__head notos anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                海外での経験が<br>未来のありたい姿を創った
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 海外での経験が<br>未来のありたい姿を創った
                             </div>
                         </h2>
@@ -89,7 +100,10 @@ require_once $include . '_header.php';
                 <div class="interviewSec__wrapper pc-flex bet">
                     <div class="interviewSec__text pc-2">
                         <h2 class="interviewSec__head notos anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                次の一歩を見据えた<br>新たな挑戦
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 次の一歩を見据えた<br>新たな挑戦
                             </div>
                         </h2>
@@ -123,7 +137,10 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <div class="interviewSec__text">
                     <h2 class="interviewSec__head notos anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
+                            チームで得られる一体感がたまらなく好き
+                        </div>
+                        <div class="sp js-in anime left-in">
                             チームで得られる一体感がたまらなく好き
                         </div>
                     </h2>
@@ -143,7 +160,10 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <div class="interviewSec__text">
                     <h2 class="interviewSec__head notos anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
+                            無限の可能性を秘めた変革のときを迎えて
+                        </div>
+                        <div class="sp js-in anime left-in">
                             無限の可能性を秘めた変革のときを迎えて
                         </div>
                     </h2>
@@ -174,7 +194,10 @@ require_once $include . '_header.php';
                     <div class="interviewSchedule__head">
                         <h2 class="interviewSchedule__head--text notos js-stickyNav">
                             <div class="anime__wrapper">
-                                <div class="js-in anime text-in">
+                                <div class="pc js-in anime text-in">
+                                    1日のスケジュール
+                                </div>
+                                <div class="sp js-in anime left-in">
                                     1日のスケジュール
                                 </div>
                             </div>
@@ -311,7 +334,10 @@ require_once $include . '_header.php';
             <div class="interviewMessage__text">
                 <h2 class="interviewMessage__head">
                     <div class="anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
+                            未来の仲間へ
+                        </div>
+                        <div class="sp js-in anime left-in">
                             未来の仲間へ
                         </div>
                     </div>

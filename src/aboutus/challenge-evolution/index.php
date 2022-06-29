@@ -82,7 +82,10 @@ require_once $include . '_header.php';
                         <span class="inner">Lifestyle</span>
                     </div>
                     <div class="anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
+                            脱炭素社会実現への貢献
+                        </div>
+                        <div class="sp js-in anime left-in">
                             脱炭素社会実現への貢献
                         </div>
                     </div>
@@ -138,7 +141,10 @@ require_once $include . '_header.php';
                         <span class="inner">Workstyle</span>
                     </div>
                     <div class="anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
+                            誰もが働きやすく生きやすく
+                        </div>
+                        <div class="sp js-in anime left-in">
                             誰もが働きやすく生きやすく
                         </div>
                     </div>
@@ -174,7 +180,10 @@ require_once $include . '_header.php';
                         <span class="inner">Company</span>
                     </div>
                     <div class="anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
+                            挑戦を続け、お客様の快適な生活に貢献し続ける
+                        </div>
+                        <div class="sp js-in anime left-in">
                             挑戦を続け、お客様の快適な生活に貢献し続ける
                         </div>
                     </div>

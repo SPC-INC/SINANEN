@@ -37,7 +37,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="recruitFlowSec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        選考フロー
+                    </div>
+                    <div class="sp js-in anime left-in">
                         選考フロー
                     </div>
                 </div>

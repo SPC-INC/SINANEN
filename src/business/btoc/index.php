@@ -15,7 +15,10 @@ require_once $include . '_header.php';
             <img src="<?php echo HOME; ?>img/business_btoc_head_sp.png" alt="" class="sp">
         </div>
         <h1 class="businessChildHead__text flex vcenter js-in anime text-line-in">
-            <div class="businessChildHead__text--inner js-in anime text-in wave3">
+            <div class="pc businessChildHead__text--inner js-in anime text-in wave3">
+                BtoC事業<br class="sp">(エネルギー卸・小売周辺事業)
+            </div>
+            <div class="sp businessChildHead__text--inner js-in anime left-in wave3">
                 BtoC事業<br class="sp">(エネルギー卸・小売周辺事業)
             </div>
         </h1>
@@ -54,7 +57,10 @@ require_once $include . '_header.php';
                         <div class="js-stickyNav-target">
                             <div class="businessChildMain__item js-currentNav" id="energy">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        エネルギーの事業
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         エネルギーの事業
                                     </div>
                                 </h2>
@@ -77,7 +83,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="home">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        住まいの事業
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         住まいの事業
                                     </div>
                                 </h2>
@@ -100,7 +109,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="life">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        暮らしの事業
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         暮らしの事業
                                     </div>
                                 </h2>

@@ -37,7 +37,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="recruitFaqSec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        応募方法について
+                    </div>
+                    <div class="sp js-in anime left-in">
                         応募方法について
                     </div>
                 </div>
@@ -85,7 +88,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="recruitFaqSec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        選考について
+                    </div>
+                    <div class="sp js-in anime left-in">
                         選考について
                     </div>
                 </div>
@@ -133,7 +139,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="recruitFaqSec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        働き方について
+                    </div>
+                    <div class="sp js-in anime left-in">
                         働き方について
                     </div>
                 </div>
@@ -181,7 +190,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="recruitFaqSec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        キャリアについて
+                    </div>
+                    <div class="sp js-in anime left-in">
                         キャリアについて
                     </div>
                 </div>
@@ -233,8 +245,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="recruitFaqSec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
 
+                    </div>
+                    <div class="sp js-in anime left-in">
                     </div>
                 </div>
             </h2>

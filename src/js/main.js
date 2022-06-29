@@ -95,6 +95,26 @@ if ($('.js-inteviewList-slide')[0]) {
   })
 }
 
+if ($('.js-personMvSlide')[0] && window.matchMedia('(max-width:768px)').matches) {
+  const personMvSlide = new Swiper('.js-personMvSlide', {
+    autoplay: {
+      delay: 1500,
+    },
+    loop: true,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true,
+    },
+  })
+}
+
+/*
+########    ###    ########
+   ##     ##   ##  ##     ##
+   ##    ##     ## ########
+   ##    ######### ##     ##
+   ##    ##     ## ########
+*/
 $('.js-recruitEnvironment-tab').on('click', function () {
   const bottomTab = $('.js-recruitEnvironment-tab-bottom').eq($(this).index())
   $(this).addClass('selected')
@@ -132,19 +152,6 @@ $('.js-challengeEvolution-tab-bottom').on('click', function () {
   $('.js-challengeEvolution-tabItem').removeClass('show')
   $('#' + $(this).attr('data-tab')).addClass('show')
 })
-
-if ($('.js-personMvSlide')[0] && window.matchMedia('(max-width:768px)').matches) {
-  const personMvSlide = new Swiper('.js-personMvSlide', {
-    autoplay: {
-      delay: 5000,
-    },
-    loop: true,
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true,
-    },
-  })
-}
 
 /*
 ######## ########  ##     ## ##    ## ##    ##  #######
@@ -256,6 +263,13 @@ if (document.getElementsByClassName('js-topMvText')[0]) {
   }
 }
 
+/*
+##    ##    ###    ##     ##
+####  ##  ##   ##  ##     ##
+## ## ## ##     ## ##     ##
+##  #### #########  ##   ##
+##    ## ##     ##    ###
+*/
 $(window).on('load', function () {
   if ($('.js-stickyNav')[0]) {
     const headerHeight = 90

@@ -33,7 +33,10 @@ require_once $include . '_header.php';
                 <div class="business__wrapper flex bet">
                     <div class="business__text flex vert pc-2">
                         <h2 class="business__head notos anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                BtoC事業<br>(エネルギー卸・小売周辺事業)
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 BtoC事業<br>(エネルギー卸・小売周辺事業)
                             </div>
                         </h2>
@@ -66,7 +69,10 @@ require_once $include . '_header.php';
                 <div class="business__wrapper flex bet">
                     <div class="business__text flex vert">
                         <h2 class="business__head notos anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                BtoB事業<br>(エネルギーソリューション事業)
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 BtoB事業<br>(エネルギーソリューション事業)
                             </div>
                         </h2>
@@ -99,7 +105,10 @@ require_once $include . '_header.php';
                 <div class="business__wrapper flex bet">
                     <div class="business__text flex vert pc-2">
                         <h2 class="business__head notos anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                非エネルギー事業
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 非エネルギー事業
                             </div>
                         </h2>

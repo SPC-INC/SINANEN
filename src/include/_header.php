@@ -187,7 +187,7 @@
                                                 03&nbsp;&nbsp;女性の活躍について
                                             </a>
                                             <a href="<?php echo HOME; ?>person/crosstalk04/" class="headerPulldown__link flex vcenter">
-                                                04&nbsp;&nbsp;社長と若手社員
+                                                04&nbsp;&nbsp;社長×若手社員
                                             </a>
                                         </div>
                                     </div>
@@ -354,7 +354,7 @@
             <div class="gNav__box">
                 <input id="gNav3" class="acc-check" type="checkbox" value="" />
                 <label for="gNav3" class="acc-btn gNav__item flex vcenter">
-                    インタビュー
+                    人を知る
                     <i class="gNav__icon gNav__icon icon-down"></i>
                 </label>
                 <div class="acc-body">
@@ -405,7 +405,7 @@
                             Special Crosstalk 女性の活躍について
                         </a>
                         <a href="<?php echo HOME; ?>person/crosstalk04/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
-                            Special Crosstalk 社長と若手社員
+                            Special Crosstalk 社長×若手社員
                         </a>
                         <a href="<?php echo HOME; ?>person/" class="acc-hide gNav__btn gNav__btn--entry md-btn left-text">
                             インタビューTOP

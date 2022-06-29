@@ -25,7 +25,7 @@ require_once $include . '_header.php';
 ?>
         <section class="crosstalkMv">
             <img src="<?php echo HOME; ?>img/crosstalk04_mv.png" alt="" class="pc">
-            <img src="<?php echo HOME; ?>img/crosstalk04_mv_sp.png" alt="" class="sp">
+            <img src="<?php echo HOME; ?>img/crosstalk04_mv.png" alt="" class="sp">
         </section>
 
 <?php
@@ -44,7 +44,7 @@ require_once $include . '_header.php';
                 <div class="crosstalkIntro__head--wrapper">
                     <div class="anime__wrapper">
                         <div class="crosstalkIntro__head--inner flex vcenter js-in anime text-in wave3">
-                            社長と若手社員
+                            社長×若手社員
                         </div>
                     </div>
                 </div>
@@ -111,10 +111,13 @@ require_once $include . '_header.php';
         <section class="crosstalkSec">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
                         「個」の成長が重要。<br>
-                        会社だけでなく、自分自身の人生の舵を手放さず、<br>
-                        未来を切り拓いていく人が活躍できるシナネンホールディングスグループへ
+                        会社だけでなく、自分自身の人生の舵を手放さず、<br class="pc">未来を切り拓いていく人が活躍できるシナネンホールディングスグループへ
+                    </div>
+                    <div class="sp js-in anime left-in">
+                        「個」の成長が重要。<br>
+                        会社だけでなく、自分自身の人生の舵を手放さず、<br class="pc">未来を切り拓いていく人が活躍できるシナネンホールディングスグループへ
                     </div>
                 </h2>
                 <div class="crosstalkSec__wrapper pc-flex">

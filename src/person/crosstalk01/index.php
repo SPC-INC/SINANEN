@@ -130,7 +130,10 @@ require_once $include . '_header.php';
         <section class="crosstalkSec">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        身近で頼れる兄貴のような先輩トレーナー
+                    </div>
+                    <div class="sp js-in anime left-in">
                         身近で頼れる兄貴のような先輩トレーナー
                     </div>
                 </h2>
@@ -229,7 +232,11 @@ require_once $include . '_header.php';
                     </div>
                 </div>
                 <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        相手を思いやるコミュニケーションが<br>
+                        互いの成長の種となる
+                    </div>
+                    <div class="sp js-in anime left-in">
                         相手を思いやるコミュニケーションが<br>
                         互いの成長の種となる
                     </div>
@@ -299,7 +306,11 @@ require_once $include . '_header.php';
         <section class="crosstalkSec crosstalkSec--gray">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        トレーナーから教わったことは<br>
+                        すべて今に繋がっている
+                    </div>
+                    <div class="sp js-in anime left-in">
                         トレーナーから教わったことは<br>
                         すべて今に繋がっている
                     </div>
@@ -349,7 +360,11 @@ require_once $include . '_header.php';
         <section class="crosstalkSec crosstalkSec--gray">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        互いの成長や気づきを促す<br>
+                        ライバルのような存在
+                    </div>
+                    <div class="sp js-in anime left-in">
                         互いの成長や気づきを促す<br>
                         ライバルのような存在
                     </div>
@@ -424,7 +439,10 @@ require_once $include . '_header.php';
         <section class="crosstalkData">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkData__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        インタビューメンバーの経歴
+                    </div>
+                    <div class="sp js-in anime left-in">
                         インタビューメンバーの経歴
                     </div>
                 </h2>

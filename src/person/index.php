@@ -71,7 +71,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="personInterview__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        インタビュー
+                    </div>
+                    <div class="sp js-in anime left-in">
                         インタビュー
                     </div>
                 </div>
@@ -97,7 +100,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="personCrosstalk__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        スペシャルクロストーク
+                    </div>
+                    <div class="sp js-in anime left-in">
                         スペシャルクロストーク
                     </div>
                 </div>

@@ -26,7 +26,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="recruit__head">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        採用情報一覧
+                    </div>
+                    <div class="sp js-in anime left-in">
                         採用情報一覧
                     </div>
                 </div>

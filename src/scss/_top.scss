@@ -10,6 +10,7 @@
 .topCommon {
   &__ttl {
     position: relative;
+    z-index: 1;
     font-size: 5.2rem;
     font-weight: 700;
     &::before {
@@ -294,7 +295,7 @@
     &__img {
     }
     &__text {
-      top: 18rem;
+      top: 14rem;
       left: $pad;
       padding: 0 0 1rem;
       &::before,
@@ -315,6 +316,12 @@
         &::after {
           width: 1.8rem;
         }
+      }
+    }
+    &__sub {
+      &--inner {
+        font-size: 2.5rem;
+        transform-origin: bottom left;
       }
     }
     &__desc {
@@ -620,6 +627,9 @@
     &__item {
       width: calc(((100% - 1.6rem) / 3));
       filter: grayscale(100%);
+      .md-lay {
+        width: 100%;
+      }
       &--caption {
         font-size: 3rem;
         font-weight: 700;

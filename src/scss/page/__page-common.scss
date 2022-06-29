@@ -303,6 +303,7 @@
   &.text-in,
   &.text-line-in {
     &.active {
+      opacity: 1;
       transform: none;
     }
   }

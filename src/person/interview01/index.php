@@ -26,12 +26,20 @@ require_once $include . '_header.php';
                 <img src="<?php echo HOME; ?>img/interview01_mv.png" alt="" class="pc">
                 <img src="<?php echo HOME; ?>img/interview01_mv_sp.png" alt="" class="sp">
             </div>
-            <h1 class="interviewMv__copy flex vert">
+            <h1 class="pc interviewMv__copy flex vert">
                 <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
                     <div class="js-in anime text-in wave3">人と社会を支えるインフラを</div>
                 </div>
                 <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
                     <div class="js-in anime text-in wave3">チームで守り続けるという使命感</div>
+                </div>
+            </h1>
+            <h1 class="sp interviewMv__copy flex vert">
+                <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
+                    <div class="js-in anime left-in wave3">人と社会を支えるインフラを</div>
+                </div>
+                <div class="interviewMv__copy--inner js-in anime text-line-in anime__wrapper">
+                    <div class="js-in anime left-in wave3">チームで守り続けるという使命感</div>
                 </div>
             </h1>
             <div class="interviewMv__profile js-in anime left-in">
@@ -65,7 +73,10 @@ require_once $include . '_header.php';
                 <div class="interviewSec__wrapper pc-flex bet">
                     <div class="interviewSec__text pc-1">
                         <h2 class="interviewSec__head notos anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                一人ひとりを見ていてくれるから<br>自分らしく居られる場所
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 一人ひとりを見ていてくれるから<br>自分らしく居られる場所
                             </div>
                         </h2>
@@ -87,7 +98,10 @@ require_once $include . '_header.php';
                 <div class="interviewSec__wrapper pc-flex bet">
                     <div class="interviewSec__text pc-2">
                         <h2 class="interviewSec__head notos anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                石油、ガス、電気<br>人と社会を支えるインフラに携われるやりがい
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 石油、ガス、電気<br>人と社会を支えるインフラに携われるやりがい
                             </div>
                         </h2>
@@ -115,10 +129,13 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <div class="interviewSec__text">
                     <h2 class="interviewSec__head notos anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
                             誰一人取り残さず、<br>「チーム」としての一体感を大切にしたい
                         </div>
                     </h2>
+                        <div class="sp js-in anime left-in">
+                            誰一人取り残さず、<br>「チーム」としての一体感を大切にしたい
+                        </div>
                     <p class="interviewSec__desc">
                         入社して4年ほどでシナネンホールディングスグループの主力事業である石油・ガス・電気を経験したわけですが、私の場合、毎度異なる商材を扱う部署への異動となり、少しユニークなキャリアを経験してきました。配属の度に新しいことを学ぶのは大変でしたが、そのおかげで今はそれぞれの事業を網羅することができ、リーダーの職に就くこともできました。<br>
                         リーダーとして心掛けていることは、相手のことを理解しようとする姿勢です。その上で、部下が日々取り組んでいる仕事への的確なFBをしています。それにはまず、仕事の話だけでなく、普段から他愛ない雑談や部下のプライベートな相談にも耳を傾けることも大切だと感じています。そうやって心の障壁をクリアにしておくことでいつでも相談しやすい関係性が築けるからです。関係性の基盤があれば、指導やアドバイスが他人事でなく、より一人ひとりの心に届きやすくなることにもつながります。何か困っていることや悩みがある時、相談しづらい環境は居心地がいいとは言えません。職場の快適さは仕事のしやすさだけでなく、生産性にも関係してきます。みんなが気持ちよく働き、自分の意見を声にして仕事を一緒に進めていける一体感は私にとって重要なこと。決して一人で悩むことのないようすべてのメンバーへの心配りを忘れたくありません。この考え方は、私自身がこれまでに多くの先輩方から受け継いできたマインドなのかもしれません。それほど当社は人を大切にする文化が根付いていると感じています。
@@ -130,7 +147,10 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <div class="interviewSec__text">
                     <h2 class="interviewSec__head notos anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
+                            次代を支える<br>新たなビジネスチャンスを掴む挑戦
+                        </div>
+                        <div class="sp js-in anime left-in">
                             次代を支える<br>新たなビジネスチャンスを掴む挑戦
                         </div>
                     </h2>
@@ -158,7 +178,10 @@ require_once $include . '_header.php';
                     <div class="interviewSchedule__head">
                         <h2 class="interviewSchedule__head--text notos js-stickyNav">
                             <div class="anime__wrapper">
-                                <div class="js-in anime text-in">
+                                <div class="pc js-in anime text-in">
+                                    1日のスケジュール
+                                </div>
+                                <div class="sp js-in anime left-in">
                                     1日のスケジュール
                                 </div>
                             </div>
@@ -270,7 +293,10 @@ require_once $include . '_header.php';
             <div class="interviewMessage__text">
                 <h2 class="interviewMessage__head">
                     <div class="anime__wrapper">
-                        <div class="js-in anime text-in">
+                        <div class="pc js-in anime text-in">
+                            未来の仲間へ
+                        </div>
+                        <div class="sp js-in anime left-in">
                             未来の仲間へ
                         </div>
                     </div>

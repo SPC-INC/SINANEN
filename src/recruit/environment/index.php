@@ -95,7 +95,10 @@ require_once $include . '_header.php';
                         <section class="recruitEnvironmentSec recruitEnvironmentTraining js-currentNav" id="education">
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        教育・研修制度
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         教育・研修制度
                                     </div>
                                 </div>
@@ -246,7 +249,10 @@ require_once $include . '_header.php';
                         <section class="recruitEnvironmentSec recruitEnvironmentWelfare js-currentNav" id="worklifebalance">
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        ワークライフバランス
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         ワークライフバランス
                                     </div>
                                 </div>
@@ -330,7 +336,10 @@ require_once $include . '_header.php';
                         <section class="recruitEnvironmentSec recruitEnvironmentWelfare js-currentNav" id="selfdevelopment">
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        ライフサポート制度
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         ライフサポート制度
                                     </div>
                                 </div>
@@ -415,7 +424,10 @@ require_once $include . '_header.php';
                         <section class="recruitEnvironmentSec recruitEnvironmentWelfare js-currentNav" id="support">
                             <h2 class="recruitEnvironmentSec__head">
                                 <div class="anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        自己成長支援
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         自己成長支援
                                     </div>
                                 </div>

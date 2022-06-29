@@ -38,7 +38,7 @@ require_once $include . '_header.php';
             </div>
         </div>
         <div class="topMv__text">
-            <div class="pc topMv__sub js-in anime left-in">
+            <div class="topMv__sub js-in anime left-in">
                 <p class="topMv__sub--inner dScript">challenge</p>
             </div>
             <h2 class="pc topMv__head notos js-topMvText">
@@ -58,7 +58,8 @@ require_once $include . '_header.php';
                 </div>
             </h2>
             <div class="topMv__desc notos anime__wrapper">
-                <p class="js-in anime text-in wave4">That challenge creates the next obvious.</p>
+                <p class="pc js-in anime text-in wave4">That challenge creates the next obvious.</p>
+                <p class="sp js-in anime left-in">That challenge creates the next obvious.</p>
             </div>
             <div class="topMv__text--bar"></div>
         </div>
@@ -108,12 +109,20 @@ require_once $include . '_header.php';
     <div class="topAboutus">
         <div class="topAboutus__bg"></div>
         <div class="wrap w1200 sp-wrap">
-            <h2 class="topCommon__ttl notos">
+            <h2 class="pc topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
                     <div class="js-in anime text-in wave2">会社紹介</div>
                 </div>
                 <div class="topCommon__ttl--en">
-                    <div class="js-in anime text-in wave1">ABOUT US</div>
+                    <div class="pc js-in anime text-in wave1">ABOUT US</div>
+                </div>
+            </h2>
+            <h2 class="sp topCommon__ttl notos">
+                <div class="topCommon__ttl--ja">
+                    <div class="js-in anime left-in wave2">会社紹介</div>
+                </div>
+                <div class="topCommon__ttl--en">
+                    <div class="js-in anime left-in wave1">ABOUT US</div>
                 </div>
             </h2>
             <div class="topAboutus__wrap flex bet pc-vcenter sp-vert">
@@ -184,12 +193,20 @@ require_once $include . '_header.php';
 ?>
     <div class="topBusiness">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="topCommon__ttl notos">
+            <h2 class="pc topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
                     <div class="js-in anime text-in wave2">事業紹介</div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime text-in wave1">BUSINESSS</div>
+                </div>
+            </h2>
+            <h2 class="sp topCommon__ttl notos">
+                <div class="topCommon__ttl--ja">
+                    <div class="js-in anime left-in wave2">事業紹介</div>
+                </div>
+                <div class="topCommon__ttl--en">
+                    <div class="js-in anime left-in wave1">BUSINESSS</div>
                 </div>
             </h2>
         </div>
@@ -299,12 +316,20 @@ require_once $include . '_header.php';
     <div class="topInterview">
         <div class="topInterview__bg"></div>
         <div class="wrap w1200 sp-wrap">
-            <h2 class="topCommon__ttl notos">
+            <h2 class="pc topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
-                    <div class="js-in anime text-in wave2">インタビュー<br class="sp"><span class="topCommon__ttl--small">～わたしたちの"挑戦"～</span></div>
+                    <div class="js-in anime text-in wave2">インタビュー <span class="topCommon__ttl--small">～わたしたちの"挑戦"～</span></div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime text-in wave1">INTERVIEW</div>
+                </div>
+            </h2>
+            <h2 class="sp topCommon__ttl notos">
+                <div class="topCommon__ttl--ja">
+                    <div class="js-in anime left-in wave2">インタビュー<br"><span class="topCommon__ttl--small">～わたしたちの"挑戦"～</span></div>
+                </div>
+                <div class="topCommon__ttl--en">
+                    <div class="js-in anime left-in wave1">INTERVIEW</div>
                 </div>
             </h2>
             <div class="topInterviewWrap">
@@ -327,12 +352,20 @@ require_once $include . '_header.php';
     <div class="topCrosstalk">
         <div class="topCrosstalk__bg"></div>
         <div class="wrap w1200 sp-wrap">
-            <h2 class="topCommon__ttl notos">
+            <h2 class="pc topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
                     <div class="js-in anime text-in wave2">クロストーク</div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime text-in wave1">Cross talk</div>
+                </div>
+            </h2>
+            <h2 class="sp topCommon__ttl notos">
+                <div class="topCommon__ttl--ja">
+                    <div class="js-in anime left-in wave2">クロストーク</div>
+                </div>
+                <div class="topCommon__ttl--en">
+                    <div class="js-in anime left-in wave1">Cross talk</div>
                 </div>
             </h2>
         </div>
@@ -422,12 +455,20 @@ require_once $include . '_header.php';
     <div class="topRecruit">
         <div class="topRecruit__bg"></div>
         <div class="wrap w1200 sp-wrap">
-            <h2 class="topCommon__ttl notos">
+            <h2 class="pc topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
                     <div class="js-in anime text-in wave2">採用情報</div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime text-in wave1">RECRUIT</div>
+                </div>
+            </h2>
+            <h2 class="sp topCommon__ttl notos">
+                <div class="topCommon__ttl--ja">
+                    <div class="js-in anime left-in wave2">採用情報</div>
+                </div>
+                <div class="topCommon__ttl--en">
+                    <div class="js-in anime left-in wave1">RECRUIT</div>
                 </div>
             </h2>
         </div>

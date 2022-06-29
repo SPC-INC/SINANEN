@@ -117,7 +117,11 @@ require_once $include . '_header.php';
         <section class="crosstalkSec">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        脈々と受け継がれていく<br>
+                        人の温かさ
+                    </div>
+                    <div class="sp js-in anime left-in">
                         脈々と受け継がれていく<br>
                         人の温かさ
                     </div>
@@ -177,7 +181,10 @@ require_once $include . '_header.php';
                     </div>
                 </div>
                 <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        多様なジョブチェンジを経て得られる<br>自己成長
+                    </div>
+                    <div class="sp js-in anime left-in">
                         多様なジョブチェンジを経て得られる<br>自己成長
                     </div>
                 </h2>
@@ -300,9 +307,13 @@ require_once $include . '_header.php';
         <section class="crosstalkSec crosstalkSec--gray">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
                         グループ全体が一つのチームとして<br>
                         より強く、しなやかに
+                    <div class="sp js-in anime left-in">
+                        グループ全体が一つのチームとして<br>
+                        より強く、しなやかに
+                    </div>
                     </div>
                 </h2>
                 <div class="crosstalkSec__wrapper">
@@ -401,7 +412,10 @@ require_once $include . '_header.php';
         <section class="crosstalkData">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkData__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        インタビューメンバーの経歴
+                    </div>
+                    <div class="sp js-in anime left-in">
                         インタビューメンバーの経歴
                     </div>
                 </h2>

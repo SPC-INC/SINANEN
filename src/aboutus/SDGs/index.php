@@ -38,7 +38,10 @@ require_once $include . '_header.php';
         <section class="sdgsAbout">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="sdgsAbout__head notos anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        SDGsとは
+                    </div>
+                    <div class="sp js-in anime left-in">
                         SDGsとは
                     </div>
                 </h2>
@@ -82,7 +85,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                地球環境に優しいエネルギーの供給を手段とし、お客様の快適な住まいと暮らしを実現することを目的とする企業グループへ
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 地球環境に優しいエネルギーの供給を手段とし、お客様の快適な住まいと暮らしを実現することを目的とする企業グループへ
                             </div>
                         </div>
@@ -128,7 +134,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                多様な再生可能エネルギー関連事業を推進し、脱炭素社会の実現に貢献
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 多様な再生可能エネルギー関連事業を推進し、脱炭素社会の実現に貢献
                             </div>
                         </div>
@@ -165,7 +174,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                シェアサイクル事業を推進し、健康で環境に優しい移動手段を構築
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 シェアサイクル事業を推進し、健康で環境に優しい移動手段を構築
                             </div>
                         </div>
@@ -190,7 +202,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                安心・安全な施設維持、運営を提供する建物維持管理事業の拡大
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 安心・安全な施設維持、運営を提供する建物維持管理事業の拡大
                             </div>
                         </div>
@@ -215,7 +230,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                風土改革、働き方改革、人財育成を三位一体で推進
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 風土改革、働き方改革、人財育成を三位一体で推進
                             </div>
                         </div>
@@ -254,7 +272,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                地球環境や再生可能エネルギーに関する啓発活動を通じ、SDGsへの理解を促進
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 地球環境や再生可能エネルギーに関する啓発活動を通じ、SDGsへの理解を促進
                             </div>
                         </div>
@@ -286,7 +307,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                農福連携への協力を通じた障がい者の雇用支援と地域社会への貢献
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 農福連携への協力を通じた障がい者の雇用支援と地域社会への貢献
                             </div>
                         </div>
@@ -311,7 +335,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                「子供地球基金」への協賛による、子どもたちの成長支援と国際貢献
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 「子供地球基金」への協賛による、子どもたちの成長支援と国際貢献
                             </div>
                         </div>
@@ -335,7 +362,10 @@ require_once $include . '_header.php';
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">
                         <div class="anime__wrapper">
-                            <div class="js-in anime text-in">
+                            <div class="pc js-in anime text-in">
+                                各世代の状況に合わせた次世代人材の育成支援
+                            </div>
+                            <div class="sp js-in anime left-in">
                                 各世代の状況に合わせた次世代人材の育成支援
                             </div>
                         </div>

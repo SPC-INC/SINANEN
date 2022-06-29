@@ -15,7 +15,10 @@ require_once $include . '_header.php';
             <img src="<?php echo HOME; ?>img/business_other_head_sp.png" alt="" class="sp">
         </div>
         <h1 class="businessChildHead__text flex vcenter js-in anime text-line-in">
-            <div class="businessChildHead__text--inner js-in anime text-in wave3">
+            <div class="pc businessChildHead__text--inner js-in anime text-in wave3">
+                非エネルギー事業
+            </div>
+            <div class="sp businessChildHead__text--inner js-in anime left-in wave3">
                 非エネルギー事業
             </div>
         </h1>
@@ -69,7 +72,10 @@ require_once $include . '_header.php';
                         <div class="js-stickyNav-target">
                             <div class="businessChildMain__item js-currentNav" id="bicycle">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        自転車事業（シナネンサイクル株式会社）
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         自転車事業（シナネンサイクル株式会社）
                                     </div>
                                 </h2>
@@ -92,7 +98,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="sharecycle">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        シェアサイクル事業<span class="businessChildMain__head--note">（シナネンモビリティPLUS株式会社）</span>
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         シェアサイクル事業<span class="businessChildMain__head--note">（シナネンモビリティPLUS株式会社）</span>
                                     </div>
                                 </h2>
@@ -116,7 +125,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="ecology">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        環境・リサイクル事業（シナネンエコワーク株式会社）
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         環境・リサイクル事業（シナネンエコワーク株式会社）
                                     </div>
                                 </h2>
@@ -141,7 +153,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="antibacterial">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        抗菌事業（株式会社シナネンゼオミック）
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         抗菌事業（株式会社シナネンゼオミック）
                                     </div>
                                 </h2>
@@ -163,7 +178,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="system">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        システム事業（株式会社ミノス）
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         システム事業（株式会社ミノス）
                                     </div>
                                 </h2>
@@ -185,7 +203,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="building">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        建物維持管理事業<span class="businessChildMain__head--note">（タカラビルメン株式会社、株式会社インデス、シナネンファシリティーズ株式会社）</span>
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         建物維持管理事業<span class="businessChildMain__head--note">（タカラビルメン株式会社、株式会社インデス、シナネンファシリティーズ株式会社）</span>
                                     </div>
                                 </h2>

@@ -15,7 +15,10 @@ require_once $include . '_header.php';
             <img src="<?php echo HOME; ?>img/business_btob_head_sp.png" alt="" class="sp">
         </div>
         <h1 class="businessChildHead__text flex vcenter js-in anime text-line-in">
-            <div class="businessChildHead__text--inner js-in anime text-in wave3">
+            <div class="pc businessChildHead__text--inner js-in anime text-in wave3">
+                BtoB事業<br class="sp">(エネルギーソリューション事業)
+            </div>
+            <div class="sp businessChildHead__text--inner js-in anime left-in wave3">
                 BtoB事業<br class="sp">(エネルギーソリューション事業)
             </div>
         </h1>
@@ -60,7 +63,10 @@ require_once $include . '_header.php';
                         <div class="js-stickyNav-target">
                             <div class="businessChildMain__item js-currentNav" id="energy">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        再生可能エネルギー事業
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         再生可能エネルギー事業
                                     </div>
                                 </h2>
@@ -83,7 +89,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="electric">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        電力事業
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         電力事業
                                     </div>
                                 </h2>
@@ -105,7 +114,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="oil">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        石油事業
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         石油事業
                                     </div>
                                 </h2>
@@ -127,7 +139,10 @@ require_once $include . '_header.php';
                             </div>
                             <div class="businessChildMain__item js-currentNav" id="solution">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
-                                    <div class="js-in anime text-in">
+                                    <div class="pc js-in anime text-in">
+                                        ソリューション事業
+                                    </div>
+                                    <div class="sp js-in anime left-in">
                                         ソリューション事業
                                     </div>
                                 </h2>

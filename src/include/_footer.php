@@ -25,7 +25,7 @@
                 <a href="<?php echo HOME; ?>person/crosstalk01/" class="footerLink__list--item">トレーナー×トレーニー</a>
                 <a href="<?php echo HOME; ?>person/crosstalk02/" class="footerLink__list--item">13年目×5年目×3年目対談</a>
                 <a href="<?php echo HOME; ?>person/crosstalk03/" class="footerLink__list--item">女性の活躍について</a>
-                <a href="<?php echo HOME; ?>person/crosstalk04/" class="footerLink__list--item">社長と若手社員</a>
+                <a href="<?php echo HOME; ?>person/crosstalk04/" class="footerLink__list--item">社長×若手社員</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>recruit/" class="footerLink__list--title op">採用情報</a>

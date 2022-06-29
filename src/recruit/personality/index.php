@@ -37,7 +37,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="personalitySec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        求める人物像
+                    </div>
+                    <div class="sp js-in anime left-in">
                         求める人物像
                     </div>
                 </div>
@@ -118,7 +121,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="personalitySec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        社是
+                    </div>
+                    <div class="sp js-in anime left-in">
                         社是
                     </div>
                 </div>
@@ -183,7 +189,10 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="personalitySec__head notos">
                 <div class="anime__wrapper">
-                    <div class="js-in anime text-in">
+                    <div class="pc js-in anime text-in">
+                        採用担当からのメッセージ
+                    </div>
+                    <div class="sp js-in anime left-in">
                         採用担当からのメッセージ
                     </div>
                 </div>
