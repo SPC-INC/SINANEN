@@ -145,13 +145,13 @@ require_once $include . '_header.php';
                                     </a>
                                 </li>
                                 <li class="businessChildMain__group--item">
-                                    <a href="https://www.melife.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
-                                        <img src="<?php echo HOME; ?>img/business_btob_group_02.png" alt="ミライフ">
+                                    <a href="https://melife-east.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_btob_group_02.png" alt="ミライフ東日本">
                                     </a>
                                 </li>
                                 <li class="businessChildMain__group--item">
-                                    <a href="https://melife-east.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
-                                        <img src="<?php echo HOME; ?>img/business_btob_group_03.png" alt="ミライフ東日本">
+                                    <a href="https://www.melife.co.jp/" target="_blank" class="businessChildMain__group--link flex vcenter hcenter op">
+                                        <img src="<?php echo HOME; ?>img/business_btob_group_03.png" alt="ミライフ">
                                     </a>
                                 </li>
                                 <li class="businessChildMain__group--item">

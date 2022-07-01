@@ -740,6 +740,7 @@
       &__item {
         margin: 0 0 2rem;
         width: 100%;
+        filter: none;
         .md-lay.dark:before {
           opacity: 0;
         }

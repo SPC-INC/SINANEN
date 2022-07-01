@@ -246,7 +246,7 @@ require_once $include . '_header.php';
     ##    ## ##     ##    ###
 */
 ?>
-        <ul class="sp challengeEvolutionTab flex">
+        <ul class="sp challengeEvolutionTab flex" id="spNavTop">
             <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab current" data-tab="history">
                 これまでの100年
             </li>
@@ -326,7 +326,7 @@ require_once $include . '_header.php';
                     </div>
                     <div class="pc challengeEvolutionHistory__node challengeEvolutionHistory__company flex vert vend">
                         <div class="challengeEvolutionHistory__node--head flex vcenter hcenter">
-                            シナネンの歩み
+                            わたしたちの歩み
                         </div>
                         <div class="challengeEvolutionHistory__node--text" style="margin-top: 9.5rem;">
                             <span class="year">1927年</span><br>
@@ -712,10 +712,10 @@ require_once $include . '_header.php';
 
         <ul class="sp challengeEvolutionTab challengeEvolutionTab--bottom flex">
             <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab-bottom current" data-tab="history">
-                これまでの100年
+                <a href="#spNavTop" class="challengeEvolutionTab__item--link flex vcenter hcenter">これまでの100年</a>
             </li>
             <li class="challengeEvolutionTab__item flex vcenter hcenter js-challengeEvolution-tab-bottom" data-tab="group">
-                次の100年に向けての<br>取り組み
+                <a href="#spNavTop" class="challengeEvolutionTab__item--link flex vcenter hcenter">次の100年に向けての<br>取り組み</a>
             </li>
         </ul>
 
@@ -746,7 +746,7 @@ require_once $include . '_header.php';
                         </svg>
                     </a>
                     <a href="<?php echo HOME; ?>aboutus/SDGs" class="aboutUsCommon__btn md-btn red left-text">
-                        SDGsへの貢献
+                        SDGsへの取り組み
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
                             <g id="コンポーネント_13_1" data-name="コンポーネント 13 – 1" transform="translate(0.5 0.683)">
                                 <line id="線_11" data-name="線 11" x2="70.309" transform="translate(0 5.542)" fill="none" stroke-linecap="round" stroke-width="1" />

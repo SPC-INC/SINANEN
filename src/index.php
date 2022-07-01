@@ -79,7 +79,7 @@ require_once $include . '_header.php';
     <div class="topIntro">
         <div class="topIntro__img">
             <img src="<?php echo HOME; ?>img/top_intro.png" alt="" class="pc">
-            <img src="<?php echo HOME; ?>img/top_intro_so.png" alt="" class="sp">
+            <img src="<?php echo HOME; ?>img/top_intro_sp.png" alt="" class="sp">
         </div>
         <div class="topIntro__text">
             <div class="wrap w1200">
@@ -216,7 +216,8 @@ require_once $include . '_header.php';
                 <div class="md-lay dark zoom">
                     <div class="lay-bg topBusinessLink__item--lay">
                         <div class="topBusinessLink__item--img sp-flex vend hcenter">
-                            <img src="<?php echo HOME ?>img/topbusiness_link1.png" alt="">
+                            <img src="<?php echo HOME ?>img/topbusiness_link1.png" alt="" class="pc">
+                            <img src="<?php echo HOME ?>img/topbusiness_link1_sp.png" alt="" class="sp">
                         </div>
                     </div>
                     <div class="lay-content pc-flex vcenter hcenter"><div class="in">
@@ -245,7 +246,8 @@ require_once $include . '_header.php';
                 <div class="md-lay dark zoom">
                     <div class="lay-bg topBusinessLink__item--lay">
                         <div class="topBusinessLink__item--img sp-flex vcenter hcenter">
-                            <img src="<?php echo HOME ?>img/topbusiness_link2.png" alt="">
+                            <img src="<?php echo HOME ?>img/topbusiness_link2.png" alt="" class="pc">
+                            <img src="<?php echo HOME ?>img/topbusiness_link2_sp.png" alt="" class="sp">
                         </div>
                     </div>
                     <div class="lay-content pc-flex vcenter hcenter"><div class="in">
@@ -274,7 +276,8 @@ require_once $include . '_header.php';
                 <div class="md-lay dark zoom">
                     <div class="lay-bg topBusinessLink__item--lay">
                         <div class="topBusinessLink__item--img sp-flex vstart hcenter">
-                            <img src="<?php echo HOME ?>img/topbusiness_link3.png" alt="">
+                            <img src="<?php echo HOME ?>img/topbusiness_link3.png" alt="" class="pc">
+                            <img src="<?php echo HOME ?>img/topbusiness_link3_sp.png" alt="" class="sp">
                         </div>
                     </div>
                     <div class="lay-content pc-flex vcenter hcenter"><div class="in">
@@ -400,6 +403,16 @@ require_once $include . '_header.php';
                     </span>
                     <img src="<?php echo HOME ?>img/crosstalk2.png" alt="" class="pc">
                     <img src="<?php echo HOME ?>img/crosstalk2_sp.png" alt="" class="sp">
+                </a>
+                <a href="<?php echo HOME; ?>person/crosstalk04/" class="swiper-slide topCrosstalkSlide__item">
+                    <span class="topCrosstalkSlide__item--caption pc">
+                        <span class="bg">Special Crosstalk <span class="small">社長×若手社員</span></span>
+                    </span>
+                    <span class="topCrosstalkSlide__item--caption sp">
+                        <span class="bg">Special Crosstalk</span><br><span class="bg">社長×若手社員</span>
+                    </span>
+                    <img src="<?php echo HOME ?>img/crosstalk4.png" alt="" class="pc">
+                    <img src="<?php echo HOME ?>img/crosstalk4_sp.png" alt="" class="sp">
                 </a>
             </div>
             <div class="swiper-button-prev">

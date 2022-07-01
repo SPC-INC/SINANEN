@@ -49,22 +49,22 @@ require_once $include . '_header.php';
             <?php
             $arrFaq01 = array(
                 '1' => array(
-                    'Q' => '採用マイページの登録方法を教えてください。',
+                    'Q' => '採用マイページの登録方法を<br class="sp">教えてください。',
                     'A' => 'エントリー後に、マイナビにご登録のメールアドレス宛にマイページ登録のご案内をお送りします。',
                 ),
                 '2' => array(
-                    'Q' => 'WEBエントリーシート提出方法について教えてください。',
+                    'Q' => 'WEBエントリーシート提出方法に<br class="sp">ついて教えてください。',
                     'A' => 'ホーム画面にWEBエントリーシート記入ページにアクセスできるようになりますので、WEB説明会視聴後、マイページよりご記入ください。',
                 ),
                 '3' => array(
-                    'Q' => '顔写真提出方法について教えてください。',
+                    'Q' => '顔写真提出方法について<br class="sp">教えてください。',
                     'A' => 'ホーム画面に顔写真提出ページにアクセスできるようになりますので、WEB説明会視聴後、マイページよりご記入ください。',
                 ),
             );
             foreach ($arrFaq01 as $key =>  $val) {
                 ?>
                 <li class="recruitFaqSec__item">
-                    <div class="recruitFaqSec__Q flex js-acc">
+                    <div class="recruitFaqSec__Q flex sp-vcenter js-acc">
                         <span class="recruitFaqSec__Q--head">Q</span>
                         <div class="recruitFaqSec__Q--text">
                             <?php echo $val['Q']; ?>
@@ -100,22 +100,22 @@ require_once $include . '_header.php';
             <?php
             $arrFaq02 = array(
                 '1' => array(
-                    'Q' => '面接はオンラインですか（WEB面接は可能ですか）',
+                    'Q' => '面接はオンラインですか<br class="sp">（WEB面接は可能ですか）',
                     'A' => '一次面接はオンライン、二次面接は対面もしくはオンライン、最終面接は対面で実施しています。<br>二次面接の形式は、社会情勢や皆様の状況により判断します。',
                 ),
                 '2' => array(
-                    'Q' => '文系・理系どちらの出身でも応募できますか？',
+                    'Q' => '文系・理系どちらの出身でも<br class="sp">応募できますか？',
                     'A' => '文系理系問わず募集しています。',
                 ),
                 '3' => array(
-                    'Q' => '外国籍でも応募できますか？',
+                    'Q' => '外国籍でも<br class="sp">応募できますか？',
                     'A' => '応募可能です。',
                 ),
             );
             foreach ($arrFaq02 as $key =>  $val) {
                 ?>
                 <li class="recruitFaqSec__item">
-                    <div class="recruitFaqSec__Q flex js-acc">
+                    <div class="recruitFaqSec__Q flex sp-vcenter js-acc">
                         <span class="recruitFaqSec__Q--head">Q</span>
                         <div class="recruitFaqSec__Q--text">
                             <?php echo $val['Q']; ?>
@@ -155,18 +155,18 @@ require_once $include . '_header.php';
                     'A' => '繁忙期には発生する場合があります。',
                 ),
                 '2' => array(
-                    'Q' => '転勤・異動はありますか。また希望は出せますか',
+                    'Q' => '転勤・異動はありますか。<br class="sp">また希望は出せますか',
                     'A' => '転勤・異動は発生する可能性はございます。<br>希望については、年に1度自己申告制度というものがあります。',
                 ),
                 '3' => array(
-                    'Q' => '有給休暇の取得率はどのくらいですか',
+                    'Q' => '有給休暇の取得率は<br class="sp">どのくらいですか',
                     'A' => '2021年度時点では46.3%です。<br>今後働き方改革の取り組みで、数値の向上を図ります。',
                 ),
             );
             foreach ($arrFaq03 as $key =>  $val) {
                 ?>
                 <li class="recruitFaqSec__item">
-                    <div class="recruitFaqSec__Q flex js-acc">
+                    <div class="recruitFaqSec__Q flex sp-vcenter js-acc">
                         <span class="recruitFaqSec__Q--head">Q</span>
                         <div class="recruitFaqSec__Q--text">
                             <?php echo $val['Q']; ?>
@@ -221,7 +221,7 @@ require_once $include . '_header.php';
             foreach ($arrFaq04 as $key =>  $val) {
                 ?>
                 <li class="recruitFaqSec__item">
-                    <div class="recruitFaqSec__Q flex js-acc">
+                    <div class="recruitFaqSec__Q flex sp-vcenter js-acc">
                         <span class="recruitFaqSec__Q--head">Q</span>
                         <div class="recruitFaqSec__Q--text">
                             <?php echo $val['Q']; ?>
@@ -271,7 +271,7 @@ require_once $include . '_header.php';
             foreach ($arrFaq05 as $key =>  $val) {
                 ?>
                 <li class="recruitFaqSec__item">
-                    <div class="recruitFaqSec__Q flex js-acc">
+                    <div class="recruitFaqSec__Q flex sp-vcenter js-acc">
                         <span class="recruitFaqSec__Q--head">Q</span>
                         <div class="recruitFaqSec__Q--text">
                             <?php echo $val['Q']; ?>

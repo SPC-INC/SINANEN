@@ -28,8 +28,8 @@ require_once $include . '_header.php';
         </p>
     </div>
 
-    <ul class="sp recruitEnvironment__tab flex">
-        <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab selected" data-tab="training">
+    <ul class="sp recruitEnvironment__tab flex" id="spNavTop">
+        <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab current" data-tab="training">
             研修
         </li>
         <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab" data-tab="welfare">
@@ -503,11 +503,11 @@ require_once $include . '_header.php';
         </div>
     </div>
     <ul class="sp recruitEnvironment__tab recruitEnvironment__tab--bottom flex">
-        <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab-bottom selected" data-tab="training">
-            研修
+        <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab-bottom current" data-tab="training">
+            <a href="#spNavTop" class="recruitEnvironment__tab--link flex vcenter hcenter">研修</a>
         </li>
         <li class="recruitEnvironment__tab--item flex vcenter hcenter js-recruitEnvironment-tab-bottom" data-tab="welfare">
-            福利厚生
+            <a href="#spNavTop" class="recruitEnvironment__tab--link flex vcenter hcenter">福利厚生</a>
         </li>
     </ul>
     <section class="sp recruitFooter">

@@ -80,7 +80,7 @@ require_once $include . '_header.php';
      ######  ########  ######
 */
 ?>
-        <div class="sdgsContainer">
+        <div class="sdgsContainer js-sdgs">
             <section class="sdgsSec">
                 <div class="wrap w1200 sp-wrap">
                     <h2 class="sdgsSec__head notos pc-flex bet vcenter">

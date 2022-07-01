@@ -28,14 +28,14 @@ require_once $include . '_header.php';
                 <div class="aboutUs__text flex vert">
                     <h2 class="aboutUs__head notos anime__wrapper">
                         <div class="js-in anime text-in">
-                            社長インタビュー
+                            社長メッセージ
                         </div>
                     </h2>
                     <div class="sp aboutUs__img">
                         <img src="<?php echo HOME; ?>img/aboutus_01.png" alt="">
                     </div>
                     <p class="aboutUs__desc">
-                        若手社員が、社長の描くシナネンHDグループの未来や、<br>今、社長に聞いてみたいことをインタビューしました。
+                        代表取締役社長 山﨑 正毅より、就職活動をしている皆さんへのメッセージをお届けします。
                     </p>
                     <div class="aboutUs__more">
                         <a href="<?php echo HOME; ?>aboutus/topmessage/" class="aboutUs__btn md-btn red">

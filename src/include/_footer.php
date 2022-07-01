@@ -5,7 +5,7 @@
                 <a href="<?php echo HOME; ?>aboutus/" class="footerLink__list--title op">会社紹介</a>
                 <a href="<?php echo HOME; ?>aboutus/topmessage/" class="footerLink__list--item">社長メッセージ</a>
                 <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="footerLink__list--item">わたしたちの挑戦と進化</a>
-                <a href="<?php echo HOME; ?>aboutus/SDGs/" class="footerLink__list--item">SDGsへの貢献</a>
+                <a href="<?php echo HOME; ?>aboutus/SDGs/" class="footerLink__list--item">SDGsへの取り組み</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>business/" class="footerLink__list--title op">事業紹介</a>

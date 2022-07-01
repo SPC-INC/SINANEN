@@ -7,11 +7,13 @@ Swiper.use([Autoplay, Controller, EffectFade, Navigation, Pagination]) // Swiper
 // その他、Swiperで使う機能があったら上に追加で宣言する
 // A11y, Autoplay, Controller, EffectCoverflow, EffectCube, EffectFade, EffectFlip, HashNavigation, History, Keyboard, Lazy, Mousewheel, Navigation, Pagination, Parallax, Scrollbar, Thumbs, Virtual, Zoom,
 
-$('.js-topAbout').on('mouseover', function () {
-  const index = $(this).index()
-  $('.js-topAbout-img').children().removeClass('show')
-  $('.js-topAbout-img').children().eq(index).addClass('show')
-})
+if (window.matchMedia('(min-width:769px)').matches) {
+  $('.js-topAbout').on('mouseover', function () {
+    const index = $(this).index()
+    $('.js-topAbout-img').children().removeClass('show')
+    $('.js-topAbout-img').children().eq(index).addClass('show')
+  })
+}
 
 /*
    ######  ##       #### ########  ########
@@ -117,19 +119,19 @@ if ($('.js-personMvSlide')[0] && window.matchMedia('(max-width:768px)').matches)
 */
 $('.js-recruitEnvironment-tab').on('click', function () {
   const bottomTab = $('.js-recruitEnvironment-tab-bottom').eq($(this).index())
-  $(this).addClass('selected')
-  bottomTab.addClass('selected')
-  $(this).siblings().removeClass('selected')
-  bottomTab.siblings().removeClass('selected')
+  $(this).addClass('current')
+  bottomTab.addClass('current')
+  $(this).siblings().removeClass('current')
+  bottomTab.siblings().removeClass('current')
   $('.js-recruitEnvironment-tabItem').removeClass('show')
   $('#' + $(this).attr('data-tab')).addClass('show')
 })
 $('.js-recruitEnvironment-tab-bottom').on('click', function () {
   const topTab = $('.js-recruitEnvironment-tab').eq($(this).index())
-  $(this).addClass('selected')
-  topTab.addClass('selected')
-  $(this).siblings().removeClass('selected')
-  topTab.siblings().removeClass('selected')
+  $(this).addClass('current')
+  topTab.addClass('current')
+  $(this).siblings().removeClass('current')
+  topTab.siblings().removeClass('current')
   $('.js-recruitEnvironment-tabItem').removeClass('show')
   $('#' + $(this).attr('data-tab')).addClass('show')
 })
@@ -309,5 +311,24 @@ $(window).on('load', function () {
         })
       })
     }
+  }
+})
+
+$(window).on('load', function () {
+  if ($('.js-sdgs')[0]) {
+    let headerHeight = 90
+    if (window.matchMedia('(max-width:768px)').matches) {
+      headerHeight = 50
+    }
+    const posTop = $('.js-sdgs').offset().top - headerHeight * 2
+    let distance = 0
+    $(document).on('scroll', function () {
+      distance = $(this).scrollTop()
+      if (distance <= posTop) {
+        $('.js-sdgs').removeClass('fixedBg')
+      } else {
+        $('.js-sdgs').addClass('fixedBg')
+      }
+    })
   }
 })

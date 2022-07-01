@@ -130,6 +130,9 @@
   @media #{$media-sp} {
     background: url("../img/sdgs_bg_sp.png") no-repeat top left;
   }
+  &.fixedBg {
+    background-attachment: fixed;
+  }
 }
 .sdgsSec {
   position: relative;
