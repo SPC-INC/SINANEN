@@ -193,6 +193,7 @@ require_once $include . '_header.php';
                         </div>
                     </a>
                 </li>
+                <?php if (0) { ?>
                 <li class="personCrosstalk__item js-in anime bottom-in">
                     <h3 class="personCrosstalk__item--head notos">
                         社長メッセージ
@@ -227,6 +228,7 @@ require_once $include . '_header.php';
                         </div>
                     </a>
                 </li>
+                <?php } ?>
             </ul>
         </div>
     </section>

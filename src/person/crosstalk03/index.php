@@ -101,12 +101,10 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
                     <div class="pc js-in anime text-in">
-                        在宅勤務制度は子育ての心強い味方<br>
-                        時間を有効活用して、仕事と家庭を両立できる
+                        様々な分野で活躍するシナネングループの女性社員
                     </div>
                     <div class="sp js-in anime left-in">
-                        在宅勤務制度は子育ての心強い味方<br>
-                        時間を有効活用して、仕事と家庭を両立できる
+                        様々な分野で活躍するシナネングループの女性社員
                     </div>
                 </h2>
                 <div class="crosstalkSec__wrapper pc-flex">
@@ -117,7 +115,7 @@ require_once $include . '_header.php';
                                 Kさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                現在は、シナネンの住宅営業部・開発営業チームに所属しています。シナネンHDグループの個社は専門商社が多い中、当社はメーカーとして機能しているちょっとユニークな会社です。主に「洗濯機防水パン」と呼ばれる商品の製造販売をしている会社で私は主にお客様への提案やアフターフォローなどのお客様対応を行なっています。
+                                私は現在、シナネン㈱の住宅営業部・開発営業チームに所属しています。当社は主に太陽光発電、電力販売、石油製品販売等を展開しているエネルギー商社ですが、今所属している部署はメーカーとして機能していて、社内では少しユニークな部署です。主に「洗濯機防水パン」と呼ばれる洗濯機の下に敷く商品の製造販売をしていて、私はお客様への提案やアフターフォロー等を行なっています。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -126,7 +124,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                私は2022年よりシナネンHDの法務室に勤務しています。グループ全体から集まってくるさまざまな様式の契約書に目を通し、適切であるかをチェックしています。また、法人登記の更新や新規手続きなども私たちの役目です。個社が多いため、毎日多くの書類が届きますが、法律という未経験のジャンルに知的好奇心がくすぐられています（笑）。
+                                毎日お疲れ様です。今の仕事は楽しいですか？
                             </p>
                         </div>
                     </div>
@@ -144,7 +142,7 @@ require_once $include . '_header.php';
                                 Kさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                韓さんは現職の前に出産休暇を取っていたんですね。復帰してからの働き方に変化はありましたか？
+                                楽しいです！私は以前、当社の経営企画部に所属しており、部署の特性上、社内の様々な部署について見聞きする機会がありました。その中で今の部署のことを知って興味を持ち、異動願いを出して担当出来ることになったんです。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -153,7 +151,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                そうですね。産休を経てからの働き方は、以前より格段に働きやすくなったと実感しています！私が子どもを出産した直後に世界中で新型コロナウイルス感染が拡大したため、復帰後はテレワークがグループ全体で導入されていて例に漏れずに私も在宅勤務となりました。現在、在宅勤務は社内の正式な制度として導入されているため、全社員が規定に則って、在宅勤務を行う体制が整っていますね。
+                                そうだったんですね！
                             </p>
                         </div>
                     </div>
@@ -171,7 +169,7 @@ require_once $include . '_header.php';
                                 Kさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                はい。私も営業ですが在宅勤務の日もあります。アポがあるときは自宅から取引先へ向かい、商談後は自宅に戻って作業をすることもしばしばです。
+                                「洗濯機防水パン」をメインで作っている会社というのは国内では希少なのですが、自社で商品開発から製造、販売まで行なっているため、お客様からヒアリングしたニーズを社内の会議で開発担当者に伝える等、商品開発にも間接的に携われているという実感があります。今の仕事がとても楽しく、これからもこの仕事を続けたいと考えています。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -180,34 +178,57 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                時間を有効活用できていいですよね。子どもが小さいうちは突然熱を出してしまうこともあるけど、朝病院へ連れて行っても10時頃には就業できるので助かっています。
+                                素敵ですね！
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_02.png" alt=""><br>
+                                Kさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                普段から1on1面談が盛んで上司と話をする機会も多いため、自分の意見を伝えやすく、その点も今の部署の魅力だと感じています。将来的には、商品開発にもより積極的に携わってみたいです。<br>
+                                Hさんのお仕事についても教えていただけますか？
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_01.png" alt=""><br>
+                                Hさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                私は現在シナネンホールディングスの法務室で働いています。法務室にはグループ全体から日々たくさんの契約書や法務相談が集まってくるので、契約書の法務審査を行ったり、社員の皆様の様々な問題解決の手助けを行ったりしています。他にも債権管理や株主総会支援、登記業務、契約書のひな型整備や法務研修等、幅広い業務を所管しています。業務は難しいのですが、同時にとても楽しいです！毎日非常に勉強になりますし、大きなやりがいも感じられ、私も今の仕事が大好きで、続けていきたいと考えています。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_02.png" alt=""><br>
+                                Kさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                良いですね！Hさんは今まではどんなキャリアを歩んできたのでしょうか。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_01.png" alt=""><br>
+                                Hさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                シナネンホールディングスに新卒で入社し、シナネンゼオミック（抗菌剤メーカー）、シナネン/舶油チーム、シナネン/海外投資部門、現職という流れでした。営業を担当していた期間が長く、舶油在籍時には欧米の新規開拓を任され、ヨーロッパに2週間出張に行ったりもして、とても忙しくも充実した社会人生活を送ってきました。<br>
+                                少し話は変わりますが、今は身近に女性の弁護士やM&Aの知識に長けている方がいらっしゃり、また、妊娠・出産を経て育児の傍ら働いている女性社員もたくさん増えてきていて…。シナネンホールディングスグループでは色んな分野で輝いている女性社員が多く、大変尊敬しますし、日々とても心強いと感じています。
                             </p>
                         </div>
                     </div>
                 </div>
                 <h2 class="crosstalkSec__head notos anime__wrapper">
                     <div class="pc js-in anime text-in">
-                        互いを尊重する文化が<br>
-                        女性の多彩なキャリアを推進していく
+                        妊娠・復職後を支えてくれた“人”と“制度”
                     </div>
                     <div class="sp js-in anime left-in">
-                        互いを尊重する文化が<br>
-                        女性の多彩なキャリアを推進していく
+                        妊娠・復職後を支えてくれた“人”と“制度”
                     </div>
                 </h2>
-                <div class="crosstalkSec__wrapper pc-flex">
-                    <div class="crosstalkSec__talk">
-                        <div class="crosstalkSec__talk--item flex">
-                            <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_01.png" alt=""><br>
-                                Hさん
-                            </div>
-                            <p class="crosstalkSec__talk--text">
-                                國居さんはかねてから現在の部署への異動希望があったと聞きましたがどんな理由からですか？
-                            </p>
-                        </div>
-                    </div>
-                </div>
                 <div class="crosstalkSec__wrapper pc-flex">
                     <div class="crosstalkSec__img pc-1 flex vert">
                         <span class="js-in anime slideImg">
@@ -221,7 +242,7 @@ require_once $include . '_header.php';
                                 Kさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                以前、経営企画部にいた際、仕事の特性上さまざまな個社の情報を耳にしていました。その中で今の部署のことを知って興味を持ったんです。当社は「洗濯機防水パン」をメインで作っている会社として国内でも希少なメーカーです。自社で商品開発から製造、販売を行なっているため、他のグループ会社と比べると、大いに自社製品愛を発揮しても良いというか、そんなおもしろさを感じました（笑）。
+                                Hさんは現在、一児の母として育児をしつつ、働いていらっしゃると思いますが、妊娠中・復職後の働き方について教えてください。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -230,7 +251,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                なるほど！メーカーなら、自分が企画した新商品の開発から関われるチャンスもあるかもしれないですよね。
+                                妊娠中、実はつわりがひどく、とても苦労しました。ただ、同じ部署の方々が本当に優しく、常に私の体調を最優先に考え対応してくださり、とても救われました。産休・育休を経て復帰した後も、最初の数か月は子供がよく風邪をひいてしまいましたが、やはり上司も同僚も一貫して、暖かい言葉だけをかけ続けてくれました。もしも少しでも、冗談でも、ネガティブな事や批判的な事を言われていたら落ち込んでしまっていたと思うのですが、皆大変な中で常に思いやりを持って対応をしてくださり、今でも感謝の気持ちでいっぱいです。
                             </p>
                         </div>
                     </div>
@@ -243,7 +264,7 @@ require_once $include . '_header.php';
                                 Kさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                そうなんです。そういった事業展展開の幅もひと味違って魅力的です。異動希望がいつも100%叶うかというと一概にはいえませんが、やりたい！と思うことを年次や性別問わず受け入れてくれる土壌に感謝しています。
+                                そうだったんですね。確かに、社内は優しい人が多いような気がしますね。私もそれは入社前の先輩社員懇談会から既に感じていました（笑）。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -252,7 +273,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                私も現在を含めると、４つの部署を経験してきました。もともと英語を使って海外展開を行う事業に携わりたいと考えていて、実際に希望が叶いました。現在のような未知の分野に飛び込むことも刺激的ですが、自分の興味や関心が活かされる仕事に就けることも嬉しいことですね！
+                                Kさんはとても早く見抜いていたんですね！（笑）数字等では表れないですが、優しい人が多いですよね！社風なのかな。 復職後の働き方に関しては、当グループでも在宅勤務が増えてきているので、とても助かっています。子供の通院等近場で所用を済ませた後、10時から勤務を開始出来ますし、通勤時間がないと時間を有効活用できますね。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -261,7 +282,34 @@ require_once $include . '_header.php';
                                 Kさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                普段から1on1面談も盛んで上司と話をする機会が多いため、日々のフィードバックなどができて、必要なときに相談しやすい関係が自然と自分の意見を伝えやすい環境を作っているのかもしれませんね。
+                                私も営業ですが在宅勤務の日もあります。アポがあるときは自宅から取引先へ向かい、商談後は自宅に戻って作業をすることもしばしばです。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_01.png" alt=""><br>
+                                Hさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                良いですね！あとは時短勤務が可能なリミットが「子供が小学3年生まで」に近年延長になったグループ会社も多いようで、世の中で一般的な「3歳まで」や「小学校入学前まで」より長く、子育て世代に優しい変化もどんどん生まれている感じがします。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_02.png" alt=""><br>
+                                Kさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                それはありがたい情報です。女性の場合、妊娠や出産等様々なライフイベントがある中で、こういった制度を活用することで家庭もキャリアも両立しやすい働き方ができますね。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_01.png" alt=""><br>
+                                Hさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                はい。そしてそれを後押しする会社の姿勢があることも良いことですよね。
                             </p>
                         </div>
                     </div>
@@ -279,78 +327,6 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
                     <div class="pc js-in anime text-in">
-                        ママもパパも！<br>
-                        シナネンHD独自の働きやすさへの取り組み
-                    </div>
-                    <div class="sp js-in anime left-in">
-                        ママもパパも！<br>
-                        シナネンHD独自の働きやすさへの取り組み
-                    </div>
-                </h2>
-                <div class="crosstalkSec__wrapper">
-                    <div class="crosstalkSec__talk">
-                        <div class="crosstalkSec__talk--item flex">
-                            <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_02.png" alt=""><br>
-                                Kさん
-                            </div>
-                            <p class="crosstalkSec__talk--text">
-                                当社の産休取得率は100％といっても過言ではないですよね。私もこの先のことを考えると、やはり安心材料になります。
-                            </p>
-                        </div>
-                        <div class="crosstalkSec__talk--item flex">
-                            <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_01.png" alt=""><br>
-                                Hさん
-                            </div>
-                            <p class="crosstalkSec__talk--text">
-                                そうですね。働きやすさでいうと、当社の時短勤務の規定は国が明示していることよりもさらに寛容な独自制度を設けているんですよ。
-                            </p>
-                        </div>
-                        <div class="crosstalkSec__talk--item flex">
-                            <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_02.png" alt=""><br>
-                                Kさん
-                            </div>
-                            <p class="crosstalkSec__talk--text">
-                                どんな内容ですか？
-                            </p>
-                        </div>
-                        <div class="crosstalkSec__talk--item flex">
-                            <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_01.png" alt=""><br>
-                                Hさん
-                            </div>
-                            <p class="crosstalkSec__talk--text">
-                                基本的に、国は企業に対して3歳までの子どもがいる家庭には時短勤務を設けることが望ましいとしていますが、その制限を小学校３年生まで、と定めているんです。そういったことからも、当社は女性の働きやすさにも目を行き届かせ、長期的な活躍に期待してくれているんですよね。
-                            </p>
-                        </div>
-                        <div class="crosstalkSec__talk--item flex">
-                            <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_02.png" alt=""><br>
-                                Kさん
-                            </div>
-                            <p class="crosstalkSec__talk--text">
-                                それはありがたい情報です。女性の場合、結婚や出産といったライフイベントによって、予測しきれないことがありますよね。でもこういった制度を活用することで家庭もキャリアも両立しやすい働き方ができる気がしてきました。
-                            </p>
-                        </div>
-                        <div class="crosstalkSec__talk--item flex">
-                            <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk03_talk_01.png" alt=""><br>
-                                Hさん
-                            </div>
-                            <p class="crosstalkSec__talk--text">
-                                近年は、パパである男性も女性と同じように、産休・育休を取得する流れも活発になってきました。國居さんも、こういった会社の制度を最大限に活用して、好きな仕事を続けてくださいね！
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="crosstalkSec crosstalkSec--gray">
-            <div class="wrap w1200 sp-wrap">
-                <h2 class="crosstalkSec__head notos anime__wrapper">
-                    <div class="pc js-in anime text-in">
                         多様性を認め合い、<br>
                         すべての人の働きやすさを叶える
                     </div>
@@ -367,7 +343,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                当社は今、風土改革への取り組みが推進されています。國居さんは、働いている中で取り組みの動きを実感することはありますか？
+                                当グループは現在、風土改革への取り組みが推進されています。Kさんは、変化を実感することはありますか？
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -376,7 +352,7 @@ require_once $include . '_header.php';
                                 Kさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                はい。風土改革を専門的に推進していく部署ができたこともあり、全社員が注目し、意識していることと感じています。驚いたのが、初めに風土改革をしようと声を上げたのが、一人の社員だったということ。その意見を汲み取って、実際に全社の取り組みに落とし込んでいく社長の寛大さと決断力にも脱帽です。
+                                はい。風土改革を専門的に推進していく部署ができたこともあり、全社員が注目し、意識していると感じています。驚いたのが、初めに風土改革をしようと声を上げたのは、有志で集まった社員達だったということ。その意見を汲み取って、実際に全社の取り組みに落とし込んだ社長の寛大さと決断力にも脱帽です。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -385,7 +361,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                グループ間の連携や繋がりを目的とした各社混合のオンライン会議なども導入されて、よりグループとしても強固なチームになってきたと感じるね。議題に挙がるのは、「D&I（ダイバーシティ＆インクルージョン）」といったキーワード。個人を尊重して、多様性を活かし合うといった意味合いが含まれています。そういった風土のもと、女性だけでなく、誰にとっても働きやすい会社をみんなで作っていきたいですね。
+                                グループ各社混合のオンラインで話し合う場等も増えてきていて、私も良い刺激を受けています。「ダイバーシティ＆インクルージョン」、「心理的安全性」といった働く上で大切なキーワードも社内に浸透してきていますね。今回のクロストークのテーマは「女性活躍」でしたが、女性だけでなく、全ての方にとって働きやすい会社をみんなで作っていきたいですね。
                             </p>
                         </div>
                     </div>

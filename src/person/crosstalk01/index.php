@@ -131,10 +131,10 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
                     <div class="pc js-in anime text-in">
-                        身近で頼れる兄貴のような先輩トレーナー
+                        シナネンホールディングスの<br>心強いトレーナー×トレーニー制度
                     </div>
                     <div class="sp js-in anime left-in">
-                        身近で頼れる兄貴のような先輩トレーナー
+                        シナネンホールディングスの<br>心強いトレーナー×トレーニー制度
                     </div>
                 </h2>
                 <div class="crosstalkSec__wrapper pc-flex">
@@ -145,7 +145,7 @@ require_once $include . '_header.php';
                                 Yさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                こうやってかつてのトレーナー×トレーニーペアが集まって当時のことを振り返る機会があまりないので今回はちょっと楽しみにしてきました（笑）。
+                                こうやってかつてのトレーナー×トレーニーペアが集まって当時のことを振り返る機会があまりないので今回はちょっと楽しみにしてきました（笑）。Oさんとは今は配属が違ってもよく連絡を取り合っているので、久しぶりな感覚はないですね。せっかくなのでお互いの第一印象を聞いてみたいです。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -154,7 +154,7 @@ require_once $include . '_header.php';
                                 Oさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                わかります！でも、今は配属が違ってもよく連絡を取り合っているので久しぶりな感覚はないですね。せっかくなのでお互いの第一印象の話を聞いてみたいです。
+                                私がYさんと初めて会ったときの印象は、かっこいい人だと思いました！当初、私は一人暮らしを検討していて、Yさんは住宅関連の職務ということもあり、家を一緒に探してくれましたし、家を選ぶ際に気を付けるべき点やどんな家にしたらいいかを私が聞くと何でも答えてくれました。それにYさんは一緒にいるとき、仕事の電話が絶えず、バリバリ働いている印象でした。私も1年後にはYさんのようにスマートに仕事をこなせるのかな？と思ったことも覚えています。
                             </p>
                         </div>
                     </div>
@@ -168,20 +168,20 @@ require_once $include . '_header.php';
                     <div class="crosstalkSec__talk">
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_04.png" alt=""><br>
-                                Hさん
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_02.png" alt=""><br>
+                                Yさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                いいね！私は水田さんと初めて会ったとき、体育会系の元気の良さそうな人だと思いましたよ！始業時にエレベーター前で見かけた人にも自ら進んで「おはようございます！」と挨拶を欠かさないことも好印象でした。
+                                そんなこともあったね。その当時は営業の引き継ぎなどいろいろと業務が重なっている時期だったんです。そんな中、Oさんのトレーナー担当になりましたが、Oさんはとても明るくて元気すぎるぐらいでした！（笑）底知れぬパワーを感じるものがあって何かを成し遂げるというような期待を感じさせてくれる人でした。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_03.png" alt=""><br>
-                                Mさん
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_04.png" alt=""><br>
+                                Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                ありがとうございます！！私は本田さんのことは男前でかっこいいと思っていました。あと私は本田さんとは入社年は違いますが同い年なので勝手に親近感を抱いていましたね。
+                                私はMさんと初めて会ったとき、体育会系の元気の良さそうな人だと思いました！始業時にエレベーター前で見かけた人全員に「おはようございます！」と挨拶を欠かさないことも好印象でした。
                             </p>
                         </div>
                     </div>
@@ -195,20 +195,11 @@ require_once $include . '_header.php';
                     <div class="crosstalkSec__talk">
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
-                                Oさん
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_03.png" alt=""><br>
+                                Mさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                私が山上さんと初めて会ったときの印象は、かっこいい。山上さんは1年先輩でしたが一緒にいるときは仕事の電話が絶えず、バリバリ働いている印象でした。私も1年後には山上さんのようにスマートに仕事をこなせるのかな？と思ったことも覚えています。
-                            </p>
-                        </div>
-                        <div class="crosstalkSec__talk--item flex">
-                            <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_02.png" alt=""><br>
-                                Yさん
-                            </div>
-                            <p class="crosstalkSec__talk--text">
-                                そうだったんだね！小原さんはとても明るくて元気すぎるぐらいでしたよ！（笑）底知れぬパワーを感じるものがあって何かを成し遂げるというような期待を感じさせてくれる人でした。
+                                私のHさんの印象は、男前で、しっかりしていてかっこいい。それと、私はHさんとは入社年は違いますが同い年なので勝手に親近感を抱いていましたね。トレーナーが同い年ということで、初めからHさんには心をオープンにできましたし、頼れる兄貴のような感覚がありました。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -217,16 +208,16 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                それぞれいろんな印象を持っていたんだね！他社だと若手の育成は年次の長い社員やマネージャークラスが担当することも少なくないらしいけれど、今回の私たちの場合、年齢が近いということもあり、初めからお互いに心をオープンにして受け入れ合える雰囲気があったのかもしれないですね。
+                                トレーナーとトレーニーの関係は一度関係性ができあがれば長く付き合うものだから、そういうふうに思ってもらえると嬉しいです。シナネンホールディングスでは、入社後は必ずこの制度があるため安心感に繋がりますよね。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
                             <div class="crosstalkSec__talk--img">
-                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
-                                Oさん
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_02.png" alt=""><br>
+                                Yさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                そうですね。身近で頼れるアニキのような先輩がいて私の場合は良かったと思います。
+                                事前にトレーナー、トレーニーのそれぞれの心構えを学ぶ研修もあるから教えるとはどういうことか、教わる際に大切な姿勢とは？といったことを体系的にいろいろ習得できることも勉強になりました。
                             </p>
                         </div>
                     </div>
@@ -234,11 +225,11 @@ require_once $include . '_header.php';
                 <h2 class="crosstalkSec__head notos anime__wrapper">
                     <div class="pc js-in anime text-in">
                         相手を思いやるコミュニケーションが<br>
-                        互いの成長の種となる
+                        強固な信頼関係を築く
                     </div>
                     <div class="sp js-in anime left-in">
                         相手を思いやるコミュニケーションが<br>
-                        互いの成長の種となる
+                        強固な信頼関係を築く
                     </div>
                 </h2>
                 <div class="crosstalkSec__wrapper pc-flex">
@@ -249,7 +240,7 @@ require_once $include . '_header.php';
                                 Mさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                私も最近、トレーナーとして新人担当になる機会があったのですが、指導する際に心がけていたことは何ですか？
+                                私も最近、トレーナーとしての役割を担う機会があったのですが、指導する際に心がけていたことは何ですか？
                             </p>
                         </div>
                     </div>
@@ -267,7 +258,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                トレーニーの意見に耳を傾けることかな。トレーナーが一方的に指導するのではなく、トレーニーがどんな意図をもって行動を起こしたのか、何がしたいのかを聞くことによって相互のコミュニケーションが成り立ってトレーニーへの的確なアドバイスに繋がると思っています。
+                                トレーニーの意見に耳を傾けることかな。トレーナーが一方的に指導するのではなく、トレーニーの声に耳を傾け、相手がどんな意図をもって行動を起こしたのか、何がしたいのかを聞く。そうすることによって、相互のコミュニケーションが成り立ち、的確なアドバイスに繋がると考えています。その積み重ねが、トレーニーとの信頼関係を生み出せると思っています。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -276,7 +267,7 @@ require_once $include . '_header.php';
                                 Yさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                私は社会人としてのマナーや仕事は厳しく教えていましたが、プライベートで飲みに行く際はオンオフを切り分けてざっくばらんに楽しむことを心がけていました。小原さんは人懐こくて人当たりも良いので、切替をすることで慣れ合いになるのを防ぎました。仕事に対する真摯さが欠落してしまう瞬間が出てこないようその点は意識していましたね。
+                                私が心がけていたのは、プライベートと仕事のラインをしっかりと切り分けることです。この会社は社員同士の距離感が近く、アットホームな雰囲気がいいなと思っています。でも、社会人としてのマナーや真摯に仕事に取り組む姿勢は大切です。仕事は厳しく教えて、プライベートで飲みに行く際はざっくばらんに楽しむというように、オンオフを切り替えることを心がけていました。仕事に対する真摯さが欠落してしまう瞬間が出てこないよう、その点は意識していましたね。
                             </p>
                         </div>
                     </div>
@@ -289,7 +280,7 @@ require_once $include . '_header.php';
                                 Oさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                ありがとうございます。山上さんは頼り甲斐のある先輩で、どんな些細なことも一人で悩まずにまずは相談してほしいといつも伝えてくれたことに感謝しています。私自身もオンオフを心地よく切り替えながら過ごせたおかげで自分らしくいられて安心して仕事を覚えていけました。
+                                ありがとうございます。Yさんは頼り甲斐のある先輩で、どんな些細なことも一人で悩まずにまずは相談してほしいといつも伝えてくれたことに感謝しています。私自身もオンオフを切り替えることで目の前のことに打ち込め、安心して仕事を覚えていくことができました。
                             </p>
                         </div>
                     </div>
@@ -307,12 +298,12 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
                     <div class="pc js-in anime text-in">
-                        トレーナーから教わったことは<br>
-                        すべて今に繋がっている
+                        仕事における大切な姿勢や考え方を<br>
+                        互いに学び合う
                     </div>
                     <div class="sp js-in anime left-in">
-                        トレーナーから教わったことは<br>
-                        すべて今に繋がっている
+                        仕事における大切な姿勢や考え方を<br>
+                        互いに学び合う
                     </div>
                 </h2>
                 <div class="crosstalkSec__wrapper">
@@ -323,7 +314,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                じゃあ次は、トレーニング中に印象に残っていることを聞いてみたいですね。
+                                トレーニーとして、印象に残っていることはありますか。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -332,7 +323,7 @@ require_once $include . '_header.php';
                                 Oさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                じつは私は初め、山上さんと同じインデスに所属していたのですが、半年経つ頃にタカラビルメンに出向になったんです。トレーナーとトレーニーという関係が解消されることはなかったのですが、突然の辞令だったこともあり内心はとても心細く不安でした。そんな中、数名のメンバーとともにプライベート行ったゴルフ旅行の際、宿泊先で山上さんが「寂しいと思うけど頑張れ。応援してるぞ」と言ってくれたんです。あと「いつも厳しくしてごめんな」とも……。山上さんの気持ちが本当に嬉しくて、新天地でも頑張ろうと思えました。
+                                私は初期配置で、Yさんと同じくインデスに出向していたのですが、半年経つ頃にタカラビルメンに出向になったんです。トレーナーとトレーニーという関係が解消されることはなかったのですが、突然の辞令だったこともあり内心はとても心細く不安でした。そんな中、数名のメンバーとともにプライベートで行ったゴルフ旅行の際、宿泊先でYさんが「寂しいと思うけど頑張れ。応援してるぞ」と言ってくれたんです。あと「いつも厳しくしてごめんな」とも…。Yさんの気持ちが本当に嬉しくて、新天地でも頑張ろうと思えました。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -341,7 +332,7 @@ require_once $include . '_header.php';
                                 Yさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                なんだか恥ずかしいな（笑）。
+                                なんだか恥ずかしいな（笑）。Oさんがタカラビルメンに異動するタイミングは、グループ間でまだタカラビルメンへの出向者がいない時期だったんですよね。これから社内の基盤を整えていかなくてはならないという責任も背負うので、単なる異動とはまた少し違う感じだったと思います。そんな中、Oさんは1年目でその責任を背負うことに不安も感じていたのではないでしょうか。私はその時ふと、Oさんに対してもう少し何かできることがあったのではないかと自問自答することもありました。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -350,7 +341,34 @@ require_once $include . '_header.php';
                                 Mさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                私は日頃から本田さんの仕事に対する姿勢に刺激を受けていました。毎朝、為替や原油高、世界情勢などを調査して、それに対する見解や今後の動向を自分なりにまとめて報告することを徹底していました。本田さん自身はこれを新人時代から行っていたようで本田さんの優秀さの要因はこういった努力の積み重ねであると感じさせられました。私の現在の仕事に対する姿勢は、本田さんとのトレーニング時代に培った部分が大きいと思っています。
+                                なんだか相思相愛で泣けるエピソードですね。私は日頃からHさんの仕事に対する姿勢に刺激を受けていました。私は毎朝Hさんの指導のもと、為替や原油高、世界情勢などを調査して、それに対する見解や今後の動向を自分なりにまとめて報告することを行っていました。Hさん自身はこれを新人時代から行っていたようで、周囲の先輩から「本田は優秀だ」と聞いていましたが、仕事がデキる要因はこういった努力の積み重ねであると感じさせられました。Hさんは仕事に対する姿勢が細やかで、いかに準備をするかということに重きを置いている方です。石油事業の仕事は世の中の動きが商売に大きく関連する側面が大きいため、多くの情報を取り入れ、なおかつ先見性をもって取り組むことがキーとなります。私の現在の仕事に対する姿勢や基盤は、Hさんとのトレーニング時代に培った部分が大きいと思っています。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_01.png" alt=""><br>
+                                Oさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                そんなことがあったんですね！Mさんも毎日報告を絶やさずに頑張っていたんですね。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_03.png" alt=""><br>
+                                Mさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                正直毎朝必死でしたよ（笑）。通勤の電車の中でニュースを調べて考えて、Hさんにいざ報告すると、調べただけのことはお見通しで、そこから何を感じたか、考えたかの深掘りがありました。当時はすごく辛かったですけど、そのおかげで知識が身ついていくのを実感していました。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_04.png" alt=""><br>
+                                Hさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                私たちの所属していた供給チームは、シナネンホールディングスグループの石油の大元となる仕入れ部門だったので、仕事の緊張感を常に持っていてほしいと考えていました。Mさんが毎日そうやって考えてきてくれることに私自身も刺激を受けていたんですよね。トレーニーがこんなにも一生懸命取り組んでくれるから、私も頑張ろうと思えました。
                             </p>
                         </div>
                     </div>
@@ -361,12 +379,10 @@ require_once $include . '_header.php';
             <div class="wrap w1200 sp-wrap">
                 <h2 class="crosstalkSec__head notos anime__wrapper">
                     <div class="pc js-in anime text-in">
-                        互いの成長や気づきを促す<br>
-                        ライバルのような存在
+                        この先も共に歩み続ける同志として
                     </div>
                     <div class="sp js-in anime left-in">
-                        互いの成長や気づきを促す<br>
-                        ライバルのような存在
+                        この先も共に歩み続ける同志として
                     </div>
                 </h2>
                 <div class="crosstalkSec__wrapper">
@@ -377,7 +393,7 @@ require_once $include . '_header.php';
                                 Yさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                シナネンのトレーナー×トレーニー文化はお互いにとっての良い成長や気づきの機会になっていますよね。
+                                シナネンホールディングスグループのトレーナー×トレーニー文化はお互いにとっての良い成長や気づきの機会になっていますよね。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -386,7 +402,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                そうですね。私と水田さんはよく仕事中に互いの意見を遠慮せずに伝え合うようにしていましたね。そういった関係性はより良い仕事をする上でとても大切なことだと思います。私は水田さんを良きライバルのように感じていたのかもしれません。
+                                そうですね。私とMさんはよく仕事中に互いの意見を遠慮せずに伝え合うようにしていました。そういった関係性はより良い仕事をする上でとても大切なことだと思います。トレーナーとトレーニーという関係では私が何かを教える立場でしたが、勤務歴が長くなると同じフィールドで切磋琢磨する同志であり、ライバルのような関係になるものだと感じます。それにMさんはちゃんと自分の意見を持っていて、ガッツがある。過去にはオフィスなどでバチバチに言い合いをしたこともありましたよね（笑）。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -395,7 +411,16 @@ require_once $include . '_header.php';
                                 Mさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                ありがとうございます。私も当初、仕事を覚えていく段階だったので、身近な先輩がこんなにも仕事ができるのに、なぜ自分はできないんだろうという悔しい思いもありました。でも、それも必要なステップであったと振り返っています。また、自分が今トレーナーを経験して、通常業務だけでも慌ただしい中、本田さん達は私たちトレーニーのことをよく気遣ってくれたのだと分かり、すごいと思いました！
+                                そうですね（笑）。私も当初、仕事を覚えていく段階で、身近な先輩がこんなにも仕事ができるのに、なぜ自分はできないんだろうという悔しい思いもありました。でも、自分の意見もきちんと伝えたかったのでHさんには包み隠さずに気持ちをぶつけたこともあります。そういったときも全部話を聞いて気持ちを理解してくれて嬉しかったです。また、自分が今トレーナーを経験して、通常業務だけでも手一杯なのに、Hさんはトレーニーのことをよく気にかけて見てくれていたんだなと実感しています。Hさんの仕事に対する姿勢を改めて、本当に尊敬しています。
+                            </p>
+                        </div>
+                        <div class="crosstalkSec__talk--item flex">
+                            <div class="crosstalkSec__talk--img">
+                                <img src="<?php echo HOME; ?>img/crosstalk01_talk_02.png" alt=""><br>
+                                Yさん
+                            </div>
+                            <p class="crosstalkSec__talk--text">
+                                私もOさんの現在の活躍ぶりを素直にすごいと感じています。全体集会などで、多くの人を前に事業部の財務報告をしている姿を見て、本当にプレゼンがうまくて驚きました。あの時はまるでどこかの政治家のような佇まいだったよ！プレゼンだけじゃなく、Oさんはもともと人とコミュニケーションを取るのがうまく、トレーナーの私からすると自慢できる後輩です。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -404,7 +429,7 @@ require_once $include . '_header.php';
                                 Oさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                そうですよね。私たちも今やシナネンHDを担う人材としていろいろなことに挑戦しています。こうやって当時を振り返り、お互いの近況を知ると刺激になってより一層仕事に励もうという気持ちになれますね！
+                                Yさんにそう言われると嬉しいです！こうやって当時を振り返り、お互いの近況を知ると刺激になってより一層仕事に励もうという気持ちになれますね！
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -413,7 +438,7 @@ require_once $include . '_header.php';
                                 Hさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                今後もシナネンHDグループの一つのチームとしてお互いに切磋琢磨しながら頑張りましょう！
+                                今後もシナネンホールディングスグループという一つのチームメンバーとしてお互いに切磋琢磨しながら頑張りましょう！これからもよろしくお願いします！
                             </p>
                         </div>
                     </div>

@@ -404,6 +404,7 @@ require_once $include . '_header.php';
                     <img src="<?php echo HOME ?>img/crosstalk2.png" alt="" class="pc">
                     <img src="<?php echo HOME ?>img/crosstalk2_sp.png" alt="" class="sp">
                 </a>
+                <?php if (0) { ?>
                 <a href="<?php echo HOME; ?>person/crosstalk04/" class="swiper-slide topCrosstalkSlide__item">
                     <span class="topCrosstalkSlide__item--caption pc">
                         <span class="bg">Special Crosstalk <span class="small">社長×若手社員</span></span>
@@ -414,6 +415,7 @@ require_once $include . '_header.php';
                     <img src="<?php echo HOME ?>img/crosstalk4.png" alt="" class="pc">
                     <img src="<?php echo HOME ?>img/crosstalk4_sp.png" alt="" class="sp">
                 </a>
+                <?php } ?>
             </div>
             <div class="swiper-button-prev">
                 <svg id="コンポーネント_14_1" data-name="コンポーネント 14 – 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53" class="icon">

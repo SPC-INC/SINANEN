@@ -186,9 +186,11 @@
                                             <a href="<?php echo HOME; ?>person/crosstalk03/" class="headerPulldown__link flex vcenter">
                                                 03&nbsp;&nbsp;女性の活躍について
                                             </a>
+                                            <?php if (0) { ?>
                                             <a href="<?php echo HOME; ?>person/crosstalk04/" class="headerPulldown__link flex vcenter">
                                                 04&nbsp;&nbsp;社長×若手社員
                                             </a>
+                                            <?php } ?>
                                         </div>
                                     </div>
                                 </div>
@@ -404,9 +406,11 @@
                         <a href="<?php echo HOME; ?>person/crosstalk03/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             Special Crosstalk 女性の活躍について
                         </a>
+                        <?php if (0) { ?>
                         <a href="<?php echo HOME; ?>person/crosstalk04/" class="acc-hide gNav__item gNav__item--sub flex vcenter">
                             Special Crosstalk 社長×若手社員
                         </a>
+                        <?php } ?>
                         <a href="<?php echo HOME; ?>person/" class="acc-hide gNav__btn gNav__btn--entry md-btn left-text">
                             インタビューTOP
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.493 6.909" class="icon">
