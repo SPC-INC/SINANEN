@@ -35,7 +35,7 @@ require_once $include . '_header.php';
 ?>
     <section class="personalitySec personalityPerson">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="personalitySec__head notos">
+            <h2 class="personalitySec__head">
                 <div class="anime__wrapper">
                     <div class="pc js-in anime text-in">
                         求める人物像
@@ -119,7 +119,7 @@ require_once $include . '_header.php';
 ?>
     <section class="personalitySec personalityPolisy">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="personalitySec__head notos">
+            <h2 class="personalitySec__head">
                 <div class="anime__wrapper">
                     <div class="pc js-in anime text-in">
                         社是
@@ -187,7 +187,7 @@ require_once $include . '_header.php';
 ?>
     <section class="personalitySec personalityMessage">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="personalitySec__head notos">
+            <h2 class="personalitySec__head">
                 <div class="anime__wrapper">
                     <div class="pc js-in anime text-in">
                         採用担当からのメッセージ

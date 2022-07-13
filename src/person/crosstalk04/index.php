@@ -55,9 +55,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk04_member_01.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">代表取締役社長</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">山﨑 正毅</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -69,9 +69,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk04_member_02.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2021年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">R.Inaba</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -83,9 +83,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk04_member_03.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2021年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">Y.Tano</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">

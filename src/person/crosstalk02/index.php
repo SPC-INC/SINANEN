@@ -55,9 +55,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk02_member_01.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2018年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">S.Takada</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -71,9 +71,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk02_member_02.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2020年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">N.Yamamoto</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -87,9 +87,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk02_member_03.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2010年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">K.Ikeya</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -143,7 +143,7 @@ require_once $include . '_header.php';
                                 Tさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                僕はどちらかというと自分の営業力でさまざまなことを提案できるような卸営業に興味を持っていて主に商社を受けていました。そんな中シナネンを知り、選考ステップを踏んでいきました。そのとき印象的だったのは、他社の面接ではガチガチに緊張していたのですが、シナネンはリラックスして受けられたんです。というのも、担当者がどの方も雰囲気が良く、話の振り方や相槌なども心地よくて安心感を持ちました。
+                                僕はどちらかというと自分の営業力でさまざまなことを提案できるような卸営業に興味を持っていて主に商社を受けていました。そんな中シナネンホールディングスを知り、選考ステップを踏んでいきました。そのとき印象的だったのは、他社の面接ではガチガチに緊張していたのですが、シナネンホールディングスはリラックスして受けられたんです。というのも、担当者がどの方も雰囲気が良く、話の振り方や相槌なども心地よくて安心感を持ちました。
                             </p>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ require_once $include . '_header.php';
                                 Iさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                私も2人と似ていますね！緊張していると自分らしさを見失って伝えたいことの半分も伝えられなかったりするものだけど、シナネンは一人ひとりを受け入れてくれる懐の深さのようなものを感じましたね。私は最終面接で役員の方からの優しい心遣いがありましたよ。その方が私の気持ちを代弁してくれるかのように「あなたがやってきたことはこういうことですね？」と要約してくれたことに対して私が「ありがとうございます！」と元気よく返答した瞬間、会場全体が大きな笑いに包まれたことは忘れません（笑）。
+                                私も2人と似ていますね！緊張していると自分らしさを見失って伝えたいことの半分も伝えられなかったりするものだけど、シナネンホールディングスは一人ひとりを受け入れてくれる懐の深さのようなものを感じましたね。私は最終面接で役員の方からの優しい心遣いがありましたよ。その方が私の気持ちを代弁してくれるかのように「あなたがやってきたことはこういうことですね？」と要約してくれたことに対して私が「ありがとうございます！」と元気よく返答した瞬間、会場全体が大きな笑いに包まれたことは忘れません（笑）。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -214,7 +214,7 @@ require_once $include . '_header.php';
                                 Iさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                私はこれまでシナネン、ミライフ東日本、シナネンHDと3つのグループ企業を経験しました。主に営業を担当してきましたが、2021年よりシナネンHDのグループ連携室で働いています。
+                                私はこれまでシナネン、ミライフ東日本、シナネンホールディングスと3つのグループ企業を経験しました。主に営業を担当してきましたが、2021年よりシナネンホールディングスのグループ連携室で働いています。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -236,7 +236,7 @@ require_once $include . '_header.php';
                                 Iさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                シナネングループは2015年からホールディングス体制となり、多角的に事業展開を行っている事業会社で構成されています。その中で、各事業会社の横ぐしを刺す動きを活性化させようと組織化されたのがグループ連携推進チームです。また、グループ内だけでなく、外部企業との連携を図ることで新たな事業創出をすることも求められており、今年度からはシェアオフィスの運営をベースとして、入居企業様との事業創出の活動にも力を入れています。
+                                当社は2015年からホールディングス体制となり、多角的に事業展開を行っている事業会社で構成されています。その中で、各事業会社の横ぐしを刺す動きを活性化させようと組織化されたのがグループ連携推進チームです。また、グループ内だけでなく、外部企業との連携を図ることで新たな事業創出をすることも求められており、今年度からはシェアオフィスの運営をベースとして、入居企業様との事業創出の活動にも力を入れています。
                             </p>
                         </div>
                         <div class="crosstalkSec__talk--item flex">
@@ -405,7 +405,7 @@ require_once $include . '_header.php';
                                 Tさん
                             </div>
                             <p class="crosstalkSec__talk--text">
-                                これからも皆さんシナネンHDのチームとして、よろしくお願いします！
+                                これからも皆さんシナネンホールディングスのチームとして、よろしくお願いします！
                             </p>
                         </div>
                     </div>
@@ -429,7 +429,7 @@ require_once $include . '_header.php';
 ?>
         <section class="crosstalkData">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="crosstalkData__head notos anime__wrapper">
+                <h2 class="crosstalkData__head anime__wrapper">
                     <div class="pc js-in anime text-in">
                         インタビューメンバーの経歴
                     </div>
@@ -442,11 +442,11 @@ require_once $include . '_header.php';
                     $arrMember = array(
                         '01' => array(
                             'name' => 'K.Ikeya',
-                            'desc' => '2010年に入社し、シナネン株式会社東北支社に営業職で配属される。その後、シナネン株式会社北東北支店森岡営業所、ミライフ東日本株式会社営業統括部での営業を経て、現在はシナネンHD株式会社成長戦略部 グループ連携推進チームでチーム長を務める。',
+                            'desc' => '2010年に入社し、シナネン株式会社東北支社に営業職で配属される。その後、シナネン株式会社北東北支店森岡営業所、ミライフ東日本株式会社営業統括部での営業を経て、現在はシナネンホールディングス株式会社成長戦略部 グループ連携推進チームでチーム長を務める。',
                         ),
                         '02' => array(
                             'name' => 'S.Takada',
-                            'desc' => '2018年に入社し、シナネンサイクル株式会社に配属される。2年目にシナネンモビリティPLUSに出向となり、シェアサイクルのステーション開拓業務に従事。3年目からはミライフ株式会社営業チームに移動し、LPガスや石油の営業を行っている。',
+                            'desc' => '2018年に入社し、シナネンサイクル株式会社に配属される。2年目にシナネンモビリティPLUS株式会社に出向となり、シェアサイクルのステーション開拓業務に従事。3年目からはミライフ株式会社営業チームに移動し、LPガスや石油の営業を行っている。',
                         ),
                         '03' => array(
                             'name' => 'N.Yamamoto',

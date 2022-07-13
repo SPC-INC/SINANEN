@@ -35,7 +35,7 @@ require_once $include . '_header.php';
 ?>
     <section class="recruitFlowSec">
         <div class="wrap w1200 sp-wrap">
-            <h2 class="recruitFlowSec__head notos">
+            <h2 class="recruitFlowSec__head">
                 <div class="anime__wrapper">
                     <div class="pc js-in anime text-in">
                         選考フロー
@@ -85,8 +85,8 @@ require_once $include . '_header.php';
             foreach ($arrWorkLifeBalance as $key =>  $val) {
                 ?>
                 <li class="recruitFlowSec__item">
-                    <h3 class="recruitFlowSec__subhead notos flex vend">
-                        <div class="recruitFlowSec__subhead--num flex vcenter hcenter">Step<?php echo $key; ?></div>
+                    <h3 class="recruitFlowSec__subhead flex vend">
+                        <div class="recruitFlowSec__subhead--num notos flex vcenter hcenter">Step<?php echo $key; ?></div>
                         <div class="recruitFlowSec__subhead--text"><?php echo $val['ttl']; ?></div>
                     </h3>
                     <div class="recruitFlowSec__container pc-flex vcenter bet">

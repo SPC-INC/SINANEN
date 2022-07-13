@@ -55,10 +55,10 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk03_member_01.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2012年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
-                                <div class="crosstalkIntro__profile--ja">H.Hann</div>
+                            <div class="crosstalkIntro__profile--name notos flex vend">
+                                <div class="crosstalkIntro__profile--ja">Y.Hann</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
                                 シナネンホールディングス株式会社<br>
@@ -70,9 +70,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk03_member_02.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2016年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">R.Kunisue</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -385,7 +385,7 @@ require_once $include . '_header.php';
 ?>
         <section class="crosstalkData">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="crosstalkData__head notos anime__wrapper">
+                <h2 class="crosstalkData__head anime__wrapper">
                     <div class="pc js-in anime text-in">
                         インタビューメンバーの経歴
                     </div>
@@ -397,8 +397,8 @@ require_once $include . '_header.php';
                     <?php
                     $arrMember = array(
                         '01' => array(
-                            'name' => 'H.Hann',
-                            'desc' => '2012年に入社後、シナネンゼオミック株式会社での3年間の営業経験を経て、シナネン株式会社舶油チームで3年半営業として務める。同社、再エネ関連チームに移動後、産休、育休を挟み、2022年からはシナネンHD株式会社法務室に所属。',
+                            'name' => 'Y.Hann',
+                            'desc' => '2012年に入社後、シナネンゼオミック株式会社での3年間の営業経験を経て、シナネン株式会社舶油チームで3年半営業として務める。同社、再エネ関連チームに移動後、産休、育休を挟み、2022年からはシナネンホールディングス株式会社法務室に所属。',
                         ),
                         '02' => array(
                             'name' => 'R.Kunisue',

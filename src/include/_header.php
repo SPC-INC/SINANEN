@@ -12,6 +12,9 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
     <title><?php echo $meta['title']; ?></title>
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $home; ?>css/common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="canonical" href="<?php echo $meta['canonical']; ?>" />
     <meta property="og:type" content="website" />
@@ -64,7 +67,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="headerPulldown__dtl flex notos">
+                                    <div class="headerPulldown__dtl flex">
                                         <a href="<?php echo HOME; ?>aboutus/topmessage/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_aboutus_01.png" alt="">
                                             社長メッセージ
@@ -108,7 +111,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="headerPulldown__dtl flex notos">
+                                    <div class="headerPulldown__dtl flex">
                                         <a href="<?php echo HOME; ?>business/btoc/" class="headerPulldown__dtl--link flex vert vcenter op">
                                             <img src="<?php echo HOME; ?>img/header_business_01.png" alt="">
                                             BtoC事業
@@ -158,13 +161,13 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="headerPulldown__dtl flex notos">
+                                    <div class="headerPulldown__dtl flex">
                                         <div class="headerPulldown__interview">
                                             <a href="<?php echo HOME; ?>person/interview01/" class="headerPulldown__link flex vcenter">
                                                 S.Takahashi
                                             </a>
                                             <a href="<?php echo HOME; ?>person/interview02/" class="headerPulldown__link flex vcenter">
-                                                K.Kazuma
+                                                K.Kasamatsu
                                             </a>
                                             <a href="<?php echo HOME; ?>person/interview03/" class="headerPulldown__link flex vcenter">
                                                 K.Yanagihara
@@ -223,7 +226,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="headerPulldown__recruit flex break notos">
+                                    <div class="headerPulldown__recruit flex break">
                                         <a href="<?php echo HOME; ?>recruit/requirements/" class="headerPulldown__link flex vcenter">
                                             募集要項
                                         </a>

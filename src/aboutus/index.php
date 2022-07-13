@@ -17,7 +17,7 @@ require_once $include . '_header.php';
         <div class="pageHead__text flex vcenter">
             <h1 class="pageHead__text--inner flex vert">
                 <span class="pageHead__text--en js-in anime text-in">About Us</span>
-                <span class="pageHead__text--ja js-in anime text-in">会社紹介</span>
+                <span class="pageHead__text--ja js-in anime text-in">会社を知る</span>
             </h1>
         </div>
     </div>

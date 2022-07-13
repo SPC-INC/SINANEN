@@ -39,6 +39,9 @@ require_once $include . '_header.php';
                 </div>
             </div>
             <div class="topMessage__body">
+                <h3 class="topMessage__body--ttl">
+                    キャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入りますキャッチコピーが入ります
+                </h3>
                 <p class="topMessage__body--text">
                     シナネンホールディングスグループは、「エネルギーと住まいと暮らしのサービスで地域すべてのお客様の快適な生活に貢献する」を企業理念に掲げ、グローバル総合エネルギー企業グループとして歩みを進めてきました。現在は、家庭向けエネルギー卸・小売周辺事業のほか、法人向けエネルギーソリューション事業、非エネルギー事業を展開しています。また、新規事業にも注力しており、脱炭素社会の実現へ向けた再生可能エネルギー事業や再資源化・廃棄物処理、水質浄化、シェアサイクル事業、抗菌事業など、時代が求める事業展開を推進しています。
                 </p>
@@ -61,9 +64,7 @@ require_once $include . '_header.php';
                 </p>
                 <p class="topMessage__body--text">
                     学生のみなさんにはぜひ、会社だけにとらわれず、「キャリア＝人生」と捉え、広く自分だけの人生を創り出していく経験と力をつけてほしいと思います。もちろん、みなさんの新しい感覚やアイデアは当社グループ入社後もそれぞれの必要とされる場所で活かされるでしょう。<br>
-                    そして、自律的な個の集合体となったシナネンホールディングスグループのさらなる発展を目指す仲間として、共に歩みを進めましょう。
-                </p>
-                <p class="topMessage__body--text">
+                    そして、自律的な個の集合体となったシナネンホールディングスグループのさらなる発展を目指す仲間として、共に歩みを進めましょう。<br>
                     当社グループでは多くの挑戦のチャンスがあります。それらのチャンスを掴むことで得られる様々な出会いや経験を通して、みなさんが成長できることをお約束します。
                 </p>
 
@@ -90,7 +91,7 @@ require_once $include . '_header.php';
         <section class="aboutUsCommon">
                 <div class="wrap w1200 sp-wrap">
                 <h2 class="aboutUsCommon__head notos">
-                    会社紹介
+                    会社を知る
                 </h2>
                 <div class="aboutUsCommon__link pc-flex bet">
                     <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="aboutUsCommon__btn md-btn red left-text">

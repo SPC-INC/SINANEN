@@ -259,7 +259,7 @@
     &--text {
       position: relative;
       padding: 0 0 3rem;
-      font-size: 3.2rem;
+      font-size: 3rem;
       font-weight: 700;
       line-height: 1.3;
       &::before,
@@ -401,7 +401,7 @@
     width: 50%;
   }
   &__text {
-    padding: 7.9rem calc((100vw - 120rem) / 2) 0 7rem;
+    padding: 1rem calc((100vw - 120rem) / 2) 1rem 7rem;
     width: 50%;
     color: #fff;
     background: #1a1a1a;
@@ -436,7 +436,6 @@
   &__desc {
     margin: 4.3rem 0 0;
     font-size: 1.8rem;
-    font-weight: 500;
     line-height: 2.3;
   }
   /*
@@ -486,26 +485,6 @@
   }
   &__list {
     margin: 10rem 0 0;
-    &--01 {
-      .interviewItem--01 {
-        display: none;
-      }
-    }
-    &--02 {
-      .interviewItem--02 {
-        display: none;
-      }
-    }
-    &--03 {
-      .interviewItem--03 {
-        display: none;
-      }
-    }
-    &--04 {
-      .interviewItem--04 {
-        display: none;
-      }
-    }
   }
   &__entry {
     margin: 7rem 0 0;

@@ -16,7 +16,7 @@
             <ul class="footerLink__list flex vert noto">
                 <a href="<?php echo HOME; ?>person/" class="footerLink__list--title op">インタビュー</a>
                 <a href="<?php echo HOME; ?>person/interview01/" class="footerLink__list--item">S.Takahashi</a>
-                <a href="<?php echo HOME; ?>person/interview02/" class="footerLink__list--item">K.Kazuma</a>
+                <a href="<?php echo HOME; ?>person/interview02/" class="footerLink__list--item">K.Kasamatsu</a>
                 <a href="<?php echo HOME; ?>person/interview03/" class="footerLink__list--item">K.Yanagihara</a>
                 <a href="<?php echo HOME; ?>person/interview04/" class="footerLink__list--item">S.Kanno</a>
             </ul>

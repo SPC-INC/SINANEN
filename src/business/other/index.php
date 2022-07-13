@@ -204,10 +204,10 @@ require_once $include . '_header.php';
                             <div class="businessChildMain__item js-currentNav" id="building">
                                 <h2 class="businessChildMain__head notos anime__wrapper">
                                     <div class="pc js-in anime text-in">
-                                        建物維持管理事業<span class="businessChildMain__head--note">（タカラビルメン株式会社、株式会社インデス、シナネンファシリティーズ株式会社）</span>
+                                        建物維持管理事業<br><span class="businessChildMain__head--note small">（タカラビルメン株式会社、株式会社インデス、シナネンファシリティーズ株式会社）</span>
                                     </div>
                                     <div class="sp js-in anime left-in">
-                                        建物維持管理事業<span class="businessChildMain__head--note">（タカラビルメン株式会社、株式会社インデス、シナネンファシリティーズ株式会社）</span>
+                                        建物維持管理事業<br><span class="businessChildMain__head--note small">（タカラビルメン株式会社、株式会社インデス、シナネンファシリティーズ株式会社）</span>
                                     </div>
                                 </h2>
                                 <p class="businessChildMain__img">

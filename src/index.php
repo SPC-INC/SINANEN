@@ -88,7 +88,7 @@ require_once $include . '_header.php';
                     <span class="topIntro__head--line">未来の日常を創るために。</span>
                 </h2>
                 <p class="topIntro__desc js-in anime bottom-in">
-                    私たちは、時代の変化に寄り添いながら、総合エネルギーサービス企業グループとして、<br class="pc">様々なサービスを提供し続けることで、快適で豊かな社会づくりに「挑戦」してきました。<br>
+                    私たちは、時代の変化に寄り添いながら、総合エネルギーサービス企業グループとして<br class="pc">様々なサービスを提供し続けることで、快適で豊かな社会づくりに「挑戦」してきました。<br>
                     「エネルギーと住まいと暮らしのサービスで、地域すべてのお客様の快適な生活に貢献する」<br class="pc">という企業理念のもと、私たちと一緒に「挑戦」し、次のあたりまえを創っていく仲間を<br class="pc">求めています。
                 </p>
             </div>
@@ -111,7 +111,7 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="pc topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
-                    <div class="js-in anime text-in wave2">会社紹介</div>
+                    <div class="js-in anime text-in wave2">会社を知る</div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="pc js-in anime text-in wave1">ABOUT US</div>
@@ -119,7 +119,7 @@ require_once $include . '_header.php';
             </h2>
             <h2 class="sp topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
-                    <div class="js-in anime left-in wave2">会社紹介</div>
+                    <div class="js-in anime left-in wave2">会社を知る</div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime left-in wave1">ABOUT US</div>
@@ -195,7 +195,7 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="pc topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
-                    <div class="js-in anime text-in wave2">事業紹介</div>
+                    <div class="js-in anime text-in wave2">仕事を知る</div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime text-in wave1">BUSINESSS</div>
@@ -203,7 +203,7 @@ require_once $include . '_header.php';
             </h2>
             <h2 class="sp topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
-                    <div class="js-in anime left-in wave2">事業紹介</div>
+                    <div class="js-in anime left-in wave2">仕事を知る</div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime left-in wave1">BUSINESSS</div>
@@ -321,7 +321,7 @@ require_once $include . '_header.php';
         <div class="wrap w1200 sp-wrap">
             <h2 class="pc topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
-                    <div class="js-in anime text-in wave2">インタビュー <span class="topCommon__ttl--small">～わたしたちの"挑戦"～</span></div>
+                    <div class="js-in anime text-in wave2">人を知る <span class="topCommon__ttl--small">～わたしたちの"挑戦"～</span></div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime text-in wave1">INTERVIEW</div>
@@ -329,7 +329,7 @@ require_once $include . '_header.php';
             </h2>
             <h2 class="sp topCommon__ttl notos">
                 <div class="topCommon__ttl--ja">
-                    <div class="js-in anime left-in wave2">インタビュー<br"><span class="topCommon__ttl--small">～わたしたちの"挑戦"～</span></div>
+                    <div class="js-in anime left-in wave2">人を知る<br"><span class="topCommon__ttl--small">～わたしたちの"挑戦"～</span></div>
                 </div>
                 <div class="topCommon__ttl--en">
                     <div class="js-in anime left-in wave1">INTERVIEW</div>

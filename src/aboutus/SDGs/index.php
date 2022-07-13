@@ -398,7 +398,7 @@ require_once $include . '_header.php';
         <section class="aboutUsCommon">
                 <div class="wrap w1200 sp-wrap">
                 <h2 class="aboutUsCommon__head notos">
-                    会社紹介
+                    会社を知る
                 </h2>
                 <div class="aboutUsCommon__link pc-flex bet">
                     <a href="<?php echo HOME; ?>aboutus/topmessage/" class="aboutUsCommon__btn md-btn red left-text">

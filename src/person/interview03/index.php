@@ -43,11 +43,11 @@ require_once $include . '_header.php';
                 </div>
             </h1>
             <div class="interviewMv__profile js-in anime left-in">
-                <div class="interviewMv__profile--year notos">2019年入社</div>
+                <div class="interviewMv__profile--year">2019年入社</div>
                 <div class="interviewMv__profile--name notos flex vend">
                     <div class="interviewMv__profile--ja">K.Yanagihara</div>
                 </div>
-                <div class="interviewMv__profile--pos notos">
+                <div class="interviewMv__profile--pos">
                     株式会社インデス<br>
                     施工サービス部 施工管理チーム
                 </div>
@@ -111,9 +111,9 @@ require_once $include . '_header.php';
                             </span>
                         </div>
                         <p class="interviewSec__desc">
-                            現在は、施工管理チームの一員として案件の現場進行管理を担当しています。お客様や関連会社、職人さんなど多くの人との関わりがある中、スムーズに施工が行われるように人や資材、工程の管理を徹底しています。<br>
+                            現在は、株式会社インデスの施工管理チームの一員として案件の現場進行管理を担当しています。お客様や関連会社、職人さんなど多くの人との関わりがある中、スムーズに施工が行われるように人や資材、工程の管理を徹底しています。<br>
                             また、当社はフランチャイズ展開をしており、インデスのノウハウを各フランチャイズ店に伝え、品質を担保することも役目です。そんな中、当社のサービス内容をマニュアル化し、すべての店舗で一定の水準を確保する取り組みが始まり、マニュアル作りを担当することになりました。会社としても初の試みとなり、責任感とやりがいはとても大きいです。<br>
-                            マニュアルはほぼ完成間近となり、少しずつ運用も始めています。現場ではスマホから簡単にマニュアルにアクセスすることができ、施工担当者はそれを見れば工程や必要な資材、道具などを把握でき一人でも工事が可能になります。今後フランチャイズ展開がさらに進めば、よりサービスの品質がフランチャイズ店の社員一人ひとりに委ねられます。マニュアルを導入することでインデスが常に安定したサービスをお客様に提供できることを期待しています。マニュアル作成は社内外を合わせたさまざまな人の協力があってこそ形にできました。常日頃からこういった連携体制がとれているため、当社の底知れぬパワーというのは素晴らしいと再確認する仕事でもありました。
+                            マニュアルはほぼ完成間近となり、少しずつ運用も始めています。現場ではスマホから簡単にマニュアルにアクセスすることができ、施工担当者はそれを見れば工程や必要な資材、道具などを把握でき一人でも工事が可能になります。
                         </p>
                     </div>
                     <div class="pc interviewSec__img pc-1">
@@ -122,6 +122,9 @@ require_once $include . '_header.php';
                         </span>
                     </div>
                 </div>
+                <p class="interviewSec__desc">
+                    今後フランチャイズ展開がさらに進めば、よりサービスの品質がフランチャイズ店の社員一人ひとりに委ねられます。マニュアルを導入することでインデスが常に安定したサービスをお客様に提供できることを期待しています。マニュアル作成は社内外を合わせたさまざまな人の協力があってこそ形にできました。常日頃からこういった連携体制がとれているため、当社の底知れぬパワーというのは素晴らしいと再確認する仕事でもありました。
+                </p>
             </div>
             <div class="interviewSec__img js-in anime right-in">
                 <span class="js-in anime slideImg">
@@ -184,7 +187,7 @@ require_once $include . '_header.php';
             <div class="interviewSchedule__container js-stickyNav-target">
                 <div class="interviewSchedule__wrapper pc-flex">
                     <div class="interviewSchedule__head">
-                        <h2 class="interviewSchedule__head--text notos js-stickyNav">
+                        <h2 class="interviewSchedule__head--text js-stickyNav">
                             <div class="anime__wrapper">
                                 <div class="pc js-in anime text-in">
                                     1日のスケジュール
@@ -323,7 +326,7 @@ require_once $include . '_header.php';
                     <img src="<?php echo HOME; ?>img/interview03_message.png" alt="">
                 </span>
             </div>
-            <div class="interviewMessage__text">
+            <div class="interviewMessage__text pc-flex vert hcenter">
                 <h2 class="interviewMessage__head">
                     <div class="anime__wrapper">
                         <div class="pc js-in anime text-in">

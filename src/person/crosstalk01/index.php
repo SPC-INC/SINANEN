@@ -55,10 +55,10 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk01_member_01.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2020年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
-                                <div class="crosstalkIntro__profile--ja">G.Obara</div>
+                            <div class="crosstalkIntro__profile--name notos flex vend">
+                                <div class="crosstalkIntro__profile--ja">T.Obara</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
                                 タカラビルメン株式会社<br>
@@ -71,9 +71,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk01_member_02.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2019年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">S.Yamagami</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -85,9 +85,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk01_member_03.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2017年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">T.Mizuta</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -100,9 +100,9 @@ require_once $include . '_header.php';
                         <div class="crosstalkIntro__img">
                             <img src="<?php echo HOME; ?>img/crosstalk01_member_04.png" alt="">
                         </div>
-                        <div class="crosstalkIntro__profile notos">
+                        <div class="crosstalkIntro__profile">
                             <div class="crosstalkIntro__profile--year">2015年入社</div>
-                            <div class="crosstalkIntro__profile--name flex vend">
+                            <div class="crosstalkIntro__profile--name notos flex vend">
                                 <div class="crosstalkIntro__profile--ja">K.Honda</div>
                             </div>
                             <div class="crosstalkIntro__profile--pos">
@@ -463,7 +463,7 @@ require_once $include . '_header.php';
 ?>
         <section class="crosstalkData">
             <div class="wrap w1200 sp-wrap">
-                <h2 class="crosstalkData__head notos anime__wrapper">
+                <h2 class="crosstalkData__head anime__wrapper">
                     <div class="pc js-in anime text-in">
                         インタビューメンバーの経歴
                     </div>
@@ -475,8 +475,8 @@ require_once $include . '_header.php';
                     <?php
                     $arrMember = array(
                         '01' => array(
-                            'name' => 'G.Obara',
-                            'desc' => '2020年に入社し、株式会社インデスにて集合住宅の設備工事、メンテナンスの現場管理を経験。2020年10月よりタカラビルメン新規営業部、2021年4月よりBM事業本部にて営業を経験し、2022年4月からはタカラビルメン町田営業所の営業として従事。',
+                            'name' => 'T.Obara',
+                            'desc' => '2020年に入社し、株式会社インデスにて集合住宅の設備工事、メンテナンスの現場管理を経験。2020年10月よりタカラビルメン新規営業部、2021年4月よりBM事業本部にて営業を経験し、2022年4月からはタカラビルメン町田営業所の経営企画本部にて営業から事業所の立ち上げまで幅広く従事。',
                         ),
                         '02' => array(
                             'name' => 'S.Yamagami',

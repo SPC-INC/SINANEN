@@ -43,11 +43,11 @@ require_once $include . '_header.php';
                 </div>
             </h1>
             <div class="interviewMv__profile js-in anime left-in">
-                <div class="interviewMv__profile--year notos">2017年入社</div>
+                <div class="interviewMv__profile--year">2017年入社</div>
                 <div class="interviewMv__profile--name notos flex vend">
                     <div class="interviewMv__profile--ja">S.Kanno</div>
                 </div>
-                <div class="interviewMv__profile--pos notos">
+                <div class="interviewMv__profile--pos">
                     シナネン株式会社<br>
                     環境エネルギー事業本部 電力事業推進部<br>
                     あかりの森でんき推進チーム
@@ -180,7 +180,7 @@ require_once $include . '_header.php';
             <div class="interviewSchedule__container js-stickyNav-target">
                 <div class="interviewSchedule__wrapper pc-flex">
                     <div class="interviewSchedule__head">
-                        <h2 class="interviewSchedule__head--text notos js-stickyNav">
+                        <h2 class="interviewSchedule__head--text js-stickyNav">
                             <div class="anime__wrapper">
                                 <div class="pc js-in anime text-in">
                                     1日のスケジュール
@@ -304,7 +304,7 @@ require_once $include . '_header.php';
                     <img src="<?php echo HOME; ?>img/interview04_message.png" alt="">
                 </span>
             </div>
-            <div class="interviewMessage__text">
+            <div class="interviewMessage__text pc-flex vert hcenter">
                 <h2 class="interviewMessage__head">
                     <div class="anime__wrapper">
                         <div class="pc js-in anime text-in">

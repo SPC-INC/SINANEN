@@ -65,7 +65,7 @@ require_once $include . '_header.php';
                         </li>
                         <li class="recruitEnvironmentNav__item js-currentNav-item">
                             <a href="#selfdevelopment" class="recruitEnvironmentNav__link">
-                                生活支援制度
+                                ライフサポート制度
                             </a>
                         </li>
                         <li class="recruitEnvironmentNav__item js-currentNav-item">
@@ -175,13 +175,16 @@ require_once $include . '_header.php';
                                             <dd class="recruitEnvironmentTraining__stepdtl">
                                                 <ul class="recruitEnvironmentTraining__stepdtl--list">
                                                     <li class="recruitEnvironmentTraining__stepdtl--item">
-                                                        部長/チーム長研修
+                                                        部長研修
+                                                    </li>
+                                                    <li class="recruitEnvironmentTraining__stepdtl--item">
+                                                        チーム研修
+                                                    </li>
+                                                    <li class="recruitEnvironmentTraining__stepdtl--item">
+                                                        店長研修
                                                     </li>
                                                     <li class="recruitEnvironmentTraining__stepdtl--item">
                                                         評価者研修
-                                                    </li>
-                                                    <li class="recruitEnvironmentTraining__stepdtl--item">
-                                                        新任マネジメント研修
                                                     </li>
                                                 </ul>
                                             </dd>

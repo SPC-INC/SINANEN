@@ -140,8 +140,8 @@ require_once $include . '_header.php';
                 <li class="personCrosstalk__item js-in anime bottom-in">
                     <a href="<?php echo HOME; ?>person/crosstalk02/" class="personCrosstalk__link op">
                         <div class="personCrosstalk__img">
-                            <img src="<?php echo HOME; ?>img/person_crosstalk_02.png" alt="" class="pc">
-                            <img src="<?php echo HOME; ?>img/person_crosstalk_02_sp.png" alt="" class="sp">
+                            <img src="<?php echo HOME; ?>img/person_crosstalk_03.png" alt="" class="pc">
+                            <img src="<?php echo HOME; ?>img/person_crosstalk_03_sp.png" alt="" class="sp">
                         </div>
                         <div class="personCrosstalk__ttl notos flex sp-vert sp-vstart">
                             <div class="personCrosstalk__ttl--sub flex vcenter pc-hcenter sp-aro">
@@ -168,8 +168,8 @@ require_once $include . '_header.php';
                 <li class="personCrosstalk__item js-in anime bottom-in">
                     <a href="<?php echo HOME; ?>person/crosstalk03/" class="personCrosstalk__link op">
                         <div class="personCrosstalk__img">
-                            <img src="<?php echo HOME; ?>img/person_crosstalk_03.png" alt="" class="pc">
-                            <img src="<?php echo HOME; ?>img/person_crosstalk_03_sp.png" alt="" class="sp">
+                            <img src="<?php echo HOME; ?>img/person_crosstalk_02.png" alt="" class="pc">
+                            <img src="<?php echo HOME; ?>img/person_crosstalk_02_sp.png" alt="" class="sp">
                         </div>
                         <div class="personCrosstalk__ttl notos flex sp-vert sp-vstart">
                             <div class="personCrosstalk__ttl--sub flex vcenter pc-hcenter sp-aro">

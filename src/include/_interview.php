@@ -28,7 +28,8 @@ $arrInterview = array(
 <?php
 $num = 1;
 foreach ($arrInterview as $key =>  $val) {
-    ?>
+    if (IS_PAGE !== 'interview'.$key) {
+        ?>
     <li class="interviewItem interviewItem--<?php echo $key; ?>">
         <a href="<?php echo HOME; ?>person/interview<?php echo $key; ?>/" class="interviewItem__link sp-flex js-in anime bottom-in wave<?php echo $num; ?>">
             <div class="interviewItem__img">
@@ -37,7 +38,7 @@ foreach ($arrInterview as $key =>  $val) {
             </div>
             <div class="interviewItem__text bgbottom">
                 <div class="interviewItem__text--bg sp-flex vert bet">
-                    <div class="interviewItem__text--ttl notos js-t8 line2">
+                    <div class="interviewItem__text--ttl js-t8 line2">
                         <?php echo $val['copy']; ?>
                     </div>
                     <div class="interviewItem__text--positon">
@@ -49,7 +50,8 @@ foreach ($arrInterview as $key =>  $val) {
         </a>
     </li>
 <?php
-$num++;
+    }
+    $num++;
 } ?>
 </ul>
 

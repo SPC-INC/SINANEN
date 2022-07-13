@@ -310,6 +310,9 @@
     }
     &--note {
       font-size: 2.8rem;
+      &.small {
+        font-size: 2.2rem;
+      }
     }
   }
   &__img {
@@ -417,6 +420,12 @@
       font-size: 2.2rem;
       &::after {
         width: 5rem;
+      }
+      &--note {
+        font-size: 1.8rem;
+        &.small {
+          font-size: 1.8rem;
+        }
       }
     }
     &__img {
