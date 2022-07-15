@@ -21,7 +21,7 @@
     #### ##    ##    ##    ##     ##  #######
 */
 .challengeEvolutionIntro {
-  padding: 15.2rem 0 5rem;
+  padding: 5.2rem 0 5rem;
   &__img {
   }
   &__text {
@@ -246,7 +246,7 @@
 .challengeEvolutionFuture {
   &__sec {
     position: relative;
-    padding: 6.6rem 0 6.6rem 10rem;
+    padding: 6.6rem 0;
   }
   &__head {
     position: relative;
@@ -290,7 +290,7 @@
     }
   }
   &__img {
-    width: calc(50% - 3rem);
+    width: calc(50% - 8rem);
   }
   &__text {
     width: 50%;
@@ -327,12 +327,11 @@
       padding: 0;
       &:not(:first-of-type) {
         margin: 2.6rem 0 0;
-        border-top: none;
+        border-top: solid 1px $siteColor;
       }
     }
     &__head {
       padding: 2.6rem 2.5rem 0 0;
-      border-top: solid 1px $siteColor;
       font-size: 1.8rem;
       line-height: 1.9;
       .icon {

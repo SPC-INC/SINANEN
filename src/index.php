@@ -198,7 +198,7 @@ require_once $include . '_header.php';
                     <div class="js-in anime text-in wave2">仕事を知る</div>
                 </div>
                 <div class="topCommon__ttl--en">
-                    <div class="js-in anime text-in wave1">BUSINESSS</div>
+                    <div class="js-in anime text-in wave1">BUSINESS</div>
                 </div>
             </h2>
             <h2 class="sp topCommon__ttl notos">
@@ -206,7 +206,7 @@ require_once $include . '_header.php';
                     <div class="js-in anime left-in wave2">仕事を知る</div>
                 </div>
                 <div class="topCommon__ttl--en">
-                    <div class="js-in anime left-in wave1">BUSINESSS</div>
+                    <div class="js-in anime left-in wave1">BUSINESS</div>
                 </div>
             </h2>
         </div>

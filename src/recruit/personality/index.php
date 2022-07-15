@@ -133,6 +133,19 @@ require_once $include . '_header.php';
                 <li class="personalityPolisy__item js-in anime bottom-in wave0">
                     <dl class="personalityPolisy__data flex vert vcenter pc-hcenter">
                         <dt class="personalityPolisy__ttl notos">
+                            信義
+                        </dt>
+                        <dd class="personalityPolisy__dtl">
+                            信義は<br>
+                            我社経営の大本である人の信頼に応え<br>
+                            責任を重んじ業を正し<br>
+                            和衷協同して社運の発展を期する
+                        </dd>
+                    </dl>
+                </li>
+                <li class="personalityPolisy__item js-in anime bottom-in wave2">
+                    <dl class="personalityPolisy__data flex vert vcenter pc-hcenter">
+                        <dt class="personalityPolisy__ttl notos">
                             進取
                         </dt>
                         <dd class="personalityPolisy__dtl">
@@ -141,19 +154,6 @@ require_once $include . '_header.php';
                             工夫をこらし人の求むるものを知り<br>
                             品位を高め商品の開発に努め<br>
                             社会に奉仕して社益の増進に資する
-                        </dd>
-                    </dl>
-                </li>
-                <li class="personalityPolisy__item js-in anime bottom-in wave2">
-                    <dl class="personalityPolisy__data flex vert vcenter pc-hcenter">
-                        <dt class="personalityPolisy__ttl notos">
-                            信義
-                        </dt>
-                        <dd class="personalityPolisy__dtl">
-                            信義は<br>
-                            我社経営の大本である人の信頼に応え<br>
-                            責任を重んじ業を正し<br>
-                            和衷協同して社運の発展を期する
                         </dd>
                     </dl>
                 </li>

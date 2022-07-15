@@ -267,12 +267,12 @@ require_once $include . '_header.php';
                                     '01' => array(
                                         'img' => 'recruitEnvironment_worklife_01.png',
                                         'ttl' => 'フレックス制',
-                                        'dtl' => 'コアタイム 11:00～15:00',
+                                        'dtl' => 'コアタイム 11:00～15:00<br>※グループ会社によって異なる',
                                     ),
                                     '02' => array(
                                         'img' => 'recruitEnvironment_worklife_02.png',
                                         'ttl' => 'リモートワーク',
-                                        'dtl' => '月上限10日<br>※コロナの状況によっては原則在宅',
+                                        'dtl' => '月上限10日<br>※状況によっては原則在宅',
                                     ),
                                     '03' => array(
                                         'img' => 'recruitEnvironment_worklife_03.png',
@@ -282,7 +282,7 @@ require_once $include . '_header.php';
                                     '04' => array(
                                         'img' => 'recruitEnvironment_worklife_04.png',
                                         'ttl' => '時差出勤',
-                                        'dtl' => '7時～20時の間',
+                                        'dtl' => '7時～20時の間<br>※グループ会社によって異なる',
                                     ),
                                     '05' => array(
                                         'img' => 'recruitEnvironment_worklife_05.png',
@@ -290,12 +290,12 @@ require_once $include . '_header.php';
                                         'dtl' => '所属部署上長と実施',
                                     ),
                                     '06' => array(
-                                        'img' => 'recruitEnvironment_worklife_06.png',
+                                        'img' => 'recruitEnvironment_worklife_07.png',
                                         'ttl' => '育児短時間勤務',
                                         'dtl' => '所属部署上長と相談の上実施可能',
                                     ),
                                     '07' => array(
-                                        'img' => 'recruitEnvironment_worklife_07.png',
+                                        'img' => 'recruitEnvironment_worklife_06.png',
                                         'ttl' => '介護短時間勤務',
                                         'dtl' => '所属部署上長と相談の上実施可能',
                                     ),
@@ -354,7 +354,7 @@ require_once $include . '_header.php';
                                     '01' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_01.png',
                                         'ttl' => '借り上げ社宅制度',
-                                        'dtl' => '例：20代独身の場合 85%会社負担',
+                                        'dtl' => '例：20代独身の場合 85%会社負担<br>※上限あり',
                                     ),
                                     '02' => array(
                                         'img' => 'recruitEnvironment_selfDevelopment_02.png',
@@ -447,7 +447,7 @@ require_once $include . '_header.php';
                                     '02' => array(
                                         'img' => 'recruitEnvironment_support_02.png',
                                         'ttl' => '資格取得報奨金',
-                                        'dtl' => '1回2,000円<br>資格に応じて金額は変動',
+                                        'dtl' => '資格に応じて金額は変動',
                                     ),
                                     '03' => array(
                                         'img' => 'recruitEnvironment_support_03.png',

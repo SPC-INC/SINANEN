@@ -80,7 +80,7 @@ require_once $include . '_header.php';
                     次の100年に向けての取り組み
                 </h2>
                 <section class="challengeEvolutionFuture__sec">
-                    <h2 class="challengeEvolutionFuture__head notos js-acc-sp">
+                    <h2 class="challengeEvolutionFuture__head notos">
                         <div class="anime__wrapper">
                             <div class="pc js-in anime text-in">
                                 脱炭素社会実現への貢献
@@ -89,7 +89,6 @@ require_once $include . '_header.php';
                                 脱炭素社会実現への貢献
                             </div>
                         </div>
-                        <i class="sp icon icon-down"></i>
                     </h2>
                     <div class="challengeEvolutionFuture__wrapper">
                         <div class="challengeEvolutionFuture__container pc-flex bet">
@@ -126,7 +125,7 @@ require_once $include . '_header.php';
                 </section>
 
                 <section class="challengeEvolutionFuture__sec">
-                    <h2 class="challengeEvolutionFuture__head notos js-acc-sp">
+                    <h2 class="challengeEvolutionFuture__head notos">
                         <div class="anime__wrapper">
                             <div class="pc js-in anime text-in">
                                 誰もが働きやすく生きやすく
@@ -135,7 +134,6 @@ require_once $include . '_header.php';
                                 誰もが働きやすく生きやすく
                             </div>
                         </div>
-                        <i class="sp icon icon-down"></i>
                     </h2>
                     <div class="challengeEvolutionFuture__wrapper">
                         <div class="challengeEvolutionFuture__container pc-flex bet">
@@ -157,7 +155,7 @@ require_once $include . '_header.php';
                 </section>
 
                 <section class="challengeEvolutionFuture__sec">
-                    <h2 class="challengeEvolutionFuture__head notos js-acc-sp">
+                    <h2 class="challengeEvolutionFuture__head notos">
                         <div class="anime__wrapper">
                             <div class="pc js-in anime text-in">
                                 持続的成長可能な組織の実現
@@ -166,7 +164,6 @@ require_once $include . '_header.php';
                                 持続的成長可能な組織の実現
                             </div>
                         </div>
-                        <i class="sp icon icon-down"></i>
                     </h2>
                     <div class="challengeEvolutionFuture__wrapper">
                         <div class="challengeEvolutionFuture__container pc-flex bet">
@@ -310,7 +307,7 @@ require_once $include . '_header.php';
                         </div>
                         <div class="challengeEvolutionHistory__node--text" style="margin-top: 2.2rem;">
                             <span class="year">1998年</span><br>
-                            品川燃料（株）からシナネン(株)<br>
+                            品川燃料(株)からシナネン(株)<br>
                             （現シナネンホールディングス(株)）に商号変更
                         </div>
                         <div class="challengeEvolutionHistory__node--text" style="margin-top: 2.1rem;">
@@ -503,7 +500,7 @@ require_once $include . '_header.php';
                         </div>
                         <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
                             <span class="year">1998年</span>
-                            品川燃料（株）からシナネン(株)（現シナネンホールディングス(株)）に商号変更
+                            品川燃料(株)からシナネン(株)（現シナネンホールディングス(株)）に商号変更
                         </div>
                         <div class="challengeEvolutionHistory__node--text challengeEvolutionHistory__node--company">
                             <span class="year">2004年</span>
@@ -575,7 +572,7 @@ require_once $include . '_header.php';
         <section class="aboutUsCommon">
             <div class="wrap w1200 sp-wrap">
                 <h2 class="aboutUsCommon__head notos">
-                    会社紹介
+                    会社を知る
                 </h2>
                 <div class="aboutUsCommon__link pc-flex bet">
                     <a href="<?php echo HOME; ?>aboutus/topmessage/" class="aboutUsCommon__btn md-btn red left-text">
