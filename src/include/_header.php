@@ -37,6 +37,7 @@
                     <a class="headerLogo" href="<?php echo HOME; ?>">
                         <?php echo IS_HOME ? '<h1 class="headerLogo__in flex vcenter">' : '<span class="headerLogo__in flex vcenter">'; ?>
                         <img class="headerLogo__img" src="<?php echo HOME; ?>img/logo.svg" alt="シナネンホールディングス">
+                        <span class="headerLogo__text">RECRUITING</span>
                         <?php echo IS_HOME ?  '</h1>' : '</span>'; ?>
                     </a>
                 </div>
@@ -268,14 +269,14 @@
     </header>
 
     <?php
-    /*
+/*
  ######           ##    ##    ###    ##     ##
 ##                ####  ##  ##   ##  ##     ##
 ##   #### ####### ## ## ## ##     ## ##     ##
 ##    ##          ##  #### #########  ##   ##
  ######           ##    ## ##     ##    ###
 */
-    ?>
+?>
     <nav id="gNav" class="gNav" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
         <div class="gNav__contact">
             <a href="<?php echo HOME; ?>contact/" class="gNav__btn gNav__btn--entry md-btn left-text">

@@ -72,6 +72,7 @@ $headerSP: 5rem;
     display: block;
   }
   &__text {
+    margin-left: 1rem;
   }
 
   // ↓ SP相当幅
@@ -80,6 +81,8 @@ $headerSP: 5rem;
       max-width: 17.5rem;
     }
     &__text {
+      margin-left: 0.5rem;
+      font-size: 1.2rem;
     }
   }
   // ↑ SP相当幅

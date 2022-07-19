@@ -2,19 +2,19 @@
     <div class="w1200 wrap sp-wrap">
         <div class="footerLinkWrap flex bet sp-break">
             <ul class="footerLink__list flex vert noto">
-                <a href="<?php echo HOME; ?>aboutus/" class="footerLink__list--title op">会社紹介</a>
+                <a href="<?php echo HOME; ?>aboutus/" class="footerLink__list--title op">会社を知る</a>
                 <a href="<?php echo HOME; ?>aboutus/topmessage/" class="footerLink__list--item">社長メッセージ</a>
                 <a href="<?php echo HOME; ?>aboutus/challenge-evolution/" class="footerLink__list--item">わたしたちの挑戦と進化</a>
                 <a href="<?php echo HOME; ?>aboutus/SDGs/" class="footerLink__list--item">SDGsへの取り組み</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
-                <a href="<?php echo HOME; ?>business/" class="footerLink__list--title op">事業紹介</a>
+                <a href="<?php echo HOME; ?>business/" class="footerLink__list--title op">仕事を知る</a>
                 <a href="<?php echo HOME; ?>business/btoc/" class="footerLink__list--item">BtoC事業</a>
                 <a href="<?php echo HOME; ?>business/btob/" class="footerLink__list--item">BtoB事業</a>
                 <a href="<?php echo HOME; ?>business/others/" class="footerLink__list--item">非エネルギー事業</a>
             </ul>
             <ul class="footerLink__list flex vert noto">
-                <a href="<?php echo HOME; ?>person/" class="footerLink__list--title op">インタビュー</a>
+                <a href="<?php echo HOME; ?>person/" class="footerLink__list--title op">人を知る</a>
                 <a href="<?php echo HOME; ?>person/interview01/" class="footerLink__list--item">S.Takahashi</a>
                 <a href="<?php echo HOME; ?>person/interview02/" class="footerLink__list--item">K.Kasamatsu</a>
                 <a href="<?php echo HOME; ?>person/interview03/" class="footerLink__list--item">K.Yanagihara</a>
